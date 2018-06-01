@@ -1,0 +1,57 @@
+.TopBar {
+	border-bottom: 1px solid rgba(26,26,26,.06);
+	box-shadow: 0 1px 3px 0 rgba(23,81,153,.05);
+	min-width: 100%;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+	transition: -webkit-transform .3s .3s;
+	transition: transform .3s .3s;
+	transition: transform .3s .3s,-webkit-transform .3s .3s;
+	overflow: hidden
+}
+
+.TopBar-inner {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 102px;
+	line-height: 100px;
+	transition: -webkit-transform .3s;
+	transition: transform .3s;
+	transition: transform .3s,-webkit-transform .3s
+}
+
+.Main {
+    width: 100%;
+    height: calc(100% - 208px);
+    overflow: scroll;
+}
+
+.BottomBar {
+	border-top: 1px solid rgba(26,26,26,.06);
+	box-shadow: 0 1px 3px 0 rgba(23,81,153,.05);
+	background-color: #fff;
+	min-width: 100%;
+	overflow: hidden
+}
+
+.BottomBar-inner {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 102px;
+	line-height: 100px;
+    font-size: 32px;
+}
