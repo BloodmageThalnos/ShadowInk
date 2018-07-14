@@ -3,11 +3,6 @@
 	box-shadow: 0 1px 3px 0 rgba(23,81,153,.05);
 	min-width: 100%;
     float: top;
-	-webkit-transform: translateY(0);
-	transform: translateY(0);
-	transition: -webkit-transform .3s .3s;
-	transition: transform .3s .3s;
-	transition: transform .3s .3s,-webkit-transform .3s .3s;
 	overflow: hidden
 }
 
@@ -21,16 +16,12 @@
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	height: 102px;
-	line-height: 100px;
-	transition: -webkit-transform .3s;
-	transition: transform .3s;
-	transition: transform .3s,-webkit-transform .3s
+	height: 100px;
 }
 
 .Main {
-   width: 100%;
-    height: calc(100% - 208px);
+    width: 100%;
+    height: calc(100% - 220px);
     overflow: scroll;
 }
 
@@ -53,7 +44,10 @@
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	height: 102px;
-	line-height: 100px;
+	height: 120px;
+    line-height: 15px;
     font-size: 28px;
+    color: #444488;
+    margin-left: 10%;
+    margin-right: 10%;
 }
