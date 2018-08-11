@@ -1,3 +1,7 @@
+.MainPage{
+    transition: all 0.5s ease-out;
+}
+
 .TopBar {
 	border-bottom: 1px solid rgba(26,26,26,.06);
 	box-shadow: 0 1px 3px 0 rgba(23,81,153,.05);
@@ -19,7 +23,7 @@
 	height: 100px;
 }
 
-.Main {
+.ContentPage {
     width: 100%;
     height: calc(100% - 220px);
     overflow: scroll;
@@ -31,7 +35,7 @@
     float: bottom;
 	background-color: #fff;
 	min-width: 100%;
-	overflow: hidden
+	overflow: hidden;
 }
 
 .BottomBar-inner {
@@ -40,7 +44,7 @@
 	display: flex;
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
-	justify-content: space-between;
+	justify-content: space-around;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
@@ -48,6 +52,4 @@
     line-height: 15px;
     font-size: 28px;
     color: #444488;
-    margin-left: 10%;
-    margin-right: 10%;
 }
