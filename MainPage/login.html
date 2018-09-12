@@ -4,7 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=GBK">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <title>登录 - 墨影</title>
+    <title>注册 - 墨影</title>
     <meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,minimal-ui">
     <link rel="stylesheet" href="./login_files/login.css">
     <script type="text/javascript" src="./login_files/patternLock.min.js" charset="utf-8"></script>
@@ -18,7 +18,7 @@
 	</style>
 <div class="login-wrapper" id="loginWrapper" style="display: block; min-height: initial;">
     <section class="avatar-wrapper" id="avatarWrapper">
-	<img src="./icon.jpg">
+	<img src="./icon.png">
 	</section>
     <form id="loginForm" action="/login" method="POST">
         <div class="box">
@@ -37,12 +37,18 @@
                 <input type="password" placeholder="请输入密码" id="loginPassword" name="password">
                 </p>
             </div>
+			 <div class="input-wrapper">
+                <i class="icon forPwd"></i>
+                <p class="input-box">
+                <input type="password" placeholder="确认密码" id="loginPassword" name="password">
+                </p>
+            </div>
         </div>
-        <a href="javascript:document.getElementById('loginForm').submit()" class="btn btnRed" id="loginAction">登录</a>
+        <a href="javascript:document.getElementById('loginForm').submit()" class="btn btnRed" id="loginAction">注册</a>
     </form>
     <footer class="footer">
-        <a href="">注册帐号</a><a href="">忘记密码</a>
+        <a href="">已有账号？登陆</a>
     </footer>
-        </div>
+	<span id="sms_btn_agree" style="position:absolute;border:1 solid;"></span>
 </body>
 </html>
