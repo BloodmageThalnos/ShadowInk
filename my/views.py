@@ -1,31 +1,40 @@
 from django.http import HttpResponse
-from html import escape
+import logging
+
+logger = logging.getLogger(__name__)
+
+# '/'目录，显示主页
+def showMainPage(request, path):
+    logging.info('Accessing Page /%s with showMainPage'%(path))
+    with open('./MainPage/login.html', encoding='UTF-8') as f:
+        html = f.read()
+        return HttpResponse(html)
 
 def showPages(request, path):
-    print("LOGGING:_____________" + str(request.POST))
-    
-    url_begin='''
-    <html>
-    <meta http-equiv="Refresh" content="3; url=/my.html"/>
-    <h1>
-    你输入的用户名和密码是！
-    '''
-    
-    url_end='''
-    </h1>
-    </html>
-    '''
-    
-    
-    return HttpResponse(url_begin+str(request.POST)[13:-2]+url_end)
+    logging.info('Accessing Page /%s with showPages'%(path))
+    if path=='explore':
+        with open('./MainPage/my.html', encoding='UTF-8') as f:
+            html = f.read()
+            return HttpResponse(html)
+        
+    if path=='login':
+        
+        
+        return HttpResponse(url_begin+str(request.POST)[13:-2]+url_end)
+    return None
 
 def showPath(request, path):
-    #  print('Debug  ' + path)
+    logging.info('Accessing Page /%s with showPath'%(path))
     
     if path.endswith('jpg'):
         with open('./MainPage/'+path, mode="rb") as f:
             html = f.read()
         return HttpResponse(html, content_type="image/jpg")
+        
+    if path.endswith('png'):
+        with open('./MainPage/'+path, mode="rb") as f:
+            html = f.read()
+        return HttpResponse(html, content_type="image/png")
         
     if path.endswith('ico'):
         with open('./MainPage/'+path, mode="rb") as f:
