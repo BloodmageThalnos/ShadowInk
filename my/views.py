@@ -16,6 +16,7 @@ def showPages(request, path):
     </html>
     '''
     
+    
     return HttpResponse(url_begin+str(request.POST)[13:-2]+url_end)
 
 def showPath(request, path):
