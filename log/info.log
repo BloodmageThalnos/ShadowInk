@@ -1,0 +1,76 @@
+[2018-09-12 20:24:57,048][Thread-1:17064][task_id:django.request][log.py:228][ERROR][Internal Server Error: /]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: showMainPage() missing 1 required positional argument: 'path'
+[2018-09-12 20:25:21,707][Thread-4:8316][task_id:django.request][log.py:228][ERROR][Internal Server Error: /]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: showMainPage() missing 1 required positional argument: 'path'
+[2018-09-12 20:26:01,402][Thread-6:9656][task_id:root][views.py:27][INFO][Accessing Page /login.html with showPath]
+[2018-09-12 20:26:01,422][Thread-7:6256][task_id:root][views.py:27][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-12 20:26:01,431][Thread-8:3644][task_id:root][views.py:27][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-12 20:26:01,433][Thread-9:15532][task_id:root][views.py:27][INFO][Accessing Page /icon.png with showPath]
+[2018-09-12 20:26:01,749][Thread-10:15712][task_id:root][views.py:27][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-12 20:26:01,787][Thread-11:15604][task_id:root][views.py:27][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-09-12 20:26:01,731][Thread-9:15532][task_id:django.request][log.py:228][ERROR][Internal Server Error: /icon.png]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 45, in showPath
+    html = f.read()
+  File "d:\software\python35\lib\codecs.py", line 321, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+[2018-09-12 20:26:01,834][Thread-11:15604][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login_files/icon_2x.png]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 45, in showPath
+    html = f.read()
+  File "d:\software\python35\lib\codecs.py", line 321, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+[2018-09-12 20:29:46,595][Thread-1:15728][task_id:root][views.py:27][INFO][Accessing Page /login.html with showPath]
+[2018-09-12 20:29:46,616][Thread-3:1428][task_id:root][views.py:27][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-12 20:29:46,618][Thread-4:10704][task_id:root][views.py:27][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-12 20:29:46,620][Thread-5:17312][task_id:root][views.py:27][INFO][Accessing Page /icon.png with showPath]
+[2018-09-12 20:29:46,679][Thread-6:4532][task_id:root][views.py:27][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-12 20:29:46,681][Thread-7:15584][task_id:root][views.py:27][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-09-12 20:29:46,732][Thread-8:2124][task_id:root][views.py:27][INFO][Accessing Page /favicon.ico with showPath]
+[2018-09-12 20:29:54,554][Thread-9:8172][task_id:django.request][log.py:228][ERROR][Internal Server Error: /]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: showMainPage() missing 1 required positional argument: 'path'
+[2018-09-12 20:32:04,399][Thread-1:10792][task_id:django.request][log.py:228][ERROR][Internal Server Error: /]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: showMainPage() missing 1 required positional argument: 'path'
+[2018-09-12 20:32:04,508][Thread-3:4548][task_id:root][views.py:27][INFO][Accessing Page /favicon.ico with showPath]
