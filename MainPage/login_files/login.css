@@ -434,6 +434,7 @@ a {
   overflow: hidden;
   margin: 0 16px;
   border-bottom: #dddddd solid 1px;
+  background-color:transparent;
 }
 .login-wrapper .input-wrapper .icon {
   float: left;
@@ -445,7 +446,7 @@ a {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .login-wrapper .input-wrapper .icon {
-    background-image: url("/images/weibo/signin/icon_2x.png");
+    background-image: url("./icon_2x.png");
   }
 }
 .login-wrapper .input-wrapper .icon.forName {
@@ -461,6 +462,7 @@ a {
 .login-wrapper .input-wrapper .input-box {
   position: relative;
   overflow: hidden;
+  background-color:transparent;
 }
 .login-wrapper .input-wrapper input {
   padding-right: 35px;
