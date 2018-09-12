@@ -1,28 +1,40 @@
 from django.http import HttpResponse
+from django.template import loader
 import logging
+from . import main
 
 logger = logging.getLogger(__name__)
 
 # '/'目录，显示主页
-def showMainPage(request, path):
-    logging.info('Accessing Page /%s with showMainPage'%(path))
+def showMainPage(request):
+    logging.info('Accessing Page / with showMainPage')
     with open('./MainPage/login.html', encoding='UTF-8') as f:
         html = f.read()
-        return HttpResponse(html)
+    return HttpResponse(html)
 
+# '/<slug>'目录，分别处理，对于未知的slug返回none
 def showPages(request, path):
     logging.info('Accessing Page /%s with showPages'%(path))
     if path=='explore':
         with open('./MainPage/my.html', encoding='UTF-8') as f:
             html = f.read()
-            return HttpResponse(html)
+        return HttpResponse(html)
         
     if path=='login':
-        
-        
-        return HttpResponse(url_begin+str(request.POST)[13:-2]+url_end)
+        name = request.POST.get('name')
+        password = request.POST.get('password')
+        checkResult = main.checkPassword(name, password)
+        if checkResult == None :
+            template = loader.get_template('loginFail.html')
+        else :
+            template = loader.get_template('loginSuccess.html')
+        context = {
+            'HelloMessage': checkResult['message'],
+        }
+        return HttpResponse(template.render(context, request))
     return None
 
+# '/<path>'目录，一般是请求资源或者静态网页，直接分类别发送
 def showPath(request, path):
     logging.info('Accessing Page /%s with showPath'%(path))
     

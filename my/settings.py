@@ -54,7 +54,7 @@ ROOT_URLCONF = 'my.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'MainPage')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -193,7 +193,7 @@ LOGGING = {
         '': {
             'handlers': ['default', 'console', 'error'],  # 上线之后可以把'console'移除
             'level': 'DEBUG',
-            'propagate': True,  # 向不向更高级别的logger传递
+            'propagate': False,  # 向不向更高级别的logger传递
         },
         # 名为'collect'的logger单独处理
         'collect': {

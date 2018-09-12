@@ -1,4 +1,4 @@
-[2018-09-12 20:24:57,048][Thread-1:17064][task_id:django.request][log.py:228][ERROR][Internal Server Error: /]
+[2018-09-12 20:41:56,916][Thread-3:15892][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
 Traceback (most recent call last):
   File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
     response = get_response(request)
@@ -6,8 +6,10 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-TypeError: showMainPage() missing 1 required positional argument: 'path'
-[2018-09-12 20:25:21,707][Thread-4:8316][task_id:django.request][log.py:228][ERROR][Internal Server Error: /]
+  File "D:\Project\ShadowInk\my\views.py", line 24, in showPages
+    return HttpResponse(url_begin+str(request.POST)[13:-2]+url_end)
+NameError: name 'url_begin' is not defined
+[2018-09-12 21:00:58,263][Thread-1:2456][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
 Traceback (most recent call last):
   File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
     response = get_response(request)
@@ -15,8 +17,12 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-TypeError: showMainPage() missing 1 required positional argument: 'path'
-[2018-09-12 20:26:01,731][Thread-9:15532][task_id:django.request][log.py:228][ERROR][Internal Server Error: /icon.png]
+  File "D:\Project\ShadowInk\my\views.py", line 24, in showPages
+    template = loader.get_template('MainPage/loginSucess.html')
+  File "d:\software\python35\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: MainPage/loginSucess.html
+[2018-09-12 21:03:08,584][Thread-1:14168][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
 Traceback (most recent call last):
   File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
     response = get_response(request)
@@ -24,12 +30,12 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "D:\Project\ShadowInk\my\views.py", line 45, in showPath
-    html = f.read()
-  File "d:\software\python35\lib\codecs.py", line 321, in decode
-    (result, consumed) = self._buffer_decode(data, self.errors, final)
-UnicodeDecodeError: 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
-[2018-09-12 20:26:01,834][Thread-11:15604][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login_files/icon_2x.png]
+  File "D:\Project\ShadowInk\my\views.py", line 24, in showPages
+    template = loader.get_template('MainPage/loginSucess.html')
+  File "d:\software\python35\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: MainPage/loginSucess.html
+[2018-09-12 21:04:43,076][Thread-1:9764][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
 Traceback (most recent call last):
   File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
     response = get_response(request)
@@ -37,12 +43,12 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "D:\Project\ShadowInk\my\views.py", line 45, in showPath
-    html = f.read()
-  File "d:\software\python35\lib\codecs.py", line 321, in decode
-    (result, consumed) = self._buffer_decode(data, self.errors, final)
-UnicodeDecodeError: 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
-[2018-09-12 20:29:54,554][Thread-9:8172][task_id:django.request][log.py:228][ERROR][Internal Server Error: /]
+  File "D:\Project\ShadowInk\my\views.py", line 24, in showPages
+    template = loader.get_template('/MainPage/loginSucess.html')
+  File "d:\software\python35\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /MainPage/loginSucess.html
+[2018-09-12 21:07:35,921][Thread-1:2288][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
 Traceback (most recent call last):
   File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
     response = get_response(request)
@@ -50,8 +56,12 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-TypeError: showMainPage() missing 1 required positional argument: 'path'
-[2018-09-12 20:32:04,399][Thread-1:10792][task_id:django.request][log.py:228][ERROR][Internal Server Error: /]
+  File "D:\Project\ShadowInk\my\views.py", line 24, in showPages
+    template = loader.get_template('../MainPage/loginSucess.html')
+  File "d:\software\python35\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ../MainPage/loginSucess.html
+[2018-09-12 21:08:56,961][Thread-1:11192][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
 Traceback (most recent call last):
   File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
     response = get_response(request)
@@ -59,4 +69,217 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-TypeError: showMainPage() missing 1 required positional argument: 'path'
+  File "D:\Project\ShadowInk\my\views.py", line 24, in showPages
+    template = loader.get_template('D:/Project/ShadowInk/MainPage/loginSucess.html')
+  File "d:\software\python35\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: D:/Project/ShadowInk/MainPage/loginSucess.html
+[2018-09-12 21:10:37,199][Thread-1:11204][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 24, in showPages
+    template = loader.get_template('loginSucess.html')
+  File "d:\software\python35\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: loginSucess.html
+[2018-09-12 21:12:47,223][Thread-1:12272][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 24, in showPages
+    template = loader.get_template('loginSucess.html')
+  File "d:\software\python35\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: loginSucess.html
+[2018-09-12 21:12:48,078][Thread-3:988][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 24, in showPages
+    template = loader.get_template('loginSucess.html')
+  File "d:\software\python35\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: loginSucess.html
+[2018-09-12 21:15:06,219][Thread-5:12748][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 24, in showPages
+    template = loader.get_template('loginSucess.html')
+  File "d:\software\python35\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: loginSucess.html
+[2018-09-12 21:15:22,915][Thread-1:1564][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 24, in showPages
+    template = loader.get_template('loginSucess.html')
+  File "d:\software\python35\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: loginSucess.html
+[2018-09-12 21:19:22,629][Thread-4:16052][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 24, in showPages
+    template = loader.get_template('loginSucess.html')
+  File "d:\software\python35\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: loginSucess.html
+[2018-09-12 21:25:05,391][Thread-1:12660][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 24, in showPages
+    template = loader.get_template('loginSucess.html')
+  File "d:\software\python35\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: loginSucess.html
+[2018-09-12 21:26:26,475][Thread-1:14048][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 24, in showPages
+    template = loader.get_template('loginSucess.html')
+  File "d:\software\python35\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: loginSucess.html
+[2018-09-12 21:26:56,612][Thread-1:8460][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 24, in showPages
+    template = loader.get_template('loginSucess.html')
+  File "d:\software\python35\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: loginSucess.html
+[2018-09-12 21:27:56,214][Thread-1:6364][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 27, in showPages
+    checkResult = checkPassword(name, password)
+NameError: name 'checkPassword' is not defined
+[2018-09-12 21:28:09,022][Thread-1:16016][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 27, in showPages
+    checkResult = checkPassword(name, password)
+NameError: name 'checkPassword' is not defined
+[2018-09-12 21:34:22,294][Thread-1:3624][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 27, in showPages
+    checkResult = main.checkPassword(name, password)
+  File "D:\Project\ShadowInk\my\main.py", line 11, in checkPassword
+    logger.info('Checking password, name:%s, password:%d'%(name,password))
+TypeError: %d format: a number is required, not NoneType
+[2018-09-12 21:34:53,704][Thread-1:5612][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 27, in showPages
+    checkResult = main.checkPassword(name, password)
+  File "D:\Project\ShadowInk\my\main.py", line 14, in checkPassword
+    return {id:1, message:'欢迎回来，%s，好久不见了！'%(name)}
+NameError: name 'message' is not defined
+[2018-09-12 21:40:10,759][Thread-13:7912][task_id:django.request][log.py:228][ERROR][Internal Server Error: /src=/explore]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 61, in showPath
+    with open('./MainPage/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './MainPage/src=/explore'
+[2018-09-12 21:41:06,345][Thread-15:13252][task_id:django.request][log.py:228][ERROR][Internal Server Error: /src=/explore]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 61, in showPath
+    with open('./MainPage/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './MainPage/src=/explore'
+[2018-09-12 21:41:10,755][Thread-16:9164][task_id:django.request][log.py:228][ERROR][Internal Server Error: /src=/explore]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 61, in showPath
+    with open('./MainPage/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './MainPage/src=/explore'
+[2018-09-12 21:41:16,871][Thread-22:10596][task_id:django.request][log.py:228][ERROR][Internal Server Error: /src=/explore]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 61, in showPath
+    with open('./MainPage/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './MainPage/src=/explore'
