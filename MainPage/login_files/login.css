@@ -446,7 +446,7 @@ a {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .login-wrapper .input-wrapper .icon {
-    background-image: url("./icon_2x.png");
+    
   }
 }
 .login-wrapper .input-wrapper .icon.forName {
