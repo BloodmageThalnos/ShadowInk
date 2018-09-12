@@ -291,7 +291,7 @@ a {
   height: 70px;
   background-repeat: no-repeat;
   background-position: 0 0;
-  background-image: url("../bk.jpg");
+
   -webkit-background-size: 100%;
   background-size: 100%;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);
@@ -300,7 +300,6 @@ a {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .avatar-wrapper {
-    background-image: url("../bk.jpg");
   }
 }
 .avatar-wrapper img {
