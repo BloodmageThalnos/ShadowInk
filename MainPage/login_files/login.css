@@ -286,7 +286,6 @@ a {
 .avatar-wrapper {
   overflow: hidden;
   margin: 80px auto 0;
-  border: rgba(0, 0, 0, 0.1) solid 1px;
   width: 70px;
   height: 70px;
   background-repeat: no-repeat;
@@ -294,9 +293,6 @@ a {
 
   -webkit-background-size: 100%;
   background-size: 100%;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);
-  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .avatar-wrapper {
@@ -439,13 +435,14 @@ a {
   float: left;
   margin: 10px 15px 0 0;
   background-repeat: no-repeat;
-  background-image: url("/images/weibo/signin/icon.png");
+  background-image: url("./icon_2x.png");
   -webkit-background-size: 23px auto;
   background-size: 23px auto;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .login-wrapper .input-wrapper .icon {
-    
+    border:0px;
+	background-color:transparent;
   }
 }
 .login-wrapper .input-wrapper .icon.forName {
