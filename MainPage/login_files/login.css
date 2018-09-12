@@ -291,7 +291,7 @@ a {
   height: 70px;
   background-repeat: no-repeat;
   background-position: 0 0;
-  background-image: url("/images/weibo/signin/default-avatar.png");
+  background-image: url("../bk.jpg");
   -webkit-background-size: 100%;
   background-size: 100%;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);
@@ -300,7 +300,7 @@ a {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .avatar-wrapper {
-    background-image: url("/images/weibo/signin/default-avatar_2x.png");
+    background-image: url("../bk.jpg");
   }
 }
 .avatar-wrapper img {
@@ -320,13 +320,13 @@ a {
   text-align: center;
   background-repeat: no-repeat;
   background-position: center 128px;
-  background-image: url("/images/weibo/signin/index-pic.png");
+  background-image: url("../bk.jpg");
   -webkit-background-size: 169px auto;
   background-size: 169px auto;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .welcome-wrapper {
-    background-image: url("/images/weibo/signin/index-pic_2x.png");
+    background-image: url("../bk.jpg");
   }
 }
 @media screen and (device-aspect-ratio: 2 / 3) {
@@ -466,6 +466,7 @@ a {
 }
 .login-wrapper .input-wrapper input {
   padding-right: 35px;
+  background-color:transparent;
 }
 .login-wrapper .input-wrapper .input-clear {
   right: 14px;
@@ -587,31 +588,7 @@ a {
   padding: 9px 20px 10px 10px;
   color: #333333;
 }
-.other-list li a .icon {
-  display: inline-block;
-  position: relative;
-  top: -1px;
-  margin: 0 10px 0 0;
-  width: 23px;
-  height: 23px;
-  vertical-align: middle;
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-image: url("/images/weibo/signin/icon.png");
-  -webkit-background-size: 23px auto;
-  background-size: 23px auto;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-  .other-list li a .icon {
-    background-image: url("/images/weibo/signin/icon_2x.png");
-  }
-}
-.other-list li a .icon.forQQ {
-  background-position: 0 -62px;
-}
-.other-list li a .icon.forUC {
-  background-position: 0 -85px;
-}
+
 .other-list li a::after {
   content: " ";
   position: absolute;
