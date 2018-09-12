@@ -1,15 +1,23 @@
 from django.http import HttpResponse
 from html import escape
 
-def showMainPage(request, path):
-    with open('./MainPage/login.html', encoding='UTF-8') as f:
-        html = f.read()
-    return HttpResponse(html)
-
 def showPages(request, path):
-    if path
+    print("LOGGING:_____________" + str(request.POST))
     
-    return None
+    url_begin='''
+    <html>
+    <meta http-equiv="Refresh" content="3; url=/my.html"/>
+    <h1>
+    你输入的用户名和密码是！
+    '''
+    
+    url_end='''
+    </h1>
+    </html>
+    '''
+    
+    
+    return HttpResponse(url_begin+str(request.POST)[13:-2]+url_end)
 
 def showPath(request, path):
     #  print('Debug  ' + path)
