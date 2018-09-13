@@ -82,12 +82,14 @@ def getUsers():
     logger.info('Getting information')
     db = mysql.connector.connect(user=mysql_username, password=mysql_password, database=database)
     cursor = db.cursor()
-    cursor.execute("select username from User")
+    cursor.execute("select id,username,password from User")
     results = cursor.fetchall()
     db.close()
     if results is not None:
         list = []
         for result in results:
-            list.append({"name":result[0],"password":result[1]})
+            logger.info( str(result) )
+            list.append({"id":result[0], "name":result[1],"password":result[2]})
         return list
     return []
+    

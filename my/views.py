@@ -1,3 +1,5 @@
+# -*- coding:utf-8 -*-
+
 from django.http import *
 from django.template import loader
 import logging
@@ -34,10 +36,19 @@ def showPages(request, path):
                 'HelloMessage': checkResult['message'],
             }
         return HttpResponse(template.render(context, request))
+        
+    if path=='eat':
+        user_list = main.getUsers()
+        template = loader.get_template('back.html')
+        context = {
+            'user_list' : user_list,
+        }
+        return HttpResponse(template.render(context, request))
 
     if path=='test':
         main.insertUser('18110022122','aodacat')
         return HttpResponse('Ok')
+        
     return None
 
 # '/<path>'目录，一般是请求资源或者静态网页，直接分类别发送
