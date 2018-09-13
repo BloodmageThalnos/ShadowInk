@@ -36,6 +36,23 @@ def showPages(request, path):
                 'HelloMessage': checkResult['message'],
             }
         return HttpResponse(template.render(context, request))
+    
+    if path=='register':
+        name = request.POST.get('name')
+        password = request.POST.get('password')
+        if name == None and password == None:
+            template = loader.get_template('register/register.html')
+            context = {}
+        else:
+            insertResult = main.insertUser(name, password)
+            if insertResult:
+                template = loader.get_template('loginSuccess.html')
+            else :
+                template = loader.get_template('loginFail.html')
+            context = {
+                'HelloMessage': checkResult['message'],
+            }
+        return HttpResponse(template.render(context, request))
         
     if path=='eat':
         user_list = main.getUsers()
