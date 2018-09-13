@@ -1,6 +1,6 @@
 $('#btnShowLeftBar').bind("click",ShowLeftBar)
 function ShowLeftBar(){
-    $('#MainPage').attr("style","transform: translate(70%, 0);") //rotate3d(.25,1,.25,360deg)
+    $('#MainPage').attr("style","transform: translate(70%, 0);") //
     $('#LeftBar').attr("style","transform: translate(100%, 0);")
     $('#btnShowLeftBar').unbind("click")
     $('#btnShowLeftBar').bind("click",HideLeftBar)
@@ -24,8 +24,12 @@ function ShowMainPage3(){
     $('#ContentPage').attr("src","./page3.html");
 }
 function Quit() {
-    	var result = confirm('是否真的要退出');
-    	if(result){
-    		 window.location.href="login.html";
-    	}
+    var result = confirm('是否真的要退出');
+    if(result){
+    	window.location.href="login.html";
+    }
+}
+
+function About(){
+	window.confirm('Author : Group 16');
 }

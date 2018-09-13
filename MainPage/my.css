@@ -69,3 +69,22 @@
     font-size: 28px;
     color: #444488;
 }
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+outline: none; 
+border-color:white; 
+box-shadow:2px;
+}
+
+.btn:active{
+	background-color:#dddddd;
+	outline: none; 
+	border-color:#dddddd; 
+	box-shadow:none;
+}
+
