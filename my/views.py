@@ -52,6 +52,9 @@ def showPages(request, path):
                 }
             else :
                 template = loader.get_template('registerFail.html')
+                context = {
+                    'HelloMessage': '用户已存在！请重新输入用户名。',
+                }
         return HttpResponse(template.render(context, request))
         
     if path=='eat':
