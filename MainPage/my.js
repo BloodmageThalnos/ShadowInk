@@ -23,3 +23,9 @@ function ShowMainPage2(){
 function ShowMainPage3(){
     $('#ContentPage').attr("src","./page3.html");
 }
+function Quit() {
+    	var result = confirm('是否真的要退出');
+    	if(result){
+    		 window.location.href="login.html";
+    	}
+}
