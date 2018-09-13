@@ -40,18 +40,18 @@ def showPages(request, path):
     if path=='register':
         name = request.POST.get('name')
         password = request.POST.get('password')
+        context = {}
         if name == None and password == None:
-            template = loader.get_template('register/register.html')
-            context = {}
+            template = loader.get_template('register.html')
         else:
             insertResult = main.insertUser(name, password)
             if insertResult:
-                template = loader.get_template('loginSuccess.html')
-            else :
                 template = loader.get_template('loginFail.html')
-            context = {
-                'HelloMessage': checkResult['message'],
-            }
+                context = {
+                    'HelloMessage': '注册成功！请登录。',
+                }
+            else :
+                template = loader.get_template('registerFail.html')
         return HttpResponse(template.render(context, request))
         
     if path=='eat':
