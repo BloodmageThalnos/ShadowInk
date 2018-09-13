@@ -47,6 +47,11 @@ def insertUser(name, password):
     logger.info('Setting password, name:%s, password:%s' % (name, password))
     db = mysql.connector.connect(user=mysql_username, password=mysql_password, database="shadowInk")
     cursor = db.cursor()
+    cursor.execute("select count(*) from User where username = %s",[name])
+    result = cursor.fetchall()
+    if result[0][0] > 0:
+        logger.info('用户名%s已存在,请重新输入' % (name))
+        return False
     cursor.execute("insert into User(username,password) values(%s,%s)",[name,md5Password(password)])
     db.commit()
     cursor.close();
