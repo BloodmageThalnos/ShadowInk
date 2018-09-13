@@ -517,3 +517,304 @@ FileNotFoundError: [Errno 2] No such file or directory: './MainPage/src=/explore
 [2018-09-12 21:52:44,700][Thread-111:10924][task_id:root][views.py:39][INFO][Accessing Page /my.css with showPath]
 [2018-09-12 21:52:44,739][Thread-112:7896][task_id:root][views.py:39][INFO][Accessing Page /page1.html with showPath]
 [2018-09-12 21:52:45,544][Thread-113:12532][task_id:root][views.py:39][INFO][Accessing Page /content.jpg with showPath]
+[2018-09-13 10:20:08,639][Thread-1:5160][task_id:root][views.py:10][INFO][Accessing Page / with showMainPage]
+[2018-09-13 10:20:08,669][Thread-3:15812][task_id:root][views.py:43][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-13 10:20:08,672][Thread-4:10780][task_id:root][views.py:43][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-13 10:20:08,677][Thread-5:2480][task_id:root][views.py:43][INFO][Accessing Page /icon.png with showPath]
+[2018-09-13 10:20:08,741][Thread-6:7684][task_id:root][views.py:43][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-13 10:20:08,771][Thread-7:7740][task_id:root][views.py:43][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-09-13 10:20:15,743][Thread-8:17056][task_id:root][views.py:17][INFO][Accessing Page /test with showPages]
+[2018-09-13 10:20:15,842][Thread-8:17056][task_id:django.request][log.py:228][ERROR][Internal Server Error: /test]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 37, in showPages
+    insertUser('little','driver')
+NameError: name 'insertUser' is not defined
+[2018-09-13 10:20:45,246][Thread-1:16348][task_id:root][views.py:17][INFO][Accessing Page /test with showPages]
+[2018-09-13 10:20:45,246][Thread-1:16348][task_id:my.main][main.py:59][INFO][Setting password, name:little, password:driver]
+[2018-09-13 10:21:30,888][Thread-4:15256][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:21:30,889][Thread-4:15256][task_id:my.main][main.py:45][INFO][Checking password, name:None, password:None]
+[2018-09-13 10:21:30,900][Thread-4:15256][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 26, in showPages
+    checkResult = main.checkPassword(name, password)
+  File "D:\Project\ShadowInk\my\main.py", line 51, in checkPassword
+    password_md5 = md5Password(password)
+  File "D:\Project\ShadowInk\my\main.py", line 38, in md5Password
+    h1.update(password.encode(encoding="utf-8"))
+AttributeError: 'NoneType' object has no attribute 'encode'
+[2018-09-13 10:21:34,543][Thread-5:5756][task_id:root][views.py:43][INFO][Accessing Page /login.html with showPath]
+[2018-09-13 10:21:34,563][Thread-6:14184][task_id:root][views.py:43][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-13 10:21:34,566][Thread-7:16864][task_id:root][views.py:43][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-13 10:21:34,569][Thread-8:15688][task_id:root][views.py:43][INFO][Accessing Page /icon.png with showPath]
+[2018-09-13 10:21:34,600][Thread-9:7512][task_id:root][views.py:43][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-13 10:21:34,602][Thread-10:7788][task_id:root][views.py:43][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-09-13 10:21:40,794][Thread-11:14632][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:21:40,794][Thread-11:14632][task_id:my.main][main.py:45][INFO][Checking password, name:little, password:driver]
+[2018-09-13 10:21:40,881][Thread-12:12180][task_id:root][views.py:43][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-13 10:21:40,883][Thread-13:4232][task_id:root][views.py:43][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-13 10:21:40,884][Thread-14:3036][task_id:root][views.py:43][INFO][Accessing Page /icon.png with showPath]
+[2018-09-13 10:21:40,927][Thread-15:6804][task_id:root][views.py:43][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-13 10:21:43,975][Thread-16:16408][task_id:root][views.py:17][INFO][Accessing Page /explore with showPages]
+[2018-09-13 10:21:43,992][Thread-17:7452][task_id:root][views.py:43][INFO][Accessing Page /jquery.js with showPath]
+[2018-09-13 10:21:43,996][Thread-18:13644][task_id:root][views.py:43][INFO][Accessing Page /my.js with showPath]
+[2018-09-13 10:21:43,998][Thread-19:1220][task_id:root][views.py:43][INFO][Accessing Page /my.css with showPath]
+[2018-09-13 10:21:44,000][Thread-20:4468][task_id:root][views.py:43][INFO][Accessing Page /leftbar.jpg with showPath]
+[2018-09-13 10:21:44,077][Thread-21:16132][task_id:root][views.py:43][INFO][Accessing Page /page1.html with showPath]
+[2018-09-13 10:21:44,129][Thread-22:11112][task_id:root][views.py:43][INFO][Accessing Page /content.jpg with showPath]
+[2018-09-13 10:21:47,322][Thread-23:2116][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:21:47,322][Thread-23:2116][task_id:my.main][main.py:45][INFO][Checking password, name:little, password:14124124]
+[2018-09-13 10:21:47,345][Thread-24:6116][task_id:root][views.py:43][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-13 10:21:47,348][Thread-25:16980][task_id:root][views.py:43][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-13 10:21:47,351][Thread-26:10492][task_id:root][views.py:43][INFO][Accessing Page /icon.png with showPath]
+[2018-09-13 10:21:47,375][Thread-27:17332][task_id:root][views.py:43][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-13 10:22:02,707][Thread-30:13728][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:22:02,707][Thread-30:13728][task_id:my.main][main.py:45][INFO][Checking password, name:little, password:driver]
+[2018-09-13 10:22:02,740][Thread-31:13668][task_id:root][views.py:43][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-13 10:22:02,743][Thread-32:12212][task_id:root][views.py:43][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-13 10:22:02,744][Thread-33:7172][task_id:root][views.py:43][INFO][Accessing Page /icon.png with showPath]
+[2018-09-13 10:22:02,770][Thread-34:15088][task_id:root][views.py:43][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-13 10:22:05,812][Thread-35:6076][task_id:root][views.py:17][INFO][Accessing Page /explore with showPages]
+[2018-09-13 10:22:05,826][Thread-36:15704][task_id:root][views.py:43][INFO][Accessing Page /jquery.js with showPath]
+[2018-09-13 10:22:05,828][Thread-37:16648][task_id:root][views.py:43][INFO][Accessing Page /my.js with showPath]
+[2018-09-13 10:22:05,829][Thread-38:14496][task_id:root][views.py:43][INFO][Accessing Page /my.css with showPath]
+[2018-09-13 10:22:05,832][Thread-39:16468][task_id:root][views.py:43][INFO][Accessing Page /leftbar.jpg with showPath]
+[2018-09-13 10:22:05,876][Thread-40:13940][task_id:root][views.py:43][INFO][Accessing Page /page1.html with showPath]
+[2018-09-13 10:22:05,922][Thread-41:13692][task_id:root][views.py:43][INFO][Accessing Page /content.jpg with showPath]
+[2018-09-13 10:37:12,391][Thread-1:9116][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:37:12,413][Thread-3:9080][task_id:root][views.py:47][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-13 10:37:12,415][Thread-4:1856][task_id:root][views.py:47][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-13 10:37:12,417][Thread-5:1068][task_id:root][views.py:47][INFO][Accessing Page /icon.png with showPath]
+[2018-09-13 10:37:12,482][Thread-6:11180][task_id:root][views.py:47][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-13 10:37:12,484][Thread-7:2704][task_id:root][views.py:47][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-09-13 10:37:21,970][Thread-8:13524][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:37:21,970][Thread-8:13524][task_id:my.main][main.py:45][INFO][Checking password, name:little, password:123]
+[2018-09-13 10:37:21,999][Thread-9:4980][task_id:root][views.py:47][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-13 10:37:22,004][Thread-10:7932][task_id:root][views.py:47][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-13 10:37:22,006][Thread-11:14364][task_id:root][views.py:47][INFO][Accessing Page /icon.png with showPath]
+[2018-09-13 10:37:22,067][Thread-12:9792][task_id:root][views.py:47][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-13 10:37:25,124][Thread-13:1564][task_id:root][views.py:17][INFO][Accessing Page /explore with showPages]
+[2018-09-13 10:37:25,147][Thread-14:12184][task_id:root][views.py:47][INFO][Accessing Page /jquery.js with showPath]
+[2018-09-13 10:37:25,173][Thread-15:16096][task_id:root][views.py:47][INFO][Accessing Page /my.js with showPath]
+[2018-09-13 10:37:25,175][Thread-16:13020][task_id:root][views.py:47][INFO][Accessing Page /my.css with showPath]
+[2018-09-13 10:37:25,181][Thread-17:12712][task_id:root][views.py:47][INFO][Accessing Page /leftbar.jpg with showPath]
+[2018-09-13 10:37:25,252][Thread-18:2208][task_id:root][views.py:47][INFO][Accessing Page /page1.html with showPath]
+[2018-09-13 10:37:25,292][Thread-19:6952][task_id:root][views.py:47][INFO][Accessing Page /content.jpg with showPath]
+[2018-09-13 10:38:05,615][Thread-20:1372][task_id:root][views.py:17][INFO][Accessing Page /explore with showPages]
+[2018-09-13 10:38:05,638][Thread-21:1964][task_id:root][views.py:47][INFO][Accessing Page /jquery.js with showPath]
+[2018-09-13 10:38:05,640][Thread-22:7928][task_id:root][views.py:47][INFO][Accessing Page /my.js with showPath]
+[2018-09-13 10:38:05,643][Thread-23:12268][task_id:root][views.py:47][INFO][Accessing Page /my.css with showPath]
+[2018-09-13 10:38:05,646][Thread-24:11104][task_id:root][views.py:47][INFO][Accessing Page /leftbar.jpg with showPath]
+[2018-09-13 10:38:05,754][Thread-25:3936][task_id:root][views.py:47][INFO][Accessing Page /page1.html with showPath]
+[2018-09-13 10:38:05,789][Thread-26:17200][task_id:root][views.py:47][INFO][Accessing Page /content.jpg with showPath]
+[2018-09-13 10:38:07,265][Thread-27:8804][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:38:09,900][Thread-28:6928][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:38:09,917][Thread-29:13276][task_id:root][views.py:47][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-13 10:38:09,919][Thread-30:17152][task_id:root][views.py:47][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-13 10:38:09,922][Thread-31:8256][task_id:root][views.py:47][INFO][Accessing Page /icon.png with showPath]
+[2018-09-13 10:38:09,988][Thread-32:9776][task_id:root][views.py:47][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-13 10:38:09,990][Thread-33:10428][task_id:root][views.py:47][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-09-13 10:38:18,154][Thread-34:10344][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:38:18,155][Thread-34:10344][task_id:my.main][main.py:45][INFO][Checking password, name:little, password:driver]
+[2018-09-13 10:38:18,193][Thread-35:7760][task_id:root][views.py:47][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-13 10:38:18,196][Thread-36:6784][task_id:root][views.py:47][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-13 10:38:18,199][Thread-37:7600][task_id:root][views.py:47][INFO][Accessing Page /icon.png with showPath]
+[2018-09-13 10:38:18,258][Thread-38:8328][task_id:root][views.py:47][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-13 10:38:20,128][Thread-39:15752][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:38:21,873][Thread-40:9800][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:38:21,874][Thread-40:9800][task_id:my.main][main.py:45][INFO][Checking password, name:little, password:123]
+[2018-09-13 10:38:21,897][Thread-41:10772][task_id:root][views.py:47][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-13 10:38:21,899][Thread-42:5340][task_id:root][views.py:47][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-13 10:38:21,901][Thread-43:12012][task_id:root][views.py:47][INFO][Accessing Page /icon.png with showPath]
+[2018-09-13 10:38:21,962][Thread-44:9564][task_id:root][views.py:47][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-13 10:38:23,337][Thread-45:5268][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:39:00,135][Thread-1:1192][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:39:00,158][Thread-3:1060][task_id:root][views.py:47][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-13 10:39:00,160][Thread-4:11668][task_id:root][views.py:47][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-13 10:39:00,164][Thread-5:11284][task_id:root][views.py:47][INFO][Accessing Page /icon.png with showPath]
+[2018-09-13 10:39:00,223][Thread-6:12324][task_id:root][views.py:47][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-13 10:39:00,225][Thread-7:2944][task_id:root][views.py:47][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-09-13 10:39:03,451][Thread-8:4664][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:39:03,452][Thread-8:4664][task_id:my.main][main.py:45][INFO][Checking password, name:123, password:]
+[2018-09-13 10:39:03,467][Thread-8:4664][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 30, in showPages
+    checkResult = main.checkPassword(name, password)
+  File "D:\Project\ShadowInk\my\main.py", line 52, in checkPassword
+    if result is not None and result[0][0] == password_md5:
+IndexError: list index out of range
+[2018-09-13 10:39:10,665][Thread-9:8976][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:39:10,666][Thread-9:8976][task_id:my.main][main.py:45][INFO][Checking password, name:123, password:456]
+[2018-09-13 10:39:10,672][Thread-9:8976][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 30, in showPages
+    checkResult = main.checkPassword(name, password)
+  File "D:\Project\ShadowInk\my\main.py", line 52, in checkPassword
+    if result is not None and result[0][0] == password_md5:
+IndexError: list index out of range
+[2018-09-13 10:41:28,395][Thread-13:10000][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:41:28,395][Thread-13:10000][task_id:my.main][main.py:45][INFO][Checking password, name:132, password:444]
+[2018-09-13 10:41:28,402][Thread-13:10000][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 30, in showPages
+    checkResult = main.checkPassword(name, password)
+  File "D:\Project\ShadowInk\my\main.py", line 52, in checkPassword
+    if result is not None and result[0][0] == password_md5:
+IndexError: list index out of range
+[2018-09-13 10:42:38,738][Thread-15:900][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:42:38,738][Thread-15:900][task_id:my.main][main.py:45][INFO][Checking password, name:132, password:63463]
+[2018-09-13 10:42:38,744][Thread-15:900][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 30, in showPages
+    checkResult = main.checkPassword(name, password)
+  File "D:\Project\ShadowInk\my\main.py", line 52, in checkPassword
+    if result is not None and result[0][0] == password_md5:
+IndexError: list index out of range
+[2018-09-13 10:43:33,825][Thread-17:10840][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:43:33,826][Thread-17:10840][task_id:my.main][main.py:45][INFO][Checking password, name:132, password:23523]
+[2018-09-13 10:43:33,832][Thread-17:10840][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 30, in showPages
+    checkResult = main.checkPassword(name, password)
+  File "D:\Project\ShadowInk\my\main.py", line 52, in checkPassword
+    if result is not None and result[0][0] == password_md5:
+IndexError: list index out of range
+[2018-09-13 10:44:55,849][Thread-1:10020][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:44:55,849][Thread-1:10020][task_id:my.main][main.py:45][INFO][Checking password, name:132, password:3242]
+[2018-09-13 10:44:55,860][Thread-1:10020][task_id:my.main][main.py:53][INFO][[]]
+[2018-09-13 10:44:55,865][Thread-1:10020][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 30, in showPages
+    checkResult = main.checkPassword(name, password)
+  File "D:\Project\ShadowInk\my\main.py", line 54, in checkPassword
+    if result[0][0] == password_md5:
+IndexError: list index out of range
+[2018-09-13 10:45:36,472][Thread-1:4180][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:45:36,473][Thread-1:4180][task_id:my.main][main.py:45][INFO][Checking password, name:132, password:34534]
+[2018-09-13 10:45:36,512][Thread-3:7276][task_id:root][views.py:47][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-13 10:45:36,515][Thread-4:13268][task_id:root][views.py:47][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-13 10:45:36,522][Thread-5:12864][task_id:root][views.py:47][INFO][Accessing Page /icon.png with showPath]
+[2018-09-13 10:45:36,651][Thread-6:8732][task_id:root][views.py:47][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-13 10:45:38,072][Thread-7:3592][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:45:52,809][Thread-9:13848][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:45:52,810][Thread-9:13848][task_id:my.main][main.py:45][INFO][Checking password, name:little, password:12312]
+[2018-09-13 10:45:52,816][Thread-9:13848][task_id:my.main][main.py:53][INFO][[('0e99d868efe772bac0f0f71e99826e20',)]]
+[2018-09-13 10:45:52,838][Thread-10:15252][task_id:root][views.py:47][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-13 10:45:52,841][Thread-11:12056][task_id:root][views.py:47][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-13 10:45:52,843][Thread-12:1080][task_id:root][views.py:47][INFO][Accessing Page /icon.png with showPath]
+[2018-09-13 10:45:52,914][Thread-13:14264][task_id:root][views.py:47][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-13 10:45:54,055][Thread-14:7544][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:45:57,208][Thread-15:14008][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:45:57,209][Thread-15:14008][task_id:my.main][main.py:45][INFO][Checking password, name:little, password:driver]
+[2018-09-13 10:45:57,212][Thread-15:14008][task_id:my.main][main.py:53][INFO][[('0e99d868efe772bac0f0f71e99826e20',)]]
+[2018-09-13 10:45:57,240][Thread-16:2480][task_id:root][views.py:47][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-13 10:45:57,243][Thread-17:15812][task_id:root][views.py:47][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-13 10:45:57,245][Thread-18:13864][task_id:root][views.py:47][INFO][Accessing Page /icon.png with showPath]
+[2018-09-13 10:45:57,303][Thread-19:5160][task_id:root][views.py:47][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-13 10:45:58,481][Thread-20:8692][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:47:32,680][Thread-1:17120][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:47:32,681][Thread-1:17120][task_id:my.main][main.py:45][INFO][Checking password, name:little, password:123]
+[2018-09-13 10:47:32,691][Thread-1:17120][task_id:my.main][main.py:53][INFO][[('0e99d868efe772bac0f0f71e99826e20',)]]
+[2018-09-13 10:47:32,712][Thread-3:15828][task_id:root][views.py:47][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-13 10:47:32,714][Thread-4:13220][task_id:root][views.py:47][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-13 10:47:32,718][Thread-5:15788][task_id:root][views.py:47][INFO][Accessing Page /icon.png with showPath]
+[2018-09-13 10:47:32,785][Thread-6:2180][task_id:root][views.py:47][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-13 10:47:34,611][Thread-7:3136][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:47:41,433][Thread-8:15580][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:47:41,434][Thread-8:15580][task_id:my.main][main.py:45][INFO][Checking password, name:little, password:2252]
+[2018-09-13 10:47:41,438][Thread-8:15580][task_id:my.main][main.py:53][INFO][[('0e99d868efe772bac0f0f71e99826e20',)]]
+[2018-09-13 10:47:41,455][Thread-9:2516][task_id:root][views.py:47][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-13 10:47:41,457][Thread-10:8240][task_id:root][views.py:47][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-13 10:47:41,460][Thread-11:9212][task_id:root][views.py:47][INFO][Accessing Page /icon.png with showPath]
+[2018-09-13 10:47:41,541][Thread-12:14344][task_id:root][views.py:47][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-13 10:47:42,922][Thread-13:16536][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:47:50,384][Thread-14:12388][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:47:50,385][Thread-14:12388][task_id:my.main][main.py:45][INFO][Checking password, name:little, password:driver]
+[2018-09-13 10:47:50,391][Thread-14:12388][task_id:my.main][main.py:53][INFO][[('0e99d868efe772bac0f0f71e99826e20',)]]
+[2018-09-13 10:47:50,423][Thread-15:14900][task_id:root][views.py:47][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-13 10:47:50,426][Thread-16:14340][task_id:root][views.py:47][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-13 10:47:50,427][Thread-17:4380][task_id:root][views.py:47][INFO][Accessing Page /icon.png with showPath]
+[2018-09-13 10:47:50,505][Thread-18:2496][task_id:root][views.py:47][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-13 10:47:50,507][Thread-19:8716][task_id:root][views.py:47][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-09-13 10:48:47,389][Thread-1:10688][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:48:47,389][Thread-1:10688][task_id:my.main][main.py:45][INFO][Checking password, name:little, password:driver]
+[2018-09-13 10:48:47,400][Thread-1:10688][task_id:my.main][main.py:53][INFO][[('0e99d868efe772bac0f0f71e99826e20',)]]
+[2018-09-13 10:48:47,425][Thread-3:8112][task_id:root][views.py:47][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-13 10:48:47,427][Thread-4:7788][task_id:root][views.py:47][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-13 10:48:47,433][Thread-5:14316][task_id:root][views.py:47][INFO][Accessing Page /icon.png with showPath]
+[2018-09-13 10:48:47,536][Thread-6:1320][task_id:root][views.py:47][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-13 10:48:49,896][Thread-7:6572][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:48:49,912][Thread-8:4352][task_id:root][views.py:47][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-13 10:48:49,915][Thread-9:12340][task_id:root][views.py:47][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-13 10:48:49,918][Thread-10:12108][task_id:root][views.py:47][INFO][Accessing Page /icon.png with showPath]
+[2018-09-13 10:48:49,977][Thread-11:12180][task_id:root][views.py:47][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-13 10:48:49,978][Thread-12:16572][task_id:root][views.py:47][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-09-13 10:48:58,260][Thread-13:3356][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:48:58,260][Thread-13:3356][task_id:my.main][main.py:45][INFO][Checking password, name:little, password:123123]
+[2018-09-13 10:48:58,264][Thread-13:3356][task_id:my.main][main.py:53][INFO][[('0e99d868efe772bac0f0f71e99826e20',)]]
+[2018-09-13 10:48:58,280][Thread-14:16184][task_id:root][views.py:47][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-13 10:48:58,312][Thread-15:10396][task_id:root][views.py:47][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-13 10:48:58,314][Thread-16:16612][task_id:root][views.py:47][INFO][Accessing Page /icon.png with showPath]
+[2018-09-13 10:48:58,363][Thread-17:2584][task_id:root][views.py:47][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-13 10:48:58,367][Thread-18:7512][task_id:root][views.py:47][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-09-13 10:49:09,145][Thread-19:15536][task_id:root][views.py:17][INFO][Accessing Page /login with showPages]
+[2018-09-13 10:49:09,146][Thread-19:15536][task_id:my.main][main.py:45][INFO][Checking password, name:little, password:driver]
+[2018-09-13 10:49:09,149][Thread-19:15536][task_id:my.main][main.py:53][INFO][[('0e99d868efe772bac0f0f71e99826e20',)]]
+[2018-09-13 10:49:09,169][Thread-20:2704][task_id:root][views.py:47][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-13 10:49:09,171][Thread-21:11180][task_id:root][views.py:47][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-13 10:49:09,174][Thread-22:14876][task_id:root][views.py:47][INFO][Accessing Page /icon.png with showPath]
+[2018-09-13 10:49:09,271][Thread-23:4572][task_id:root][views.py:47][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-13 10:49:12,290][Thread-24:11220][task_id:root][views.py:17][INFO][Accessing Page /explore with showPages]
+[2018-09-13 10:49:12,321][Thread-25:9348][task_id:root][views.py:47][INFO][Accessing Page /jquery.js with showPath]
+[2018-09-13 10:49:12,330][Thread-26:7012][task_id:root][views.py:47][INFO][Accessing Page /my.js with showPath]
+[2018-09-13 10:49:12,332][Thread-27:9816][task_id:root][views.py:47][INFO][Accessing Page /my.css with showPath]
+[2018-09-13 10:49:12,334][Thread-28:16392][task_id:root][views.py:47][INFO][Accessing Page /leftbar.jpg with showPath]
+[2018-09-13 10:49:12,412][Thread-29:1508][task_id:root][views.py:47][INFO][Accessing Page /page1.html with showPath]
+[2018-09-13 10:49:12,449][Thread-30:13524][task_id:root][views.py:47][INFO][Accessing Page /content.jpg with showPath]

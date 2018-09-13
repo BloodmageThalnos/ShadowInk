@@ -283,3 +283,107 @@ Traceback (most recent call last):
   File "D:\Project\ShadowInk\my\views.py", line 61, in showPath
     with open('./MainPage/'+path, encoding='UTF-8') as f:
 FileNotFoundError: [Errno 2] No such file or directory: './MainPage/src=/explore'
+[2018-09-13 10:20:15,842][Thread-8:17056][task_id:django.request][log.py:228][ERROR][Internal Server Error: /test]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 37, in showPages
+    insertUser('little','driver')
+NameError: name 'insertUser' is not defined
+[2018-09-13 10:21:30,900][Thread-4:15256][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 26, in showPages
+    checkResult = main.checkPassword(name, password)
+  File "D:\Project\ShadowInk\my\main.py", line 51, in checkPassword
+    password_md5 = md5Password(password)
+  File "D:\Project\ShadowInk\my\main.py", line 38, in md5Password
+    h1.update(password.encode(encoding="utf-8"))
+AttributeError: 'NoneType' object has no attribute 'encode'
+[2018-09-13 10:39:03,467][Thread-8:4664][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 30, in showPages
+    checkResult = main.checkPassword(name, password)
+  File "D:\Project\ShadowInk\my\main.py", line 52, in checkPassword
+    if result is not None and result[0][0] == password_md5:
+IndexError: list index out of range
+[2018-09-13 10:39:10,672][Thread-9:8976][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 30, in showPages
+    checkResult = main.checkPassword(name, password)
+  File "D:\Project\ShadowInk\my\main.py", line 52, in checkPassword
+    if result is not None and result[0][0] == password_md5:
+IndexError: list index out of range
+[2018-09-13 10:41:28,402][Thread-13:10000][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 30, in showPages
+    checkResult = main.checkPassword(name, password)
+  File "D:\Project\ShadowInk\my\main.py", line 52, in checkPassword
+    if result is not None and result[0][0] == password_md5:
+IndexError: list index out of range
+[2018-09-13 10:42:38,744][Thread-15:900][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 30, in showPages
+    checkResult = main.checkPassword(name, password)
+  File "D:\Project\ShadowInk\my\main.py", line 52, in checkPassword
+    if result is not None and result[0][0] == password_md5:
+IndexError: list index out of range
+[2018-09-13 10:43:33,832][Thread-17:10840][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 30, in showPages
+    checkResult = main.checkPassword(name, password)
+  File "D:\Project\ShadowInk\my\main.py", line 52, in checkPassword
+    if result is not None and result[0][0] == password_md5:
+IndexError: list index out of range
+[2018-09-13 10:44:55,865][Thread-1:10020][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 30, in showPages
+    checkResult = main.checkPassword(name, password)
+  File "D:\Project\ShadowInk\my\main.py", line 54, in checkPassword
+    if result[0][0] == password_md5:
+IndexError: list index out of range
