@@ -62,14 +62,15 @@
 		
 		<div id="ToastDiv" style=" height:30px; width:100%;">
 			<script>
-				Toast("用户名或密码错误！",2000)
+				Toast( "{{ HelloMessage }}" ,2000)
 			</script>
 		</div>
         <a href="javascript:document.getElementById('loginForm').submit()" class="btn btnRed" id="loginAction">登陆</a>
         
     </form>
     <footer class="footer">
-        <a href="">注册账号</a><a href="">忘记密码</a>
+        <a href="/register">注册账号</a>
+        <a href="">忘记密码</a>
     </footer>
 </body>
 </html>
