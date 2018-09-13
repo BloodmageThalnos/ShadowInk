@@ -818,3 +818,23 @@ IndexError: list index out of range
 [2018-09-13 10:49:12,334][Thread-28:16392][task_id:root][views.py:47][INFO][Accessing Page /leftbar.jpg with showPath]
 [2018-09-13 10:49:12,412][Thread-29:1508][task_id:root][views.py:47][INFO][Accessing Page /page1.html with showPath]
 [2018-09-13 10:49:12,449][Thread-30:13524][task_id:root][views.py:47][INFO][Accessing Page /content.jpg with showPath]
+[2018-09-13 11:21:26,846][Thread-1:13684][task_id:root][views.py:10][INFO][Accessing Page / with showMainPage]
+[2018-09-13 11:21:26,856][Thread-1:13684][task_id:django.request][log.py:228][ERROR][Internal Server Error: /]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 11, in showMainPage
+    return HttpResponseRedirect('/login')
+NameError: name 'HttpResponseRedirect' is not defined
+[2018-09-13 11:21:52,866][Thread-1:3180][task_id:root][views.py:10][INFO][Accessing Page / with showMainPage]
+[2018-09-13 11:21:52,872][Thread-3:1796][task_id:root][views.py:15][INFO][Accessing Page /login with showPages]
+[2018-09-13 11:21:52,892][Thread-4:13176][task_id:root][views.py:45][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-09-13 11:21:52,895][Thread-5:10896][task_id:root][views.py:45][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-09-13 11:21:52,899][Thread-6:15808][task_id:root][views.py:45][INFO][Accessing Page /icon.png with showPath]
+[2018-09-13 11:21:52,978][Thread-7:14172][task_id:root][views.py:45][INFO][Accessing Page /bk.jpg with showPath]
+[2018-09-13 11:21:52,981][Thread-8:9536][task_id:root][views.py:45][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-09-13 11:21:53,072][Thread-9:17020][task_id:root][views.py:45][INFO][Accessing Page /favicon.ico with showPath]

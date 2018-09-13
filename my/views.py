@@ -1,4 +1,4 @@
-from django.http import HttpResponse
+from django.http import *
 from django.template import loader
 import logging
 from . import main

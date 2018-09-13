@@ -387,3 +387,14 @@ Traceback (most recent call last):
   File "D:\Project\ShadowInk\my\main.py", line 54, in checkPassword
     if result[0][0] == password_md5:
 IndexError: list index out of range
+[2018-09-13 11:21:26,856][Thread-1:13684][task_id:django.request][log.py:228][ERROR][Internal Server Error: /]
+Traceback (most recent call last):
+  File "d:\software\python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\software\python35\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Project\ShadowInk\my\views.py", line 11, in showMainPage
+    return HttpResponseRedirect('/login')
+NameError: name 'HttpResponseRedirect' is not defined
