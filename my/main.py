@@ -3,6 +3,7 @@
 import logging
 import mysql.connector
 import hashlib
+import time
 
 """
 这里数据库的名字是shadowInk
@@ -20,6 +21,21 @@ CREATE TABLE `user` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `username_UNIQUE` (`username`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+CREATE TABLE `article` (
+  `a_id` int(11) NOT NULL,
+  `u_id` int(11) NOT NULL,
+  `title` longtext COLLATE utf8_unicode_ci NOT NULL,
+  `pic_url` longtext COLLATE utf8_unicode_ci,
+  `content` longtext COLLATE utf8_unicode_ci,
+  `create_date` datetime DEFAULT NULL,
+  PRIMARY KEY (`a_id`),
+  KEY `user_id_idx` (`u_id`),
+  CONSTRAINT `user_id` FOREIGN KEY (`u_id`) REFERENCES `user` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+
+
 """
 
 host = "127.0.0.1"
@@ -87,14 +103,14 @@ def getUsers():
             list.append({"id":result[0], "name":result[1],"password":result[2]})
         return list
     return []
-    
+
 # Get the first 10 articles that will be shown on the main page.
 # Returns an array of set which contains {title, picurl, content}.
 def getArticles():
     logger.info('Getting article')
     db = mysql.connector.connect(user=mysql_username, password=mysql_password, database=database)
     cursor = db.cursor()
-    cursor.execute("select ")
+    cursor.execute("SELECT title,pic_url,create_date FROM article;")
     results = cursor.fetchall()
     db.close()
     if results is not None:
@@ -102,18 +118,16 @@ def getArticles():
         for result in results:
             logger.info( str(result) )
             list.append({"title":result[0], "picurl":result[1],"time":result[2]})
-            # 时间可能要抓成string格式
         return list
     return []
-    
+
 # Insert a new record, containing title, picurl and content.
-def insertArticle(title, picurl, content):
+def insertArticle(user_id, title, picurl, content):
     logger.info('Setting password, name:%s, password:%s' % (name, password))
     db = mysql.connector.connect(user=mysql_username, password=mysql_password, database=database)
     cursor = db.cursor()
-    cursor.execute(
-    result = cursor.fetchall()
-    
+    cursor.execute("INSERT INTO `article`(`u_id`,`title`,`pic_url`,`content`,`create_date`)\
+VALUES(%s,%s,%s,%s,%s);",[str(user_id),title,picurl,content,time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())])
     db.commit()
     cursor.close();
     db.close()
