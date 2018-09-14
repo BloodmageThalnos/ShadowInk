@@ -11,11 +11,8 @@ import hashlib
 id 主键,自增
 username 非空 unique
 password 非空
-
 CREATE DATABASE `shadowink` /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci */;
-
 USE shadowink;
-
 CREATE TABLE `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(45) COLLATE utf8_unicode_ci NOT NULL,
@@ -23,7 +20,6 @@ CREATE TABLE `user` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `username_UNIQUE` (`username`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
 """
 
 host = "127.0.0.1"
@@ -47,7 +43,7 @@ def checkPassword(name, password):
     if password == None:
         return {'success': False, 'id': 0, 'message': '密码不能为空！'}
     logger.info('Checking password, name:%s, password:%s' % (name, password))
-    db = mysql.connector.connect(user=mysql_username, password=mysql_password, database="shadowInk")
+    db = mysql.connector.connect(user=mysql_username, password=mysql_password, database=database)
     cursor = db.cursor()
     cursor.execute("select password from User where username = %s",[name])
     result = cursor.fetchall()
@@ -59,11 +55,10 @@ def checkPassword(name, password):
             return {'success': True, 'id': 1, 'message': '欢迎回来，%s，好久不见了！' % (name)}
     return {'success': False, 'id': 0, 'message': '用户名或密码错误！'}
 
-
 # Insert a new record, containing username and password.
 def insertUser(name, password):
     logger.info('Setting password, name:%s, password:%s' % (name, password))
-    db = mysql.connector.connect(user=mysql_username, password=mysql_password, database="shadowInk")
+    db = mysql.connector.connect(user=mysql_username, password=mysql_password, database=database)
     cursor = db.cursor()
     cursor.execute("select count(*) from User where username = %s",[name])
     result = cursor.fetchall()
@@ -77,7 +72,7 @@ def insertUser(name, password):
     return True
 
 # Get all the users from the database.
-# Returns an array of set which contains {username, password}.
+# Returns an array of set which contains {id, username, password}.
 def getUsers():
     logger.info('Getting information')
     db = mysql.connector.connect(user=mysql_username, password=mysql_password, database=database)
@@ -93,3 +88,33 @@ def getUsers():
         return list
     return []
     
+# Get the first 10 articles that will be shown on the main page.
+# Returns an array of set which contains {title, picurl, content}.
+def getArticles():
+    logger.info('Getting article')
+    db = mysql.connector.connect(user=mysql_username, password=mysql_password, database=database)
+    cursor = db.cursor()
+    cursor.execute("select ")
+    results = cursor.fetchall()
+    db.close()
+    if results is not None:
+        list = []
+        for result in results:
+            logger.info( str(result) )
+            list.append({"title":result[0], "picurl":result[1],"time":result[2]})
+            # 时间可能要抓成string格式
+        return list
+    return []
+    
+# Insert a new record, containing title, picurl and content.
+def insertArticle(title, picurl, content):
+    logger.info('Setting password, name:%s, password:%s' % (name, password))
+    db = mysql.connector.connect(user=mysql_username, password=mysql_password, database=database)
+    cursor = db.cursor()
+    cursor.execute(
+    result = cursor.fetchall()
+    
+    db.commit()
+    cursor.close();
+    db.close()
+    return True
