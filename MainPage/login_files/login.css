@@ -1,6 +1,6 @@
-/**
+ï»¿/**
  * @author ShadowInk@
- * @member ³ÌÔª ÍõÖŞ¶° ÉÛ¿¡Ó± ĞìÀÊÀÊ Â¬ºëÃñ
+ * @member ç¨‹å…ƒ ç‹æ´²æ ‹ é‚µä¿Šé¢– å¾æœ—æœ— å¢å¼˜æ°‘
  * @date 2018-09
  * @info login
  */
@@ -316,13 +316,13 @@ a {
   text-align: center;
   background-repeat: no-repeat;
   background-position: center 128px;
-  background-image: url("../bk.jpg");
+  background-image: url("../image/bk.jpg");
   -webkit-background-size: 169px auto;
   background-size: 169px auto;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .welcome-wrapper {
-    background-image: url("../bk.jpg");
+    background-image: url("../image/bk.jpg");
   }
 }
 @media screen and (device-aspect-ratio: 2 / 3) {

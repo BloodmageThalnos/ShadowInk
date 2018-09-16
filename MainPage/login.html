@@ -12,23 +12,21 @@
 <body style="height:100%">
 	<style type="text/css">
 		body{
-			background-image:url(./bk.jpg);
+			background-image:url(./image/bk.jpg);
 			background-size:cover;
 		}
 	</style>
 <div class="login-wrapper" id="loginWrapper" style="display: block; min-height: initial;">
     <section class="avatar-wrapper" id="avatarWrapper">
-	<img src="./icon.png">
+	<img src="./image/icon.png">
 	</section>
     <form id="loginForm" action="/login" method="POST">
         <div class="box">
             <div class="input-wrapper">
                 <i class="icon forName"></i>
-                <!-- 用户名 -->
                 <p class="input-box">
                     <input type="text" placeholder="用户名/手机号" id="loginName" name="name">
-                    <!-- 清除用户名小叉 -->
-                    <a href="javascript:;" class="input-clear hid" id="loginnameclear"></a>
+                    <a href="javascript:void(0);" class="input-clear hid" id="loginnameclear"></a>
                 </p>
             </div>
             <div class="input-wrapper">
