@@ -37,4 +37,7 @@ function Quit() {
 function About(){
 	window.confirm('Author : Group 16');
 }
+<<<<<<< HEAD:MainPage/my_files/my.js
+>>>>>>> e12f4449f7096a02bed38e9f97f10fdd7b641418:MainPage/my.js
+=======
 >>>>>>> e12f4449f7096a02bed38e9f97f10fdd7b641418:MainPage/my.js
