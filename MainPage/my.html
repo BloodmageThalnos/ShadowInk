@@ -3,32 +3,101 @@
     <title>墨影</title>
     <script type="text/javascript" src="./bin/jquery.js"></script>
     <script type="text/javascript" charset="utf-8" async src="./my_files/my.js"></script>
-    <link href="./my_files/my.css" rel="stylesheet">
+        
 	<meta name="viewport" content="width=device-width, initial-scale=0.5">
     <!-- Bootstrap 核心文件 -->
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!--script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script-->
-  
+	<link href="./my_files_my.css" rel="stylesheet">	
 </head>
 <body style="overflow:hidden;">
-    <div class="LeftBar" id="LeftBar">
-        <div class="column" id="LeftBar_row">
-			<a href="./login.html">
-				<button type="button" class="btn btn-default btn-lg btn-block" style="height:150px;">退出</button>
-			</a>
+	<style type="text/css">
+		.btn-lg{
+			height:8%;
+			font-family:宋体;
+			font-size:36px;
+			background-color:#ffffff;
+			outline:none;
+			text-align:left;
+		}
+		
+		.btn-block{
+			background-color:#ffffff;
+			outline:none;
+			
+		}
+		
+		.blank-area{
+			height:29.4%;
+			outline:none;
+			text-align:left;
+		}
+			
+        .img{
+			position:relative;
+			bottom:0px;
+			margin-left:10%;
+			width:100%;
+			height:100%;
+		}
+		
+		.glyphicon{
+			font-size:72px;
+			border-width:0;
+			background-color:transparent;
+			color:grey;
+		}
+	</style>
+	<div class="LeftBar" id="LeftBar">	
+        <div class="column" id="LeftBar_row">			
+			<div style="background-image:url(./image/barbk.jpg);
+						background-size:cover;
+						float:top;overflow:hidden;
+						border-bottom: 1px solid rgba(26,26,26,.06);
+						box-shadow: 0 1px 3px 0 rgba(23,81,153,.05);
+						min-width: 100%;
+						height:30%;">
+				<div style="width:100%;height:100%;position:relative;bottom:-50%;left:10%">
+					<img src="./image/1.png" class="img-responsive img-circle" alt="Cinque Terre"  style="width:36%;border-color:#efef35">
+				</div>
+				<div style="width:100%;height:100%;position:relative;bottom:-50%;left:10%">
+					<img src="" class="img-responsive img-circle" alt="Cinque Terre"  style="width:45%;background-color:#efef35">
+				</div>
+			</div>			
+			<div>
+				<button type="button" class="btn btn-lg btn-block" onclick="About()" style="text-align:left;">&#160&#160关于我们</button>
+				<button type="button" class="btn btn-lg btn-block">&#160&#160收藏</button>
+				<button type="button" class="btn btn-lg btn-block">&#160&#160我的关注</button>
+				<button type="button" class="btn btn-lg btn-block" onclick="Quit()">&#160&#160退出</button>
+				<div class="blank-area"></div>
+			</div>
+			<div class="BottomBar" style="border:0px;float:bottom;">
+				<div class="BottomBar-inner" style="border:0px;">
+					<div id="BottomBarBtn_4" align="center">
+						<button class="glyphicon glyphicon-cog"></button>设置    
+					</div>
+					<div id="BottomBarBtn_5" align="center">
+						<button class="glyphicon glyphicon-share"></button>分享
+					</div>
+					<div id="BottomBarBtn_6" align="center">
+						<button class="glyphicon glyphicon-map-marker"></button>定位
+					</div>
+				</div>
+			</div>
 		</div>
     </div>
     <div class="MainPage" id="MainPage">
         <div class="TopBar">
             <div class="TopBar-inner">
-            <div id="btnShowLeftBar">
-                <svg class="TopBarBtn_1" fill="rgb(133, 144, 166)" viewBox="0 0 24 24" width="80" height="80"><path d="M3.5 5h16a1.5 1.5 0 0 1 0 3h-16a1.5 1.5 0 0 1 0-3zm0 6h16a1.5 1.5 0 0 1 0 3h-16a1.5 1.5 0 0 1 0-3zm0 6h16a1.5 1.5 0 0 1 0 3h-16a1.5 1.5 0 0 1 0-3z" fill-rule="evenodd"></path></svg>
-            </div>
-            <p style="font-family: 黑体;font-size: 64px;">墨影</p>
-            <div id="btnShowSearch">
-                <svg class="TopBarBtn_2" fill="rgb(133, 144, 166)" viewBox="0 0 16 16" width="64" height="64"><path d="M12.054 10.864c.887-1.14 1.42-2.57 1.42-4.127C13.474 3.017 10.457 0 6.737 0S0 3.016 0 6.737c0 3.72 3.016 6.737 6.737 6.737 1.556 0 2.985-.533 4.127-1.42l3.103 3.104c.765.46 1.705-.37 1.19-1.19l-3.103-3.104zm-5.317.925c-2.786 0-5.053-2.267-5.053-5.053S3.95 1.684 6.737 1.684 11.79 3.95 11.79 6.737 9.522 11.79 6.736 11.79z"></path></svg>
-            </div>
+				<div id="btnShowLeftBar" align="center">
+					<button class="glyphicon glyphicon-list"></button>
+				</div>
+				<p style="font-family: 华文行楷;font-size: 64px;">墨影</p>
+				<div id="btnShowSearch">
+					
+					<button class="glyphicon glyphicon-search"></button>
+				</div>
             </div>
         </div>
         
@@ -36,17 +105,14 @@
         
         <div class="BottomBar">
             <div class="BottomBar-inner">
-            <div id="BottomBarBtn_1" align="center">
-            <svg fill="#8590a6" viewBox="0 0 24 24" width="72" height="72"><path d="M15.417 12.923c-.376.653-.837 1.281-.763 1.863.292 2.273 5.562 1.77 6.78 3.048.566.595.566.664.566 4.164-6.611-.07-13.363 0-20 0 .027-3.5 0-3.478.62-4.164 1.303-1.44 6.581-.715 6.78-3.133.045-.545-.38-1.114-.763-1.778C6.511 9.233 5.697 2 12 2s5.422 7.443 3.417 10.923z" fill-rule="evenodd"></path></svg>
-            <br />首页
+            <div id="BottomBarBtn_1" style="align:center;width:33%;position:fixed;z-index:999;top:92.5%;">
+				<button class="btn btn-block"><span class="glyphicon glyphicon-home"></span></button>    
             </div>
-            <div id="BottomBarBtn_2" align="center">
-            <svg fill="#8590a6" viewBox="0 0 24 24" width="80" height="80"><path d="M3 3.99C3 2.892 3.893 2 4.995 2h14.01C20.107 2 21 2.898 21 3.99v16.02c0 1.099-.893 1.99-1.995 1.99H4.995A1.997 1.997 0 0 1 3 20.01V3.99zM6 7c0 .556.449 1 1.002 1h9.996a.999.999 0 1 0 0-2H7.002C6.456 6 6 6.448 6 7zm0 5c0 .556.449 1 1.002 1h9.996a.999.999 0 1 0 0-2H7.002C6.456 11 6 11.448 6 12zm0 5c0 .556.446 1 .997 1h6.006c.544 0 .997-.448.997-1 0-.556-.446-1-.997-1H6.997C6.453 16 6 16.448 6 17z"></path></svg>
-            <br />按钮3
+            <div id="BottomBarBtn_2" style="align:center;width:34%;position:relative;bottom:12%;">
+				<button class="btn btn-block"><span class="glyphicon glyphicon-camera"></span></button>
             </div>
-            <div id="BottomBarBtn_3" align="center">
-            <svg fill="#8590a6" viewBox="0 0 24 24" width="80" height="80"><path d="M2 11.999c0-2.756 1.154-5.417 3.167-7.3a1.266 1.266 0 0 1 1.73 1.847 7.396 7.396 0 0 0-2.367 5.453c0 4.119 3.35 7.47 7.47 7.47 4.119 0 7.47-3.351 7.47-7.47a7.41 7.41 0 0 0-2.279-5.37 1.266 1.266 0 0 1 1.76-1.819A9.923 9.923 0 0 1 22 12c0 5.513-4.486 10-10 10s-10-4.487-10-10zm8.699-.482V3.26a1.26 1.26 0 1 1 2.52 0v8.257a1.26 1.26 0 1 1-2.52 0z" fill-rule="evenodd"></path></svg>
-            <br />按钮5
+            <div id="BottomBarBtn_3" style="align:center;width:33%;position:relative;bottom:14%;">
+				<button class="btn btn-block"><span class="glyphicon glyphicon-user"></span></button>
             </div>
             </div>
         </div>
