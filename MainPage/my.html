@@ -13,6 +13,11 @@
 </head>
 <body style="overflow:hidden;">
 	<style type="text/css">
+		.div-left{
+			border:1px solid #000;
+			float:left
+		}
+			
 		.btn-lg{
 			height:8%;
 			font-family:宋体;
@@ -25,7 +30,10 @@
 		.btn-block{
 			background-color:#ffffff;
 			outline:none;
-			
+		}
+		
+		.height{
+			height:100%;
 		}
 		
 		.blank-area{
@@ -74,14 +82,15 @@
 			</div>
 			<div class="BottomBar" style="border:0px;float:bottom;">
 				<div class="BottomBar-inner" style="border:0px;">
-					<div id="BottomBarBtn_4" align="center">
-						<button class="glyphicon glyphicon-cog"></button>设置    
+				
+					<div id="BottomBarBtn_1" style="align:center;width:33%;">
+						<button class="btn btn-block height"><span class="glyphicon glyphicon-cog"></span>设置</button>    
 					</div>
-					<div id="BottomBarBtn_5" align="center">
-						<button class="glyphicon glyphicon-share"></button>分享
+					<div id="BottomBarBtn_2" style="align:center;width:34%;">
+						<button class="btn btn-block height"><span class="glyphicon glyphicon-share"></span>分享</button>
 					</div>
-					<div id="BottomBarBtn_6" align="center">
-						<button class="glyphicon glyphicon-map-marker"></button>定位
+					<div id="BottomBarBtn_3" style="align:center;width:33%;">
+						<button class="btn btn-block height"><span class="glyphicon glyphicon-map-marker"></span>定位</button>
 					</div>
 				</div>
 			</div>
@@ -90,13 +99,12 @@
     <div class="MainPage" id="MainPage">
         <div class="TopBar">
             <div class="TopBar-inner">
-				<div id="btnShowLeftBar" align="center">
-					<button class="glyphicon glyphicon-list"></button>
+				<div id="btnShowLeftBar">
+					<button class="glyphicon glyphicon-list" style="font-size:45px;left:-120%;"></button>
 				</div>
-				<p style="font-family: 华文行楷;font-size: 64px;">墨影</p>
-				<div id="btnShowSearch">
-					
-					<button class="glyphicon glyphicon-search"></button>
+				<p style="font-family: 华文行楷;font-size: 80px;">墨影</p>
+				<div id="btnShowSearch">	
+					<button class="glyphicon glyphicon-search" style="font-size:45px;left:120%"></button>
 				</div>
             </div>
         </div>
@@ -106,13 +114,13 @@
         <div class="BottomBar">
             <div class="BottomBar-inner">
             <div id="BottomBarBtn_1" style="align:center;width:33%;">
-				<button class="btn btn-block"><span class="glyphicon glyphicon-home"></span></button>    
+				<button class="btn btn-block height"><span class="glyphicon glyphicon-home"></span></button>    
             </div>
             <div id="BottomBarBtn_2" style="align:center;width:34%;">
-				<button class="btn btn-block"><span class="glyphicon glyphicon-camera"></span></button>
+				<button class="btn btn-block height"><span class="glyphicon glyphicon-camera"></span></button>
             </div>
             <div id="BottomBarBtn_3" style="align:center;width:33%;">
-				<button class="btn btn-block"><span class="glyphicon glyphicon-user"></span></button>
+				<button class="btn btn-block height"><span class="glyphicon glyphicon-user"></span></button>
             </div>
             </div>
         </div>
