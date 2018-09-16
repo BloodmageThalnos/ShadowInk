@@ -24,7 +24,6 @@
 	min-width: 100%;
     float: top;
 	overflow: hidden
-	margin:5%;
 }
 
 .TopBar-inner {
@@ -70,42 +69,3 @@
     font-size: 28px;
     color: #444488;
 }
-
-.btn:focus,
-.btn:active:focus,
-.btn.active:focus,
-.btn.focus,
-.btn:active.focus,
-.btn.active.focus {
-outline: none; 
-border-color:white; 
-box-shadow:2px;
-}
-
-.glyphicon:focus,
-.glyphicon:active:focus,
-.glyphicon.active:focus,
-.glyphicon.focus,
-.glyphicon:active.focus,
-.glyphicon.active.focus {
-outline: none; 
-border-color:white; 
-box-shadow:2px;
-}
-
-.btn:active{
-	background-color:#dddddd;
-	outline: none; 
-	border-color:#dddddd; 
-	box-shadow:none;
-}
-
-.glyphicon:active{
-	background-color:#dddddd;
-	outline: none; 
-	border-color:#dddddd; 
-	box-shadow:none;
-}
-
-
-
