@@ -24,7 +24,6 @@
 	min-width: 100%;
     float: top;
 	overflow: hidden
-	margin:5%;
 }
 
 .TopBar-inner {
@@ -33,16 +32,16 @@
 	display: flex;
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
-	justify-content: space-around;
+	justify-content: space-between;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	height: 7.5%;
+	height: 100px;
 }
 
 .ContentPage {
     width: 100%;
-    height: 85%;
+    height: calc(100% - 220px);
     overflow: scroll;
 }
 
@@ -53,7 +52,6 @@
 	background-color: #fff;
 	min-width: 100%;
 	overflow: hidden;
-	bottom:0px;
 }
 
 .BottomBar-inner {
@@ -66,47 +64,8 @@
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	height: 7.5%;
+	height: 120px;
     line-height: 15px;
     font-size: 28px;
     color: #444488;
 }
-
-.btn:focus,
-.btn:active:focus,
-.btn.active:focus,
-.btn.focus,
-.btn:active.focus,
-.btn.active.focus {
-outline: none; 
-border-color:white; 
-box-shadow:2px;
-}
-
-.glyphicon:focus,
-.glyphicon:active:focus,
-.glyphicon.active:focus,
-.glyphicon.focus,
-.glyphicon:active.focus,
-.glyphicon.active.focus {
-outline: none; 
-border-color:white; 
-box-shadow:2px;
-}
-
-.btn:active{
-	background-color:#dddddd;
-	outline: none; 
-	border-color:#dddddd; 
-	box-shadow:none;
-}
-
-.glyphicon:active{
-	background-color:#dddddd;
-	outline: none; 
-	border-color:#dddddd; 
-	box-shadow:none;
-}
-
-
-

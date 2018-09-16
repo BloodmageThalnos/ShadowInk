@@ -1,6 +1,6 @@
 $('#btnShowLeftBar').bind("click",ShowLeftBar)
 function ShowLeftBar(){
-    $('#MainPage').attr("style","transform: translate(70%, 0);") //
+    $('#MainPage').attr("style","transform: translate(70%, 0);") //rotate3d(.25,1,.25,360deg)
     $('#LeftBar').attr("style","transform: translate(100%, 0);")
     $('#btnShowLeftBar').unbind("click")
     $('#btnShowLeftBar').bind("click",HideLeftBar)
@@ -21,23 +21,5 @@ function ShowMainPage2(){
     $('#ContentPage').attr("src","./pages/page2.html");
 }
 function ShowMainPage3(){
-<<<<<<< HEAD:MainPage/my_files/my.js
     $('#ContentPage').attr("src","./pages/page3.html");
 }
-=======
-    $('#ContentPage').attr("src","./page3.html");
-}
-function Quit() {
-    var result = confirm('是否真的要退出');
-    if(result){
-    	window.location.href="login.html";
-    }
-}
-
-function About(){
-	window.confirm('Author : Group 16');
-}
-<<<<<<< HEAD:MainPage/my_files/my.js
->>>>>>> e12f4449f7096a02bed38e9f97f10fdd7b641418:MainPage/my.js
-=======
->>>>>>> e12f4449f7096a02bed38e9f97f10fdd7b641418:MainPage/my.js
