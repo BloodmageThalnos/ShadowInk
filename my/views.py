@@ -57,6 +57,14 @@ def showPages(request, path):
                 }
         return HttpResponse(template.render(context, request))
         
+    if path=='pageMain':
+        articles = main.getArticles()
+        template = loader.get_template('pageMain.html')
+        context = {
+            'articles' : articles
+        }
+        return HttpResponse(template.render(context, request))
+        
     if path=='eat':
         user_list = main.getUsers()
         template = loader.get_template('back.html')
@@ -66,7 +74,7 @@ def showPages(request, path):
         return HttpResponse(template.render(context, request))
 
     if path=='test':
-        main.insertUser('18110022122','aodacat')
+        main.insertArticle(4,'王洲栋正在吃拉面','https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3987608775,2019951901&fm=26&gp=0.jpg','王洲栋煮了一大碗拉面，吃的真香啊！')
         return HttpResponse('Ok')
         
     return None

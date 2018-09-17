@@ -23,7 +23,7 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 CREATE TABLE `article` (
-  `a_id` int(11) NOT NULL,
+  `a_id` int(11) NOT NULL AUTO_INCREMENT,
   `u_id` int(11) NOT NULL,
   `title` longtext COLLATE utf8_unicode_ci NOT NULL,
   `pic_url` longtext COLLATE utf8_unicode_ci,
@@ -123,7 +123,6 @@ def getArticles():
 
 # Insert a new record, containing title, picurl and content.
 def insertArticle(user_id, title, picurl, content):
-    logger.info('Setting password, name:%s, password:%s' % (name, password))
     db = mysql.connector.connect(user=mysql_username, password=mysql_password, database=database)
     cursor = db.cursor()
     cursor.execute("INSERT INTO `article`(`u_id`,`title`,`pic_url`,`content`,`create_date`)\
