@@ -57,13 +57,16 @@ def showPages(request, path):
                 }
         return HttpResponse(template.render(context, request))
         
-    if path=='pageMain':
+    if path=='pContent':
         articles = main.getArticles()
-        template = loader.get_template('pages/page1.html')
+        template = loader.get_template('pages/pContent.html')
         context = {
             'articles' : articles
         }
         return HttpResponse(template.render(context, request))
+        
+    if path=='pPostArticle':
+        
         
     if path=='eat':
         user_list = main.getUsers()

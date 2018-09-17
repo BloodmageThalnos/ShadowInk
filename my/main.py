@@ -122,6 +122,7 @@ def getArticles():
     return []
 
 # Insert a new record, containing title, picurl and content.
+# return True if no error occurs.
 def insertArticle(user_id, title, picurl, content):
     db = mysql.connector.connect(user=mysql_username, password=mysql_password, database=database)
     cursor = db.cursor()
