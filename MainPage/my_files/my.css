@@ -106,3 +106,42 @@ box-shadow:2px;
 	border-color:#dddddd; 
 	box-shadow:none;
 }
+
+.MainPage-TopBar{
+	background-color:#dddddd;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height:25%;
+	border:2px;
+	width:100%;
+	overflow:hidden;
+}
+
+.imgContainer{
+	margin-left:3%;
+	margin-right:3%;
+	height: 100%;
+	width:100%;
+	background-image: url(../image/bk.jpg);
+	background-size:cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
