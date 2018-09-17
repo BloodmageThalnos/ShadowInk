@@ -59,7 +59,7 @@ def showPages(request, path):
         
     if path=='pageMain':
         articles = main.getArticles()
-        template = loader.get_template('pageMain.html')
+        template = loader.get_template('pages/page1.html')
         context = {
             'articles' : articles
         }
@@ -74,10 +74,10 @@ def showPages(request, path):
         return HttpResponse(template.render(context, request))
 
     if path=='test':
-        main.insertArticle(4,'王洲栋正在吃拉面','https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3987608775,2019951901&fm=26&gp=0.jpg','王洲栋煮了一大碗拉面，吃的真香啊！')
+        main.insertArticle(5,'【今日新闻】邢凯笑了','https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/450a6a696e5f6d7a3601.jpg','抓拍了一张正在笑的邢凯！就是有点蓝。')
         return HttpResponse('Ok')
         
-    return None
+    return HttpResponse('No Page Here.')
 
 # '/<path>'目录，一般是请求资源或者静态网页，直接分类别发送
 def showPath(request, path):
@@ -94,7 +94,7 @@ def showPath(request, path):
         return HttpResponse(html, content_type="image/png")
         
     if path.endswith('ico'):
-        with open('./MainPage/'+path, mode="rb") as f:
+        with open('./MainPage/image/'+path, mode="rb") as f:
             html = f.read()
         return HttpResponse(html, content_type="image/x-icon")
         

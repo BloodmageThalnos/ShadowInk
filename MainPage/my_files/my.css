@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "PingFangSC-Medium","Source Han Sans CN",sans-serif;
 }
 
 .MainPage{
@@ -125,7 +126,15 @@ box-shadow:2px;
 	width: 100%;
 	overflow:hidden;
 	display:block;
-	border-bottom:2px solid #4f4f4f;
+}
+
+.left_imgContainer{
+	margin-left:5%;
+	margin-top:5%;
+	height: 88%;
+	width: 90%;
+	overflow:hidden;
+	display:block;
 }
 
 .tr-lg{
@@ -145,27 +154,21 @@ box-shadow:2px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	height:15%;
-	border:2px;
+	height:16%;
 	width:100%;
 	overflow:hidden;
+	border-bottom:2px solid #e2e2e2;
 }
 
+.left_ArticleBar{
+    width: 40%;
+    max-height:100%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.right_ArticleBar{
+    width: 60%;
+    max-height:100%;
+}
 
 
 
