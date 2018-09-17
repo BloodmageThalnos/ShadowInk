@@ -77,7 +77,7 @@ def showPages(request, path):
         return HttpResponse(template.render(context, request))
 
     if path=='test':
-        main.insertArticle(5,'【今日新闻】邢凯笑了','https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/450a6a696e5f6d7a3601.jpg','抓拍了一张正在笑的邢凯！就是有点蓝。')
+        main.insertArticle(4,'【今日新闻】邢凯笑了','https://gss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/450a6a696e5f6d7a3601.jpg','抓拍了一张正在笑的邢凯！就是有点蓝。')
         return HttpResponse('Ok')
         
     return HttpResponse('No Page Here.')
