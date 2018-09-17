@@ -2,22 +2,22 @@
 <header>
 <title>墨影</title>
     <script type="text/javascript" src="./bin/jquery.js"></script>
-    <script type="text/javascript" charset="utf-8" async src="./my_files/my.js"></script>       
+    <script type="text/javascript" charset="utf-8" async src="./my_files/my.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=0.5">
     <!-- Bootstrap 核心文件 -->
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!--script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script-->	
+    <!--script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script-->
 	<link href="./my_files/my.css" rel="stylesheet">
 </header>
 	<div class="MainPage" id="MainPage">
         <div class="TopBar">
             <div class="TopBar-inner">
-				<div id="btnShowLeftBar">
+				<div style="margin-bottom:5%;">
 					<button class="btn btn-lg btn-block btn-link" style="font-size:45px;" onclick="javascript:top.location='./my.html';" value="原窗口打开">返回</button>
 				</div>
 				<p style="font-family: 华文行楷;font-size: 80px;">墨影</p>
-				<div id="btnShowSearch">	
+				<div style="margin-bottom:5%;">
 					<button class="btn btn-lg btn-block btn-link" style="font-size:45px;">发布</button>
 				</div>
             </div>
@@ -26,10 +26,23 @@
 			<form role="form">
 				<div class="form-group">
 					<input type="text" class="form-control" placeholder="请输入标题" style="height:8%;font-size:60px;font-weight:bold;text-align:center;">
-					<textarea class="form-control" rows="15" style="height:75%;font-size:30px;" placeholder="请输入正文"></textarea>
-					<input id="upload" type="file" accept="image/*;" capture="camera">
+					<textarea class="form-control" rows="15" style="height:65%;font-size:30px;" placeholder="请输入正文">&#160&#160</textarea>
+					<input id="upload" type="file" accept="image/*;" style="font-size:30px;font-weight:bold;height:11%;">
 				</div>
 			</form>
 		</div>
+		<div class="BottomBar" style="float:bottom;">
+            <div class="BottomBar-inner">
+				<div style="align:center;width:33%;">
+					<button class="btn btn-block height"><span class="glyphicon glyphicon-home"></span></button>    
+				</div>
+				<div style="align:center;width:34%;">
+					<button class="btn btn-block height"><span class="glyphicon glyphicon-camera"></span></button>
+				</div>
+				<div style="align:center;width:33%;">
+					<button class="btn btn-block height"><span class="glyphicon glyphicon-user"></span></button>
+				</div>
+            </div>
+        </div>
 	</div>
 </html>
