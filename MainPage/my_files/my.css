@@ -170,5 +170,48 @@ box-shadow:2px;
     max-height:100%;
 }
 
+.div-left{
+	border:1px solid #000;
+	float:left
+}
+			
+.btn-lg{
+	height:8%;
+	font-family:宋体;
+	font-size:36px;
+	background-color:#ffffff;
+	outline:none;
+	text-align:left;
+}
+		
+.btn-block{
+	background-color:#ffffff;
+	outline:none;
+}
+		
+.height{
+	height:100%;
+}
+		
+.blank-area{
+	height:29.4%;
+	outline:none;
+	text-align:left;
+}
+			
+.img-headicon{
+	position:relative;
+	bottom:0px;
+	margin-left:10%;
+	width:100%;
+	height:100%;
+}
+		
+.glyphicon{
+	font-size:40px;
+	border-width:0;
+	background-color:transparent;
+	color:grey;
+}
 
 
