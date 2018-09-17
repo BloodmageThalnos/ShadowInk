@@ -112,17 +112,43 @@ box-shadow:2px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	height:25%;
+	height:30%;
 	border:2px;
 	width:100%;
 	overflow:hidden;
 }
 
 .imgContainer{
-	margin-left:3%;
-	margin-right:3%;
+	margin-left:5%;
+	margin-right:5%;
 	height: 100%;
 	width: 100%;
+	overflow:hidden;
+	display:block;
+	border-bottom:2px solid #4f4f4f;
+}
+
+.tr-lg{
+	height:100%;
+}
+
+.tr{
+	text-align:middle;
+}
+
+.td{
+	text-align:middle;
+}
+
+.ArticleBar{
+	background-color:#ffffff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height:15%;
+	border:2px;
+	width:100%;
+	overflow:hidden;
 }
 
 
