@@ -5,6 +5,10 @@ function ShowLeftBar(){
     $('#btnShowLeftBar').unbind("click")
     $('#btnShowLeftBar').bind("click",HideLeftBar)
 }
+function RollTheImg(){
+	$('MainPage-TopBar').attr("style","transform:translate(100%,0);")
+	
+}
 function HideLeftBar(){
     $('#MainPage').attr("style","transform: ;")
     $('#LeftBar').attr("style","transform: ;")
