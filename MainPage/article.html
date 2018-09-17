@@ -13,12 +13,12 @@
 	<div class="MainPage" id="MainPage">
         <div class="TopBar">
             <div class="TopBar-inner">
-				<div style="margin-bottom:5%;">
-					<button class="btn btn-lg btn-block btn-link" style="font-size:45px;" onclick="javascript:top.location='./my.html';" value="原窗口打开">返回</button>
+				<div id="btnShowLeftBar">
+					<button class="glyphicon glyphicon-chevron-down" style="font-size:45px;" onclick="javascript:top.location='./my.html';" value="原窗口打开"></button>
 				</div>
 				<p style="font-family: 华文行楷;font-size: 80px;">墨影</p>
-				<div style="margin-bottom:5%;">
-					<button class="btn btn-lg btn-block btn-link" style="font-size:45px;">发布</button>
+				<div id="btnShowLeftBar">
+					<button class="glyphicon glyphicon-share-alt" style="font-size:45px;" onclick="javascript:window.confirm('确认发布吗?')"></button>
 				</div>
             </div>
         </div>
@@ -27,22 +27,9 @@
 				<div class="form-group">
 					<input type="text" class="form-control" placeholder="请输入标题" style="height:8%;font-size:60px;font-weight:bold;text-align:center;">
 					<textarea class="form-control" rows="15" style="height:65%;font-size:30px;" placeholder="请输入正文">&#160&#160</textarea>
-					<input id="upload" type="file" accept="image/*;" style="font-size:30px;font-weight:bold;height:11%;">
+					<input id="upload" type="file" accept="image/*;" style="font-size:30px;font-weight:bold;height:15%;">
 				</div>
 			</form>
 		</div>
-		<div class="BottomBar" style="float:bottom;">
-            <div class="BottomBar-inner">
-				<div style="align:center;width:33%;">
-					<button class="btn btn-block height"><span class="glyphicon glyphicon-home"></span></button>    
-				</div>
-				<div style="align:center;width:34%;">
-					<button class="btn btn-block height"><span class="glyphicon glyphicon-camera"></span></button>
-				</div>
-				<div style="align:center;width:33%;">
-					<button class="btn btn-block height"><span class="glyphicon glyphicon-user"></span></button>
-				</div>
-            </div>
-        </div>
 	</div>
 </html>
