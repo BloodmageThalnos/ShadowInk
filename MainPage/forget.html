@@ -32,14 +32,20 @@
             <div class="input-wrapper">
                 <i class="icon forPwd"></i>
                 <p class="input-box">
-                <input type="password" placeholder="请输入密码" id="loginPassword" name="password">
+                <input type="password" placeholder="请输入新密码" id="loginPassword" name="password">
+                </p>
+            </div>
+				<div class="input-wrapper">
+                <i class="icon forPwd"></i>
+                <p class="input-box">
+                <input type="password" placeholder="确认新密码" id="repeatPassword">
                 </p>
             </div>
         </div>
-        <a href="javascript:document.getElementById('loginForm').submit()" class="btn btnRed" id="loginAction">登陆</a>
+        <a href="javascript:document.getElementById('loginForm').submit()" class="btn btnRed" id="loginAction">重置密码</a>
     </form>
     <footer class="footer">
-        <a href="/register">注册账号</a><a href="/forget">忘记密码</a>
+        <a href="/register">重新注册</a><a href="/login">继续登陆</a>
     </footer>
 </body>
 </html>
