@@ -66,7 +66,7 @@ def showPages(request, path):
         return HttpResponse(template.render(context, request))
         
     if path=='pPostArticle':
-        pass
+        
         
     if path=='eat':
         user_list = main.getUsers()
