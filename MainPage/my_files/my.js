@@ -17,9 +17,10 @@ function HideLeftBar(){
 }
 
 // 撰写文章按钮点击事件
+$('#FloatPage').attr("style","margin-top: "+$('body').height()+";")
 $('#PostArticleBtn').bind("click",function(){
     HideLeftBar()
-    
+    $('#FloatPage').attr("style","margin-top: 0;")
 })
 
 

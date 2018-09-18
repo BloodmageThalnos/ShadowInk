@@ -4,6 +4,10 @@
     font-family: "PingFangSC-Medium","Source Han Sans CN",sans-serif;
 }
 
+html,body{
+    height:100%;
+}
+
 .MainPage{
     transition: all 0.5s ease-out;
 }
@@ -73,16 +77,21 @@
 }
 
 .FloatPage {
-    background-color: white;
+    background-color: red;
     position: absolute;
     z-index: 99;
     height: 100%;
     width: 100%;
     margin:0;
     padding:0;
-    margin-top: 000%;
     transition: all 0.5s ease-in;
     overflow: hidden
+}
+
+.FloatPage-inner {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
 }
 
 .btn:focus,
