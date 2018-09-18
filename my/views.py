@@ -44,20 +44,28 @@ def showPages(request, path):
     if path=='register':
         name = request.POST.get('name')
         password = request.POST.get('password')
+        vcode = request.POST.get('vcode')
         context = {}
         if name == None and password == None:
             template = loader.get_template('register.html')
         else:
-            insertResult = main.insertUser(name, password)
-            if insertResult:
-                template = loader.get_template('loginFail.html')
+            # 如果验证码错误
+            if vcode != request.session.get('vcode',''):
+                template = loader.get_template('registerFail.html')
                 context = {
-                    'HelloMessage': '注册成功！请登录。',
+                    'HelloMessage': '验证码错误！请重新输入，或者尝试重新发送。',
                 }
-            else :
+            # 尝试向数据库中插入用户，并返回成功与否
+            elif not main.insertUser(name, password):
                 template = loader.get_template('registerFail.html')
                 context = {
                     'HelloMessage': '用户已存在！请重新输入用户名。',
+                }
+            # 用户注册成功
+            else :
+                template = loader.get_template('loginFail.html')
+                context = {
+                    'HelloMessage': '注册成功！请登录。',
                 }
         return HttpResponse(template.render(context, request))
         
@@ -86,8 +94,9 @@ def showPages(request, path):
     if path=='sendSMS':
         phone_number = request.POST.get("phone_number")
         identify_code = str(random.randint(1000,9999))
-        
-        logging.info(phone_number)
+        request.session['vcode'] = identify_code
+        logging.info(phone_number + " , " + identify_code)
+        result = {}
         
         '''
         appid = 1400143065
@@ -102,9 +111,7 @@ def showPages(request, path):
         logging.info(result)
         '''
         
-        ret = {'msg':'Success'}
-        
-        return HttpResponse(json.dumps(ret))
+        return HttpResponse(json.dumps(result))
         
     return HttpResponse('No Page Here.')
 

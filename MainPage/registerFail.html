@@ -8,6 +8,9 @@
     <meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,minimal-ui">
     <link rel="stylesheet" href="./register_files/login.css">
     <script type="text/javascript" src="./register_files/patternLock.min.js" charset="utf-8"></script>
+	<link href="./my_files/my.css" rel="stylesheet">
+    <script type="text/javascript" src="./bin/jquery.js"></script>
+    <script type="text/javascript" src="./register_files/register.js"></script>
 	<script>
 	//自定义弹框
 	function Toast(msg,duration){
@@ -31,10 +34,6 @@
 			background-image:url(./image/bk.jpg);
 			background-size:cover;
 		}
-        center{
-            font-size: 16 px;
-            font-color: red;
-        }
 	</style>
 <div class="login-wrapper" id="loginWrapper" style="display: block; min-height: initial;">
     <section class="avatar-wrapper" id="avatarWrapper">
@@ -46,8 +45,26 @@
                 <i class="icon forName"></i>
                 <!-- 用户名 -->
                 <p class="input-box">
-                    <input type="text" placeholder="邮箱/手机号" id="registerName" name="name">
+                    <input type="text" placeholder="用户名/邮箱" id="registerName" name="name">
                 </p>
+            </div>
+            <div class="input-wrapper">
+                <i class="icon forName"></i>
+                
+                <p class="input-box">
+                    <input type="text" placeholder="手机号" id="phoneNumber">
+                </p>
+            </div>
+			<div class="input-wrapper">                
+                <div class="input-box ArticleBar" style="border-bottom:0px;">
+					<div class="left_ArticleBar" style="margin:0;width:70%;">
+						<i class="icon forName"></i>
+						<input type="text" placeholder="请输入短信验证码" id="verifyCode" name="vcode" style="width:75%;padding:12px 0px 12px 12px;">
+					</div>
+					<div class="right_ArticleBar" style="align:middle;">
+						<button type="button" class="btn btn-default" id="huoQuY" style="width:100%;float:right;overflow:hidden;height:85%;font-size:15px;margin:0;margin-top:2%;" >获取验证码</button>
+					</div>
+                </div>
             </div>
             <div class="input-wrapper">
                 <i class="icon forPwd"></i>

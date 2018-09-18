@@ -7,7 +7,7 @@ window.onload=function(){
                 "phone_number": $('#phoneNumber').val(),
             },
             success:function(data){
-                console.log(data["msg"])
+                //console.log(data)
             },
         })
     })
