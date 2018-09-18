@@ -3,6 +3,8 @@
 from django.http import *
 from django.template import loader
 import logging
+import json
+import random
 from . import main
 from qcloudsms_py import SmsSingleSender
 from qcloudsms_py.httpclient import HTTPError
@@ -83,19 +85,26 @@ def showPages(request, path):
         
     if path=='sendSMS':
         phone_number = request.POST.get("phone_number")
-        identify_code = str(random.randint(1000,9999))+"X"
+        identify_code = str(random.randint(1000,9999))
         
+        logging.info(phone_number)
+        
+        '''
         appid = 1400143065
         appkey = "5299b5d8357ef27f451132f858784a6e"
-        phone_numbers = []
+        phone_numbers = [phone_number]
         template_id = 196454
         sms_sign = "小司机科技"
         ssender = SmsSingleSender(appid, appkey)
-        params = ["5678"]
+        params = [identify_code]
         result = ssender.send_with_param(86, phone_numbers[0],
             template_id, params, sign=sms_sign, extend="", ext="")
         logging.info(result)
-        return HttpResponse()
+        '''
+        
+        ret = {'msg':'Success'}
+        
+        return HttpResponse(json.dumps(ret))
         
     return HttpResponse('No Page Here.')
 
