@@ -1,8 +1,7 @@
 <html>
 <header>
 <title>墨影</title>
-    <script type="text/javascript" src="./bin/jquery.js"></script>
-    <script type="text/javascript" charset="utf-8" async src="./my_files/my.js"></script>
+    <script type="text/javascript" src="./bin/jquery.js"></script>    
 	<script type="text/javascript" charset="utf-8" async src="./my_files/showimg.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=0.5">
     <!-- Bootstrap 核心文件 -->
@@ -10,14 +9,18 @@
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!--script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script-->
 	<link href="./my_files/my.css" rel="stylesheet">
+	<script type="text/javascript" charset="utf-8" async src="./my_files/my.js"></script>
 </header>
+<body>
+	<div class="FloatPage" id="MyPage" style="margin-top: 100%;float:top;">
+        <iframe class="FloatPage-inner" src="./my.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="yes" id="MainPage-inner"></iframe>
+    </div>
 	<div class="MainPage" id="MainPage">
         <div class="TopBar">
             <div class="TopBar-inner">
-				<div id="btnShowLeftBar">
-					<button class="glyphicon glyphicon-chevron-down" style="font-size:45px;" onclick="javascript:top.location='./my.html';" value="原窗口打开"></button>
+				<div>
+					<button class="glyphicon glyphicon-chevron-down" id="exitButton" type="button" style="font-size:45px;"></button>
 				</div>
-				<p style="font-family: 华文行楷;font-size: 80px;">墨影</p>
 				<div id="btnShowLeftBar">
 					<button class="glyphicon glyphicon-share-alt" style="font-size:45px;" onclick="javascript:window.confirm('确认发布吗?')"></button>
 				</div>
@@ -34,4 +37,5 @@
 			</form>
 		</div>
 	</div>
+</body>
 </html>

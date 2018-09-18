@@ -98,7 +98,7 @@ def showPages(request, path):
         logging.info(phone_number + " , " + identify_code)
         result = {}
         
-        '''
+        
         appid = 1400143065
         appkey = "5299b5d8357ef27f451132f858784a6e"
         phone_numbers = [phone_number]
@@ -109,7 +109,7 @@ def showPages(request, path):
         result = ssender.send_with_param(86, phone_numbers[0],
             template_id, params, sign=sms_sign, extend="", ext="")
         logging.info(result)
-        '''
+        
         
         return HttpResponse(json.dumps(result))
         

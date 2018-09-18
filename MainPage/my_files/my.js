@@ -23,6 +23,13 @@ $('#PostArticleBtn').bind("click",function(){
     $('#FloatPage').attr("style","margin-top: 0;")
 })
 
+$('#MyPage').attr("style","margin-top: "+$('body').height()+";")
+$('#exitButton').bind("click",function(){
+	console.log('111')
+	$('#MyPage').attr("style","margin-top:0;")
+	console.log('111')
+})
+
 
 // 底部按钮绑定点击事件
 $('#BottomBarBtn_1').bind("click",ShowMainPage1)
