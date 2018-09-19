@@ -1,27 +1,21 @@
-function slide1(){
-	$('#img1').css({'transform':'translate(206%,0)','transition': 'all 0.0s ease-out'})
-	$('#img2').css({'transform':'translate(-103%,0)','transition': 'all 0.8s ease-out'})
-	$('#img3').css({'transform':'translate(-103%,0)','transition': 'all 0.8s ease-out'})	
-}
+!function(){
+    
+    turn=0
+    pic_number=3
+    function slide(){
+        turn+=103
+        Css = {'transform':("translate(-"+turn+"%,0)"), 'transition': 'all 0.8s ease-out'};
+        for(i=1;i<=pic_number*2;i++)
+            $('#img'+i).css(Css);
+        
+        if(turn==309)setTimeout(function(){
+        turn=0
+        Css = {'transform':("translate(0,0)"), 'transition': 'all 0.0s ease-out'};
+        for(i=1;i<=pic_number*2;i++)
+            $('#img'+i).css(Css);
+        },800)
+    }
 
-function slide2(){
-	$('#img1').css({'transform':'translate(103%,0)','transition': 'all 0.8s ease-out'})
-	$('#img2').css({'transform':'translate(103%,0)','transition': 'all 0.0s ease-out'})
-	$('#img3').css({'transform':'translate(-206%,0)','transition': 'all 0.8s ease-out'})	
-}
+    setInterval(slide,1500)
 
-function slide3(){
-	$('#img1').css({'transform':'translate(0,0)','transition': 'all 0.8s ease-out'})
-	$('#img2').css({'transform':'translate(0,0)','transition': 'all 0.8s ease-out'})
-	$('#img3').css({'transform':'translate(0,0)','transition': 'all 0.0s ease-out'})	
-}
-
-function rotate(){
-	setTimeout(slide1,1000)
-	setTimeout(slide2,2800)
-	setTimeout(slide3,4600)
-}
-
-rotate()
-setInterval(rotate,5600)
-
+}();

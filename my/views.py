@@ -78,7 +78,9 @@ def showPages(request, path):
         return HttpResponse(template.render(context, request))
         
     if path=='pPostArticle':
-        pass
+        title = request.POST.get("article")
+        content = request.POST.get("content")
+        pic = request.POST.get("pic")
         
     if path=='eat':
         user_list = main.getUsers()
@@ -86,7 +88,7 @@ def showPages(request, path):
         context = {
             'user_list' : user_list,
         }
-        return HttpResponse(template.render(context, request))
+        return HttpResponse(template.render(context, request)) 
 
     if path=='test':
         return HttpResponse('Ok')
@@ -95,10 +97,10 @@ def showPages(request, path):
         phone_number = request.POST.get("phone_number")
         identify_code = str(random.randint(1000,9999))
         request.session['vcode'] = identify_code
-        logging.info(phone_number + " , " + identify_code)
+        logging.info("Phone number: " + phone_number + " , Identify_code: " + identify_code)
         result = {}
         
-        
+        '''
         appid = 1400143065
         appkey = "5299b5d8357ef27f451132f858784a6e"
         phone_numbers = [phone_number]
@@ -109,8 +111,7 @@ def showPages(request, path):
         result = ssender.send_with_param(86, phone_numbers[0],
             template_id, params, sign=sms_sign, extend="", ext="")
         logging.info(result)
-        
-        
+        '''
         return HttpResponse(json.dumps(result))
         
     return HttpResponse('No Page Here.')
