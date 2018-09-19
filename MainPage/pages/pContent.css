@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "PingFangSC-Medium","Source Han Sans CN",sans-serif;
+}
+
+html,body{
+    height:100%;
+}
+
+.MainPage{
+    transition: all 0.5s ease-out;
+}
+
+.LeftBar {
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    margin:0;
+    padding:0;
+    margin-left: -70%;
+    transition: all 0.5s ease-out;
+    overflow: hidden
+}
+
+.TopBar {
+	border-bottom: 1px solid rgba(26,26,26,.06);
+	box-shadow: 0 1px 3px 0 rgba(23,81,153,.05);
+	min-width: 100%;
+    float: top;
+	overflow: hidden;
+}
+
+.TopBar-inner {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-around;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 7.5%;
+}
+
+.ContentPage {
+    width: 100%;
+    height: 85%;
+    overflow: scroll;
+}
+
+.BottomBar {
+	border-top: 1px solid rgba(26,26,26,.06);
+	box-shadow: 0 1px 3px 0 rgba(23,81,153,.05);
+    float: bottom;
+	background-color: #fff;
+	min-width: 100%;
+	overflow: hidden;
+	bottom:0px;
+}
+
+.BottomBar-inner {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-around;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 7.5%;
+    line-height: 15px;
+    font-size: 28px;
+    color: #444488;
+}
+
+.FloatPage {
+    background-color: red;
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+    transition: all 0.5s ease-in;
+    overflow: hidden
+}
+
+.FloatPage-inner {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+outline: none; 
+border-color:white; 
+box-shadow:2px;
+}
+
+.glyphicon:focus,
+.glyphicon:active:focus,
+.glyphicon.active:focus,
+.glyphicon.focus,
+.glyphicon:active.focus,
+.glyphicon.active.focus {
+outline: none; 
+border-color:white; 
+box-shadow:2px;
+}
+
+.btn:active{
+	background-color:#dddddd;
+	outline: none; 
+	border-color:#dddddd; 
+	box-shadow:none;
+}
+
+.glyphicon:active{
+	background-color:#dddddd;
+	outline: none; 
+	border-color:#dddddd; 
+	box-shadow:none;
+}
+
+.MainPage-TopBar{
+	background-color:#dddddd;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height:30%;
+	border:2px;
+	width:100%;
+}
+
+.imgContainer{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 100%;
+	width: 100%;
+	transition: all 0.5s ease-out;
+}
+
+.left_imgContainer{
+	margin-left:5%;
+	margin-top:5%;
+	height: 88%;
+	width: 90%;
+	overflow:hidden;
+	display:block;
+}
+
+.tr-lg{
+	height:100%;
+}
+
+.tr{
+	text-align:middle;
+}
+
+.td{
+	text-align:middle;
+}
+
+.ArticleBar{
+	background-color:#ffffff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height:16%;
+	width:100%;
+	overflow:hidden;
+	border-bottom:2px solid #e2e2e2;
+}
+
+.left_ArticleBar{
+    width: 40%;
+    max-height:100%;
+}
+
+.right_ArticleBar{
+    width: 60%;
+    max-height:100%;
+}
+
+.div-left{
+	border:1px solid #000;
+	float:left
+}
+			
+.btn-lg{
+	height:8%;
+	font-family:宋体;
+	font-size:36px;
+	background-color:#ffffff;
+	outline:none;
+	text-align:left;
+}
+		
+.btn-block{
+	background-color:#ffffff;
+	outline:none;
+}
+		
+.height{
+	height:100%;
+}
+		
+.blank-area{
+	height:29.4%;
+	outline:none;
+	text-align:left;
+}
+			
+.img-headicon{
+	position:relative;
+	bottom:0px;
+	margin-left:10%;
+	width:100%;
+	height:100%;
+}
+		
+.glyphicon{
+	font-size:40px;
+	border-width:0;
+	background-color:transparent;
+	color:grey;
+}
+
+
