@@ -1,3 +1,12 @@
+// 返回按钮点击事件
+$('#exitButton').bind("click",function(){
+    $('#FloatPage').attr("style","margin-top: "+$('body').height()+";")
+    setTimeout(function(){
+        parent.window.location.reload()
+    }, 500);
+})
+
+
 function imgPreview(fileDom){
     //判断是否支持FileReader
     if (window.FileReader) {

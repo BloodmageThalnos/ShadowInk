@@ -1,21 +1,18 @@
 <html>
-<header>
-<title>墨影</title>
-    <script type="text/javascript" src="./bin/jquery.js"></script>    
-	<script type="text/javascript" charset="utf-8" async src="./my_files/showimg.js"></script>
+<head>
+    <title>墨影</title>
 	<meta name="viewport" content="width=device-width, initial-scale=0.5">
-    <!-- Bootstrap 核心文件 -->
+    <script type="text/javascript" src="./bin/jquery.js"></script>    
+	<script type="text/javascript" charset="utf-8" async src="./article_files/article.js"></script>
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!--script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script-->
-	<link href="./my_files/my.css" rel="stylesheet">
-	<script type="text/javascript" charset="utf-8" async src="./my_files/my.js"></script>
-</header>
+	<link href="./article_files/article.css" rel="stylesheet">
+</head>
 <body>
-	<div class="FloatPage" id="MyPage" style="margin-top: 100%;float:top;">
-        <iframe class="FloatPage-inner" src="./my.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="yes" id="MainPage-inner"></iframe>
-    </div>
 	<div class="MainPage" id="MainPage">
+        <iframe class="MainPage-inner" src="./my.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="yes" id="MainPage-inner"></iframe>
+    </div>
+	<div class="FloatPage" id="FloatPage">
         <div class="TopBar">
             <div class="TopBar-inner">
 				<div>
@@ -31,8 +28,8 @@
 				<div class="form-group">
 					<input type="text" class="form-control" placeholder="请输入标题" style="height:8%;font-size:60px;font-weight:bold;text-align:center;">
 					<textarea class="form-control" rows="15" style="height:65%;font-size:30px;" placeholder="请输入正文">&#160&#160</textarea>					    
-						<input type="file" onchange="imgPreview(this)" style="font-size:25px;"/>
-						<img id="preview" class="img-responsive" style="height:15%;"/ onclick="img">
+                    <input type="file" onchange="imgPreview(this)" style="font-size:25px;"/>
+                    <img id="preview" class="img-responsive" style="height:15%;"/ onclick="img">
 				</div>
 			</form>
 		</div>

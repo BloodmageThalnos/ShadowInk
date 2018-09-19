@@ -19,16 +19,11 @@ function HideLeftBar(){
 // 撰写文章按钮点击事件
 $('#FloatPage').attr("style","margin-top: "+$('body').height()+";")
 $('#PostArticleBtn').bind("click",function(){
-    HideLeftBar()
+    if(__GLOBAL_leftBarShown) HideLeftBar()
     $('#FloatPage').attr("style","margin-top: 0;")
 })
 
 $('#MyPage').attr("style","margin-top: "+$('body').height()+";")
-$('#exitButton').bind("click",function(){
-	console.log('111')
-	$('#MyPage').attr("style","margin-top:0;")
-	console.log('111')
-})
 
 
 // 底部按钮绑定点击事件
