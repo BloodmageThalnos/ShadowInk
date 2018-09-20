@@ -61,14 +61,14 @@ def checkPassword(name, password):
     logger.info('Checking password, name:%s, password:%s' % (name, password))
     db = mysql.connector.connect(user=mysql_username, password=mysql_password, database=database)
     cursor = db.cursor()
-    cursor.execute("select password from User where username = %s",[name])
+    cursor.execute("select password,id from User where username = %s",[name])
     result = cursor.fetchall()
     db.close()
     password_md5 = md5Password(password)
     if result is not None and result != []:
         logger.info( str(result) )
         if result[0][0] == password_md5:
-            return {'success': True, 'id': 1, 'message': '欢迎回来，%s，好久不见了！' % (name)}
+            return {'success': True, 'id': result[0][1], 'message': '欢迎回来，%s，好久不见了！' % (name)}
     return {'success': False, 'id': 0, 'message': '用户名或密码错误！'}
 
 # Insert a new record, containing username and password.
