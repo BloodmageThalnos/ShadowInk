@@ -1,11 +1,27 @@
 // 返回按钮点击事件
-$('#exitButton').bind("click",function(){
-    $('#FloatPage').attr("style","margin-top: "+$('body').height()+";")
-    setTimeout(function(){
-        parent.window.location.reload()
-    }, 500);
-})
-
+window.onload=function(){
+    $('#exitButton').bind("click",function(){
+        $('#FloatPage').attr("style","margin-top: "+$('body').height()+";")
+        setTimeout(function(){
+            parent.window.location.reload()
+        }, 500);
+    })
+    $('#btnSend').bind("click",function(){
+        formData = new FormData($("#aForm")[0]);
+        $.ajax({  
+            url: '/pPostArticle',  
+            type: 'POST',
+            data: formData,
+            async: false,  
+            cache: false,  
+            contentType: false,  
+            processData: false,  
+            success: function(msg) {
+            }
+        })
+        
+    })
+}
 
 function imgPreview(fileDom){
     //判断是否支持FileReader
@@ -14,7 +30,6 @@ function imgPreview(fileDom){
     } else {
         alert("您的设备不支持图片预览功能，如需该功能请升级您的设备！");
     }
-
     //获取文件
     var file = fileDom.files[0];
     var imageType = /^image\//;

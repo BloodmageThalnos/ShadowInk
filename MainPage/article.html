@@ -2,11 +2,11 @@
 <head>
     <title>墨影</title>
 	<meta name="viewport" content="width=device-width, initial-scale=0.5">
-    <script type="text/javascript" src="./bin/jquery.js"></script>    
-	<script type="text/javascript" charset="utf-8" async src="./article_files/article.js"></script>
+    <script type="text/javascript" src="./bin/jquery.js"></script> 
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	<link href="./article_files/article.css" rel="stylesheet">
+	<script type="text/javascript" charset="utf-8" src="./article_files/article.js"></script>
 </head>
 <body>
 	<div class="MainPage" id="MainPage">
@@ -20,12 +20,12 @@
 				</div>
 				<p style="font-family: 华文行楷;font-size: 80px;">&#160&#160</p>
 				<div id="btnShowLeftBar">
-					<button class="glyphicon glyphicon-share-alt" style="font-size:45px;" onclick="javascript:window.confirm('确认发布吗?')"></button>
+					<button class="glyphicon glyphicon-share-alt" id="btnSend" type="button" style="font-size:45px;"></button>
 				</div>
             </div>
         </div>
 		<div>
-			<form enctype= "multipart/form-data">
+			<form id="aForm" enctype="multipart/form-data">
 				<div class="form-group">
 					<input type="text" class="form-control" name="title" placeholder="请输入标题" style="height:8%;font-size:60px;font-weight:bold;text-align:center;">
 					<textarea class="form-control" rows="15" style="height:65%;font-size:30px;" placeholder="请输入正文" name="content"></textarea>					    

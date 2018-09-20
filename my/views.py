@@ -80,7 +80,9 @@ def showPages(request, path):
     if path=='pPostArticle':
         title = request.POST.get("article")
         content = request.POST.get("content")
-        pic = request.POST.get("pic")
+        pic = request.POST.get("picture")
+        logger.info(pic)
+        logger.info(request.FILES)
         
     if path=='eat':
         user_list = main.getUsers()

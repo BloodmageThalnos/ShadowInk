@@ -77,7 +77,6 @@ html,body{
 }
 
 .FloatPage {
-    background-color: red;
     position: absolute;
     z-index: 99;
     height: 100%;
