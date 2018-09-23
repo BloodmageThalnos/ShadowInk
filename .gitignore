@@ -1,4 +1,4 @@
 # ignore logs
 
-/log/*.log
-
+log/*.log
+media/*

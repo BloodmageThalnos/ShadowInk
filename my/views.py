@@ -4,7 +4,9 @@ from django.http import *
 from django.template import loader
 import logging
 import json
+import time
 import random
+import os
 from . import settings
 from . import main
 from qcloudsms_py import SmsSingleSender
@@ -29,17 +31,20 @@ def showPages(request, path):
         name = request.POST.get('name')
         password = request.POST.get('password')
         if name == None and password == None:
+            # 未提交任何请求，或者用户名密码未输入
             template = loader.get_template('login.html')
             context = {}
         else:
             checkResult = main.checkPassword(name, password)
-            if checkResult['success']:
+            if not checkResult['success']:
+                # 登录失败，失败原因在checkResult['message']中
                 template = loader.get_template('loginFail.html')
             else :
+                # 登陆成功
                 template = loader.get_template('loginSuccess.html')
-                request.session.set('login',True)
-                request.session.set('username',name)
-                request.session.set('userid',checkResult['id'])
+                request.session['login']=True
+                request.session['username']=name
+                request.session['userid']=checkResult['id']
             context = {
                 'HelloMessage': checkResult['message'],
             }
@@ -82,14 +87,33 @@ def showPages(request, path):
         return HttpResponse(template.render(context, request))
 
     if path=='pPostArticle':
-        title = request.POST.get("article")
+        title = request.POST.get("title")
         content = request.POST.get("content")
         pic = request.FILES.get("picture")
-        username = request.session.get("username")
-        url = settings.MEDIA_URL + username + "_" + int(time.time()) + pic.name[-4:]
-        with open()
-        for chunk in pic.chunks():
-
+        # username = request.session.get("username", None)
+        # userid = request.session.get("userid", None)
+        username = 'aodacat'
+        userid = 4
+        if not username or not userid:
+            result = {
+                'success' : 'False',
+                'message' : '登录状态错误，请保存你输入的内容，然后刷新页面重试。'
+            }
+            return HttpResponse(json.dumps(result))
+        if not title :
+            pass
+        filename = username + "_" + str(int(time.time())) + pic.name[-4:]
+        url = os.path.join(settings.MEDIA_URL, filename)
+        urlSave = os.path.join(settings.MEDIA_ROOT, filename)
+        with open(urlSave,"wb") as fPic:
+            for chunk in pic.chunks():
+                fPic.write(chunk)
+        insertResult = main.insertArticle(userid,title,url,content)
+        result = {
+            'success' : 'True',
+            'message' : '发表文章成功！'
+        }
+        return HttpResponse(json.dumps(result))
 
     if path=='eat':
         user_list = main.getUsers()
@@ -109,7 +133,6 @@ def showPages(request, path):
         logging.info("Phone number: " + phone_number + " , Identify_code: " + identify_code)
         result = {}
 
-        '''
         appid = 1400143065
         appkey = "5299b5d8357ef27f451132f858784a6e"
         phone_numbers = [phone_number]
@@ -120,7 +143,7 @@ def showPages(request, path):
         result = ssender.send_with_param(86, phone_numbers[0],
             template_id, params, sign=sms_sign, extend="", ext="")
         logging.info(result)
-        '''
+
         return HttpResponse(json.dumps(result))
 
     return HttpResponse('No Page Here.')
@@ -152,3 +175,17 @@ def showPath(request, path):
     with open('./MainPage/'+path, encoding='UTF-8') as f:
         html = f.read()
     return HttpResponse(html)
+
+# '/media/...'目录，请求静态资源等。若部署nginx等服务器时可以转移控制权
+def showMedia(request, path):
+    logging.info('Accessing Page /%s with showPath'%(path))
+
+    if path.endswith('jpg'):
+        with open('./media/'+path, mode="rb") as f:
+            html = f.read()
+        return HttpResponse(html, content_type="image/jpg")
+
+    if path.endswith('png'):
+        with open('./media/'+path, mode="rb") as f:
+            html = f.read()
+        return HttpResponse(html, content_type="image/png")

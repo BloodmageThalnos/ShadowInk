@@ -19,6 +19,7 @@ from . import views
 
 urlpatterns = [
     path('', views.showMainPage),
+    path('media/<path:path>', views.showMedia),
     path('<slug:path>', views.showPages),
     path('<path:path>', views.showPath),
 ]
