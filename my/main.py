@@ -116,7 +116,6 @@ def getArticles():
     if results is not None:
         list = []
         for result in results:
-            logger.info( str(result) )
             list.append({"title":result[0], "picurl":result[1],"time":result[2]})
         return list
     return []
@@ -124,11 +123,12 @@ def getArticles():
 # Insert a new record, containing title, picurl and content.
 # return True if no error occurs.
 def insertArticle(user_id, title, picurl, content):
+    logger.info('Inserting article')
     db = mysql.connector.connect(user=mysql_username, password=mysql_password, database=database)
     cursor = db.cursor()
     cursor.execute("INSERT INTO `article`(`u_id`,`title`,`pic_url`,`content`,`create_date`)\
 VALUES(%s,%s,%s,%s,%s);",[str(user_id),title,picurl,content,time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())])
     db.commit()
-    cursor.close();
+    cursor.close()
     db.close()
     return True

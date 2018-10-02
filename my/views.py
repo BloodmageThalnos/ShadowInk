@@ -1,12 +1,12 @@
 # -*- coding:utf-8 -*-
 
-from django.http import *
-from django.template import loader
 import logging
 import json
 import time
 import random
 import os
+from django.http import *
+from django.template import loader
 from . import settings
 from . import main
 from qcloudsms_py import SmsSingleSender
@@ -78,6 +78,8 @@ def showPages(request, path):
                 }
         return HttpResponse(template.render(context, request))
 
+    # 动态显示首页上的内容
+    # TODO: 需要对文章进行排序并处理
     if path=='pContent':
         articles = main.getArticles()
         template = loader.get_template('pages/pContent.html')
