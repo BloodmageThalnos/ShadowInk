@@ -2,57 +2,178 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7f3a500-c214-4a40-8643-d78f081b4203" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ShadowInk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ShadowInk.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ShadowInk.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/my/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/1.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/2.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/3.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/new.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/old.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/主页.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/互联网+项目计划书.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/互联网+项目计划书.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/内容.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/商业计划书 .docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/商业计划书 .pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/团队介绍.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/团队介绍.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/图片1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/图片2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/图片3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/图片4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/图片5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/墨影-基于深度学习的水墨画创作交流平台-程元-18810339563.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/墨影视频.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/演讲.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/话题.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+初赛材料/参赛报名表.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+初赛材料/团队介绍.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+初赛材料/项目计划书.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+市赛材料/北邮-创意-W-墨影-介绍视频.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+市赛材料/北邮-创意-W-墨影-项目展示.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+市赛材料/北邮-创意-W-墨影-项目简介.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+市赛材料/北邮-创意-W-墨影-项目计划书.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+市赛材料/北邮-创意-W-墨影.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+市赛材料/参赛项目信息确认表.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/互联网+市赛材料/参赛项目获得投资情况统计表.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/大创/GPU服务器账号申请表.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/大创/大创 第七周.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/大创/大创 第三周.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/大创/大创 第五周.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/大创/大创 第八周.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/大创/大创 第六周.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/大创/大创 第十周.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/大创/大创 第四周.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/大创/大创私有云云主机申请表.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/大创/大创立项申请书.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/大创/报销.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/大创/负责老师联系方式.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/大创/附件3北京邮电大学关于在校本科生发表论文和申请专利的管理办法.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/css/ie9.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/css/noscript.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/js/skel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/js/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/sass/base/_page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/sass/base/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/sass/components/_box.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/sass/components/_button.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/sass/components/_form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/sass/components/_icon.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/sass/components/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/sass/components/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/sass/components/_table.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/sass/ie9.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/sass/layout/_bg.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/sass/layout/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/sass/layout/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/sass/layout/_main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/sass/layout/_wrapper.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/sass/libs/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/sass/libs/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/sass/libs/_skel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/sass/libs/_vars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/sass/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/assets/sass/noscript.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/images/ov1erlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/images/pic01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/images/pic02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/images/pic03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IndexPage/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/article.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/article_files/article.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/article_files/article.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/bin/back.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/bin/contentPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/bin/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/forget.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/image/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/image/barbk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/image/bk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/image/content.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/image/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/image/icon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/image/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/image/icon.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/image/leftbar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/image/leftbar.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/image/lt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/loginFail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/loginSuccess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/login_files/icon_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/login_files/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/login_files/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/login_files/patternLock.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/login_files/req.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/login_files/weibologin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/my.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/my_files/my.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/my_files/my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/pages/pContent.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/pages/pContent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/pages/page1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/pages/page2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/pages/page3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/pages/slide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/registerFail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/register_files/icon_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/register_files/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/register_files/patternLock.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/register_files/register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/register_files/req.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPage/register_files/weibologin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/.idea/ShadowInk.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/.idea/dataSources/e8ed061e-6ede-42ea-bca0-b9da81c87740.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/LoginAPP/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/LoginAPP/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/LoginAPP/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/LoginAPP/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/LoginAPP/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/LoginAPP/mysqlConnector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/LoginAPP/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/LoginAPP/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/ShadowInk/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/ShadowInk/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/ShadowInk/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/ShadowInk/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/log/collect.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/log/err.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/log/info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/media/aodacat_1538640784.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/article.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/article_files/article.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/article_files/article.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/bin/contentPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/bin/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/image/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/image/barbk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/image/bk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/image/content.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/image/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/image/icon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/image/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/image/icon.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/image/leftbar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/image/leftbar.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/image/lt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/login_files/icon_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/login_files/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/login_files/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/login_files/patternLock.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/login_files/req.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/login_files/weibologin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/my.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/my_files/my.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/my_files/my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/pages/pContent.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/pages/page1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/pages/page2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/pages/page3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/pages/slide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/register_files/icon_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/register_files/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/register_files/patternLock.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/register_files/register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/register_files/req.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/static/register_files/weibologin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/templates/back.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/templates/forget.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/templates/loginFail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/templates/loginSuccess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/templates/pContent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/templates/registerFail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/debug.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/collect.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/wsgi.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +223,7 @@
     <session id="1364474149">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.opened" value="2" />
@@ -131,69 +252,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="27" column="21" selection-end-line="134" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#22#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#626#658#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="27" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-627">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -212,7 +271,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="5" />
     <option name="width" value="1378" />
     <option name="height" value="744" />
@@ -228,21 +287,6 @@
             <path>
               <item name="ShadowInk" type="b2602c69:ProjectViewProjectNode" />
               <item name="ShadowInk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShadowInk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShadowInk" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShadowInk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShadowInk" type="462c0819:PsiDirectoryNode" />
-              <item name="MainPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ShadowInk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ShadowInk" type="462c0819:PsiDirectoryNode" />
-              <item name="my" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -366,15 +410,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="0" width="1378" height="744" extended-state="1" />
-    <editor active="true" />
+    <frame x="5" y="0" width="1378" height="744" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25153375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39070567" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39070567" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
