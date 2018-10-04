@@ -1,0 +1,2592 @@
+[2018-10-03 18:10:47,996][Thread-57:10020][task_id:django.request][log.py:228][ERROR][Internal Server Error: /pContent]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\mysql\connector\connection_cext.py", line 392, in cmd_query
+    raw_as_string=raw_as_string)
+_mysql_connector.MySQLInterfaceError: Table 'shadowink.article' doesn't exist
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\GitHub\ShadowInk\ShadowInk\ShadowInk\my\views.py", line 84, in showPages
+    articles = main.getArticles()
+  File "F:\GitHub\ShadowInk\ShadowInk\ShadowInk\my\main.py", line 113, in getArticles
+    cursor.execute("SELECT title,pic_url,create_date FROM article;")
+  File "E:\anaconda\lib\site-packages\mysql\connector\cursor_cext.py", line 264, in execute
+    raw_as_string=self._raw_as_string)
+  File "E:\anaconda\lib\site-packages\mysql\connector\connection_cext.py", line 395, in cmd_query
+    sqlstate=exc.sqlstate)
+mysql.connector.errors.ProgrammingError: 1146 (42S02): Table 'shadowink.article' doesn't exist
+[2018-10-03 18:10:48,904][Thread-68:9424][task_id:django.request][log.py:228][ERROR][Internal Server Error: /pContent]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\mysql\connector\connection_cext.py", line 392, in cmd_query
+    raw_as_string=raw_as_string)
+_mysql_connector.MySQLInterfaceError: Table 'shadowink.article' doesn't exist
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\GitHub\ShadowInk\ShadowInk\ShadowInk\my\views.py", line 84, in showPages
+    articles = main.getArticles()
+  File "F:\GitHub\ShadowInk\ShadowInk\ShadowInk\my\main.py", line 113, in getArticles
+    cursor.execute("SELECT title,pic_url,create_date FROM article;")
+  File "E:\anaconda\lib\site-packages\mysql\connector\cursor_cext.py", line 264, in execute
+    raw_as_string=self._raw_as_string)
+  File "E:\anaconda\lib\site-packages\mysql\connector\connection_cext.py", line 395, in cmd_query
+    sqlstate=exc.sqlstate)
+mysql.connector.errors.ProgrammingError: 1146 (42S02): Table 'shadowink.article' doesn't exist
+[2018-10-03 18:10:49,552][Thread-78:6592][task_id:django.request][log.py:228][ERROR][Internal Server Error: /pContent]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\mysql\connector\connection_cext.py", line 392, in cmd_query
+    raw_as_string=raw_as_string)
+_mysql_connector.MySQLInterfaceError: Table 'shadowink.article' doesn't exist
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\GitHub\ShadowInk\ShadowInk\ShadowInk\my\views.py", line 84, in showPages
+    articles = main.getArticles()
+  File "F:\GitHub\ShadowInk\ShadowInk\ShadowInk\my\main.py", line 113, in getArticles
+    cursor.execute("SELECT title,pic_url,create_date FROM article;")
+  File "E:\anaconda\lib\site-packages\mysql\connector\cursor_cext.py", line 264, in execute
+    raw_as_string=self._raw_as_string)
+  File "E:\anaconda\lib\site-packages\mysql\connector\connection_cext.py", line 395, in cmd_query
+    sqlstate=exc.sqlstate)
+mysql.connector.errors.ProgrammingError: 1146 (42S02): Table 'shadowink.article' doesn't exist
+[2018-10-03 21:20:54,225][Thread-22:7604][task_id:django.request][log.py:228][ERROR][Internal Server Error: /pContent]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\mysql\connector\connection_cext.py", line 392, in cmd_query
+    raw_as_string=raw_as_string)
+_mysql_connector.MySQLInterfaceError: Table 'shadowink.article' doesn't exist
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\GitHub\ShadowInk\ShadowInk\ShadowInk\my\views.py", line 84, in showPages
+    articles = main.getArticles()
+  File "F:\GitHub\ShadowInk\ShadowInk\ShadowInk\my\main.py", line 113, in getArticles
+    cursor.execute("SELECT title,pic_url,create_date FROM article;")
+  File "E:\anaconda\lib\site-packages\mysql\connector\cursor_cext.py", line 264, in execute
+    raw_as_string=self._raw_as_string)
+  File "E:\anaconda\lib\site-packages\mysql\connector\connection_cext.py", line 395, in cmd_query
+    sqlstate=exc.sqlstate)
+mysql.connector.errors.ProgrammingError: 1146 (42S02): Table 'shadowink.article' doesn't exist
+[2018-10-03 21:20:54,902][Thread-33:9536][task_id:django.request][log.py:228][ERROR][Internal Server Error: /pContent]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\mysql\connector\connection_cext.py", line 392, in cmd_query
+    raw_as_string=raw_as_string)
+_mysql_connector.MySQLInterfaceError: Table 'shadowink.article' doesn't exist
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\GitHub\ShadowInk\ShadowInk\ShadowInk\my\views.py", line 84, in showPages
+    articles = main.getArticles()
+  File "F:\GitHub\ShadowInk\ShadowInk\ShadowInk\my\main.py", line 113, in getArticles
+    cursor.execute("SELECT title,pic_url,create_date FROM article;")
+  File "E:\anaconda\lib\site-packages\mysql\connector\cursor_cext.py", line 264, in execute
+    raw_as_string=self._raw_as_string)
+  File "E:\anaconda\lib\site-packages\mysql\connector\connection_cext.py", line 395, in cmd_query
+    sqlstate=exc.sqlstate)
+mysql.connector.errors.ProgrammingError: 1146 (42S02): Table 'shadowink.article' doesn't exist
+[2018-10-03 21:20:55,310][Thread-43:9872][task_id:django.request][log.py:228][ERROR][Internal Server Error: /pContent]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\mysql\connector\connection_cext.py", line 392, in cmd_query
+    raw_as_string=raw_as_string)
+_mysql_connector.MySQLInterfaceError: Table 'shadowink.article' doesn't exist
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\GitHub\ShadowInk\ShadowInk\ShadowInk\my\views.py", line 84, in showPages
+    articles = main.getArticles()
+  File "F:\GitHub\ShadowInk\ShadowInk\ShadowInk\my\main.py", line 113, in getArticles
+    cursor.execute("SELECT title,pic_url,create_date FROM article;")
+  File "E:\anaconda\lib\site-packages\mysql\connector\cursor_cext.py", line 264, in execute
+    raw_as_string=self._raw_as_string)
+  File "E:\anaconda\lib\site-packages\mysql\connector\connection_cext.py", line 395, in cmd_query
+    sqlstate=exc.sqlstate)
+mysql.connector.errors.ProgrammingError: 1146 (42S02): Table 'shadowink.article' doesn't exist
+[2018-10-03 21:41:48,987][Thread-3:3420][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 39, in showPages
+    template = loader.get_template('login.html')
+  File "E:\anaconda\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: login.html
+[2018-10-03 21:41:49,302][Thread-4:9932][task_id:django.request][log.py:228][ERROR][Internal Server Error: /favicon.ico]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 172, in showPath
+    with open('./MainPage/image/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './MainPage/image/favicon.ico'
+[2018-10-03 21:51:05,761][Thread-3:5964][task_id:django.request][log.py:228][ERROR][Internal Server Error: /templates/login]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 181, in showPath
+    with open('./MainPage/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './MainPage/templates/login'
+[2018-10-03 21:51:06,305][Thread-4:3628][task_id:django.request][log.py:228][ERROR][Internal Server Error: /favicon.ico]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 172, in showPath
+    with open('./MainPage/image/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './MainPage/image/favicon.ico'
+[2018-10-04 14:49:37,917][Thread-3:8868][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 41, in showPages
+    template = loader.get_template('login.html')
+  File "E:\anaconda\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: login.html
+[2018-10-04 14:49:38,608][Thread-4:8312][task_id:django.request][log.py:228][ERROR][Internal Server Error: /favicon.ico]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 174, in showPath
+    with open('./MainPage/image/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './MainPage/image/favicon.ico'
+[2018-10-04 14:49:55,593][Thread-5:3488][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login.html/]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 183, in showPath
+    with open('./MainPage/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './MainPage/login.html/'
+[2018-10-04 14:49:55,817][Thread-6:8120][task_id:django.request][log.py:228][ERROR][Internal Server Error: /favicon.ico]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 174, in showPath
+    with open('./MainPage/image/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './MainPage/image/favicon.ico'
+[2018-10-04 14:49:59,681][Thread-7:7784][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login.html]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 183, in showPath
+    with open('./MainPage/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './MainPage/login.html'
+[2018-10-04 14:50:00,009][Thread-8:8248][task_id:django.request][log.py:228][ERROR][Internal Server Error: /favicon.ico]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 174, in showPath
+    with open('./MainPage/image/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './MainPage/image/favicon.ico'
+[2018-10-04 14:54:13,918][Thread-3:5996][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login/]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 183, in showPath
+    with open('./MainPage/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './MainPage/login/'
+[2018-10-04 14:54:14,609][Thread-4:3312][task_id:django.request][log.py:228][ERROR][Internal Server Error: /favicon.ico]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 174, in showPath
+    with open('./MainPage/image/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './MainPage/image/favicon.ico'
+[2018-10-04 14:54:30,976][Thread-5:8504][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login.html]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 183, in showPath
+    with open('./MainPage/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './MainPage/login.html'
+[2018-10-04 14:54:31,174][Thread-6:8336][task_id:django.request][log.py:228][ERROR][Internal Server Error: /favicon.ico]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 174, in showPath
+    with open('./MainPage/image/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './MainPage/image/favicon.ico'
+[2018-10-04 14:58:06,644][Thread-3:3800][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login/]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 183, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/login/'
+[2018-10-04 15:02:11,496][Thread-3:8844][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login/]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 183, in showPath
+    with open('./templates/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './templates/login/'
+[2018-10-04 15:03:34,038][Thread-3:5160][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login/]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 183, in showPath
+    with open(''+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'login/'
+[2018-10-04 15:04:08,459][Thread-3:8000][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login/]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 183, in showPath
+    with open('/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/login/'
+[2018-10-04 15:09:28,963][Thread-4:6584][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 41, in showPages
+    template = loader.get_template('login.html')
+  File "E:\anaconda\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: login.html
+[2018-10-04 15:12:07,963][Thread-6:8592][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login_files/patternLock.min.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 183, in showPath
+    with open('/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/login_files/patternLock.min.js'
+[2018-10-04 15:12:08,039][Thread-7:5448][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 183, in showPath
+    with open('/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/bin/jquery.js'
+[2018-10-04 15:12:08,175][Thread-8:6024][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login_files/login.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 183, in showPath
+    with open('/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/login_files/login.js'
+[2018-10-04 15:12:21,436][Thread-14:3720][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login_files/patternLock.min.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 183, in showPath
+    with open('/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/login_files/patternLock.min.js'
+[2018-10-04 15:14:47,313][Thread-6:4684][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login_files/patternLock.min.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 183, in showPath
+    with open('/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/login_files/patternLock.min.js'
+[2018-10-04 15:14:47,376][Thread-7:8768][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 183, in showPath
+    with open('/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/bin/jquery.js'
+[2018-10-04 15:14:47,467][Thread-8:7112][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login_files/login.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 183, in showPath
+    with open('/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/login_files/login.js'
+[2018-10-04 15:14:53,402][Thread-14:8972][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login_files/patternLock.min.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 183, in showPath
+    with open('/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/login_files/patternLock.min.js'
+[2018-10-04 15:23:07,470][Thread-7:8828][task_id:django.request][log.py:228][ERROR][Internal Server Error: /article.html]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 180, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/article.html'
+[2018-10-04 15:23:07,607][Thread-10:5168][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 176, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:23:07,661][Thread-11:5984][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 180, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/bin/jquery.js'
+[2018-10-04 15:23:07,662][Thread-12:3488][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/my_files/my.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 180, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/my_files/my.js'
+[2018-10-04 15:23:07,665][Thread-13:8000][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/slide.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 180, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/slide.js'
+[2018-10-04 15:23:07,790][Thread-14:3064][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/lt.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 161, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/lt.jpg'
+[2018-10-04 15:23:07,801][Thread-15:752][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/bk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 161, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/bk.jpg'
+[2018-10-04 15:23:07,850][Thread-16:3120][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/barbk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 161, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/barbk.jpg'
+[2018-10-04 15:23:07,974][Thread-17:1476][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 176, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:23:07,988][Thread-18:1444][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/lt.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 161, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/lt.jpg'
+[2018-10-04 15:23:07,988][Thread-19:9124][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/slide.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 180, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/slide.js'
+[2018-10-04 15:23:07,993][Thread-20:1196][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/bk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 161, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/bk.jpg'
+[2018-10-04 15:23:07,993][Thread-21:5792][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/barbk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 161, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/barbk.jpg'
+[2018-10-04 15:23:13,142][Thread-24:4628][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 176, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:23:14,052][Thread-25:1712][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bootstrap.min.css.map]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 180, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/bootstrap.min.css.map'
+[2018-10-04 15:23:14,078][Thread-26:4824][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bootstrap-theme.min.css.map]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 180, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/bootstrap-theme.min.css.map'
+[2018-10-04 15:29:19,618][Thread-28:7732][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/bin/jquery.js'
+[2018-10-04 15:29:19,620][Thread-27:8788][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:29:19,621][Thread-30:6200][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/slide.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/slide.js'
+[2018-10-04 15:29:19,632][Thread-29:3916][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/my_files/my.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/my_files/my.js'
+[2018-10-04 15:29:19,854][Thread-31:2152][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/lt.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/lt.jpg'
+[2018-10-04 15:29:19,854][Thread-32:7336][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/bk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/bk.jpg'
+[2018-10-04 15:29:19,857][Thread-33:2732][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/barbk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/barbk.jpg'
+[2018-10-04 15:29:20,298][Thread-44:3608][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:29:20,375][Thread-46:2472][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/bin/jquery.js'
+[2018-10-04 15:29:20,440][Thread-47:6400][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/my_files/my.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/my_files/my.js'
+[2018-10-04 15:29:20,449][Thread-48:608][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/slide.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/slide.js'
+[2018-10-04 15:29:20,536][Thread-50:8356][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:29:20,578][Thread-51:7252][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/lt.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/lt.jpg'
+[2018-10-04 15:29:20,592][Thread-52:8940][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/bk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/bk.jpg'
+[2018-10-04 15:29:20,605][Thread-53:7236][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/barbk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/barbk.jpg'
+[2018-10-04 15:29:20,829][Thread-60:5460][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:29:20,875][Thread-61:7136][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/bin/jquery.js'
+[2018-10-04 15:29:20,894][Thread-62:1476][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/my_files/my.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/my_files/my.js'
+[2018-10-04 15:29:20,894][Thread-63:5168][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/slide.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/slide.js'
+[2018-10-04 15:29:20,949][Thread-64:8152][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/lt.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/lt.jpg'
+[2018-10-04 15:29:20,961][Thread-65:3068][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/bk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/bk.jpg'
+[2018-10-04 15:29:20,962][Thread-66:4008][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/barbk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/barbk.jpg'
+[2018-10-04 15:29:20,962][Thread-67:2444][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:30:46,792][Thread-13:3508][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:30:46,794][Thread-15:7028][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/my_files/my.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/my_files/my.js'
+[2018-10-04 15:30:46,797][Thread-14:7256][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/bin/jquery.js'
+[2018-10-04 15:30:46,799][Thread-16:8556][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/slide.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/slide.js'
+[2018-10-04 15:30:46,989][Thread-18:8788][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/lt.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/lt.jpg'
+[2018-10-04 15:30:47,205][Thread-23:6740][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:30:47,241][Thread-25:3916][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/barbk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/barbk.jpg'
+[2018-10-04 15:30:47,242][Thread-24:7840][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/bk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/bk.jpg'
+[2018-10-04 15:30:47,244][Thread-26:8688][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/my_files/my.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/my_files/my.js'
+[2018-10-04 15:30:47,519][Thread-33:8484][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:30:47,519][Thread-34:2732][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/bin/jquery.js'
+[2018-10-04 15:30:47,553][Thread-35:3608][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/slide.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/slide.js'
+[2018-10-04 15:30:47,641][Thread-37:6400][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/my_files/my.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/my_files/my.js'
+[2018-10-04 15:30:47,771][Thread-42:2784][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:30:47,773][Thread-44:7252][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/bk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/bk.jpg'
+[2018-10-04 15:30:47,862][Thread-48:7236][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/bin/jquery.js'
+[2018-10-04 15:30:47,782][Thread-43:7916][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/lt.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/lt.jpg'
+[2018-10-04 15:30:47,781][Thread-45:8940][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/barbk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/barbk.jpg'
+[2018-10-04 15:30:47,879][Thread-49:2832][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/my_files/my.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/my_files/my.js'
+[2018-10-04 15:30:47,887][Thread-50:5460][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:30:47,897][Thread-51:7136][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/slide.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/slide.js'
+[2018-10-04 15:30:47,945][Thread-52:1476][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/lt.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/lt.jpg'
+[2018-10-04 15:30:47,948][Thread-53:5168][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/bk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/bk.jpg'
+[2018-10-04 15:30:47,991][Thread-54:8152][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/barbk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/barbk.jpg'
+[2018-10-04 15:34:16,997][Thread-3:7128][task_id:django.request][log.py:228][ERROR][Internal Server Error: /my_files/my.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './my_files/my.css'
+[2018-10-04 15:34:17,011][Thread-4:1220][task_id:django.request][log.py:228][ERROR][Internal Server Error: /image/1.png]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 172, in showPath
+    with open('./'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './image/1.png'
+[2018-10-04 15:34:17,061][Thread-5:5760][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './bin/jquery.js'
+[2018-10-04 15:34:17,097][Thread-6:7644][task_id:django.request][log.py:228][ERROR][Internal Server Error: /my_files/my.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './my_files/my.js'
+[2018-10-04 15:34:17,161][Thread-7:5220][task_id:django.request][log.py:228][ERROR][Internal Server Error: /my_files/my.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './my_files/my.css'
+[2018-10-04 15:34:17,194][Thread-8:8088][task_id:django.request][log.py:228][ERROR][Internal Server Error: /article.html]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 191, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './article.html'
+[2018-10-04 15:34:17,288][Thread-10:3796][task_id:django.request][log.py:228][ERROR][Internal Server Error: /image/barbk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './image/barbk.jpg'
+[2018-10-04 15:34:17,437][Thread-18:2572][task_id:django.request][log.py:228][ERROR][Internal Server Error: /favicon.ico]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 177, in showPath
+    with open('./image/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './image/favicon.ico'
+[2018-10-04 15:35:05,415][Thread-3:8844][task_id:django.request][log.py:228][ERROR][Internal Server Error: /my_files/my.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './my_files/my.css'
+[2018-10-04 15:35:05,458][Thread-4:5792][task_id:django.request][log.py:228][ERROR][Internal Server Error: /image/1.png]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 172, in showPath
+    with open('./'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './image/1.png'
+[2018-10-04 15:35:05,470][Thread-5:1460][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './bin/jquery.js'
+[2018-10-04 15:35:05,476][Thread-6:272][task_id:django.request][log.py:228][ERROR][Internal Server Error: /my_files/my.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './my_files/my.js'
+[2018-10-04 15:35:05,662][Thread-7:7708][task_id:django.request][log.py:228][ERROR][Internal Server Error: /my_files/my.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './my_files/my.css'
+[2018-10-04 15:35:05,796][Thread-10:772][task_id:django.request][log.py:228][ERROR][Internal Server Error: /article_files/article.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './article_files/article.css'
+[2018-10-04 15:35:05,830][Thread-11:4256][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './bin/jquery.js'
+[2018-10-04 15:35:05,830][Thread-12:8480][task_id:django.request][log.py:228][ERROR][Internal Server Error: /article_files/article.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './article_files/article.js'
+[2018-10-04 15:35:05,863][Thread-13:8756][task_id:django.request][log.py:228][ERROR][Internal Server Error: /image/barbk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './image/barbk.jpg'
+[2018-10-04 15:35:06,032][Thread-19:5648][task_id:django.request][log.py:228][ERROR][Internal Server Error: /article_files/article.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './article_files/article.css'
+[2018-10-04 15:35:06,236][Thread-23:9200][task_id:django.request][log.py:228][ERROR][Internal Server Error: /my_files/my.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './my_files/my.css'
+[2018-10-04 15:35:06,237][Thread-24:7516][task_id:django.request][log.py:228][ERROR][Internal Server Error: /image/1.png]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 172, in showPath
+    with open('./'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './image/1.png'
+[2018-10-04 15:35:06,275][Thread-25:1252][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './bin/jquery.js'
+[2018-10-04 15:35:06,292][Thread-26:7004][task_id:django.request][log.py:228][ERROR][Internal Server Error: /my_files/my.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './my_files/my.js'
+[2018-10-04 15:35:06,382][Thread-27:4512][task_id:django.request][log.py:228][ERROR][Internal Server Error: /my_files/my.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './my_files/my.css'
+[2018-10-04 15:35:06,445][Thread-30:2752][task_id:django.request][log.py:228][ERROR][Internal Server Error: /article_files/article.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './article_files/article.css'
+[2018-10-04 15:35:06,456][Thread-31:1704][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './bin/jquery.js'
+[2018-10-04 15:35:06,465][Thread-32:7036][task_id:django.request][log.py:228][ERROR][Internal Server Error: /article_files/article.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './article_files/article.js'
+[2018-10-04 15:35:06,493][Thread-33:3296][task_id:django.request][log.py:228][ERROR][Internal Server Error: /image/barbk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './image/barbk.jpg'
+[2018-10-04 15:35:06,622][Thread-38:7816][task_id:django.request][log.py:228][ERROR][Internal Server Error: /article_files/article.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './article_files/article.css'
+[2018-10-04 15:35:06,771][Thread-43:5996][task_id:django.request][log.py:228][ERROR][Internal Server Error: /my_files/my.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './my_files/my.css'
+[2018-10-04 15:35:06,788][Thread-44:5152][task_id:django.request][log.py:228][ERROR][Internal Server Error: /image/1.png]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 172, in showPath
+    with open('./'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './image/1.png'
+[2018-10-04 15:35:06,793][Thread-45:5076][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './bin/jquery.js'
+[2018-10-04 15:35:06,825][Thread-46:5284][task_id:django.request][log.py:228][ERROR][Internal Server Error: /my_files/my.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './my_files/my.js'
+[2018-10-04 15:35:06,902][Thread-47:5008][task_id:django.request][log.py:228][ERROR][Internal Server Error: /my_files/my.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './my_files/my.css'
+[2018-10-04 15:35:06,993][Thread-49:8504][task_id:django.request][log.py:228][ERROR][Internal Server Error: /image/barbk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './image/barbk.jpg'
+[2018-10-04 15:35:07,156][Thread-57:1852][task_id:django.request][log.py:228][ERROR][Internal Server Error: /favicon.ico]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 177, in showPath
+    with open('./image/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './image/favicon.ico'
+[2018-10-04 15:35:11,817][Thread-59:8040][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './bin/jquery.js'
+[2018-10-04 15:35:11,844][Thread-60:3932][task_id:django.request][log.py:228][ERROR][Internal Server Error: /my_files/my.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './my_files/my.css'
+[2018-10-04 15:35:11,851][Thread-61:2776][task_id:django.request][log.py:228][ERROR][Internal Server Error: /image/1.png]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 172, in showPath
+    with open('./'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './image/1.png'
+[2018-10-04 15:35:11,856][Thread-62:3956][task_id:django.request][log.py:228][ERROR][Internal Server Error: /my_files/my.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './my_files/my.js'
+[2018-10-04 15:35:12,031][Thread-66:4336][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './bin/jquery.js'
+[2018-10-04 15:35:12,048][Thread-65:8464][task_id:django.request][log.py:228][ERROR][Internal Server Error: /article_files/article.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './article_files/article.css'
+[2018-10-04 15:35:12,077][Thread-67:5016][task_id:django.request][log.py:228][ERROR][Internal Server Error: /article_files/article.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './article_files/article.js'
+[2018-10-04 15:35:12,137][Thread-68:8804][task_id:django.request][log.py:228][ERROR][Internal Server Error: /image/barbk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './image/barbk.jpg'
+[2018-10-04 15:35:12,482][Thread-77:1884][task_id:django.request][log.py:228][ERROR][Internal Server Error: /my_files/my.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './my_files/my.css'
+[2018-10-04 15:35:12,483][Thread-78:3940][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './bin/jquery.js'
+[2018-10-04 15:35:12,484][Thread-79:7164][task_id:django.request][log.py:228][ERROR][Internal Server Error: /image/1.png]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 172, in showPath
+    with open('./'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './image/1.png'
+[2018-10-04 15:35:12,521][Thread-80:7744][task_id:django.request][log.py:228][ERROR][Internal Server Error: /my_files/my.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './my_files/my.js'
+[2018-10-04 15:35:12,614][Thread-81:4380][task_id:django.request][log.py:228][ERROR][Internal Server Error: /my_files/my.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './my_files/my.css'
+[2018-10-04 15:35:12,682][Thread-84:4012][task_id:django.request][log.py:228][ERROR][Internal Server Error: /article_files/article.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './article_files/article.css'
+[2018-10-04 15:35:12,685][Thread-85:6564][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './bin/jquery.js'
+[2018-10-04 15:35:12,706][Thread-86:4652][task_id:django.request][log.py:228][ERROR][Internal Server Error: /article_files/article.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './article_files/article.js'
+[2018-10-04 15:35:12,880][Thread-92:8692][task_id:django.request][log.py:228][ERROR][Internal Server Error: /image/barbk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './image/barbk.jpg'
+[2018-10-04 15:35:12,937][Thread-95:1220][task_id:django.request][log.py:228][ERROR][Internal Server Error: /article_files/article.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './article_files/article.css'
+[2018-10-04 15:35:13,036][Thread-97:7644][task_id:django.request][log.py:228][ERROR][Internal Server Error: /my_files/my.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './my_files/my.css'
+[2018-10-04 15:35:13,050][Thread-98:8088][task_id:django.request][log.py:228][ERROR][Internal Server Error: /image/1.png]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 172, in showPath
+    with open('./'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './image/1.png'
+[2018-10-04 15:35:13,062][Thread-99:5220][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './bin/jquery.js'
+[2018-10-04 15:35:13,084][Thread-100:5424][task_id:django.request][log.py:228][ERROR][Internal Server Error: /my_files/my.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './my_files/my.js'
+[2018-10-04 15:35:13,163][Thread-101:8392][task_id:django.request][log.py:228][ERROR][Internal Server Error: /my_files/my.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './my_files/my.css'
+[2018-10-04 15:35:13,324][Thread-108:2572][task_id:django.request][log.py:228][ERROR][Internal Server Error: /image/barbk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './image/barbk.jpg'
+[2018-10-04 15:35:13,395][Thread-111:1240][task_id:django.request][log.py:228][ERROR][Internal Server Error: /favicon.ico]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 177, in showPath
+    with open('./image/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './image/favicon.ico'
+[2018-10-04 15:37:44,881][Thread-114:4812][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login_files/login.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './login_files/login.css'
+[2018-10-04 15:37:44,914][Thread-115:7136][task_id:django.request][log.py:228][ERROR][Internal Server Error: /image/icon.png]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 172, in showPath
+    with open('./'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './image/icon.png'
+[2018-10-04 15:37:44,920][Thread-116:3248][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './bin/jquery.js'
+[2018-10-04 15:37:45,056][Thread-117:7336][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login_files/patternLock.min.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './login_files/patternLock.min.js'
+[2018-10-04 15:37:45,108][Thread-118:3176][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login_files/login.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './login_files/login.js'
+[2018-10-04 15:37:45,234][Thread-119:8252][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './bin/jquery.js'
+[2018-10-04 15:37:45,274][Thread-120:8580][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login_files/login.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 187, in showPath
+    with open('./'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './login_files/login.js'
+[2018-10-04 15:37:45,311][Thread-121:2536][task_id:django.request][log.py:228][ERROR][Internal Server Error: /image/bk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './image/bk.jpg'
+[2018-10-04 15:37:45,417][Thread-122:5416][task_id:django.request][log.py:228][ERROR][Internal Server Error: /favicon.ico]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 177, in showPath
+    with open('./image/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './image/favicon.ico'
+[2018-10-04 15:38:27,779][Thread-13:2564][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:38:27,801][Thread-14:7604][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/bin/jquery.js'
+[2018-10-04 15:38:27,805][Thread-15:1996][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/my_files/my.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/my_files/my.js'
+[2018-10-04 15:38:27,810][Thread-16:4292][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/slide.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/slide.js'
+[2018-10-04 15:38:28,164][Thread-22:5480][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/lt.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/lt.jpg'
+[2018-10-04 15:38:28,194][Thread-23:8684][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:38:28,199][Thread-24:3124][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/bk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/bk.jpg'
+[2018-10-04 15:38:28,200][Thread-25:3608][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/barbk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/barbk.jpg'
+[2018-10-04 15:38:28,392][Thread-29:8176][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:38:28,399][Thread-30:6732][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/bin/jquery.js'
+[2018-10-04 15:38:28,401][Thread-31:5308][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/my_files/my.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/my_files/my.js'
+[2018-10-04 15:38:28,420][Thread-32:3508][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/slide.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/slide.js'
+[2018-10-04 15:38:28,670][Thread-37:8356][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:38:28,691][Thread-38:2472][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/lt.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/lt.jpg'
+[2018-10-04 15:38:28,702][Thread-39:4008][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/bk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/bk.jpg'
+[2018-10-04 15:38:28,715][Thread-40:4640][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/barbk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/barbk.jpg'
+[2018-10-04 15:38:28,993][Thread-47:3176][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/bin/jquery.js'
+[2018-10-04 15:38:29,007][Thread-49:8580][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:38:29,008][Thread-48:8252][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/my_files/my.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/my_files/my.js'
+[2018-10-04 15:38:29,012][Thread-50:2536][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/slide.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/slide.js'
+[2018-10-04 15:38:29,077][Thread-51:5416][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/lt.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/lt.jpg'
+[2018-10-04 15:38:29,078][Thread-52:5796][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/bk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/bk.jpg'
+[2018-10-04 15:38:29,079][Thread-53:8244][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/barbk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/barbk.jpg'
+[2018-10-04 15:38:47,738][Thread-65:8544][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:38:47,798][Thread-66:3064][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:38:47,896][Thread-70:9036][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:38:48,288][Thread-71:6264][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bootstrap.min.css.map]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/bootstrap.min.css.map'
+[2018-10-04 15:38:48,297][Thread-72:6760][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bootstrap-theme.min.css.map]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/bootstrap-theme.min.css.map'
+[2018-10-04 15:38:52,477][Thread-84:1520][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:38:52,488][Thread-85:7680][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/bin/jquery.js'
+[2018-10-04 15:38:52,502][Thread-86:6584][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/my_files/my.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/my_files/my.js'
+[2018-10-04 15:38:52,507][Thread-87:8024][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/slide.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/slide.js'
+[2018-10-04 15:38:52,821][Thread-88:1852][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:38:52,869][Thread-89:1300][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/lt.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/lt.jpg'
+[2018-10-04 15:38:52,882][Thread-90:1460][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/bk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/bk.jpg'
+[2018-10-04 15:38:52,892][Thread-91:2776][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/barbk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/barbk.jpg'
+[2018-10-04 15:38:53,622][Thread-103:7604][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:38:53,669][Thread-105:3600][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/my_files/my.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/my_files/my.js'
+[2018-10-04 15:38:53,675][Thread-104:1996][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/bin/jquery.js'
+[2018-10-04 15:38:53,680][Thread-106:752][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/slide.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/slide.js'
+[2018-10-04 15:38:53,824][Thread-107:4944][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/lt.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/lt.jpg'
+[2018-10-04 15:38:53,878][Thread-108:2572][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/bk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/bk.jpg'
+[2018-10-04 15:38:53,892][Thread-110:5480][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/barbk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/barbk.jpg'
+[2018-10-04 15:38:53,894][Thread-111:7700][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:38:53,923][Thread-112:8684][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/lt.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/lt.jpg'
+[2018-10-04 15:38:53,949][Thread-113:6740][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/my_files/my.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/my_files/my.js'
+[2018-10-04 15:38:53,952][Thread-114:8788][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/slide.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/slide.js'
+[2018-10-04 15:38:54,229][Thread-121:5308][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:38:54,261][Thread-122:7160][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/bin/jquery.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/bin/jquery.js'
+[2018-10-04 15:38:54,278][Thread-124:8356][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/slide.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/slide.js'
+[2018-10-04 15:38:54,279][Thread-123:3508][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/my_files/my.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/my_files/my.js'
+[2018-10-04 15:38:54,367][Thread-125:8952][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/lt.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/lt.jpg'
+[2018-10-04 15:38:54,382][Thread-126:4812][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/pContent.css]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/pContent.css'
+[2018-10-04 15:38:54,399][Thread-127:7136][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/bk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/bk.jpg'
+[2018-10-04 15:38:54,400][Thread-128:2472][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/image/barbk.jpg]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 167, in showPath
+    with open('./static/'+path, mode="rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/image/barbk.jpg'
+[2018-10-04 15:38:54,404][Thread-129:4008][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/pages/slide.js]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/pages/slide.js'
+[2018-10-04 15:49:18,525][Thread-74:8880][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bootstrap.min.css.map]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/bootstrap.min.css.map'
+[2018-10-04 15:49:18,536][Thread-75:9424][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bootstrap-theme.min.css.map]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/bootstrap-theme.min.css.map'
+[2018-10-04 15:52:27,878][Thread-74:9688][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bootstrap.min.css.map]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/bootstrap.min.css.map'
+[2018-10-04 15:52:27,879][Thread-75:9376][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bootstrap-theme.min.css.map]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/bootstrap-theme.min.css.map'
+[2018-10-04 15:57:50,668][Thread-74:9792][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bootstrap.min.css.map]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/bootstrap.min.css.map'
+[2018-10-04 15:57:50,680][Thread-75:9680][task_id:django.request][log.py:228][ERROR][Internal Server Error: /bootstrap-theme.min.css.map]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/bootstrap-theme.min.css.map'
+[2018-10-04 16:09:14,345][Thread-124:5484][task_id:django.request][log.py:228][ERROR][Internal Server Error: /pPostArticle]
+Traceback (most recent call last):
+  File "E:\anaconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\anaconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "X:\dachang\ShadowInk\LoginAPP\views.py", line 119, in showPages
+    with open(urlSave,"wb") as fPic:
+FileNotFoundError: [Errno 2] No such file or directory: 'X:\\dachang\\ShadowInk\\media\\aodacat_1538640554.jpg'

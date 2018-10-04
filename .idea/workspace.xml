@@ -2,7 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7f3a500-c214-4a40-8643-d78f081b4203" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ShadowInk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ShadowInk.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/my/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/1.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/2.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/3.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/new.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/old.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/主页.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/互联网+项目计划书.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/互联网+项目计划书.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/内容.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/商业计划书 .docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/商业计划书 .pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/团队介绍.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/团队介绍.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/图片1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/图片2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/图片3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/图片4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/图片5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/墨影-基于深度学习的水墨画创作交流平台-程元-18810339563.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/墨影视频.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/演讲.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+决赛材料/话题.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+初赛材料/参赛报名表.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+初赛材料/团队介绍.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+初赛材料/项目计划书.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+市赛材料/北邮-创意-W-墨影-介绍视频.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+市赛材料/北邮-创意-W-墨影-项目展示.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+市赛材料/北邮-创意-W-墨影-项目简介.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+市赛材料/北邮-创意-W-墨影-项目计划书.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+市赛材料/北邮-创意-W-墨影.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+市赛材料/参赛项目信息确认表.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/互联网+市赛材料/参赛项目获得投资情况统计表.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/大创/GPU服务器账号申请表.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/大创/大创 第七周.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/大创/大创 第三周.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/大创/大创 第五周.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/大创/大创 第八周.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/大创/大创 第六周.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/大创/大创 第十周.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/大创/大创 第四周.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/大创/大创私有云云主机申请表.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/大创/大创立项申请书.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/大创/报销.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/大创/负责老师联系方式.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/大创/附件3北京邮电大学关于在校本科生发表论文和申请专利的管理办法.pdf" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +62,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ShadowInk$manage.coverage" NAME="manage Coverage Results" MODIFIED="1536767583414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1375163491">
@@ -46,26 +99,96 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1364474149">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="25" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="504">
+              <caret line="27" column="21" selection-end-line="134" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            <state relative-caret-position="294">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#22#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#626#658#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="27" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-627">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
             </state>
           </provider>
         </entry>
@@ -79,6 +202,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/my/main.py" />
+        <option value="$PROJECT_DIR$/my/urls.py" />
       </list>
     </option>
   </component>
@@ -88,17 +212,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="5" />
+    <option name="width" value="1378" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,12 +232,23 @@
             <path>
               <item name="ShadowInk" type="b2602c69:ProjectViewProjectNode" />
               <item name="ShadowInk" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShadowInk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShadowInk" type="462c0819:PsiDirectoryNode" />
+              <item name="MainPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShadowInk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShadowInk" type="462c0819:PsiDirectoryNode" />
               <item name="my" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -122,7 +256,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -136,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.manage">
+  <component name="RunManager" selected="Django server.ShadowInk">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ShadowInk" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,17 +299,42 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="my.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="E:\anaconda\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
-      <option name="host" value="" />
+      <option name="host" value="127.0.0.1" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server">
+      <module name="ShadowInk" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="my.settings" />
+      </envs>
+      <option name="SDK_HOME" value="E:\anaconda\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value=" " />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
@@ -183,6 +342,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Django server.Unnamed" />
       <item itemvalue="Django server.ShadowInk" />
       <item itemvalue="Python.manage" />
     </list>
@@ -206,20 +366,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="840" extended-state="0" />
+    <frame x="5" y="0" width="1378" height="744" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3471646" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25153375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3916084" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39070567" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32867134" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32702237" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.51468533" />
@@ -243,18 +404,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="504">
+          <caret line="27" column="21" selection-end-line="134" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="294">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#22#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#626#658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="27" selection-end-column="33" />
         </state>
       </provider>
     </entry>

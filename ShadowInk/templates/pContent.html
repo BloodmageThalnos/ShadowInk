@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>墨影</title>
+    <script type="text/javascript" src="./bin/jquery.js"></script>
+    <script type="text/javascript" charset="utf-8" async src="./my_files/my.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <!-- Bootstrap 核心文件 -->
+    <link rel=stylesheet href=https://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css>
+    <link rel=stylesheet href=https://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css>
+	<link href="./pages/pContent.css" rel="stylesheet">
+	<script type="text/javascript" charset="utf-8" async src="./pages/slide.js"></script>
+
+</head>
+<body>
+	<div class="MainPage-TopBar" id="MainPage-TopBar" style="width:600%;">
+		<div class="imgContainer">
+			<img src="./image/lt.jpg" id="img1" class="imgSlide" style="margin-left:-87.5%;">
+		</div>
+		<div class="imgContainer">
+			<img src="./image/bk.jpg" id="img2" class="imgSlide" style="margin-left:-95%;">
+		</div>
+		<div class="imgContainer">           
+			<img src="./image/barbk.jpg" id="img3" class="imgSlide" style="margin-left:-102.5%;">
+		</div>
+		<div class="imgContainer">           
+			<img src="./image/lt.jpg" id="img4" class="imgSlide" style="margin-left:-110%;">
+		</div>
+		<div class="imgContainer">
+			<img src="./image/bk.jpg" id="img5" class="imgSlide" style="margin-left:-117.5%;">
+		</div>
+		<div class="imgContainer">           
+			<img src="./image/barbk.jpg" id="img6" class="imgSlide" style="margin-left:-125%;">
+		</div>
+	</div>
+    {% for article in articles %}
+	<div class="ArticleBar">
+        <div class="left_ArticleBar">
+            <div class="left_imgContainer">           
+                <img src="{{article.picurl}}" style="height:100%;width:100%;"> 
+            </div>
+        </div>
+        <div class="right_ArticleBar">
+            <div class="imgContainer" style=""> 
+                <br/>
+                <span style="font-size:35px;">{{article.title}}</span>
+                <br/><br/><br/><br/><br/><br/><br/>
+                <p class="glyphicon glyphicon-time" style="font-size:25px;float:right;">{{article.time}}</p>
+            </div>
+        </div>
+	</div>
+    {% endfor %}
+</body>
+</html>
