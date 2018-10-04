@@ -10,6 +10,7 @@ import random
 import os
 from django.http import *
 from django.template import loader
+from django.contrib.auth import login
 from ShadowInk import settings
 from . import models
 from . import mysqlConnector
@@ -21,7 +22,7 @@ logger = logging.getLogger(__name__)
 # '/'目录，显示主页
 def showMainPage(request):
     logging.info('Accessing Page / with showMainPage')
-    return HttpResponseRedirect('/login')
+    return HttpResponseRedirect('/login/login')
 
 # '/<slug>'目录，分别处理，对于未知的slug返回none
 def showPages(request, path):
@@ -49,11 +50,9 @@ def showPages(request, path):
                 # 登录失败，失败原因在checkResult['message']中
                 template = loader.get_template('loginFail.html')
             else :
-                # 登陆成功
+                # 登陆成功，成功提示也在...中
                 template = loader.get_template('loginSuccess.html')
-                request.session['login']=True
-                request.session['username']=name
-                request.session['userid']=checkResult['id']
+                login(request,checkResult['user'])
             context = {
                 'HelloMessage': checkResult['message'],
             }
@@ -67,24 +66,25 @@ def showPages(request, path):
         if name == None and password == None:
             template = loader.get_template('register.html')
         else:
-            # 如果验证码错误
-            if vcode != request.session.get('vcode',''):
+            # 如果验证码错误 (pass是测试用的后门)
+            if vcode != 'pass' and vcode != request.session.get('vcode',''):
                 template = loader.get_template('registerFail.html')
                 context = {
                     'HelloMessage': '验证码错误！请重新输入，或者尝试重新发送。',
                 }
             # 尝试向数据库中插入用户，并返回成功与否
-            elif not mysqlConnector.insertUser(name, password):
-                template = loader.get_template('registerFail.html')
-                context = {
-                    'HelloMessage': '用户已存在！请重新输入用户名。',
-                }
-            # 用户注册成功
-            else :
-                template = loader.get_template('loginFail.html')
-                context = {
-                    'HelloMessage': '注册成功！请登录。',
-                }
+            else:
+                insertResult = mysqlConnector.insertUser(name, password)
+                if insertResult['success']:# 用户注册成功
+                    template = loader.get_template('loginFail.html')
+                    context = {
+                        'HelloMessage': insertResult['message'],
+                    }
+                else:# 用户注册失败
+                    template = loader.get_template('registerFail.html')
+                    context = {
+                        'HelloMessage': insertResult['message'],
+                    }
         return HttpResponse(template.render(context, request))
 
     # 动态显示首页上的内容

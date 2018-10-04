@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="shadowink@localhost" uuid="e8ed061e-6ede-42ea-bca0-b9da81c87740">
-      <driver-ref>mysql</driver-ref>
+    <data-source source="LOCAL" name="db.sqlite3" uuid="cd8f8414-56ed-4eba-8da1-031a3dccebc2">
+      <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/shadowink</jdbc-url>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db.sqlite3</jdbc-url>
       <driver-properties>
-        <property name="autoReconnect" value="true" />
-        <property name="zeroDateTimeBehavior" value="convertToNull" />
-        <property name="tinyInt1isBit" value="false" />
-        <property name="characterEncoding" value="utf8" />
-        <property name="characterSetResults" value="utf8" />
-        <property name="yearIsDateType" value="false" />
+        <property name="enable_load_extension" value="true" />
       </driver-properties>
     </data-source>
   </component>

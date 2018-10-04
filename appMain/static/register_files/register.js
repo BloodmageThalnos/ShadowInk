@@ -1,7 +1,7 @@
 window.onload=function(){
     $('#huoQuY').click(function(){
         $.ajax({
-            url:'/sendSMS',
+            url:'/login/sendSMS',
             type:'POST',
             data:{
                 "phone_number": $('#phoneNumber').val(),

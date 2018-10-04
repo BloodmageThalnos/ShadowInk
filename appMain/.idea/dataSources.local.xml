@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="shadowink@localhost" uuid="e8ed061e-6ede-42ea-bca0-b9da81c87740">
-      <database-info product="MySQL" version="5.7.18-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" family="MYSQL" exact-version="5.7.18">
-        <extra-name-characters>#@</extra-name-characters>
-        <identifier-quote-string>`</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+    <data-source name="db.sqlite3" uuid="cd8f8414-56ed-4eba-8da1-031a3dccebc2">
+      <database-info product="SQLite" version="3.20.1" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.20.1.1" family="SQLITE" exact-version="3.20.1" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <secret-storage>master_key</secret-storage>
-      <user-name>root</user-name>
+      <auth-required>false</auth-required>
       <introspection-schemas>*:@</introspection-schemas>
     </data-source>
   </component>

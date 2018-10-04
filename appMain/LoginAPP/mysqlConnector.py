@@ -1,9 +1,11 @@
 # -*- coding:utf-8 -*-
 
 import logging
-import mysql.connector
 import hashlib
 import time
+from django.contrib.auth import authenticate
+from django.contrib.auth.models import *
+from LoginAPP.models import Article
 
 """
 这里数据库的名字是shadowInk
@@ -38,22 +40,39 @@ CREATE TABLE `article` (
 
 """
 
+'''
+
 host = "127.0.0.1"
 mysql_username = "root"
 # 这里改成数据库的密码
 mysql_password = "root"
 database = "shadowInk"
-logger = logging.getLogger(__name__)
 
 def md5Password(password):
     h1 = hashlib.md5()
     h1.update(password.encode(encoding="utf-8"))
     h1.update((h1.hexdigest()+"shadowInk").encode(encoding="utf-8"))
     return h1.hexdigest()
+    
+'''
+logger = logging.getLogger(__name__)
 
 # Check the username and password.
-# return a set which contains {success, id, message}.
+# return a set which contains {success, user(if success), message}.
 def checkPassword(name, password):
+    logger.info('Checking password, name:%s, password:%s' % (name, password))
+    if name == None:
+        return {'success': False, 'user': None, 'message': '用户名不能为空！'}
+    if password == None:
+        return {'success': False, 'user': None, 'message': '密码不能为空！'}
+
+    user = authenticate(username=name,password=password)
+    if user==None:
+        return {'success': False, 'user': None, 'message': '用户名或密码错误！'}
+    else:
+        return {'success': True, 'user': user, 'message': '欢迎回来，%s，好久不见了！' % (name)}
+
+'''
     if name == None:
         return {'success': False, 'id': 0, 'message': '用户名不能为空！'}
     if password == None:
@@ -70,8 +89,18 @@ def checkPassword(name, password):
         if result[0][0] == password_md5:
             return {'success': True, 'id': result[0][1], 'message': '欢迎回来，%s，好久不见了！' % (name)}
     return {'success': False, 'id': 0, 'message': '用户名或密码错误！'}
+'''
 
 # Insert a new record, containing username and password.
+def insertUser(name,password):
+    logger.info('Inserting new user, name:%s, password:%s' % (name, password))
+    user = User.objects.create_user(username=name,password=password,email=None)
+    if user==None or user==False:
+        return {'success':'False','message':'用户%s已存在！请登录，或重新输入用户名。'%(name)}
+    user.save()
+    return {'success':'True','message':'注册成功！请登录。'}
+
+'''
 def insertUser(name, password):
     logger.info('Setting password, name:%s, password:%s' % (name, password))
     db = mysql.connector.connect(user=mysql_username, password=mysql_password, database=database)
@@ -86,10 +115,15 @@ def insertUser(name, password):
     cursor.close();
     db.close()
     return True
+'''
+
 
 # Get all the users from the database.
 # Returns an array of set which contains {id, username, password}.
 def getUsers():
+    logger.info('Getting all users')
+    return User.objects.all()
+'''
     logger.info('Getting information')
     db = mysql.connector.connect(user=mysql_username, password=mysql_password, database=database)
     cursor = db.cursor()
@@ -103,10 +137,14 @@ def getUsers():
             list.append({"id":result[0], "name":result[1],"password":result[2]})
         return list
     return []
+'''
 
 # Get the first 10 articles that will be shown on the main page.
 # Returns an array of set which contains {title, picurl, content}.
 def getArticles():
+    logger.info('Getting articles')
+    return Article.objects.all()
+'''
     logger.info('Getting article')
     db = mysql.connector.connect(user=mysql_username, password=mysql_password, database=database)
     cursor = db.cursor()
@@ -119,10 +157,16 @@ def getArticles():
             list.append({"title":result[0], "picurl":result[1],"time":result[2]})
         return list
     return []
+'''
 
 # Insert a new record, containing title, picurl and content.
 # return True if no error occurs.
-def insertArticle(user_id, title, picurl, content):
+def insertArticle(user, title, picurl, content):
+    logger.info('Inserting article')
+    article = Article(author=user,title=title,pic_url=picurl,content=content)
+    article.save()
+
+'''
     logger.info('Inserting article')
     db = mysql.connector.connect(user=mysql_username, password=mysql_password, database=database)
     cursor = db.cursor()
@@ -132,3 +176,4 @@ VALUES(%s,%s,%s,%s,%s);",[str(user_id),title,picurl,content,time.strftime("%Y-%m
     cursor.close()
     db.close()
     return True
+'''

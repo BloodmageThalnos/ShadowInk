@@ -38,15 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'LoginAPP',
-    'corsheaders',
-    'bootstrap',
 ]
 
 SESSION_ENGINE='django.contrib.sessions.backends.cache'
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware',
-    'django.middleware.common.CommonMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -57,7 +53,6 @@ MIDDLEWARE = [
 
 ]
 
-CORS_ORIGIN_ALLOW_ALL = True      #所有的访问都将被允许，白名单不会被使用，默认为false
 
 ROOT_URLCONF = 'ShadowInk.urls'
 
@@ -128,11 +123,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR,'static')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
-STATICFILES_DIRS=(
-    os.path.join(BASE_DIR,'static'),
-)
 
 # Loggers
 

@@ -1,0 +1,866 @@
+[2018-10-04 19:46:31,409][Thread-18:6048][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login/pContent]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 93, in showPages
+    articles = mysqlConnector.getArticles()
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\mysqlConnector.py", line 110, in getArticles
+    db = mysql.connector.connect(user=mysql_username, password=mysql_password, database=database)
+NameError: name 'mysql' is not defined
+[2018-10-04 19:46:32,809][Thread-29:8840][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login/pContent]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 93, in showPages
+    articles = mysqlConnector.getArticles()
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\mysqlConnector.py", line 110, in getArticles
+    db = mysql.connector.connect(user=mysql_username, password=mysql_password, database=database)
+NameError: name 'mysql' is not defined
+[2018-10-04 19:46:32,990][Thread-39:8428][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login/pContent]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 93, in showPages
+    articles = mysqlConnector.getArticles()
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\mysqlConnector.py", line 110, in getArticles
+    db = mysql.connector.connect(user=mysql_username, password=mysql_password, database=database)
+NameError: name 'mysql' is not defined
+[2018-10-04 20:58:50,258][Thread-23:3444][task_id:django.request][log.py:228][ERROR][Internal Server Error: /sendSMS]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/sendSMS'
+[2018-10-04 21:00:19,405][Thread-35:1988][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login/register]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 77, in showPages
+    insertResult = mysqlConnector.insertUser(name, password)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\mysqlConnector.py", line 97, in insertUser
+    user = UserManager.create_user(username=name,password=password,email=None)
+TypeError: create_user() missing 1 required positional argument: 'self'
+[2018-10-04 21:03:32,730][Thread-20:9868][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login/register]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\backends\sqlite3\base.py", line 296, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: auth_user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 77, in showPages
+    insertResult = mysqlConnector.insertUser(name, password)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\mysqlConnector.py", line 97, in insertUser
+    user = User.objects.create_user(username=name,password=password,email=None)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\contrib\auth\models.py", line 150, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\contrib\auth\models.py", line 144, in _create_user
+    user.save(using=self._db)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\contrib\auth\base_user.py", line 73, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\models\base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\models\base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\models\base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\models\base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\models\query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\models\sql\compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\backends\sqlite3\base.py", line 296, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: auth_user
+[2018-10-04 21:06:20,867][Thread-11:1988][task_id:django.request][log.py:228][ERROR][Internal Server Error: /admin]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/admin'
+[2018-10-04 21:09:00,481][Thread-1:8380][task_id:django.request][log.py:228][ERROR][Internal Server Error: /admin]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/admin'
+[2018-10-04 21:09:03,741][Thread-5:9696][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/base.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/base.css'
+[2018-10-04 21:09:03,752][Thread-6:1320][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/login.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/login.css'
+[2018-10-04 21:09:03,756][Thread-7:10180][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/responsive.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/responsive.css'
+[2018-10-04 21:11:12,441][Thread-1:7460][task_id:django.request][log.py:228][ERROR][Internal Server Error: /admin]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/admin'
+[2018-10-04 21:11:16,551][Thread-3:7688][task_id:django.request][log.py:228][ERROR][Internal Server Error: /admin/]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/admin/'
+[2018-10-04 21:12:50,855][Thread-1:10152][task_id:django.request][log.py:228][ERROR][Internal Server Error: /admin/]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/admin/'
+[2018-10-04 21:14:34,626][Thread-13:7696][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/login.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/login.css'
+[2018-10-04 21:14:34,627][Thread-14:1416][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/base.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/base.css'
+[2018-10-04 21:14:34,628][Thread-15:8344][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/responsive.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/responsive.css'
+[2018-10-04 21:14:47,149][Thread-18:10152][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/base.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/base.css'
+[2018-10-04 21:14:47,150][Thread-19:9476][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/responsive.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/responsive.css'
+[2018-10-04 21:14:47,151][Thread-20:1600][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/dashboard.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/dashboard.css'
+[2018-10-04 21:14:55,842][Thread-22:2560][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/base.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/base.css'
+[2018-10-04 21:14:55,846][Thread-23:7492][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/changelists.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/changelists.css'
+[2018-10-04 21:14:55,850][Thread-25:3380][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/vendor/jquery/jquery.min.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/vendor/jquery/jquery.min.js'
+[2018-10-04 21:14:55,858][Thread-26:8260][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/jquery.init.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/jquery.init.js'
+[2018-10-04 21:14:55,879][Thread-27:8432][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/responsive.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/responsive.css'
+[2018-10-04 21:14:56,088][Thread-28:7500][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/admin/RelatedObjectLookups.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/admin/RelatedObjectLookups.js'
+[2018-10-04 21:14:56,095][Thread-29:1332][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/urlify.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/urlify.js'
+[2018-10-04 21:14:56,208][Thread-30:8900][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/prepopulate.min.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/prepopulate.min.js'
+[2018-10-04 21:14:56,324][Thread-31:5560][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/vendor/xregexp/xregexp.min.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/vendor/xregexp/xregexp.min.js'
+[2018-10-04 21:14:56,505][Thread-32:8916][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/core.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/core.js'
+[2018-10-04 21:14:56,703][Thread-33:6668][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/actions.min.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/actions.min.js'
+[2018-10-04 21:14:56,890][Thread-34:8608][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/img/search.svg]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/img/search.svg'
+[2018-10-04 21:14:57,101][Thread-35:7188][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/img/icon-yes.svg]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/img/icon-yes.svg'
+[2018-10-04 21:14:57,580][Thread-36:9812][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/admin/RelatedObjectLookups.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/admin/RelatedObjectLookups.js'
+[2018-10-04 21:14:58,293][Thread-37:6368][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/actions.min.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/actions.min.js'
+[2018-10-04 21:14:58,517][Thread-38:7444][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/urlify.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/urlify.js'
+[2018-10-04 21:14:58,645][Thread-39:3428][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/prepopulate.min.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/prepopulate.min.js'
+[2018-10-04 21:14:58,837][Thread-40:5840][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/vendor/xregexp/xregexp.min.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/vendor/xregexp/xregexp.min.js'
+[2018-10-04 21:14:59,061][Thread-41:7700][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/responsive.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/responsive.css'
+[2018-10-04 21:15:11,327][Thread-42:6536][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/changelists.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/changelists.css'
+[2018-10-04 21:15:11,333][Thread-43:8640][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/base.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/base.css'
+[2018-10-04 21:15:11,338][Thread-44:6140][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/responsive.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/responsive.css'
+[2018-10-04 21:26:11,446][Thread-13:10284][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/base.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/base.css'
+[2018-10-04 21:26:11,447][Thread-15:6280][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/responsive.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/responsive.css'
+[2018-10-04 21:26:11,448][Thread-14:7256][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/login.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/login.css'
+[2018-10-04 21:27:11,755][Thread-12:420][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/base.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/css/base.css'
+[2018-10-04 21:27:11,759][Thread-13:7364][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/responsive.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/css/responsive.css'
+[2018-10-04 21:27:11,811][Thread-14:6368][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/login.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/css/login.css'
+[2018-10-04 21:27:14,554][Thread-15:8708][task_id:django.request][log.py:228][ERROR][Internal Server Error: /admin]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+PermissionError: [Errno 13] Permission denied: './static/admin'
+[2018-10-04 21:27:19,498][Thread-18:10676][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/base.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/css/base.css'
+[2018-10-04 21:27:19,504][Thread-19:1948][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/login.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/css/login.css'
+[2018-10-04 21:27:19,505][Thread-20:6160][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/responsive.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/css/responsive.css'
+[2018-10-04 21:28:19,292][Thread-16:7904][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Regular-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb0 in position 11: invalid start byte
+[2018-10-04 21:28:19,361][Thread-17:9192][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Light-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc4 in position 11: invalid continuation byte
+[2018-10-04 21:28:21,661][Thread-26:7932][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Light-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc4 in position 11: invalid continuation byte
+[2018-10-04 21:28:21,663][Thread-27:8156][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Bold-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x84 in position 11: invalid start byte
+[2018-10-04 21:28:21,672][Thread-28:1600][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Regular-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb0 in position 11: invalid start byte
+[2018-10-04 21:28:25,490][Thread-48:10292][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Regular-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb0 in position 11: invalid start byte
+[2018-10-04 21:28:25,507][Thread-49:11256][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Light-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc4 in position 11: invalid continuation byte
+[2018-10-04 21:28:25,508][Thread-50:3544][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Bold-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x84 in position 11: invalid start byte
+[2018-10-04 21:28:33,004][Thread-72:10252][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Regular-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb0 in position 11: invalid start byte
+[2018-10-04 21:28:33,025][Thread-75:11012][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Light-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc4 in position 11: invalid continuation byte
+[2018-10-04 21:28:33,027][Thread-76:10264][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Bold-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x84 in position 11: invalid start byte
+[2018-10-04 21:28:35,840][Thread-99:8764][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Regular-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb0 in position 11: invalid start byte
+[2018-10-04 21:28:35,944][Thread-100:1440][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Light-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc4 in position 11: invalid continuation byte
+[2018-10-04 21:28:35,967][Thread-101:5660][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Bold-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x84 in position 11: invalid start byte
+[2018-10-04 21:28:48,540][Thread-109:9456][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Light-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc4 in position 11: invalid continuation byte
+[2018-10-04 21:28:48,540][Thread-110:420][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Bold-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x84 in position 11: invalid start byte
+[2018-10-04 21:28:51,694][Thread-112:8708][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Bold-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x84 in position 11: invalid start byte
+[2018-10-04 21:30:30,163][Thread-164:11260][task_id:django.request][log.py:228][ERROR][Internal Server Error: /explore]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/explore'
+[2018-10-04 21:32:02,302][Thread-7:8752][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login/article.html]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/login/article.html'
