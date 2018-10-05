@@ -1,0 +1,1306 @@
+[2018-10-04 16:32:03,769][Thread-1:8572][task_id:root][views.py:23][INFO][Accessing Page / with showMainPage]
+[2018-10-04 16:32:03,798][Thread-3:8108][task_id:root][views.py:28][INFO][Accessing Page /login with showPages]
+[2018-10-04 16:32:03,901][Thread-4:3064][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-10-04 16:32:03,963][Thread-5:8024][task_id:root][views.py:164][INFO][Accessing Page /image/icon.png with showPath]
+[2018-10-04 16:32:03,986][Thread-6:9564][task_id:root][views.py:164][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-10-04 16:32:04,035][Thread-7:10044][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 16:32:04,203][Thread-8:8692][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.js with showPath]
+[2018-10-04 16:32:04,523][Thread-9:8684][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 16:32:04,534][Thread-10:5168][task_id:root][views.py:164][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-10-04 16:32:05,598][Thread-11:9260][task_id:root][views.py:28][INFO][Accessing Page /login with showPages]
+[2018-10-04 16:32:05,599][Thread-11:9260][task_id:LoginAPP.mysqlConnector][mysqlConnector.py:61][INFO][Checking password, name:xll, password:bob]
+[2018-10-04 16:32:05,620][Thread-11:9260][task_id:LoginAPP.mysqlConnector][mysqlConnector.py:69][INFO][[('a1d8e076b32b5e3e052e2f7b6d5a006f', 19)]]
+[2018-10-04 16:32:05,714][Thread-12:9456][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-10-04 16:32:05,748][Thread-13:4852][task_id:root][views.py:164][INFO][Accessing Page /image/icon.png with showPath]
+[2018-10-04 16:32:05,846][Thread-14:3956][task_id:root][views.py:164][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-10-04 16:32:05,955][Thread-15:8592][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 16:32:09,025][Thread-16:8580][task_id:root][views.py:28][INFO][Accessing Page /explore with showPages]
+[2018-10-04 16:32:09,101][Thread-17:10068][task_id:root][views.py:164][INFO][Accessing Page /my_files/my.css with showPath]
+[2018-10-04 16:32:09,130][Thread-18:9284][task_id:root][views.py:164][INFO][Accessing Page /image/1.png with showPath]
+[2018-10-04 16:32:09,180][Thread-19:10220][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 16:32:09,220][Thread-20:9344][task_id:root][views.py:164][INFO][Accessing Page /my_files/my.js with showPath]
+[2018-10-04 16:32:09,387][Thread-21:3800][task_id:root][views.py:164][INFO][Accessing Page /article.html with showPath]
+[2018-10-04 16:32:09,407][Thread-22:10048][task_id:root][views.py:28][INFO][Accessing Page /pContent with showPages]
+[2018-10-04 16:32:09,408][Thread-22:10048][task_id:LoginAPP.mysqlConnector][mysqlConnector.py:110][INFO][Getting article]
+[2018-10-04 16:32:09,411][Thread-23:3720][task_id:root][views.py:164][INFO][Accessing Page /image/barbk.jpg with showPath]
+[2018-10-04 16:32:09,675][Thread-24:1476][task_id:root][views.py:164][INFO][Accessing Page /article_files/article.css with showPath]
+[2018-10-04 16:32:09,698][Thread-25:5308][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 16:32:09,702][Thread-26:6584][task_id:root][views.py:164][INFO][Accessing Page /article_files/article.js with showPath]
+[2018-10-04 16:32:09,778][Thread-27:1512][task_id:root][views.py:164][INFO][Accessing Page /pages/pContent.css with showPath]
+[2018-10-04 16:32:09,788][Thread-28:10204][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 16:32:09,795][Thread-30:9876][task_id:root][views.py:164][INFO][Accessing Page /pages/slide.js with showPath]
+[2018-10-04 16:32:09,797][Thread-29:9824][task_id:root][views.py:164][INFO][Accessing Page /my_files/my.js with showPath]
+[2018-10-04 16:32:09,878][Thread-31:9560][task_id:root][views.py:164][INFO][Accessing Page /image/lt.jpg with showPath]
+[2018-10-04 16:32:09,906][Thread-32:5328][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 16:32:09,925][Thread-33:9732][task_id:root][views.py:164][INFO][Accessing Page /image/barbk.jpg with showPath]
+[2018-10-04 16:32:09,942][Thread-34:5984][task_id:root][views.py:192][INFO][Accessing Page /aodacat_1538640784.jpg with showPath]
+[2018-10-04 16:32:10,024][Thread-35:7808][task_id:root][views.py:164][INFO][Accessing Page /my.html with showPath]
+[2018-10-04 16:32:10,163][Thread-36:9288][task_id:root][views.py:164][INFO][Accessing Page /my_files/my.css with showPath]
+[2018-10-04 16:32:10,184][Thread-37:9316][task_id:root][views.py:164][INFO][Accessing Page /image/1.png with showPath]
+[2018-10-04 16:32:10,200][Thread-38:2016][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 16:32:10,210][Thread-39:7164][task_id:root][views.py:164][INFO][Accessing Page /my_files/my.js with showPath]
+[2018-10-04 16:32:10,436][Thread-40:8488][task_id:root][views.py:164][INFO][Accessing Page /article.html with showPath]
+[2018-10-04 16:32:10,443][Thread-41:8664][task_id:root][views.py:28][INFO][Accessing Page /pContent with showPages]
+[2018-10-04 16:32:10,444][Thread-41:8664][task_id:LoginAPP.mysqlConnector][mysqlConnector.py:110][INFO][Getting article]
+[2018-10-04 16:32:10,452][Thread-42:9220][task_id:root][views.py:164][INFO][Accessing Page /image/barbk.jpg with showPath]
+[2018-10-04 16:32:10,494][Thread-43:9884][task_id:root][views.py:164][INFO][Accessing Page /article_files/article.css with showPath]
+[2018-10-04 16:32:10,502][Thread-44:9524][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 16:32:10,510][Thread-45:7692][task_id:root][views.py:164][INFO][Accessing Page /article_files/article.js with showPath]
+[2018-10-04 16:32:10,590][Thread-46:7304][task_id:root][views.py:164][INFO][Accessing Page /pages/pContent.css with showPath]
+[2018-10-04 16:32:10,606][Thread-47:9244][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 16:32:10,625][Thread-48:1728][task_id:root][views.py:164][INFO][Accessing Page /my_files/my.js with showPath]
+[2018-10-04 16:32:10,631][Thread-49:5468][task_id:root][views.py:164][INFO][Accessing Page /pages/slide.js with showPath]
+[2018-10-04 16:32:10,725][Thread-50:9532][task_id:root][views.py:164][INFO][Accessing Page /my.html with showPath]
+[2018-10-04 16:32:10,808][Thread-51:9384][task_id:root][views.py:164][INFO][Accessing Page /image/lt.jpg with showPath]
+[2018-10-04 16:32:10,828][Thread-52:8772][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 16:32:10,838][Thread-53:9636][task_id:root][views.py:164][INFO][Accessing Page /my_files/my.css with showPath]
+[2018-10-04 16:32:10,851][Thread-54:8908][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 16:32:10,876][Thread-55:8284][task_id:root][views.py:164][INFO][Accessing Page /image/1.png with showPath]
+[2018-10-04 16:32:10,895][Thread-56:3568][task_id:root][views.py:164][INFO][Accessing Page /my_files/my.js with showPath]
+[2018-10-04 16:32:10,930][Thread-57:7824][task_id:root][views.py:164][INFO][Accessing Page /image/barbk.jpg with showPath]
+[2018-10-04 16:32:10,941][Thread-58:9892][task_id:root][views.py:192][INFO][Accessing Page /aodacat_1538640784.jpg with showPath]
+[2018-10-04 16:32:11,042][Thread-59:2120][task_id:root][views.py:28][INFO][Accessing Page /pContent with showPages]
+[2018-10-04 16:32:11,043][Thread-59:2120][task_id:LoginAPP.mysqlConnector][mysqlConnector.py:110][INFO][Getting article]
+[2018-10-04 16:32:11,059][Thread-60:4144][task_id:root][views.py:164][INFO][Accessing Page /image/barbk.jpg with showPath]
+[2018-10-04 16:32:11,085][Thread-61:1344][task_id:root][views.py:164][INFO][Accessing Page /pages/pContent.css with showPath]
+[2018-10-04 16:32:11,113][Thread-62:4368][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 16:32:11,126][Thread-63:10052][task_id:root][views.py:164][INFO][Accessing Page /my_files/my.js with showPath]
+[2018-10-04 16:32:11,143][Thread-64:4268][task_id:root][views.py:164][INFO][Accessing Page /pages/slide.js with showPath]
+[2018-10-04 16:32:11,179][Thread-66:7552][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 16:32:11,184][Thread-65:7744][task_id:root][views.py:164][INFO][Accessing Page /image/lt.jpg with showPath]
+[2018-10-04 16:32:11,267][Thread-67:9904][task_id:root][views.py:164][INFO][Accessing Page /image/barbk.jpg with showPath]
+[2018-10-04 16:32:11,270][Thread-68:8268][task_id:root][views.py:192][INFO][Accessing Page /aodacat_1538640784.jpg with showPath]
+[2018-10-04 19:46:22,916][Thread-1:7428][task_id:root][views.py:23][INFO][Accessing Page / with showMainPage]
+[2018-10-04 19:46:23,023][Thread-3:7396][task_id:root][views.py:28][INFO][Accessing Page /login with showPages]
+[2018-10-04 19:46:23,522][Thread-4:8628][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-10-04 19:46:23,524][Thread-5:224][task_id:root][views.py:164][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-10-04 19:46:23,526][Thread-6:3180][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 19:46:23,528][Thread-8:9316][task_id:root][views.py:164][INFO][Accessing Page /image/icon.png with showPath]
+[2018-10-04 19:46:23,529][Thread-7:5808][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.js with showPath]
+[2018-10-04 19:46:23,645][Thread-9:9212][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 19:46:23,685][Thread-10:6204][task_id:root][views.py:164][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-10-04 19:46:23,831][Thread-11:4844][task_id:django.request][log.py:228][WARNING][Not Found: /favicon.ico]
+[2018-10-04 19:46:31,325][Thread-12:5952][task_id:root][views.py:28][INFO][Accessing Page /explore with showPages]
+[2018-10-04 19:46:31,347][Thread-13:10004][task_id:django.request][log.py:228][WARNING][Not Found: /bin/jquery.js]
+[2018-10-04 19:46:31,351][Thread-14:1484][task_id:django.request][log.py:228][WARNING][Not Found: /my_files/my.css]
+[2018-10-04 19:46:31,355][Thread-15:4652][task_id:django.request][log.py:228][WARNING][Not Found: /my_files/my.js]
+[2018-10-04 19:46:31,359][Thread-16:4712][task_id:root][views.py:164][INFO][Accessing Page /image/1.png with showPath]
+[2018-10-04 19:46:31,403][Thread-17:5544][task_id:root][views.py:164][INFO][Accessing Page /article.html with showPath]
+[2018-10-04 19:46:31,406][Thread-18:6048][task_id:root][views.py:28][INFO][Accessing Page /pContent with showPages]
+[2018-10-04 19:46:31,406][Thread-18:6048][task_id:LoginAPP.mysqlConnector][mysqlConnector.py:109][INFO][Getting article]
+[2018-10-04 19:46:31,424][Thread-19:6596][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 19:46:31,442][Thread-20:7332][task_id:root][views.py:164][INFO][Accessing Page /article_files/article.css with showPath]
+[2018-10-04 19:46:31,444][Thread-21:9160][task_id:root][views.py:164][INFO][Accessing Page /article_files/article.js with showPath]
+[2018-10-04 19:46:31,409][Thread-18:6048][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login/pContent]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 93, in showPages
+    articles = mysqlConnector.getArticles()
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\mysqlConnector.py", line 110, in getArticles
+    db = mysql.connector.connect(user=mysql_username, password=mysql_password, database=database)
+NameError: name 'mysql' is not defined
+[2018-10-04 19:46:32,613][Thread-22:9572][task_id:root][views.py:164][INFO][Accessing Page /my.html with showPath]
+[2018-10-04 19:46:32,616][Thread-23:3436][task_id:root][views.py:164][INFO][Accessing Page /image/barbk.jpg with showPath]
+[2018-10-04 19:46:32,723][Thread-24:5680][task_id:django.request][log.py:228][WARNING][Not Found: /bin/jquery.js]
+[2018-10-04 19:46:32,726][Thread-25:8128][task_id:django.request][log.py:228][WARNING][Not Found: /my_files/my.css]
+[2018-10-04 19:46:32,730][Thread-26:9496][task_id:django.request][log.py:228][WARNING][Not Found: /my_files/my.js]
+[2018-10-04 19:46:32,733][Thread-27:8828][task_id:root][views.py:164][INFO][Accessing Page /image/1.png with showPath]
+[2018-10-04 19:46:32,774][Thread-28:9596][task_id:root][views.py:164][INFO][Accessing Page /article.html with showPath]
+[2018-10-04 19:46:32,808][Thread-29:8840][task_id:root][views.py:28][INFO][Accessing Page /pContent with showPages]
+[2018-10-04 19:46:32,808][Thread-29:8840][task_id:LoginAPP.mysqlConnector][mysqlConnector.py:109][INFO][Getting article]
+[2018-10-04 19:46:32,809][Thread-29:8840][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login/pContent]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 93, in showPages
+    articles = mysqlConnector.getArticles()
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\mysqlConnector.py", line 110, in getArticles
+    db = mysql.connector.connect(user=mysql_username, password=mysql_password, database=database)
+NameError: name 'mysql' is not defined
+[2018-10-04 19:46:32,842][Thread-30:2868][task_id:root][views.py:164][INFO][Accessing Page /image/barbk.jpg with showPath]
+[2018-10-04 19:46:32,845][Thread-31:8360][task_id:root][views.py:164][INFO][Accessing Page /article_files/article.css with showPath]
+[2018-10-04 19:46:32,849][Thread-32:6300][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 19:46:32,852][Thread-33:6160][task_id:root][views.py:164][INFO][Accessing Page /article_files/article.js with showPath]
+[2018-10-04 19:46:32,930][Thread-34:9144][task_id:root][views.py:164][INFO][Accessing Page /my.html with showPath]
+[2018-10-04 19:46:32,960][Thread-35:7888][task_id:django.request][log.py:228][WARNING][Not Found: /bin/jquery.js]
+[2018-10-04 19:46:32,963][Thread-36:1332][task_id:django.request][log.py:228][WARNING][Not Found: /my_files/my.css]
+[2018-10-04 19:46:32,968][Thread-37:9048][task_id:django.request][log.py:228][WARNING][Not Found: /my_files/my.js]
+[2018-10-04 19:46:32,972][Thread-38:9164][task_id:root][views.py:164][INFO][Accessing Page /image/1.png with showPath]
+[2018-10-04 19:46:32,989][Thread-39:8428][task_id:root][views.py:28][INFO][Accessing Page /pContent with showPages]
+[2018-10-04 19:46:32,990][Thread-39:8428][task_id:LoginAPP.mysqlConnector][mysqlConnector.py:109][INFO][Getting article]
+[2018-10-04 19:46:33,018][Thread-40:10036][task_id:root][views.py:164][INFO][Accessing Page /image/barbk.jpg with showPath]
+[2018-10-04 19:46:32,990][Thread-39:8428][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login/pContent]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 93, in showPages
+    articles = mysqlConnector.getArticles()
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\mysqlConnector.py", line 110, in getArticles
+    db = mysql.connector.connect(user=mysql_username, password=mysql_password, database=database)
+NameError: name 'mysql' is not defined
+[2018-10-04 20:58:15,640][Thread-1:6316][task_id:root][views.py:24][INFO][Accessing Page / with showMainPage]
+[2018-10-04 20:58:15,670][Thread-3:7652][task_id:root][views.py:29][INFO][Accessing Page /login with showPages]
+[2018-10-04 20:58:15,798][Thread-4:4452][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-10-04 20:58:15,801][Thread-5:7628][task_id:root][views.py:164][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-10-04 20:58:15,804][Thread-6:5140][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 20:58:15,807][Thread-7:9020][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.js with showPath]
+[2018-10-04 20:58:15,812][Thread-8:212][task_id:root][views.py:164][INFO][Accessing Page /image/icon.png with showPath]
+[2018-10-04 20:58:16,196][Thread-9:7736][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 20:58:16,325][Thread-10:4552][task_id:root][views.py:164][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-10-04 20:58:16,471][Thread-11:8744][task_id:root][views.py:164][INFO][Accessing Page /favicon.ico with showPath]
+[2018-10-04 20:58:18,981][Thread-12:7280][task_id:root][views.py:29][INFO][Accessing Page /register with showPages]
+[2018-10-04 20:58:19,013][Thread-13:7228][task_id:root][views.py:164][INFO][Accessing Page /register_files/login.css with showPath]
+[2018-10-04 20:58:19,036][Thread-14:8096][task_id:root][views.py:164][INFO][Accessing Page /my_files/my.css with showPath]
+[2018-10-04 20:58:19,038][Thread-16:7460][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 20:58:19,039][Thread-17:7800][task_id:root][views.py:164][INFO][Accessing Page /register_files/register.js with showPath]
+[2018-10-04 20:58:19,042][Thread-15:9652][task_id:root][views.py:164][INFO][Accessing Page /register_files/patternLock.min.js with showPath]
+[2018-10-04 20:58:19,044][Thread-18:5616][task_id:root][views.py:164][INFO][Accessing Page /image/icon.png with showPath]
+[2018-10-04 20:58:19,188][Thread-19:9456][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 20:58:19,193][Thread-20:5500][task_id:root][views.py:164][INFO][Accessing Page /register_files/icon_2x.png with showPath]
+[2018-10-04 20:58:25,729][Thread-21:5012][task_id:root][views.py:164][INFO][Accessing Page /register_files/login.css with showPath]
+[2018-10-04 20:58:25,731][Thread-22:7336][task_id:root][views.py:164][INFO][Accessing Page /my_files/my.css with showPath]
+[2018-10-04 20:58:50,253][Thread-23:3444][task_id:root][views.py:164][INFO][Accessing Page /sendSMS with showPath]
+[2018-10-04 20:58:50,258][Thread-23:3444][task_id:django.request][log.py:228][ERROR][Internal Server Error: /sendSMS]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/sendSMS'
+[2018-10-04 20:59:35,002][Thread-24:7628][task_id:root][views.py:29][INFO][Accessing Page /register with showPages]
+[2018-10-04 20:59:35,030][Thread-25:9020][task_id:root][views.py:164][INFO][Accessing Page /register_files/login.css with showPath]
+[2018-10-04 20:59:35,033][Thread-26:7736][task_id:root][views.py:164][INFO][Accessing Page /my_files/my.css with showPath]
+[2018-10-04 20:59:35,037][Thread-27:4552][task_id:root][views.py:164][INFO][Accessing Page /register_files/patternLock.min.js with showPath]
+[2018-10-04 20:59:35,040][Thread-28:8744][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 20:59:35,045][Thread-29:8088][task_id:root][views.py:164][INFO][Accessing Page /register_files/register.js with showPath]
+[2018-10-04 20:59:35,051][Thread-30:3264][task_id:root][views.py:164][INFO][Accessing Page /image/icon.png with showPath]
+[2018-10-04 20:59:35,279][Thread-31:7280][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 20:59:35,281][Thread-32:7228][task_id:root][views.py:164][INFO][Accessing Page /register_files/icon_2x.png with showPath]
+[2018-10-04 20:59:38,651][Thread-33:8096][task_id:root][views.py:29][INFO][Accessing Page /sendSMS with showPages]
+[2018-10-04 20:59:38,652][Thread-33:8096][task_id:root][views.py:144][INFO][Phone number:  , Identify_code: 6760]
+[2018-10-04 20:59:38,878][Thread-33:8096][task_id:root][views.py:156][INFO][{'result': 1016, 'errmsg': '手机号格式错误', 'ext': ''}]
+[2018-10-04 20:59:57,949][Thread-34:1440][task_id:root][views.py:29][INFO][Accessing Page /sendSMS with showPages]
+[2018-10-04 20:59:57,950][Thread-34:1440][task_id:root][views.py:144][INFO][Phone number: 18810339563 , Identify_code: 1885]
+[2018-10-04 20:59:58,209][Thread-34:1440][task_id:root][views.py:156][INFO][{'result': 0, 'errmsg': 'OK', 'ext': '', 'sid': '18:cf69c3f5c4bf4f1fb79cfceb168052ca', 'fee': 1}]
+[2018-10-04 21:00:19,403][Thread-35:1988][task_id:root][views.py:29][INFO][Accessing Page /register with showPages]
+[2018-10-04 21:00:19,404][Thread-35:1988][task_id:LoginAPP.mysqlConnector][mysqlConnector.py:96][INFO][Inserting new user, name:little, password:driver]
+[2018-10-04 21:00:19,405][Thread-35:1988][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login/register]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 77, in showPages
+    insertResult = mysqlConnector.insertUser(name, password)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\mysqlConnector.py", line 97, in insertUser
+    user = UserManager.create_user(username=name,password=password,email=None)
+TypeError: create_user() missing 1 required positional argument: 'self'
+[2018-10-04 21:03:19,762][Thread-1:8752][task_id:root][views.py:24][INFO][Accessing Page / with showMainPage]
+[2018-10-04 21:03:19,778][Thread-3:10188][task_id:root][views.py:29][INFO][Accessing Page /login with showPages]
+[2018-10-04 21:03:19,820][Thread-5:7332][task_id:root][views.py:164][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-10-04 21:03:19,821][Thread-6:6840][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 21:03:19,823][Thread-4:7932][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-10-04 21:03:19,826][Thread-7:8352][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.js with showPath]
+[2018-10-04 21:03:19,832][Thread-8:7464][task_id:root][views.py:164][INFO][Accessing Page /image/icon.png with showPath]
+[2018-10-04 21:03:20,000][Thread-9:2428][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 21:03:20,191][Thread-10:9672][task_id:root][views.py:164][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-10-04 21:03:23,278][Thread-11:4252][task_id:root][views.py:29][INFO][Accessing Page /register with showPages]
+[2018-10-04 21:03:23,301][Thread-12:10004][task_id:root][views.py:164][INFO][Accessing Page /register_files/login.css with showPath]
+[2018-10-04 21:03:23,303][Thread-13:9212][task_id:root][views.py:164][INFO][Accessing Page /my_files/my.css with showPath]
+[2018-10-04 21:03:23,305][Thread-14:420][task_id:root][views.py:164][INFO][Accessing Page /register_files/patternLock.min.js with showPath]
+[2018-10-04 21:03:23,310][Thread-15:5560][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 21:03:23,314][Thread-16:1528][task_id:root][views.py:164][INFO][Accessing Page /register_files/register.js with showPath]
+[2018-10-04 21:03:23,317][Thread-17:5788][task_id:root][views.py:164][INFO][Accessing Page /image/icon.png with showPath]
+[2018-10-04 21:03:23,386][Thread-18:6684][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 21:03:23,396][Thread-19:1404][task_id:root][views.py:164][INFO][Accessing Page /register_files/icon_2x.png with showPath]
+[2018-10-04 21:03:32,192][Thread-20:9868][task_id:root][views.py:29][INFO][Accessing Page /register with showPages]
+[2018-10-04 21:03:32,193][Thread-20:9868][task_id:LoginAPP.mysqlConnector][mysqlConnector.py:96][INFO][Inserting new user, name:little, password:driver]
+[2018-10-04 21:03:32,730][Thread-20:9868][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login/register]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\backends\sqlite3\base.py", line 296, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: auth_user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 77, in showPages
+    insertResult = mysqlConnector.insertUser(name, password)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\mysqlConnector.py", line 97, in insertUser
+    user = User.objects.create_user(username=name,password=password,email=None)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\contrib\auth\models.py", line 150, in create_user
+    return self._create_user(username, email, password, **extra_fields)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\contrib\auth\models.py", line 144, in _create_user
+    user.save(using=self._db)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\contrib\auth\base_user.py", line 73, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\models\base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\models\base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\models\base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\models\base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\models\query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\models\sql\compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\backends\sqlite3\base.py", line 296, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: auth_user
+[2018-10-04 21:06:17,181][Thread-1:9348][task_id:root][views.py:24][INFO][Accessing Page / with showMainPage]
+[2018-10-04 21:06:17,189][Thread-3:8796][task_id:root][views.py:29][INFO][Accessing Page /login with showPages]
+[2018-10-04 21:06:17,220][Thread-4:2684][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-10-04 21:06:17,222][Thread-5:8596][task_id:root][views.py:164][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-10-04 21:06:17,224][Thread-6:10144][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 21:06:17,227][Thread-7:8344][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.js with showPath]
+[2018-10-04 21:06:17,233][Thread-8:6424][task_id:root][views.py:164][INFO][Accessing Page /image/icon.png with showPath]
+[2018-10-04 21:06:17,357][Thread-9:7892][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 21:06:17,403][Thread-10:7276][task_id:root][views.py:164][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-10-04 21:06:20,861][Thread-11:1988][task_id:root][views.py:164][INFO][Accessing Page /admin with showPath]
+[2018-10-04 21:06:20,867][Thread-11:1988][task_id:django.request][log.py:228][ERROR][Internal Server Error: /admin]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/admin'
+[2018-10-04 21:09:00,470][Thread-1:8380][task_id:root][views.py:164][INFO][Accessing Page /admin with showPath]
+[2018-10-04 21:09:00,481][Thread-1:8380][task_id:django.request][log.py:228][ERROR][Internal Server Error: /admin]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/admin'
+[2018-10-04 21:09:03,739][Thread-5:9696][task_id:root][views.py:164][INFO][Accessing Page /static/admin/css/base.css with showPath]
+[2018-10-04 21:09:03,742][Thread-6:1320][task_id:root][views.py:164][INFO][Accessing Page /static/admin/css/login.css with showPath]
+[2018-10-04 21:09:03,745][Thread-7:10180][task_id:root][views.py:164][INFO][Accessing Page /static/admin/css/responsive.css with showPath]
+[2018-10-04 21:09:03,741][Thread-5:9696][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/base.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/base.css'
+[2018-10-04 21:09:03,752][Thread-6:1320][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/login.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/login.css'
+[2018-10-04 21:09:03,756][Thread-7:10180][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/responsive.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/responsive.css'
+[2018-10-04 21:11:12,430][Thread-1:7460][task_id:root][views.py:164][INFO][Accessing Page /admin with showPath]
+[2018-10-04 21:11:12,441][Thread-1:7460][task_id:django.request][log.py:228][ERROR][Internal Server Error: /admin]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/admin'
+[2018-10-04 21:11:16,550][Thread-3:7688][task_id:root][views.py:164][INFO][Accessing Page /admin/ with showPath]
+[2018-10-04 21:11:16,551][Thread-3:7688][task_id:django.request][log.py:228][ERROR][Internal Server Error: /admin/]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/admin/'
+[2018-10-04 21:12:50,843][Thread-1:10152][task_id:root][views.py:164][INFO][Accessing Page /admin/ with showPath]
+[2018-10-04 21:12:50,855][Thread-1:10152][task_id:django.request][log.py:228][ERROR][Internal Server Error: /admin/]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/admin/'
+[2018-10-04 21:12:50,965][Thread-3:8344][task_id:root][views.py:164][INFO][Accessing Page /favicon.ico with showPath]
+[2018-10-04 21:14:26,988][Thread-1:5980][task_id:root][views.py:24][INFO][Accessing Page / with showMainPage]
+[2018-10-04 21:14:26,999][Thread-3:5856][task_id:root][views.py:29][INFO][Accessing Page /login with showPages]
+[2018-10-04 21:14:27,032][Thread-4:7344][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-10-04 21:14:27,034][Thread-8:5680][task_id:root][views.py:164][INFO][Accessing Page /image/icon.png with showPath]
+[2018-10-04 21:14:27,035][Thread-6:2348][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 21:14:27,037][Thread-7:4536][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.js with showPath]
+[2018-10-04 21:14:27,039][Thread-5:7932][task_id:root][views.py:164][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-10-04 21:14:27,217][Thread-9:7332][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 21:14:27,379][Thread-10:7268][task_id:root][views.py:164][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-10-04 21:14:34,611][Thread-13:7696][task_id:root][views.py:164][INFO][Accessing Page /static/admin/css/login.css with showPath]
+[2018-10-04 21:14:34,613][Thread-14:1416][task_id:root][views.py:164][INFO][Accessing Page /static/admin/css/base.css with showPath]
+[2018-10-04 21:14:34,615][Thread-15:8344][task_id:root][views.py:164][INFO][Accessing Page /static/admin/css/responsive.css with showPath]
+[2018-10-04 21:14:34,626][Thread-13:7696][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/login.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/login.css'
+[2018-10-04 21:14:34,627][Thread-14:1416][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/base.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/base.css'
+[2018-10-04 21:14:34,628][Thread-15:8344][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/responsive.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/responsive.css'
+[2018-10-04 21:14:47,144][Thread-18:10152][task_id:root][views.py:164][INFO][Accessing Page /static/admin/css/base.css with showPath]
+[2018-10-04 21:14:47,146][Thread-19:9476][task_id:root][views.py:164][INFO][Accessing Page /static/admin/css/responsive.css with showPath]
+[2018-10-04 21:14:47,148][Thread-20:1600][task_id:root][views.py:164][INFO][Accessing Page /static/admin/css/dashboard.css with showPath]
+[2018-10-04 21:14:47,149][Thread-18:10152][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/base.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/base.css'
+[2018-10-04 21:14:47,150][Thread-19:9476][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/responsive.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/responsive.css'
+[2018-10-04 21:14:47,151][Thread-20:1600][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/dashboard.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/dashboard.css'
+[2018-10-04 21:14:55,836][Thread-22:2560][task_id:root][views.py:164][INFO][Accessing Page /static/admin/css/base.css with showPath]
+[2018-10-04 21:14:55,837][Thread-23:7492][task_id:root][views.py:164][INFO][Accessing Page /static/admin/css/changelists.css with showPath]
+[2018-10-04 21:14:55,844][Thread-25:3380][task_id:root][views.py:164][INFO][Accessing Page /static/admin/js/vendor/jquery/jquery.min.js with showPath]
+[2018-10-04 21:14:55,849][Thread-26:8260][task_id:root][views.py:164][INFO][Accessing Page /static/admin/js/jquery.init.js with showPath]
+[2018-10-04 21:14:55,852][Thread-27:8432][task_id:root][views.py:164][INFO][Accessing Page /static/admin/css/responsive.css with showPath]
+[2018-10-04 21:14:55,842][Thread-22:2560][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/base.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/base.css'
+[2018-10-04 21:14:56,087][Thread-28:7500][task_id:root][views.py:164][INFO][Accessing Page /static/admin/js/admin/RelatedObjectLookups.js with showPath]
+[2018-10-04 21:14:56,092][Thread-29:1332][task_id:root][views.py:164][INFO][Accessing Page /static/admin/js/urlify.js with showPath]
+[2018-10-04 21:14:55,846][Thread-23:7492][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/changelists.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/changelists.css'
+[2018-10-04 21:14:56,207][Thread-30:8900][task_id:root][views.py:164][INFO][Accessing Page /static/admin/js/prepopulate.min.js with showPath]
+[2018-10-04 21:14:55,850][Thread-25:3380][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/vendor/jquery/jquery.min.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/vendor/jquery/jquery.min.js'
+[2018-10-04 21:14:56,311][Thread-31:5560][task_id:root][views.py:164][INFO][Accessing Page /static/admin/js/vendor/xregexp/xregexp.min.js with showPath]
+[2018-10-04 21:14:55,858][Thread-26:8260][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/jquery.init.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/jquery.init.js'
+[2018-10-04 21:14:56,502][Thread-32:8916][task_id:root][views.py:164][INFO][Accessing Page /static/admin/js/core.js with showPath]
+[2018-10-04 21:14:55,879][Thread-27:8432][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/responsive.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/responsive.css'
+[2018-10-04 21:14:56,694][Thread-33:6668][task_id:root][views.py:164][INFO][Accessing Page /static/admin/js/actions.min.js with showPath]
+[2018-10-04 21:14:56,088][Thread-28:7500][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/admin/RelatedObjectLookups.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/admin/RelatedObjectLookups.js'
+[2018-10-04 21:14:56,886][Thread-34:8608][task_id:root][views.py:164][INFO][Accessing Page /static/admin/img/search.svg with showPath]
+[2018-10-04 21:14:56,095][Thread-29:1332][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/urlify.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/urlify.js'
+[2018-10-04 21:14:57,067][Thread-35:7188][task_id:root][views.py:164][INFO][Accessing Page /static/admin/img/icon-yes.svg with showPath]
+[2018-10-04 21:14:56,208][Thread-30:8900][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/prepopulate.min.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/prepopulate.min.js'
+[2018-10-04 21:14:56,324][Thread-31:5560][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/vendor/xregexp/xregexp.min.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/vendor/xregexp/xregexp.min.js'
+[2018-10-04 21:14:56,505][Thread-32:8916][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/core.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/core.js'
+[2018-10-04 21:14:57,569][Thread-36:9812][task_id:root][views.py:164][INFO][Accessing Page /static/admin/js/admin/RelatedObjectLookups.js with showPath]
+[2018-10-04 21:14:56,703][Thread-33:6668][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/actions.min.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/actions.min.js'
+[2018-10-04 21:14:56,890][Thread-34:8608][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/img/search.svg]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/img/search.svg'
+[2018-10-04 21:14:57,101][Thread-35:7188][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/img/icon-yes.svg]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/img/icon-yes.svg'
+[2018-10-04 21:14:57,580][Thread-36:9812][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/admin/RelatedObjectLookups.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/admin/RelatedObjectLookups.js'
+[2018-10-04 21:14:58,292][Thread-37:6368][task_id:root][views.py:164][INFO][Accessing Page /static/admin/js/actions.min.js with showPath]
+[2018-10-04 21:14:58,293][Thread-37:6368][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/actions.min.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/actions.min.js'
+[2018-10-04 21:14:58,516][Thread-38:7444][task_id:root][views.py:164][INFO][Accessing Page /static/admin/js/urlify.js with showPath]
+[2018-10-04 21:14:58,517][Thread-38:7444][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/urlify.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/urlify.js'
+[2018-10-04 21:14:58,645][Thread-39:3428][task_id:root][views.py:164][INFO][Accessing Page /static/admin/js/prepopulate.min.js with showPath]
+[2018-10-04 21:14:58,645][Thread-39:3428][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/prepopulate.min.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/prepopulate.min.js'
+[2018-10-04 21:14:58,836][Thread-40:5840][task_id:root][views.py:164][INFO][Accessing Page /static/admin/js/vendor/xregexp/xregexp.min.js with showPath]
+[2018-10-04 21:14:58,837][Thread-40:5840][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/js/vendor/xregexp/xregexp.min.js]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/js/vendor/xregexp/xregexp.min.js'
+[2018-10-04 21:14:59,060][Thread-41:7700][task_id:root][views.py:164][INFO][Accessing Page /static/admin/css/responsive.css with showPath]
+[2018-10-04 21:14:59,061][Thread-41:7700][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/responsive.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/responsive.css'
+[2018-10-04 21:15:11,322][Thread-42:6536][task_id:root][views.py:164][INFO][Accessing Page /static/admin/css/changelists.css with showPath]
+[2018-10-04 21:15:11,324][Thread-43:8640][task_id:root][views.py:164][INFO][Accessing Page /static/admin/css/base.css with showPath]
+[2018-10-04 21:15:11,326][Thread-44:6140][task_id:root][views.py:164][INFO][Accessing Page /static/admin/css/responsive.css with showPath]
+[2018-10-04 21:15:11,327][Thread-42:6536][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/changelists.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/changelists.css'
+[2018-10-04 21:15:11,333][Thread-43:8640][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/base.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/base.css'
+[2018-10-04 21:15:11,338][Thread-44:6140][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/responsive.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/responsive.css'
+[2018-10-04 21:22:22,306][Thread-1:6404][task_id:root][views.py:24][INFO][Accessing Page / with showMainPage]
+[2018-10-04 21:22:22,338][Thread-3:10040][task_id:root][views.py:29][INFO][Accessing Page /login with showPages]
+[2018-10-04 21:22:22,470][Thread-6:7172][task_id:django.request][log.py:228][WARNING][Not Found: /bin/jquery.js]
+[2018-10-04 21:22:22,473][Thread-8:9812][task_id:django.request][log.py:228][WARNING][Not Found: /image/icon.png]
+[2018-10-04 21:22:22,475][Thread-5:8404][task_id:django.request][log.py:228][WARNING][Not Found: /login_files/patternLock.min.js]
+[2018-10-04 21:22:22,476][Thread-7:6164][task_id:django.request][log.py:228][WARNING][Not Found: /login_files/login.js]
+[2018-10-04 21:22:22,478][Thread-4:5720][task_id:django.request][log.py:228][WARNING][Not Found: /login_files/login.css]
+[2018-10-04 21:22:22,514][Thread-9:10072][task_id:django.request][log.py:228][WARNING][Not Found: /bin/jquery.js]
+[2018-10-04 21:22:22,522][Thread-10:10152][task_id:django.request][log.py:228][WARNING][Not Found: /login_files/login.js]
+[2018-10-04 21:22:22,560][Thread-11:6280][task_id:django.request][log.py:228][WARNING][Not Found: /image/bk.jpg]
+[2018-10-04 21:22:22,657][Thread-12:6336][task_id:django.request][log.py:228][WARNING][Not Found: /favicon.ico]
+[2018-10-04 21:22:34,352][Thread-13:396][task_id:django.request][log.py:228][WARNING][Not Found: /login_files/login.css]
+[2018-10-04 21:22:49,879][Thread-16:10052][task_id:django.request][log.py:228][WARNING][Not Found: /static/admin/css/base.css]
+[2018-10-04 21:22:49,889][Thread-17:4532][task_id:django.request][log.py:228][WARNING][Not Found: /static/admin/css/login.css]
+[2018-10-04 21:22:49,892][Thread-18:2732][task_id:django.request][log.py:228][WARNING][Not Found: /static/admin/css/responsive.css]
+[2018-10-04 21:26:07,476][Thread-1:2732][task_id:root][views.py:24][INFO][Accessing Page / with showMainPage]
+[2018-10-04 21:26:07,507][Thread-3:8908][task_id:root][views.py:29][INFO][Accessing Page /login with showPages]
+[2018-10-04 21:26:07,571][Thread-4:5084][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-10-04 21:26:07,573][Thread-5:7460][task_id:root][views.py:164][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-10-04 21:26:07,585][Thread-6:10252][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 21:26:07,599][Thread-7:10268][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.js with showPath]
+[2018-10-04 21:26:07,603][Thread-8:2456][task_id:root][views.py:164][INFO][Accessing Page /image/icon.png with showPath]
+[2018-10-04 21:26:07,717][Thread-9:5856][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 21:26:07,753][Thread-10:6164][task_id:root][views.py:164][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-10-04 21:26:11,439][Thread-13:10284][task_id:root][views.py:164][INFO][Accessing Page /static/admin/css/base.css with showPath]
+[2018-10-04 21:26:11,441][Thread-14:7256][task_id:root][views.py:164][INFO][Accessing Page /static/admin/css/login.css with showPath]
+[2018-10-04 21:26:11,444][Thread-15:6280][task_id:root][views.py:164][INFO][Accessing Page /static/admin/css/responsive.css with showPath]
+[2018-10-04 21:26:11,446][Thread-13:10284][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/base.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/base.css'
+[2018-10-04 21:26:11,447][Thread-15:6280][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/responsive.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/responsive.css'
+[2018-10-04 21:26:11,448][Thread-14:7256][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/login.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/static/admin/css/login.css'
+[2018-10-04 21:27:08,601][Thread-1:7892][task_id:root][views.py:24][INFO][Accessing Page / with showMainPage]
+[2018-10-04 21:27:08,632][Thread-3:5096][task_id:root][views.py:29][INFO][Accessing Page /login with showPages]
+[2018-10-04 21:27:08,675][Thread-4:8088][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-10-04 21:27:08,677][Thread-5:10032][task_id:root][views.py:164][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-10-04 21:27:08,680][Thread-6:5092][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 21:27:08,683][Thread-7:36][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.js with showPath]
+[2018-10-04 21:27:08,689][Thread-8:1404][task_id:root][views.py:164][INFO][Accessing Page /image/icon.png with showPath]
+[2018-10-04 21:27:08,809][Thread-9:7268][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 21:27:08,849][Thread-10:9112][task_id:root][views.py:164][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-10-04 21:27:11,751][Thread-12:420][task_id:root][views.py:164][INFO][Accessing Page /css/base.css with showPath]
+[2018-10-04 21:27:11,754][Thread-13:7364][task_id:root][views.py:164][INFO][Accessing Page /css/responsive.css with showPath]
+[2018-10-04 21:27:11,758][Thread-14:6368][task_id:root][views.py:164][INFO][Accessing Page /css/login.css with showPath]
+[2018-10-04 21:27:11,755][Thread-12:420][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/base.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/css/base.css'
+[2018-10-04 21:27:11,759][Thread-13:7364][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/responsive.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/css/responsive.css'
+[2018-10-04 21:27:11,811][Thread-14:6368][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/login.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/css/login.css'
+[2018-10-04 21:27:14,553][Thread-15:8708][task_id:root][views.py:164][INFO][Accessing Page /admin with showPath]
+[2018-10-04 21:27:14,554][Thread-15:8708][task_id:django.request][log.py:228][ERROR][Internal Server Error: /admin]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+PermissionError: [Errno 13] Permission denied: './static/admin'
+[2018-10-04 21:27:19,497][Thread-18:10676][task_id:root][views.py:164][INFO][Accessing Page /css/base.css with showPath]
+[2018-10-04 21:27:19,500][Thread-19:1948][task_id:root][views.py:164][INFO][Accessing Page /css/login.css with showPath]
+[2018-10-04 21:27:19,503][Thread-20:6160][task_id:root][views.py:164][INFO][Accessing Page /css/responsive.css with showPath]
+[2018-10-04 21:27:19,498][Thread-18:10676][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/base.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/css/base.css'
+[2018-10-04 21:27:19,504][Thread-19:1948][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/login.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/css/login.css'
+[2018-10-04 21:27:19,505][Thread-20:6160][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/css/responsive.css]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 182, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/css/responsive.css'
+[2018-10-04 21:28:15,252][Thread-1:6316][task_id:root][views.py:24][INFO][Accessing Page / with showMainPage]
+[2018-10-04 21:28:15,314][Thread-3:4728][task_id:root][views.py:29][INFO][Accessing Page /login with showPages]
+[2018-10-04 21:28:15,367][Thread-4:3608][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-10-04 21:28:15,369][Thread-5:10856][task_id:root][views.py:164][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-10-04 21:28:15,371][Thread-6:6176][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 21:28:15,377][Thread-7:9324][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.js with showPath]
+[2018-10-04 21:28:15,380][Thread-8:8956][task_id:root][views.py:164][INFO][Accessing Page /image/icon.png with showPath]
+[2018-10-04 21:28:15,929][Thread-9:10876][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 21:28:16,096][Thread-10:10852][task_id:root][views.py:164][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-10-04 21:28:19,253][Thread-12:11240][task_id:root][views.py:164][INFO][Accessing Page /admin/css/base.css with showPath]
+[2018-10-04 21:28:19,256][Thread-13:9224][task_id:root][views.py:164][INFO][Accessing Page /admin/css/login.css with showPath]
+[2018-10-04 21:28:19,259][Thread-14:3436][task_id:root][views.py:164][INFO][Accessing Page /admin/css/responsive.css with showPath]
+[2018-10-04 21:28:19,274][Thread-15:1076][task_id:root][views.py:164][INFO][Accessing Page /admin/css/fonts.css with showPath]
+[2018-10-04 21:28:19,290][Thread-16:7904][task_id:root][views.py:164][INFO][Accessing Page /admin/fonts/Roboto-Regular-webfont.woff with showPath]
+[2018-10-04 21:28:19,359][Thread-17:9192][task_id:root][views.py:164][INFO][Accessing Page /admin/fonts/Roboto-Light-webfont.woff with showPath]
+[2018-10-04 21:28:19,292][Thread-16:7904][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Regular-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb0 in position 11: invalid start byte
+[2018-10-04 21:28:19,361][Thread-17:9192][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Light-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc4 in position 11: invalid continuation byte
+[2018-10-04 21:28:21,612][Thread-20:10220][task_id:root][views.py:164][INFO][Accessing Page /admin/css/dashboard.css with showPath]
+[2018-10-04 21:28:21,614][Thread-21:7420][task_id:root][views.py:164][INFO][Accessing Page /admin/css/base.css with showPath]
+[2018-10-04 21:28:21,616][Thread-22:3264][task_id:root][views.py:164][INFO][Accessing Page /admin/css/responsive.css with showPath]
+[2018-10-04 21:28:21,634][Thread-23:10156][task_id:root][views.py:164][INFO][Accessing Page /admin/css/fonts.css with showPath]
+[2018-10-04 21:28:21,649][Thread-24:10144][task_id:root][views.py:164][INFO][Accessing Page /admin/img/icon-changelink.svg with showPath]
+[2018-10-04 21:28:21,651][Thread-25:10396][task_id:root][views.py:164][INFO][Accessing Page /admin/img/icon-addlink.svg with showPath]
+[2018-10-04 21:28:21,653][Thread-26:7932][task_id:root][views.py:164][INFO][Accessing Page /admin/fonts/Roboto-Light-webfont.woff with showPath]
+[2018-10-04 21:28:21,657][Thread-27:8156][task_id:root][views.py:164][INFO][Accessing Page /admin/fonts/Roboto-Bold-webfont.woff with showPath]
+[2018-10-04 21:28:21,659][Thread-28:1600][task_id:root][views.py:164][INFO][Accessing Page /admin/fonts/Roboto-Regular-webfont.woff with showPath]
+[2018-10-04 21:28:21,661][Thread-26:7932][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Light-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc4 in position 11: invalid continuation byte
+[2018-10-04 21:28:21,663][Thread-27:8156][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Bold-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x84 in position 11: invalid start byte
+[2018-10-04 21:28:21,672][Thread-28:1600][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Regular-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb0 in position 11: invalid start byte
+[2018-10-04 21:28:25,019][Thread-30:10884][task_id:root][views.py:164][INFO][Accessing Page /admin/css/base.css with showPath]
+[2018-10-04 21:28:25,022][Thread-31:10864][task_id:root][views.py:164][INFO][Accessing Page /admin/css/forms.css with showPath]
+[2018-10-04 21:28:25,024][Thread-32:10516][task_id:root][views.py:164][INFO][Accessing Page /admin/js/vendor/jquery/jquery.min.js with showPath]
+[2018-10-04 21:28:25,033][Thread-34:8368][task_id:root][views.py:164][INFO][Accessing Page /admin/js/jquery.init.js with showPath]
+[2018-10-04 21:28:25,041][Thread-35:10304][task_id:root][views.py:164][INFO][Accessing Page /admin/js/admin/RelatedObjectLookups.js with showPath]
+[2018-10-04 21:28:25,044][Thread-36:11232][task_id:root][views.py:164][INFO][Accessing Page /admin/css/responsive.css with showPath]
+[2018-10-04 21:28:25,048][Thread-37:10888][task_id:root][views.py:164][INFO][Accessing Page /admin/js/core.js with showPath]
+[2018-10-04 21:28:25,054][Thread-38:1696][task_id:root][views.py:164][INFO][Accessing Page /admin/css/fonts.css with showPath]
+[2018-10-04 21:28:25,058][Thread-39:8664][task_id:root][views.py:164][INFO][Accessing Page /admin/css/widgets.css with showPath]
+[2018-10-04 21:28:25,065][Thread-40:10368][task_id:root][views.py:164][INFO][Accessing Page /admin/js/urlify.js with showPath]
+[2018-10-04 21:28:25,069][Thread-41:2928][task_id:root][views.py:164][INFO][Accessing Page /admin/js/vendor/xregexp/xregexp.min.js with showPath]
+[2018-10-04 21:28:25,073][Thread-42:11176][task_id:root][views.py:164][INFO][Accessing Page /admin/js/change_form.js with showPath]
+[2018-10-04 21:28:25,076][Thread-43:3332][task_id:root][views.py:164][INFO][Accessing Page /admin/js/prepopulate.min.js with showPath]
+[2018-10-04 21:28:25,080][Thread-44:11024][task_id:root][views.py:164][INFO][Accessing Page /admin/js/actions.min.js with showPath]
+[2018-10-04 21:28:25,098][Thread-45:8232][task_id:root][views.py:164][INFO][Accessing Page /admin/js/SelectBox.js with showPath]
+[2018-10-04 21:28:25,100][Thread-46:10956][task_id:root][views.py:164][INFO][Accessing Page /admin/js/SelectFilter2.js with showPath]
+[2018-10-04 21:28:25,101][Thread-47:7760][task_id:root][views.py:164][INFO][Accessing Page /admin/js/prepopulate_init.js with showPath]
+[2018-10-04 21:28:25,489][Thread-48:10292][task_id:root][views.py:164][INFO][Accessing Page /admin/fonts/Roboto-Regular-webfont.woff with showPath]
+[2018-10-04 21:28:25,503][Thread-49:11256][task_id:root][views.py:164][INFO][Accessing Page /admin/fonts/Roboto-Light-webfont.woff with showPath]
+[2018-10-04 21:28:25,505][Thread-50:3544][task_id:root][views.py:164][INFO][Accessing Page /admin/fonts/Roboto-Bold-webfont.woff with showPath]
+[2018-10-04 21:28:25,490][Thread-48:10292][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Regular-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb0 in position 11: invalid start byte
+[2018-10-04 21:28:25,507][Thread-49:11256][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Light-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc4 in position 11: invalid continuation byte
+[2018-10-04 21:28:25,508][Thread-50:3544][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Bold-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x84 in position 11: invalid start byte
+[2018-10-04 21:28:25,961][Thread-51:5624][task_id:root][views.py:164][INFO][Accessing Page /admin/img/selector-icons.svg with showPath]
+[2018-10-04 21:28:25,964][Thread-52:9624][task_id:root][views.py:164][INFO][Accessing Page /admin/img/icon-unknown-alt.svg with showPath]
+[2018-10-04 21:28:25,967][Thread-53:9652][task_id:root][views.py:164][INFO][Accessing Page /admin/img/search.svg with showPath]
+[2018-10-04 21:28:25,970][Thread-54:1988][task_id:root][views.py:164][INFO][Accessing Page /admin/img/icon-unknown.svg with showPath]
+[2018-10-04 21:28:32,660][Thread-57:10256][task_id:root][views.py:164][INFO][Accessing Page /admin/css/base.css with showPath]
+[2018-10-04 21:28:32,663][Thread-58:8908][task_id:root][views.py:164][INFO][Accessing Page /admin/css/changelists.css with showPath]
+[2018-10-04 21:28:32,665][Thread-60:3572][task_id:root][views.py:164][INFO][Accessing Page /admin/js/vendor/jquery/jquery.min.js with showPath]
+[2018-10-04 21:28:32,671][Thread-61:10284][task_id:root][views.py:164][INFO][Accessing Page /admin/js/jquery.init.js with showPath]
+[2018-10-04 21:28:32,674][Thread-62:9812][task_id:root][views.py:164][INFO][Accessing Page /admin/css/responsive.css with showPath]
+[2018-10-04 21:28:32,682][Thread-63:10260][task_id:root][views.py:164][INFO][Accessing Page /admin/js/core.js with showPath]
+[2018-10-04 21:28:32,688][Thread-64:11000][task_id:root][views.py:164][INFO][Accessing Page /admin/js/admin/RelatedObjectLookups.js with showPath]
+[2018-10-04 21:28:32,694][Thread-65:3220][task_id:root][views.py:164][INFO][Accessing Page /admin/js/actions.min.js with showPath]
+[2018-10-04 21:28:32,698][Thread-66:8260][task_id:root][views.py:164][INFO][Accessing Page /admin/css/fonts.css with showPath]
+[2018-10-04 21:28:32,702][Thread-67:3380][task_id:root][views.py:164][INFO][Accessing Page /admin/js/urlify.js with showPath]
+[2018-10-04 21:28:32,707][Thread-68:6336][task_id:root][views.py:164][INFO][Accessing Page /admin/js/prepopulate.min.js with showPath]
+[2018-10-04 21:28:32,711][Thread-69:6164][task_id:root][views.py:164][INFO][Accessing Page /admin/js/vendor/xregexp/xregexp.min.js with showPath]
+[2018-10-04 21:28:32,714][Thread-70:5856][task_id:root][views.py:164][INFO][Accessing Page /admin/img/search.svg with showPath]
+[2018-10-04 21:28:32,721][Thread-71:2456][task_id:root][views.py:164][INFO][Accessing Page /admin/img/icon-yes.svg with showPath]
+[2018-10-04 21:28:33,000][Thread-72:10252][task_id:root][views.py:164][INFO][Accessing Page /admin/fonts/Roboto-Regular-webfont.woff with showPath]
+[2018-10-04 21:28:33,002][Thread-73:10268][task_id:root][views.py:164][INFO][Accessing Page /admin/img/sorting-icons.svg with showPath]
+[2018-10-04 21:28:33,006][Thread-74:7248][task_id:root][views.py:164][INFO][Accessing Page /admin/img/tooltag-add.svg with showPath]
+[2018-10-04 21:28:33,009][Thread-75:11012][task_id:root][views.py:164][INFO][Accessing Page /admin/fonts/Roboto-Light-webfont.woff with showPath]
+[2018-10-04 21:28:33,024][Thread-76:10264][task_id:root][views.py:164][INFO][Accessing Page /admin/fonts/Roboto-Bold-webfont.woff with showPath]
+[2018-10-04 21:28:33,004][Thread-72:10252][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Regular-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb0 in position 11: invalid start byte
+[2018-10-04 21:28:33,025][Thread-75:11012][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Light-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc4 in position 11: invalid continuation byte
+[2018-10-04 21:28:33,027][Thread-76:10264][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Bold-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x84 in position 11: invalid start byte
+[2018-10-04 21:28:35,524][Thread-78:7696][task_id:root][views.py:164][INFO][Accessing Page /admin/css/base.css with showPath]
+[2018-10-04 21:28:35,527][Thread-79:10272][task_id:root][views.py:164][INFO][Accessing Page /admin/css/forms.css with showPath]
+[2018-10-04 21:28:35,533][Thread-81:7276][task_id:root][views.py:164][INFO][Accessing Page /admin/js/vendor/jquery/jquery.min.js with showPath]
+[2018-10-04 21:28:35,535][Thread-82:9472][task_id:root][views.py:164][INFO][Accessing Page /admin/js/calendar.js with showPath]
+[2018-10-04 21:28:35,539][Thread-83:10308][task_id:root][views.py:164][INFO][Accessing Page /admin/js/jquery.init.js with showPath]
+[2018-10-04 21:28:35,547][Thread-84:9860][task_id:root][views.py:164][INFO][Accessing Page /admin/css/fonts.css with showPath]
+[2018-10-04 21:28:35,556][Thread-85:4324][task_id:root][views.py:164][INFO][Accessing Page /admin/js/core.js with showPath]
+[2018-10-04 21:28:35,559][Thread-86:9660][task_id:root][views.py:164][INFO][Accessing Page /admin/css/responsive.css with showPath]
+[2018-10-04 21:28:35,563][Thread-87:9844][task_id:root][views.py:164][INFO][Accessing Page /admin/js/admin/RelatedObjectLookups.js with showPath]
+[2018-10-04 21:28:35,570][Thread-88:7456][task_id:root][views.py:164][INFO][Accessing Page /admin/js/urlify.js with showPath]
+[2018-10-04 21:28:35,574][Thread-89:9296][task_id:root][views.py:164][INFO][Accessing Page /admin/css/widgets.css with showPath]
+[2018-10-04 21:28:35,578][Thread-90:6608][task_id:root][views.py:164][INFO][Accessing Page /admin/js/vendor/xregexp/xregexp.min.js with showPath]
+[2018-10-04 21:28:35,582][Thread-91:7892][task_id:root][views.py:164][INFO][Accessing Page /admin/js/SelectBox.js with showPath]
+[2018-10-04 21:28:35,586][Thread-92:6184][task_id:root][views.py:164][INFO][Accessing Page /admin/js/SelectFilter2.js with showPath]
+[2018-10-04 21:28:35,590][Thread-93:1640][task_id:root][views.py:164][INFO][Accessing Page /admin/js/actions.min.js with showPath]
+[2018-10-04 21:28:35,592][Thread-94:7636][task_id:root][views.py:164][INFO][Accessing Page /admin/js/prepopulate.min.js with showPath]
+[2018-10-04 21:28:35,596][Thread-95:9560][task_id:root][views.py:164][INFO][Accessing Page /admin/js/admin/DateTimeShortcuts.js with showPath]
+[2018-10-04 21:28:35,615][Thread-96:9996][task_id:root][views.py:164][INFO][Accessing Page /admin/js/change_form.js with showPath]
+[2018-10-04 21:28:35,616][Thread-97:8596][task_id:root][views.py:164][INFO][Accessing Page /admin/img/icon-addlink.svg with showPath]
+[2018-10-04 21:28:35,790][Thread-98:9336][task_id:root][views.py:164][INFO][Accessing Page /admin/js/prepopulate_init.js with showPath]
+[2018-10-04 21:28:35,838][Thread-99:8764][task_id:root][views.py:164][INFO][Accessing Page /admin/fonts/Roboto-Regular-webfont.woff with showPath]
+[2018-10-04 21:28:35,860][Thread-100:1440][task_id:root][views.py:164][INFO][Accessing Page /admin/fonts/Roboto-Light-webfont.woff with showPath]
+[2018-10-04 21:28:35,887][Thread-101:5660][task_id:root][views.py:164][INFO][Accessing Page /admin/fonts/Roboto-Bold-webfont.woff with showPath]
+[2018-10-04 21:28:35,840][Thread-99:8764][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Regular-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb0 in position 11: invalid start byte
+[2018-10-04 21:28:35,944][Thread-100:1440][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Light-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc4 in position 11: invalid continuation byte
+[2018-10-04 21:28:35,967][Thread-101:5660][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Bold-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x84 in position 11: invalid start byte
+[2018-10-04 21:28:36,286][Thread-102:5096][task_id:root][views.py:164][INFO][Accessing Page /admin/img/selector-icons.svg with showPath]
+[2018-10-04 21:28:36,288][Thread-103:9776][task_id:root][views.py:164][INFO][Accessing Page /admin/img/icon-unknown-alt.svg with showPath]
+[2018-10-04 21:28:36,292][Thread-104:10032][task_id:root][views.py:164][INFO][Accessing Page /admin/img/search.svg with showPath]
+[2018-10-04 21:28:36,295][Thread-105:5092][task_id:root][views.py:164][INFO][Accessing Page /admin/img/icon-unknown.svg with showPath]
+[2018-10-04 21:28:36,347][Thread-106:36][task_id:root][views.py:164][INFO][Accessing Page /admin/img/icon-clock.svg with showPath]
+[2018-10-04 21:28:36,350][Thread-107:1404][task_id:root][views.py:164][INFO][Accessing Page /admin/img/icon-calendar.svg with showPath]
+[2018-10-04 21:28:48,535][Thread-109:9456][task_id:root][views.py:164][INFO][Accessing Page /admin/fonts/Roboto-Light-webfont.woff with showPath]
+[2018-10-04 21:28:48,538][Thread-110:420][task_id:root][views.py:164][INFO][Accessing Page /admin/fonts/Roboto-Bold-webfont.woff with showPath]
+[2018-10-04 21:28:48,540][Thread-109:9456][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Light-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc4 in position 11: invalid continuation byte
+[2018-10-04 21:28:48,540][Thread-110:420][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Bold-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x84 in position 11: invalid start byte
+[2018-10-04 21:28:51,693][Thread-112:8708][task_id:root][views.py:164][INFO][Accessing Page /admin/fonts/Roboto-Bold-webfont.woff with showPath]
+[2018-10-04 21:28:51,694][Thread-112:8708][task_id:django.request][log.py:228][ERROR][Internal Server Error: /static/admin/fonts/Roboto-Bold-webfont.woff]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 187, in showPath
+    html = f.read()
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x84 in position 11: invalid start byte
+[2018-10-04 21:29:43,726][Thread-115:1472][task_id:root][views.py:29][INFO][Accessing Page /register with showPages]
+[2018-10-04 21:29:43,752][Thread-116:7232][task_id:root][views.py:164][INFO][Accessing Page /register_files/login.css with showPath]
+[2018-10-04 21:29:43,754][Thread-117:9916][task_id:root][views.py:164][INFO][Accessing Page /my_files/my.css with showPath]
+[2018-10-04 21:29:43,756][Thread-118:4856][task_id:root][views.py:164][INFO][Accessing Page /register_files/patternLock.min.js with showPath]
+[2018-10-04 21:29:43,759][Thread-119:8616][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 21:29:43,763][Thread-120:7728][task_id:root][views.py:164][INFO][Accessing Page /register_files/register.js with showPath]
+[2018-10-04 21:29:43,768][Thread-121:6048][task_id:root][views.py:164][INFO][Accessing Page /image/icon.png with showPath]
+[2018-10-04 21:29:43,889][Thread-122:2776][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 21:29:43,892][Thread-123:8512][task_id:root][views.py:164][INFO][Accessing Page /register_files/icon_2x.png with showPath]
+[2018-10-04 21:29:48,525][Thread-124:7324][task_id:root][views.py:29][INFO][Accessing Page /login with showPages]
+[2018-10-04 21:29:48,554][Thread-125:5616][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-10-04 21:29:48,579][Thread-126:9788][task_id:root][views.py:164][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-10-04 21:29:48,586][Thread-127:8912][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 21:29:48,590][Thread-128:3244][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.js with showPath]
+[2018-10-04 21:29:48,593][Thread-129:8244][task_id:root][views.py:164][INFO][Accessing Page /image/icon.png with showPath]
+[2018-10-04 21:29:48,671][Thread-130:4200][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 21:29:48,674][Thread-131:9668][task_id:root][views.py:164][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-10-04 21:29:54,405][Thread-132:8676][task_id:root][views.py:29][INFO][Accessing Page /login with showPages]
+[2018-10-04 21:29:54,405][Thread-132:8676][task_id:LoginAPP.mysqlConnector][mysqlConnector.py:63][INFO][Checking password, name:little, password:driver]
+[2018-10-04 21:29:54,908][Thread-133:7144][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-10-04 21:29:54,910][Thread-134:4464][task_id:root][views.py:164][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-10-04 21:29:54,913][Thread-135:10576][task_id:root][views.py:164][INFO][Accessing Page /image/icon.png with showPath]
+[2018-10-04 21:29:54,988][Thread-136:9632][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 21:29:54,990][Thread-137:7660][task_id:root][views.py:164][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-10-04 21:30:02,943][Thread-138:7796][task_id:root][views.py:29][INFO][Accessing Page /login with showPages]
+[2018-10-04 21:30:02,943][Thread-138:7796][task_id:LoginAPP.mysqlConnector][mysqlConnector.py:63][INFO][Checking password, name:little, password:driver]
+[2018-10-04 21:30:03,439][Thread-139:10132][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-10-04 21:30:03,442][Thread-140:7664][task_id:root][views.py:164][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-10-04 21:30:03,444][Thread-141:9856][task_id:root][views.py:164][INFO][Accessing Page /image/icon.png with showPath]
+[2018-10-04 21:30:03,544][Thread-142:9648][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 21:30:03,547][Thread-143:6340][task_id:root][views.py:164][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-10-04 21:30:10,373][Thread-144:4216][task_id:root][views.py:29][INFO][Accessing Page /register with showPages]
+[2018-10-04 21:30:10,402][Thread-145:7876][task_id:root][views.py:164][INFO][Accessing Page /register_files/login.css with showPath]
+[2018-10-04 21:30:10,404][Thread-146:4784][task_id:root][views.py:164][INFO][Accessing Page /my_files/my.css with showPath]
+[2018-10-04 21:30:10,406][Thread-147:7392][task_id:root][views.py:164][INFO][Accessing Page /register_files/patternLock.min.js with showPath]
+[2018-10-04 21:30:10,410][Thread-148:8744][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 21:30:10,415][Thread-149:4604][task_id:root][views.py:164][INFO][Accessing Page /register_files/register.js with showPath]
+[2018-10-04 21:30:10,419][Thread-150:9728][task_id:root][views.py:164][INFO][Accessing Page /image/icon.png with showPath]
+[2018-10-04 21:30:10,602][Thread-151:9488][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 21:30:10,605][Thread-152:10976][task_id:root][views.py:164][INFO][Accessing Page /register_files/icon_2x.png with showPath]
+[2018-10-04 21:30:20,872][Thread-153:7996][task_id:root][views.py:29][INFO][Accessing Page /register with showPages]
+[2018-10-04 21:30:20,872][Thread-153:7996][task_id:LoginAPP.mysqlConnector][mysqlConnector.py:96][INFO][Inserting new user, name:little, password:driver]
+[2018-10-04 21:30:21,552][Thread-154:9688][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-10-04 21:30:21,555][Thread-155:7368][task_id:root][views.py:164][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-10-04 21:30:21,557][Thread-156:9512][task_id:root][views.py:164][INFO][Accessing Page /image/icon.png with showPath]
+[2018-10-04 21:30:21,664][Thread-157:3484][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 21:30:21,667][Thread-158:9824][task_id:root][views.py:164][INFO][Accessing Page /login_files/icon_2x.png with showPath]
+[2018-10-04 21:30:26,437][Thread-159:10204][task_id:root][views.py:29][INFO][Accessing Page /login with showPages]
+[2018-10-04 21:30:26,437][Thread-159:10204][task_id:LoginAPP.mysqlConnector][mysqlConnector.py:63][INFO][Checking password, name:little, password:driver]
+[2018-10-04 21:30:27,029][Thread-160:6780][task_id:root][views.py:164][INFO][Accessing Page /login_files/login.css with showPath]
+[2018-10-04 21:30:27,031][Thread-161:6968][task_id:root][views.py:164][INFO][Accessing Page /login_files/patternLock.min.js with showPath]
+[2018-10-04 21:30:27,034][Thread-162:5704][task_id:root][views.py:164][INFO][Accessing Page /image/icon.png with showPath]
+[2018-10-04 21:30:27,133][Thread-163:11192][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 21:30:30,162][Thread-164:11260][task_id:root][views.py:164][INFO][Accessing Page /explore with showPath]
+[2018-10-04 21:30:30,163][Thread-164:11260][task_id:django.request][log.py:228][ERROR][Internal Server Error: /explore]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/explore'
+[2018-10-04 21:32:02,114][Thread-1:5720][task_id:root][views.py:29][INFO][Accessing Page /explore with showPages]
+[2018-10-04 21:32:02,177][Thread-3:7700][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 21:32:02,179][Thread-4:10448][task_id:root][views.py:164][INFO][Accessing Page /my_files/my.js with showPath]
+[2018-10-04 21:32:02,182][Thread-5:7464][task_id:root][views.py:164][INFO][Accessing Page /my_files/my.css with showPath]
+[2018-10-04 21:32:02,185][Thread-6:11184][task_id:root][views.py:164][INFO][Accessing Page /image/1.png with showPath]
+[2018-10-04 21:32:02,293][Thread-7:8752][task_id:root][views.py:164][INFO][Accessing Page /login/article.html with showPath]
+[2018-10-04 21:32:02,307][Thread-8:10688][task_id:root][views.py:29][INFO][Accessing Page /pContent with showPages]
+[2018-10-04 21:32:02,312][Thread-8:10688][task_id:LoginAPP.mysqlConnector][mysqlConnector.py:145][INFO][Getting articles]
+[2018-10-04 21:32:02,351][Thread-9:10172][task_id:root][views.py:164][INFO][Accessing Page /image/barbk.jpg with showPath]
+[2018-10-04 21:32:02,302][Thread-7:8752][task_id:django.request][log.py:228][ERROR][Internal Server Error: /login/article.html]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\LoginAPP\views.py", line 186, in showPath
+    with open('./static/'+path, encoding='UTF-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './static/login/article.html'
+[2018-10-04 21:32:02,519][Thread-10:10328][task_id:root][views.py:164][INFO][Accessing Page /bin/jquery.js with showPath]
+[2018-10-04 21:32:02,523][Thread-11:11032][task_id:root][views.py:164][INFO][Accessing Page /my_files/my.js with showPath]
+[2018-10-04 21:32:02,551][Thread-12:10288][task_id:root][views.py:164][INFO][Accessing Page /pages/pContent.css with showPath]
+[2018-10-04 21:32:02,554][Thread-13:7212][task_id:root][views.py:164][INFO][Accessing Page /pages/slide.js with showPath]
+[2018-10-04 21:32:02,579][Thread-14:9476][task_id:root][views.py:164][INFO][Accessing Page /image/lt.jpg with showPath]
+[2018-10-04 21:32:02,613][Thread-15:10952][task_id:root][views.py:164][INFO][Accessing Page /image/bk.jpg with showPath]
+[2018-10-04 21:32:02,663][Thread-16:10684][task_id:root][views.py:164][INFO][Accessing Page /image/barbk.jpg with showPath]
