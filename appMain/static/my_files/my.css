@@ -197,7 +197,7 @@ box-shadow:2px;
 }
 			
 .btn-lg{
-	height:8%;
+	height:6%;
 	font-family:宋体;
 	font-size:36px;
 	background-color:#ffffff;
@@ -215,7 +215,7 @@ box-shadow:2px;
 }
 		
 .blank-area{
-	height:29.4%;
+	height:37.4%;
 	outline:none;
 	text-align:left;
 }
@@ -229,7 +229,7 @@ box-shadow:2px;
 }
 		
 .glyphicon{
-	font-size:40px;
+	font-size:30px;
 	border-width:0;
 	background-color:transparent;
 	color:grey;

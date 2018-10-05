@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 
 # '/<slug>'目录，分别处理，对于未知的slug返回none
 # 需要登录才能显示，否则跳转到登录页面
-@login_required
+# @login_required
 def showPages(request, path):
     logging.info('Accessing Page /%s with showPages'%(path))
 

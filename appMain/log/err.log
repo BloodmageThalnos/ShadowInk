@@ -1,0 +1,51 @@
+[2018-10-05 22:41:58,664][Thread-51:7568][task_id:django.request][log.py:228][ERROR][Internal Server Error: /e/pPostArticle]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\ExploreAPP\views.py", line 65, in showPages
+    insertResult = mysqlConnector.insertArticle(user,title,url,content)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\ShadowInk\mysqlConnector.py", line 167, in insertArticle
+    article = Article(author=user,title=title,pic_url=picurl,content=content)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\models\base.py", line 467, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\models\fields\related_descriptors.py", line 210, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0405E810>>": "Article.author" must be a "User" instance.
+[2018-10-05 22:42:09,144][Thread-52:8664][task_id:django.request][log.py:228][ERROR][Internal Server Error: /e/pPostArticle]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\ExploreAPP\views.py", line 65, in showPages
+    insertResult = mysqlConnector.insertArticle(user,title,url,content)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\ShadowInk\mysqlConnector.py", line 167, in insertArticle
+    article = Article(author=user,title=title,pic_url=picurl,content=content)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\models\base.py", line 467, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\models\fields\related_descriptors.py", line 210, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x03F6AAD0>>": "Article.author" must be a "User" instance.
+[2018-10-05 22:42:10,566][Thread-53:8436][task_id:django.request][log.py:228][ERROR][Internal Server Error: /e/pPostArticle]
+Traceback (most recent call last):
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\ExploreAPP\views.py", line 65, in showPages
+    insertResult = mysqlConnector.insertArticle(user,title,url,content)
+  File "C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\ShadowInk\mysqlConnector.py", line 167, in insertArticle
+    article = Article(author=user,title=title,pic_url=picurl,content=content)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\models\base.py", line 467, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\shadowink\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\db\models\fields\related_descriptors.py", line 210, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x04092330>>": "Article.author" must be a "User" instance.

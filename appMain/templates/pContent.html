@@ -12,7 +12,7 @@
 	<script type="text/javascript" charset="utf-8" async src="/pages/slide.js"></script>
 
 </head>
-<body>
+<body style="overflow-x:hidden;">
 	<div class="MainPage-TopBar" id="MainPage-TopBar" style="width:600%;">
 		<div class="imgContainer">
 			<img src="/image/lt.jpg" id="img1" class="imgSlide" style="margin-left:-87.5%;">
@@ -41,11 +41,12 @@
             </div>
         </div>
         <div class="right_ArticleBar">
-            <div class="imgContainer" style=""> 
+            <div class="imgContainer" style="height: 80%;">
                 <br/>
-                <span style="font-size:35px;">{{article.title}}</span>
-                <p class="glyphicon glyphicon-time" style="font-size:25px;float:right;">{{article.create_date}}</p>
+                <span style="font-size:18px;margin:5%;">{{article.title}}</span>
+                <br/>
             </div>
+            <p class="glyphicon glyphicon-time" style="font-size:9px;float:right;">{{article.create_date}}</p>
         </div>
 	</div>
     {% endfor %}
