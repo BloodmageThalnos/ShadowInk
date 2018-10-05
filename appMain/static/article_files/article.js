@@ -9,7 +9,7 @@ window.onload=function(){
     $('#btnSend').bind("click",function(){
         formData = new FormData($("#aForm")[0]);
         $.ajax({  
-            url: '/pPostArticle',  
+            url: '/e/pPostArticle',
             type: 'POST',
             data: formData,
             async: false,  

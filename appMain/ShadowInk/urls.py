@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import *
 from django.urls import path
 from LoginAPP import views as loginViews
+from ExploreAPP import views as exploreViews
 from django.conf.urls import static
 
 urlpatterns = [
@@ -25,5 +26,6 @@ urlpatterns = [
     path('media/<path:path>', loginViews.showMedia),
     path('login/<slug:path>', loginViews.showPages),
     path('static/<path:path>', loginViews.showPath),
+    path('e/<slug:path>', exploreViews.showPages),
     path('<path:path>', loginViews.showPath),
 ]
