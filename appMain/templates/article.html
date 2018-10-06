@@ -2,11 +2,11 @@
 <head>
     <title>墨影</title>
 	<meta name="viewport" content="width=device-width, initial-scale=0.5">
-    <script type="text/javascript" src="../static/bin/jquery.js"></script>
+    <script type="text/javascript" src="/bin/jquery.js"></script>
     <link rel=stylesheet href=https://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css>
     <link rel=stylesheet href=https://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css>
     <link href="../static/article_files/article.css" rel="stylesheet">
-	<script type="text/javascript" charset="utf-8" src="../static/article_files/article.js"></script>
+	<script type="text/javascript" charset="utf-8" src="/article_files/article.js"></script>
 </head>
 <body>
 	<div class="MainPage" id="MainPage">
@@ -29,8 +29,8 @@
 				<div class="form-group">
 					<input type="text" class="form-control" name="title" placeholder="请输入标题" style="height:8%;font-size:30px;font-weight:bold;text-align:center;">
 					<textarea class="form-control" rows="15" style="height:65%;font-size:20px;" placeholder="请输入正文" name="content"></textarea>
-                    <input type="file" onchange="imgPreview(this)" style="font-size:15px;" name="picture"/>
-                    <img id="preview" class="img-responsive" style="height:15%;"/>
+                    <input id="filechuuser" type="file" onchange="imgPreview(this)" style="display:none;" name="picture"/>
+                    <img id="preview" class="img-responsive" onclick="$('#filechuuser').click();" style="height:16%;" src="/image/article_addpic.jpg"/>
 				</div>
 			</form>
 		</div>

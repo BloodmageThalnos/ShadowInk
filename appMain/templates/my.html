@@ -10,7 +10,7 @@
     <link rel=stylesheet href=https://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css>
     <link href="/my_files/my.css" rel="stylesheet">
 </head>
-<body style="overflow:hidden;">
+<body style="overflow-y:hidden;">
     <div class="FloatPage" id="FloatPage" style="margin-top: 400%">
         <iframe class="FloatPage-inner" src="/e/article" frameborder="0" marginheight="0" marginwidth="0" scrolling="yes" id="FloatPage-inner"></iframe>
     </div>
@@ -30,11 +30,11 @@
 					<img src="" class="img-responsive img-circle img-headicon" alt="Cinque Terre"  style="width:45%;background-color:#efef35">
 				</div>
 			</div>
-			<div>
-				<button type="button" class="btn btn-lg btn-block" onclick="About()" style="font-size:25px;">关于我们</button>
-				<button type="button" class="btn btn-lg btn-block" style="font-size:25px;">收藏</button>
-				<button type="button" class="btn btn-lg btn-block" id="PostArticleBtn" style="font-size:25px;">撰写文章</button>
-				<button type="button" class="btn btn-lg btn-block" onclick="Quit()" style="font-size:25px;">退出</button>
+			<div style="margin-top:20px;">
+				<button type="button" class="btn btn-lg btn-block btn-left" onclick="About()">关于我们</button>
+				<button type="button" class="btn btn-lg btn-block btn-left">收藏</button>
+				<button type="button" class="btn btn-lg btn-block btn-left" id="PostArticleBtn">撰写文章</button>
+				<button type="button" class="btn btn-lg btn-block btn-left" onclick="Quit()">退出</button>
 				<div class="blank-area"></div>
 			</div>
 			<div class="BottomBar" style="border:0px;float:bottom;">
@@ -57,11 +57,11 @@
         <div class="TopBar">
             <div class="TopBar-inner">
 				<div id="btnShowLeftBar">
-					<button class="glyphicon glyphicon-list" style="font-size:30px;left:0%;"></button>
+					<button class="glyphicon glyphicon-list" style="font-size:20px;left:0%;"></button>
 				</div>
-				<p style="font-family: 华文行楷;font-size: 50px;margin-top: 5%">墨影</p>
+				<p style="font-family: 华文行楷;font-size: 36px;margin-top: 5%">墨影</p>
 				<div id="btnShowSearch">
-					<button class="glyphicon glyphicon-search" style="font-size:30px;left:0%"></button>
+					<button class="glyphicon glyphicon-search" style="font-size:20px;left:0%"></button>
 				</div>
             </div>
         </div>

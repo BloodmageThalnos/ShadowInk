@@ -124,7 +124,7 @@ def showPath(request, path):
 def showMedia(request, path):
     logging.info('Accessing Page /%s with showPath'%(path))
 
-    if path.endswith('jpg'):
+    if path.endswith('jpg') or path.endswith('jpeg'):
         with open('./media/'+path, mode="rb") as f:
             html = f.read()
         return HttpResponse(html, content_type="image/jpg")

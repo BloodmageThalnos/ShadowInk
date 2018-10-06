@@ -3,7 +3,6 @@
 import logging
 import json
 import time
-import random
 import os
 
 from django.contrib.auth.decorators import login_required
@@ -56,7 +55,7 @@ def showPages(request, path):
                 'message' : '请输入标题！'
             }
             return HttpResponse(json.dumps(result))
-        filename = user.username + "_" + str(int(time.time())) + pic.name[-4:]
+        filename = user.username + "_" + str(int(time.time())) + os.path.splitext(pic.name)[1]
         url = os.path.join(settings.MEDIA_URL, filename)
         urlSave = os.path.join(settings.MEDIA_ROOT, filename)
         with open(urlSave,"wb") as fPic:
