@@ -1,5 +1,4 @@
 # ignore logs and media
 
-appMain/log/*.log
-appMain/media/*
 *.log
+*.pyc
