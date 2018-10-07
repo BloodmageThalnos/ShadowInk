@@ -1,3 +1,3 @@
-start cmd /c python manage.py runserver
-sleep(1000)
-ngrok.exe http 8000
+start cmd /c natapp.exe --authtoken=186a586505fce78f
+cd .\appMain
+python manage.py runserver

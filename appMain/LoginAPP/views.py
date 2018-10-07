@@ -1,21 +1,13 @@
-from django.shortcuts import render
-
-# Create your views here.
 # -*- coding:utf-8 -*-
 
 import logging
 import json
-import time
 import random
-import os
 from django.http import *
 from django.template import loader
 from django.contrib.auth import login
-from ShadowInk import settings
-from . import models
-from . import mysqlConnector
+from ShadowInk import settings, mysqlConnector
 from qcloudsms_py import SmsSingleSender
-from qcloudsms_py.httpclient import HTTPError
 
 logger = logging.getLogger(__name__)
 
@@ -27,15 +19,6 @@ def showMainPage(request):
 # '/<slug>'目录，分别处理，对于未知的slug返回none
 def showPages(request, path):
     logging.info('Accessing Page /%s with showPages'%(path))
-    if path=='explore':
-        with open('./static/my.html', encoding='UTF-8') as f:
-            html = f.read()
-        return HttpResponse(html)
-    '''
-        template = loader.get_template('../static/my.html')
-        return HttpResponse(template.render({},request))
-    '''
-
 
     if path=='login':
         name = request.POST.get('name')
@@ -87,56 +70,6 @@ def showPages(request, path):
                     }
         return HttpResponse(template.render(context, request))
 
-    # 动态显示首页上的内容
-    # TODO: 需要对文章进行排序并处理
-    if path=='pContent':
-        articles = mysqlConnector.getArticles()
-        template = loader.get_template('pContent.html')
-        context = {
-            'articles' : articles
-        }
-        return HttpResponse(template.render(context, request))
-
-    if path=='pPostArticle':
-        title = request.POST.get("title")
-        content = request.POST.get("content")
-        pic = request.FILES.get("picture")
-        # username = request.session.get("username", None)
-        # userid = request.session.get("userid", None)
-        username = 'aodacat'
-        userid = 4
-        if not username or not userid:
-            result = {
-                'success' : 'False',
-                'message' : '登录状态错误，请保存你输入的内容，然后刷新页面重试。'
-            }
-            return HttpResponse(json.dumps(result))
-        if not title :
-            pass
-        filename = username + "_" + str(int(time.time())) + pic.name[-4:]
-        url = os.path.join(settings.MEDIA_URL, filename)
-        urlSave = os.path.join(settings.MEDIA_ROOT, filename)
-        with open(urlSave,"wb") as fPic:
-            for chunk in pic.chunks():
-                fPic.write(chunk)
-        insertResult = mysqlConnector.insertArticle(userid,title,url,content)
-        result = {
-            'success' : 'True',
-            'message' : '发表文章成功！'
-        }
-        return HttpResponse(json.dumps(result))
-
-    if path=='eat':
-        user_list = mysqlConnector.getUsers()
-        template = loader.get_template('back.html')
-        context = {
-            'user_list' : user_list,
-        }
-        return HttpResponse(template.render(context, request))
-
-    if path=='test':
-        return HttpResponse('Ok')
-
     if path=='sendSMS':
         phone_number = request.POST.get("phone_number")
         identify_code = str(random.randint(1000,9999))
@@ -187,11 +120,11 @@ def showPath(request, path):
         html = f.read()
     return HttpResponse(html)
 
-# '/media/...'目录，请求静态资源等。若部署nginx等服务器时可以转移控制权
+# '/media/...'目录，请求静态资源等。日后部署nginx时可以转移控制权
 def showMedia(request, path):
     logging.info('Accessing Page /%s with showPath'%(path))
 
-    if path.endswith('jpg'):
+    if path.endswith('jpg') or path.endswith('jpeg'):
         with open('./media/'+path, mode="rb") as f:
             html = f.read()
         return HttpResponse(html, content_type="image/jpg")

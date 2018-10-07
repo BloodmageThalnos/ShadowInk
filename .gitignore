@@ -1,4 +1,4 @@
-# ignore logs
+# ignore logs and media
 
-log/*.log
-media/*
+appMain/log/*.log
+appMain/media/*
