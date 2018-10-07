@@ -2,3 +2,4 @@
 
 appMain/log/*.log
 appMain/media/*
+*.log
