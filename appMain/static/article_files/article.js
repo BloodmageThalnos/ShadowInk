@@ -1,12 +1,12 @@
 // 返回按钮点击事件
 window.onload = function(){
-    $('#exitButton').bind("click",function(){
+    $('#exitButton').on("click",function(){
         $('#FloatPage').attr("style","margin-top: "+$('body').height()+";")
         setTimeout(function(){
             parent.window.location.reload()
         }, 500);
     })
-    $('#btnSend').bind("click",function(){
+    $('#btnSend').on("click",function(){
         formData = new FormData($("#aForm")[0]);
         $.ajax({  
             url: '/e/pPostArticle',

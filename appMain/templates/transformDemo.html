@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>深度学习水墨画转换demo</title>
+    <script type="text/javascript" src="/bin/jquery.js"></script>
+    <script type="text/javascript" charset="utf-8" async src="/demo_files/transformDemo.js"></script>
+</head>
+<body>
+    <div id="TopBar" style="display:block;height:100px;width:100%;"></div>
+    <div id="MainBar" style="display:flex;height:400px;">
+        <div id="LeftBar" style="display:flex;flex:4;background-color:red;">
+            <div id="LeftPicContainer" style="margin:auto auto;background-color:#a4ff53">
+                <img id="LeftPic" src="/image/article_addpic.jpg" style="width:300px;" />
+            </div>
+            <form id="aForm">
+                <input id="LeftSelect" onchange="imgPreview(this)" style="display:none;" type="file" name="pic" />
+            </form>
+        </div>
+        <div id="MidBar" style="display:flex;flex:1;background-color:blue;">
+            <input id="Go" type="button" value="=>" style="font-size:30px;height:30%;margin:auto auto;"/>
+        </div>
+        <div id="RightBar" style="display:flex;flex:4;background-color:yellow;">
+            <div style="width:300px;height:300px;margin:auto auto;background-color:#a4ff53">
+                <img id="RightPic" src="#" style="width:100%;height:100%;" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>

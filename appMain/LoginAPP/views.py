@@ -116,6 +116,11 @@ def showPath(request, path):
             html = f.read()
         return HttpResponse(html, content_type="text/css")
 
+    if path.endswith('js'):
+        with open('./static/'+path, encoding='UTF-8') as f:
+            html = f.read()
+        return HttpResponse(html, content_type="text/javascript")
+
     with open('./static/'+path, encoding='UTF-8') as f:
         html = f.read()
     return HttpResponse(html)

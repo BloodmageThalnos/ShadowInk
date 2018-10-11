@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'LoginAPP',
     'ExploreAPP',
+    'pytorchDemo',
 ]
 
 SESSION_ENGINE='django.contrib.sessions.backends.cache'
