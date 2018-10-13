@@ -18,6 +18,8 @@ from django.urls import *
 from django.urls import path
 from LoginAPP import views as loginViews
 from ExploreAPP import views as exploreViews
+from WeiboAPP import views as weiboViews
+from pytorchDemo import views as pytorchViews
 from django.conf.urls import static
 
 urlpatterns = [
@@ -27,5 +29,7 @@ urlpatterns = [
     path('login/<slug:path>', loginViews.showPages),
     path('static/<path:path>', loginViews.showPath),
     path('e/<slug:path>', exploreViews.showPages),
+    path('p/<slug:path>', pytorchViews.showPages),
+    path('w/<slug:path>', weiboViews.showPages),
     path('<path:path>', loginViews.showPath),
 ]

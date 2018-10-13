@@ -21,18 +21,18 @@ def showPages(request, path):
     logging.info('Accessing Page /%s with showPages'%(path))
 
     if path=='explore':
-        template = loader.get_template('my.html')
+        template = loader.get_template('mainPage.html')
         return HttpResponse(template.render({},request))
 
     if path=='article':
-        template = loader.get_template('article.html')
+        template = loader.get_template('postArticle.html')
         return HttpResponse(template.render({},request))
 
     # 动态显示首页上的内容
     # TODO: 需要对文章进行排序并处理
     if path=='pContent':
         articles = mysqlConnector.getArticles()
-        template = loader.get_template('pContent.html')
+        template = loader.get_template('innerPage1.html')
         context = {
             'articles' : articles
         }
