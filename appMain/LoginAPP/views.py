@@ -2,10 +2,11 @@
 
 import logging
 import json
-import random
 from django.http import *
 from django.template import loader
 from django.contrib.auth import login
+
+import random
 from ShadowInk import settings, mysqlConnector
 from qcloudsms_py import SmsSingleSender
 
@@ -18,7 +19,7 @@ def showMainPage(request):
 
 # '/<slug>'目录，分别处理，对于未知的slug返回none
 def showPages(request, path):
-    logging.info('Accessing Page /%s with showPages'%(path))
+    logging.info('Accessing Page /%s with login.showPages'%(path))
 
     if path=='login':
         name = request.POST.get('name')

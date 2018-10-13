@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
+
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -40,6 +41,10 @@ INSTALLED_APPS = [
     'LoginAPP',
     'ExploreAPP',
     'pytorchDemo',
+<<<<<<< HEAD
+=======
+    'WeiboAPP'
+>>>>>>> 3fc418e993355769c4672d5bb596459edb822a89
 ]
 
 SESSION_ENGINE='django.contrib.sessions.backends.cache'

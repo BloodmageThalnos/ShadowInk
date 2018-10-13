@@ -1,0 +1,23 @@
+<script>
+  function doit(i,j){
+      newinput = document.createElement("div")
+      newinput.id='good'+i
+      newinput.innerHTML='<input type="file" name="file'+i+'" onchange="doit('+(i+1)+')"/>'
+      document.getElementById('good'+(i-1)).appendChild(newinput)
+      j.setAttribute("onchange","")
+  }
+</script>
+<form action="/w/postWeibo" method="POST" enctype="multipart/form-data">
+    <textarea name="content"></textarea>
+    <div id='good1'>
+      <input type="file" name="file1" onchange="doit(2,this)"/>
+    </div>
+    <input type="submit" value="发送"/>
+</form>
+{% for weibo in weibos %}
+<p> Author: {{ weibo.blog.author.username }} </p>
+<p> Content: {{ weibo.blog.content }} </p>
+{% for image in weibo.pics %}
+<img src="{{ image.file }}" height="100px" />
+{% endfor %}
+{% endfor %}
