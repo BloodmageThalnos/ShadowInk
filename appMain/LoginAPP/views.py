@@ -97,20 +97,30 @@ def showPages(request, path):
 def showPath(request, path):
     logging.info('Accessing Page /%s with showPath'%(path))
 
-    if path.endswith('jpg'):
+    if path.endswith('jpg') or path.endswith('jpeg'):
         with open('./static/'+path, mode="rb") as f:
             html = f.read()
-        return HttpResponse(html, content_type="image/jpg")
+        return HttpResponse(html, content_type="image/jpeg")
 
     if path.endswith('png'):
         with open('./static/'+path, mode="rb") as f:
             html = f.read()
         return HttpResponse(html, content_type="image/png")
 
+    if path.endswith('gif'):
+        with open('./static/'+path, mode="rb") as f:
+            html = f.read()
+        return HttpResponse(html, content_type="image/gif")
+
     if path.endswith('ico'):
-        with open('./static/image/'+path, mode="rb") as f:
+        with open('./static/'+path, mode="rb") as f:
             html = f.read()
         return HttpResponse(html, content_type="image/x-icon")
+
+    if path.endswith('woff'):
+        with open('./static/'+path, mode="rb") as f:
+            html = f.read()
+        return HttpResponse(html, content_type="application/font-woff")
 
     if path.endswith('css'):
         with open('./static/'+path, encoding='UTF-8') as f:
@@ -120,11 +130,17 @@ def showPath(request, path):
     if path.endswith('js'):
         with open('./static/'+path, encoding='UTF-8') as f:
             html = f.read()
-        return HttpResponse(html, content_type="text/javascript")
+        return HttpResponse(html, content_type="application/x-javascript")
 
-    with open('./static/'+path, encoding='UTF-8') as f:
-        html = f.read()
-    return HttpResponse(html)
+    if path.endswith('svg'):
+        with open('./static/'+path, encoding='UTF-8') as f:
+            html = f.read()
+        return HttpResponse(html, content_type="image/svg+xml")
+
+    if path.endswith('html'):
+        with open('./static/'+path, encoding='UTF-8') as f:
+            html = f.read()
+        return HttpResponse(html)
 
 # '/media/...'目录，请求静态资源等。日后部署nginx时可以转移控制权
 def showMedia(request, path):
@@ -133,9 +149,14 @@ def showMedia(request, path):
     if path.endswith('jpg') or path.endswith('jpeg'):
         with open('./media/'+path, mode="rb") as f:
             html = f.read()
-        return HttpResponse(html, content_type="image/jpg")
+        return HttpResponse(html, content_type="image/jpeg")
 
     if path.endswith('png'):
         with open('./media/'+path, mode="rb") as f:
             html = f.read()
         return HttpResponse(html, content_type="image/png")
+
+    if path.endswith('gif'):
+        with open('./static/'+path, mode="rb") as f:
+            html = f.read()
+        return HttpResponse(html, content_type="image/gif")

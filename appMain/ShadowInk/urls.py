@@ -18,10 +18,7 @@ from django.urls import *
 from django.urls import path
 from LoginAPP import views as loginViews
 from ExploreAPP import views as exploreViews
-<<<<<<< HEAD
-=======
 from WeiboAPP import views as weiboViews
->>>>>>> 3fc418e993355769c4672d5bb596459edb822a89
 from pytorchDemo import views as pytorchViews
 from django.conf.urls import static
 
@@ -33,9 +30,6 @@ urlpatterns = [
     path('static/<path:path>', loginViews.showPath),
     path('e/<slug:path>', exploreViews.showPages),
     path('p/<slug:path>', pytorchViews.showPages),
-<<<<<<< HEAD
-=======
     path('w/<slug:path>', weiboViews.showPages),
->>>>>>> 3fc418e993355769c4672d5bb596459edb822a89
     path('<path:path>', loginViews.showPath),
 ]

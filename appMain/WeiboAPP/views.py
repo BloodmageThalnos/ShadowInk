@@ -6,8 +6,7 @@ from django.http import *
 from django.template import loader
 from django.contrib.auth import login
 from ShadowInk import settings
-from .models import Mblog, MblogFile
-
+from .models import *
 
 import random
 import os
@@ -15,11 +14,22 @@ from django.contrib.auth.models import User
 
 logger = logging.getLogger(__name__)
 
-def getWeiboShown():
-    weibos = [];
+def getWeiboShown(user):
+    weibos = []
     blogs = Mblog.objects.all()
     for blog in blogs:
-        weibos.append({'blog':blog,'pics':blog.files_set.all()})
+        thumbed = False
+        if user.is_authenticated:
+            try: user.blog_thumb_set.all().get(id=blog.id)
+            except: pass
+            else: thumbed = True
+        tcount = blog.thumb.count()
+        weibos.append({
+            'blog':blog,
+            'pics':blog.blog_files_set.all(),
+            'thumbed':thumbed,
+            'thumbCount':tcount
+        })
     return weibos
 
 # '/<slug>'目录，分别处理，对于未知的slug返回none
@@ -27,16 +37,40 @@ def showPages(request, path):
     logging.info('Accessing Page /%s with weibo.showPages'%(path))
 
     if path=='index':
-        weibos = getWeiboShown()
+        weibos = getWeiboShown(request.user)
         template = loader.get_template('weibo.html')
-        for weibo in weibos:
-            logger.info(weibo)
-            logger.info(weibo['blog'])
-            logger.info(weibo['pics'])
         context = {
             'weibos' : weibos
         }
         return HttpResponse(template.render(context, request))
+
+    if path=='thumbWeibo':
+        if not request.user.is_authenticated:
+            result = {
+                'success' : 'False',
+                'message' : '登录状态错误。'
+            }
+            return HttpResponse(json.dumps(result))
+        user = request.user
+        id = request.POST.get("id")
+        action = request.POST.get("action")
+        try:
+            blog = Mblog.objects.get(id = int(id))
+            if action == 'true':
+                ret = blog.thumb.add(user)
+            else:
+                ret = blog.thumb.remove(user)
+        except Exception as e:
+            result = {
+                'success': 'False',
+                'message': '内部错误：%s' % e
+            }
+            return HttpResponse(json.dumps(result))
+        result = {
+            'success' : 'True',
+            'message' : '点赞成功！' if action=='true' else '取消成功！'
+        }
+        return HttpResponse(json.dumps(result))
 
     if path=='postWeibo':
         content = request.POST.get("content")
@@ -54,13 +88,13 @@ def showPages(request, path):
                 files.append(file)
             except:
                 break
-        if request.user == None:
+        if not request.user.is_authenticated:
             result = {
                 'success' : 'False',
                 'message' : '登录状态错误，请登录后再发表。'
             }
             return HttpResponse(json.dumps(result))
-        user = User.objects.all()[0]
+        user = request.user
         mblog = Mblog(author=user,content=content)
         mblog.save()
         for file in files:
@@ -77,5 +111,32 @@ def showPages(request, path):
             'message' : '发表分享成功！'
         }
         return HttpResponse(json.dumps(result))
+
+    if path=='commentWeibo':
+        if not request.user.is_authenticated:
+            result = {
+                'success' : 'False',
+                'message' : '登录状态错误。'
+            }
+            return HttpResponse(json.dumps(result))
+        user = request.user
+        id = request.POST.get("id")
+        content = request.POST.get("content")
+        try:
+            blog = Mblog.objects.get(id = int(id))
+            comment = MblogComment(author=user, blog=blog, refer=None, content=content)
+            comment.save()
+        except Exception as e:
+            result = {
+                'success': 'False',
+                'message': '内部错误：%s' % e
+            }
+            return HttpResponse(json.dumps(result))
+        result = {
+            'success' : 'True',
+            'message' : '评论成功！'
+        }
+        return HttpResponse(json.dumps(result))
+
 
     return HttpResponse('No Page Here.')

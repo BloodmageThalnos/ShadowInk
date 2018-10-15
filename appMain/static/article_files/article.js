@@ -14,7 +14,7 @@ window.onload = function(){
             data: formData,
             async: false,  
             cache: false,  
-            contentType: false,  
+            contentType: false,
             processData: false,  
             success: function(msg) {
             }

@@ -1,3 +1,6 @@
+<link rel=stylesheet href=https://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css>
+<link rel=stylesheet href=https://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css>
+<script type="text/javascript" src="/bin/jquery.js"></script>
 <script>
   function doit(i,j){
       newinput = document.createElement("div")
@@ -6,18 +9,70 @@
       document.getElementById('good'+(i-1)).appendChild(newinput)
       j.setAttribute("onchange","")
   }
+  function doita(i){
+      $.ajax('/w/postWeibo',{
+            type: 'POST',
+            data: new FormData(i),
+            async: true,
+            cache: false,
+            processData: false,
+            contentType: false,
+            success: function(msg) {
+                msg = JSON.parse(msg)
+                alert(msg.message)
+                if(msg.success === 'True')
+                    location.reload(true);
+            }
+        })
+      return false;
+  }
+  function doitat(i,j,k){
+      formData = new FormData();
+      formData.append("id", i)
+      formData.append("action", k)
+      $.ajax('/w/thumbWeibo', {
+            type: 'POST',
+            data: formData,
+            async: true,
+            cache: false,
+            processData: false,
+            contentType: false,
+            success: function(msg) {
+                msg = JSON.parse(msg)
+                alert(msg.message)
+                if(msg.success === 'True')
+                    location.reload(true)
+            }
+        })
+  }
 </script>
-<form action="/w/postWeibo" method="POST" enctype="multipart/form-data">
+<form action="/w/postWeibo" method="POST" enctype="multipart/form-data" onsubmit="return doita(this);">
     <textarea name="content"></textarea>
     <div id='good1'>
-      <input type="file" name="file1" onchange="doit(2,this)"/>
+      <input type="file" name="file1" onchange="return doit(2,this)"/>
     </div>
     <input type="submit" value="发送"/>
 </form>
 {% for weibo in weibos %}
-<p> Author: {{ weibo.blog.author.username }} </p>
-<p> Content: {{ weibo.blog.content }} </p>
-{% for image in weibo.pics %}
-<img src="{{ image.file }}" height="100px" />
-{% endfor %}
+    <p> Author: {{ weibo.blog.author.username }} </p>
+    <p> Content: {{ weibo.blog.content }} </p>
+    {% for image in weibo.pics %}
+        <img src="{{ image.file }}" height="100px" />
+    {% endfor %}
+    <p> Thumbs: {{ weibo.thumbCount }} &nbsp;&nbsp;
+        <button onclick="doitat({{ weibo.blog.id }}, this,
+            {% if weibo.thumbed %}
+                false
+            {% else %}
+                true
+            {% endif %}
+                )">
+            {% if weibo.thumbed %}
+                取消点赞
+            {% else %}
+                点赞
+            {% endif %}
+        </button>
+    </p>
+    <hr style="filter: alpha(opacity=100,finishopacity=0,style=3)" width="80%" color="#6f5499" size="3" />
 {% endfor %}
