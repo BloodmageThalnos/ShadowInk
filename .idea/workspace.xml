@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7f3a500-c214-4a40-8643-d78f081b4203" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appMain/.idea/ShadowInk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/.idea/ShadowInk.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appMain/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appMain/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appMain/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appMain/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appMain/ShadowInk/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/ShadowInk/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ShadowInk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ShadowInk.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appMain/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appMain/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ShadowInk2_0$manage.coverage" NAME="manage Coverage Results" MODIFIED="1539670040585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ShadowInk$manage.coverage" NAME="manage Coverage Results" MODIFIED="1536767583414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -104,12 +101,34 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1770771444">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appMain/ShadowInk/settings.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -141,26 +160,37 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ShadowInk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShadowInk2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShadowInk2.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShadowInk2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShadowInk2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="appMain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShadowInk2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShadowInk2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="appMain" type="462c0819:PsiDirectoryNode" />
               <item name="ShadowInk" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/appMain" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/appMain/ShadowInk/settings.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -182,9 +212,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="E:\anaconda\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -203,7 +233,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="my.settings" />
+        <env name="DJANGO_SETTINGS_MODULE" value="ShadowInk.settings" />
       </envs>
       <option name="SDK_HOME" value="E:\anaconda\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -214,7 +244,7 @@
       <option name="port" value="8000" />
       <option name="host" value="127.0.0.1" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
@@ -271,14 +301,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="5" y="0" width="1300" height="744" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25564516" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26101142" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39070567" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40963855" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -313,8 +342,19 @@
     <entry file="file://$PROJECT_DIR$/my/__init__.py" />
     <entry file="file://$PROJECT_DIR$/my/settings.py" />
     <entry file="file://$PROJECT_DIR$/my/views.py" />
+    <entry file="file://$PROJECT_DIR$/appMain/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/appMain/ShadowInk/settings.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
