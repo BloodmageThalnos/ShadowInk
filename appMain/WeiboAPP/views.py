@@ -24,13 +24,36 @@ def getWeiboShown(user):
             except: pass
             else: thumbed = True
         tcount = blog.thumb.count()
+        comments = blog.comment_blog_set.all()
+        comment_set = []
+        i = 1
+        for comment in comments:
+            comment_set.append({
+                'num': i,
+                'val': comment.content,
+                'author': comment.author,
+            })
+            i+=1
         weibos.append({
             'blog':blog,
             'pics':blog.blog_files_set.all(),
             'thumbed':thumbed,
-            'thumbCount':tcount
+            'thumbCount':tcount,
+            'comments':comment_set,
         })
     return weibos
+
+def getUserinfo(user):
+    if user.is_authenticated:
+        return {
+            'name':user.username,
+            'login':True,
+        }
+    else:
+        return {
+            'name':'',
+            'login':False,
+        }
 
 # '/<slug>'目录，分别处理，对于未知的slug返回none
 def showPages(request, path):
@@ -38,9 +61,11 @@ def showPages(request, path):
 
     if path=='index':
         weibos = getWeiboShown(request.user)
+        userinfo = getUserinfo(request.user)
         template = loader.get_template('weibo.html')
         context = {
-            'weibos' : weibos
+            'weibos' : weibos,
+            # 'userinfo' : userinfo,
         }
         return HttpResponse(template.render(context, request))
 

@@ -4,7 +4,7 @@ import logging
 import json
 from django.http import *
 from django.template import loader
-from django.contrib.auth import login
+from django.contrib.auth import login, logout
 
 import random
 from ShadowInk import settings, mysqlConnector
@@ -70,6 +70,45 @@ def showPages(request, path):
                         'HelloMessage': insertResult['message'],
                     }
         return HttpResponse(template.render(context, request))
+
+    if path=='ajaxLogin':
+        name = request.POST.get('name')
+        password = request.POST.get('password')
+
+        if name == None or password == None:
+            result = {
+                'success': 'False',
+                'message': '请填写用户名和密码',
+            }
+        else:
+            checkResult = mysqlConnector.checkPassword(name, password)
+            if not checkResult['success']:
+                result = {
+                    'success': 'False',
+                    'message': '用户名或密码错误',
+                }
+            else :
+                result = {
+                    'success': 'True',
+                    'message': '登陆成功',
+                }
+                login(request,checkResult['user'])
+        return HttpResponse(json.dumps(result))
+
+    if path=='ajaxLogout':
+        if request.POST.get('logout')!='sure': return None
+        if not request.user.is_authenticated:
+            result = {
+                'success': 'False',
+                'message': '已经注销或根本没有登录，请刷新重试。',
+            }
+        else:
+            logout(request)
+            result = {
+                'success': 'True',
+                'message': '注销成功！！！太棒啦',
+            }
+        return HttpResponse(json.dumps(result))
 
     if path=='sendSMS':
         phone_number = request.POST.get("phone_number")
