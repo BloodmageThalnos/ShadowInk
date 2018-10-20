@@ -2,12 +2,14 @@
 
 import logging
 import json
+
+from django.contrib.auth.models import User
 from django.http import *
 from django.template import loader
-from django.contrib.auth import login, logout
+from django.contrib.auth import login, logout, authenticate
 
 import random
-from ShadowInk import settings, mysqlConnector
+from ShadowInk import settings
 from qcloudsms_py import SmsSingleSender
 
 logger = logging.getLogger(__name__)
@@ -29,14 +31,25 @@ def showPages(request, path):
             template = loader.get_template('login.html')
             context = {}
         else:
-            checkResult = mysqlConnector.checkPassword(name, password)
+            logger.info('Checking password, name:%s, password:%s' % (name, password))
+            user = None
+            if name == None:
+                checkResult = {'success': False, 'message': '用户名不能为空！'}
+            elif password == None:
+                checkResult = {'success': False, 'message': '密码不能为空！'}
+            else:
+                user = authenticate(username=name, password=password)
+                if user == None:
+                    checkResult = {'success': False, 'message': '用户名或密码错误！'}
+                else:
+                    checkResult = {'success': True, 'message': '欢迎回来，%s，好久不见了！' % (name)}
             if not checkResult['success']:
                 # 登录失败，失败原因在checkResult['message']中
                 template = loader.get_template('loginFail.html')
             else :
-                # 登陆成功，成功提示也在...中
+                # 登陆成功，成功提示也在checkResult['message']中
                 template = loader.get_template('loginSuccess.html')
-                login(request,checkResult['user'])
+                login(request,user)
             context = {
                 'HelloMessage': checkResult['message'],
             }
@@ -58,17 +71,12 @@ def showPages(request, path):
                 }
             # 尝试向数据库中插入用户，并返回成功与否
             else:
-                insertResult = mysqlConnector.insertUser(name, password)
-                if insertResult['success']:# 用户注册成功
-                    template = loader.get_template('loginFail.html')
-                    context = {
-                        'HelloMessage': insertResult['message'],
-                    }
-                else:# 用户注册失败
-                    template = loader.get_template('registerFail.html')
-                    context = {
-                        'HelloMessage': insertResult['message'],
-                    }
+                user = User.objects.create_user(username=name, password=password, email=None)
+                user.save()
+                template = loader.get_template('loginFail.html')
+                context = {
+                    'HelloMessage': '注册成功，请登录！',
+                }
         return HttpResponse(template.render(context, request))
 
     if path=='ajaxLogin':
@@ -81,18 +89,13 @@ def showPages(request, path):
                 'message': '请填写用户名和密码',
             }
         else:
-            checkResult = mysqlConnector.checkPassword(name, password)
-            if not checkResult['success']:
-                result = {
-                    'success': 'False',
-                    'message': '用户名或密码错误',
-                }
-            else :
-                result = {
-                    'success': 'True',
-                    'message': '登陆成功',
-                }
-                login(request,checkResult['user'])
+            logger.info('Checking password, name:%s, password:%s' % (name, password))
+            user = authenticate(username=name, password=password)
+            if user == None:
+                result = {'success': 'False', 'message': '用户名或密码错误！'}
+            else:
+                result = {'success': 'True', 'message': '登陆成功！'}
+                login(request,user)
         return HttpResponse(json.dumps(result))
 
     if path=='ajaxLogout':
@@ -127,7 +130,6 @@ def showPages(request, path):
         result = ssender.send_with_param(86, phone_numbers[0],
             template_id, params, sign=sms_sign, extend="", ext="")
         logging.info(result)
-
         return HttpResponse(json.dumps(result))
 
     return HttpResponse('No Page Here.')
