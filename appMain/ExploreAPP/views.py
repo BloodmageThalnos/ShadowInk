@@ -9,7 +9,9 @@ from django.contrib.auth.decorators import login_required
 from django.http import *
 from django.template import loader
 from django.contrib.auth import login
-from ShadowInk import settings, mysqlConnector
+
+from ExploreAPP.models import Article
+from ShadowInk import settings
 from . import models
 
 logger = logging.getLogger(__name__)
@@ -31,7 +33,7 @@ def showPages(request, path):
     # 动态显示首页上的内容
     # TODO: 需要对文章进行排序并处理
     if path=='pContent':
-        articles = mysqlConnector.getArticles()
+        articles = Article.objects.all()
         template = loader.get_template('innerPage1.html')
         context = {
             'articles' : articles
@@ -61,7 +63,8 @@ def showPages(request, path):
         with open(urlSave,"wb") as fPic:
             for chunk in pic.chunks():
                 fPic.write(chunk)
-        insertResult = mysqlConnector.insertArticle(user,title,url,content)
+        article = Article(author=user, title=title, pic_url=url, content=content)
+        article.save()
         result = {
             'success' : 'True',
             'message' : '发表文章成功！'
