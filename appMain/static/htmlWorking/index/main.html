@@ -9,8 +9,12 @@
 	<!--link rel="stylesheet" href="./main.css"-->
 	<script type="text/javascript" src="../../main_files_pc/main.js"></script>
 	<style>
+		@font-face{
+			font-family:'Aa语文老师的字';
+			src:url('../../main_files_pc/字体管家语文老师的字.ttf');
+		}
 		body{
-			font-family:华文行楷;
+			font-family:'Aa语文老师的字';
 		}
 		a:hover{
 			text-decoration:none;
@@ -47,7 +51,8 @@
 
 <body style="background-image:url(../../img/bk.jpg);
 			background-size:cover;
-			overflow:scroll;">
+			overflow:scroll;
+			display:block;">
 	<div style="width:100%;">
 		<img src="../../img/icon.png" style="">		
 	</div>
@@ -105,9 +110,9 @@
 		<div style="display:flex;width:100%;">
 			<p style="font-size:45px;flex:6;">教育中心</p>
 			<p style="font-size:45px;flex:1;">更多</p>
-			<p style="font-size:45px;flex:3;">好友圈</p>
+			<p style="font-size:45px;flex:3;">&#160;&#160;&#160;&#160;登陆</p>
 		</div>
-		<div style="display:flex;height:40%;width:100%;background-color:#fff;flex-wrap:wrap;">
+		<div style="display:flex;height:40%;width:100%;background-color:transparent;flex-wrap:wrap;">
 			<div style="flex:7;display:block;height:100%;">
 				<div style="display:flex;height:50%;width:100%;background-color:#eee;">
 					<div style="flex:2;margin:2%;overflow:hidden;height:96%;">
@@ -133,9 +138,12 @@
 						</div>
 					</div>
 				</div>
-				
 			</div>
-			<div style="height:100%;width:30%;background-color:#abc;flex:3;"></div>	
+			<div style="display:flex;height:100%;width:30%;background-color:transparent;flex:3;opacity:0.5;">
+				<div style="flex:1;"></div>
+				<div style="flex:10;height:100%;width:90%;background-color:green;">
+				</div>
+			</div>
 		</div>
 	</div>
 	<hr style="border-top:3px solid #A9A9A9;width:96%;"/>
@@ -143,9 +151,9 @@
 		<div style="display:flex;width:100%;">
 			<p style="font-size:45px;flex:6;">微展</p>
 			<p style="font-size:45px;flex:1;">更多</p>
-			<p style="font-size:45px;flex:3;">消息列表</p>
+			<p style="font-size:45px;flex:3;">&#160;&#160;&#160;&#160;消息列表</p>
 		</div>
-		<div style="display:flex;height:40%;width:100%;background-color:#fff;flex-wrap:wrap;">
+		<div style="display:flex;height:40%;width:100%;background-color:transparent;flex-wrap:wrap;">
 			<div style="flex:7;display:block;height:100%;">
 				<div style="display:flex;height:50%;width:100%;background-color:#eee;">
 					<div style="flex:2;margin:2%;overflow:hidden;height:96%;">
@@ -173,7 +181,11 @@
 				</div>
 				
 			</div>
-			<div style="height:100%;width:30%;background-color:#abc;flex:3;"></div>	
+			<div style="display:flex;height:100%;width:30%;background-color:transparent;flex:3;opacity:0.5;">
+				<div style="flex:1;"></div>
+				<div style="flex:10;height:100%;width:90%;background-color:green;">
+				</div>
+			</div>	
 		</div>
 	</div>
 	<hr style="border-top:3px solid #A9A9A9;width:96%;"/>
@@ -196,16 +208,32 @@
 					</div>
 					<div style="flex:1;height:90%;" id="blankArea"></div>
 				</div>
-				<div style="display:flex;height:8%;width:100%;background-color:#fff;margin-bottom:1%;">
+				<div style="display:flex;height:8%;width:100%;background-color:#fff;">
 					<button class="bar" style="flex:1;">收藏</button>
 					<button class="bar" style="flex:1;">分享</button>
 					<button class="bar" style="flex:1;" id="show">评论</button>
-					<div style="display:none;" id="comment1">
-						<p>999+条评论</p>	
-					</div>
 					<button class="bar" style="flex:1;">点赞</button>
 				</div>
-				<div style="display:flex;height:40%;width:100%;background-color:#fff;">
+				<div style="display:none;background-color:#fff;" id="comment1">
+						<p style="font-size:15px;">999+条评论</p>
+						<div style="display:flex;" >
+							<div style="flex:4;"></div>
+							<div style="flex:2;">
+							<img src="../../img/1.png"  style="width:50px;margin-bottom:2%;border:2px solid #000;" class="img-circle">
+							</div>
+							<div style="flex:35;">
+								<p style="font-size:20px;margin-top:10px;">二狗</p>
+							</div>
+						</div>
+						<div style="display:flex;">
+							<div style="flex:6;"></div>
+							<div style="flex:35;">
+								<p style="font-size:15px;margin-top:10px;">我选择死亡！</p>
+							</div>
+						</div>
+						
+				</div>
+				<div style="display:flex;height:40%;width:100%;background-color:#fff;margin-top:1%;">
 					<div style="flex:1;">
 						<img src="../../img/1.png"  style="width:60px;margin:10%;border:2px solid #000;" class="img-circle">
 					</div>
