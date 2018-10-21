@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6e32a9b-0aa2-411b-a232-aa03d2910692" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ShadowInk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ShadowInk.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/htmlWorking/index/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/htmlWorking/index/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/htmlWorking/index/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main_files_pc/字体管家语文老师的字.ttf" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -227,7 +225,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LoginAPP/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="132">
               <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
               <folding>
                 <element signature="e#24#38#0" expanded="true" />
@@ -498,8 +496,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
-    <editor active="true" />
+    <frame x="59" y="-7" width="1484" height="878" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985507" visible="true" weight="0.14466292" />
       <window_info id="Structure" order="1" sideWeight="0.5014493" side_tool="true" weight="0.15281501" />
@@ -507,7 +504,7 @@
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="0" weight="0.3290993" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3290993" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.577748" weight="0.40026954" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.577748" visible="true" weight="0.21313673" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -519,7 +516,7 @@
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49731904" weight="0.2989276" />
       <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49798927" weight="0.23087819" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.13394919" />
-      <window_info active="true" anchor="right" id="Remote Host" visible="true" weight="0.32935393" />
+      <window_info anchor="right" id="Remote Host" weight="0.32935393" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -797,7 +794,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LoginAPP/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="132">
           <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />

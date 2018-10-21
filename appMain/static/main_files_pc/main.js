@@ -18,8 +18,10 @@ $(document).ready(function () {
     setInterval(slide,1500)
 	
 	
-	$(".bar").click(function () {
-        $("#comment1").slideToggle();
+	$(".bar").click(function (e) {
+        id = e.target.id.substr(4)
+        console.log(id)
+        $("#comment"+id).slideToggle();
 		console.log('111');
     });
      
