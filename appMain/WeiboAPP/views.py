@@ -5,7 +5,7 @@ import json
 from django.http import *
 from django.template import loader
 from django.contrib.auth import login
-from ShadowInk import settings
+from appMain.ShadowInk import settings
 from .models import *
 
 import random
@@ -38,7 +38,7 @@ def showPages(request, path):
 
     if path=='index':
         weibos = getWeiboShown(request.user)
-        template = loader.get_template('weibo.html')
+        template = loader.get_template('mainPC.html')
         context = {
             'weibos' : weibos
         }
