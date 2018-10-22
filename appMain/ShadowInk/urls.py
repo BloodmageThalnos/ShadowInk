@@ -20,6 +20,7 @@ from LoginAPP import views as loginViews
 from ExploreAPP import views as exploreViews
 from WeiboAPP import views as weiboViews
 from pytorchDemo import views as pytorchViews
+from TexasAPP import views as texasViews
 from django.conf.urls import static
 
 urlpatterns = [
@@ -31,5 +32,6 @@ urlpatterns = [
     path('e/<slug:path>', exploreViews.showPages),
     path('p/<slug:path>', pytorchViews.showPages),
     path('w/<slug:path>', weiboViews.showPages),
+    path('texas/<slug:path>', texasViews.showPages),
     path('<path:path>', loginViews.showPath),
 ]

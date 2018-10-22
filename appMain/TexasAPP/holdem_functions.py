@@ -2,7 +2,7 @@
 suit_index_dict = {"s": 0, "c": 1, "h": 2, "d": 3}
 reverse_suit_index = ("s", "c", "h", "d")
 val_string = "AKQJT98765432"
-hand_rankings = ("全单张（高牌）", "对子", "两对", "三条",
+hand_rankings = ("全单张", "对子", "两对", "三条",
                  "顺子", "同花", "符箓", "四条",
                  "同花顺", "超级同花顺")
 suit_value_dict = {"T": 10, "J": 11, "Q": 12, "K": 13, "A": 14}
