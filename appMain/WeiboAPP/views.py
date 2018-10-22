@@ -61,12 +61,9 @@ def showPages(request, path):
 
     if path=='index':
         weibos = getWeiboShown(request.user)
-<<<<<<< HEAD
         template = loader.get_template('mainPC.html')
-=======
         userinfo = getUserinfo(request.user)
         template = loader.get_template('weibo.html')
->>>>>>> 614df5db94e97adb7efeb84d1f44a0ab96bf8c2d
         context = {
             'weibos' : weibos,
             # 'userinfo' : userinfo,

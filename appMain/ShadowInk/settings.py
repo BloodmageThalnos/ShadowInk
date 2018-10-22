@@ -41,8 +41,7 @@ INSTALLED_APPS = [
     'LoginAPP',
     'ExploreAPP',
     'pytorchDemo',
-    'WeiboAPP',
-    'MyCenterAPP'
+    'WeiboAPP'
 ]
 
 SESSION_ENGINE='django.contrib.sessions.backends.cache'

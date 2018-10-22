@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b6e32a9b-0aa2-411b-a232-aa03d2910692" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCenterAPP/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyCenterAPP/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCenterAPP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyCenterAPP/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShadowInk/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeiboAPP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeiboAPP/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,61 +178,50 @@
         <counts>
           <entry key="bashrc" value="1" />
           <entry key="html" value="2" />
-          <entry key="py" value="4" />
+          <entry key="py" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="4" />
+          <entry key="Python" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="57" />
-          <entry key="py" value="206" />
+          <entry key="py" value="239" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="57" />
-          <entry key="Python" value="206" />
+          <entry key="Python" value="239" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/article_files/article.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyCenterAPP/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MyCenterAPP/views.py">
+        <entry file="file://$PROJECT_DIR$/TexasAPP/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="340">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
               <folding>
-                <marker date="1540180349228" expanded="true" signature="59:64" ph="..." />
+                <element signature="e#24#38#0" expanded="true" />
+                <marker date="1540194652154" expanded="true" signature="425:426" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WeiboAPP/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1040">
+              <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -296,7 +286,6 @@
         <option value="$PROJECT_DIR$/static/demo_files/transformDemo.js" />
         <option value="$PROJECT_DIR$/demo.bat" />
         <option value="$PROJECT_DIR$/pytorchDemo/views.py" />
-        <option value="$PROJECT_DIR$/ShadowInk/settings.py" />
         <option value="$PROJECT_DIR$/templates/transformDemo.html" />
         <option value="$PROJECT_DIR$/static/article_files/article.js" />
         <option value="$PROJECT_DIR$/LoginAPP/views.py" />
@@ -305,7 +294,6 @@
         <option value="$PROJECT_DIR$/templates/weibo.html" />
         <option value="$PROJECT_DIR$/WeiboAPP/models.py" />
         <option value="$PROJECT_DIR$/WeiboAPP/tests.py" />
-        <option value="$PROJECT_DIR$/WeiboAPP/views.py" />
         <option value="$USER_HOME$/PycharmProjects/StyleTransfer1.0/test2.py" />
         <option value="$PROJECT_DIR$/ShadowInk/urls.py" />
         <option value="$PROJECT_DIR$/templates/loginSuccess.html" />
@@ -313,6 +301,9 @@
         <option value="$PROJECT_DIR$/static/htmlWorking/index/main.html" />
         <option value="$PROJECT_DIR$/MyCenterAPP/models.py" />
         <option value="$PROJECT_DIR$/MyCenterAPP/views.py" />
+        <option value="$PROJECT_DIR$/ShadowInk/settings.py" />
+        <option value="$PROJECT_DIR$/WeiboAPP/views.py" />
+        <option value="$PROJECT_DIR$/TexasAPP/views.py" />
       </list>
     </option>
   </component>
@@ -353,7 +344,7 @@
             <path>
               <item name="appMain" type="b2602c69:ProjectViewProjectNode" />
               <item name="appMain" type="462c0819:PsiDirectoryNode" />
-              <item name="MyCenterAPP" type="462c0819:PsiDirectoryNode" />
+              <item name="TexasAPP" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -520,7 +511,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3267544" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.422252" side_tool="true" weight="0.46033993" />
       <window_info anchor="bottom" id="Database Changes" order="11" sideWeight="0.49847096" weight="0.3290993" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49731904" weight="0.2989276" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49731904" visible="true" weight="0.2989276" />
       <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49798927" weight="0.23087819" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.13394919" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -546,25 +537,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="wzd gooding" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cd8f8414-56ed-4eba-8da1-031a3dccebc2/console.sql" />
-    <entry file="file://$PROJECT_DIR$/templates/registerFail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/db/models/base.py" />
-    <entry file="file://$PROJECT_DIR$/ExploreAPP/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://cd8f8414-56ed-4eba-8da1-031a3dccebc2/schema/main/table/exploreapp_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/back.html" />
     <entry file="file://$PROJECT_DIR$/templates/register.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -656,13 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShadowInk/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3643">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/forget.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
@@ -713,13 +678,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/StyleTransfer1.0/run.py" />
-    <entry file="file://$PROJECT_DIR$/WeiboAPP/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2852">
-          <caret line="134" column="18" selection-start-line="134" selection-start-column="18" selection-end-line="134" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pytorchDemo/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -813,10 +771,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/article_files/article.js">
+    <entry file="file://$PROJECT_DIR$/MyCenterAPP/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="100">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <marker date="1540194168847" expanded="true" signature="59:64" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -830,12 +791,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyCenterAPP/views.py">
+    <entry file="file://D:/software/Python35/Lib/site-packages/django/core/management/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="355">
+          <caret line="380" selection-start-line="380" selection-end-line="380" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TexasAPP/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCenterAPP/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <marker date="1540180349228" expanded="true" signature="59:64" ph="..." />
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TexasAPP/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShadowInk/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/article_files/article.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiboAPP/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TexasAPP/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+            <marker date="1540194652154" expanded="true" signature="425:426" ph="..." />
           </folding>
         </state>
       </provider>
