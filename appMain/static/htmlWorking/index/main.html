@@ -15,6 +15,7 @@
 		}
 		body{
 			font-family:'Aa语文老师的字';
+			opacity:0.8;
 		}
 		a:hover{
 			text-decoration:none;
@@ -50,7 +51,6 @@
 </header>
 
 <body style="background-image:url(../../img/bk.jpg);
-			background-size:cover;
 			overflow:scroll;
 			display:block;">
 	<div style="">
@@ -193,9 +193,9 @@
 			<p style="font-size:30px;">好友动态</p>
 		</div>
 		<div style="display:flex;width:100%;background-color:transparent;flex-wrap:wrap;">
-            <div style="flex:1;"></div>
+            <!--div style="flex:1;"></div-->
 			<div style="flex:9;display:block;">
-				<div style="width:100%;background-color:#fff;">
+				<div style="width:100%;background-color:#fff;opacity:0.8;">
                     <div style="padding:20px 20px 0px 20px;">
                         <p style="font-size:25px;">
                             <img src="../../img/1.png"  style="width:60px;border:2px solid #000;" class="img-circle">
@@ -208,27 +208,62 @@
                         <img src="../../img/5.jpg" style="width:18%;height:100px;">
                     </div>
 				</div>
-				<div style="display:flex;height:50px;width:100%;background-color:#fff;">
+				<div style="display:flex;height:50px;width:100%;background-color:#fff;opacity:0.8;">
 					<button class="bar" style="flex:1;">收藏</button>
 					<button class="bar" style="flex:1;">分享</button>
 					<button class="bar" style="flex:1;" id="show1">评论</button>
 					<button class="bar" style="flex:1;">点赞</button>
 				</div>
-				<div style="display:none;background-color:#fff;" id="comment1">
-						<p style="font-size:15px;">999+条评论</p>
-						<div style="display:flex;" >
-							<div style="flex:4;"></div>
-							<div style="flex:2;">
-							<img src="../../img/1.png"  style="width:50px;margin-bottom:2%;border:2px solid #000;" class="img-circle">
+				<div style="display:none;background-color:#fff;opacity:0.7;" id="comment1">
+						<p style="font-size:15px;margin-left:2%;">999+条评论</p>
+						<div>
+							<div style="display:flex;" >
+								<div style="flex:3;"></div>
+								<div style="flex:2;">
+								<img src="../../img/1.png"  style="width:50px;margin-bottom:2%;border:2px solid #000;" class="img-circle">
+								</div>
+								<div style="flex:35;">
+									<p style="font-size:20px;margin-top:10px;">大狗</p>
+								</div>
+							</div>	
+							<div style="display:flex;">
+								<div style="flex:6;"></div>
+								<div style="flex:35;">
+									<p style="font-size:15px;margin-top:10px;">我选择死亡！</p>
+								</div>
 							</div>
-							<div style="flex:35;">
-								<p style="font-size:20px;margin-top:10px;">二狗</p>
-							</div>
+							<p style="float:right;font-size:9px;margin-right:5%;">发布于2018.8.1 23:55</p>
+							<hr style="border-top:1px solid #A9A9A9;width:90%;margin-top:8px;margin-bottom:8px;"/>
 						</div>
-						<div style="display:flex;">
-							<div style="flex:6;"></div>
+						<div>
+							<div style="display:flex;" >
+								<div style="flex:3;"></div>
+								<div style="flex:2;">
+								<img src="../../img/1.png"  style="width:50px;margin-bottom:2%;border:2px solid #000;" class="img-circle">
+								</div>
+								<div style="flex:35;">
+									<p style="font-size:20px;margin-top:10px;">二狗</p>
+								</div>
+							</div>	
+							<div style="display:flex;">
+								<div style="flex:6;"></div>
+								<div style="flex:35;">
+									<p style="font-size:15px;margin-top:10px;">我选择生存！</p>
+								</div>
+								
+							</div>
+							<p style="float:right;font-size:9px;margin-right:5%;">发布于2016.8.1 23:55</p>
+							<hr style="border-top:1px solid #A9A9A9;width:90%;margin-top:8px;margin-bottom:8px;"/>
+						</div>
+						<div style="display:flex;" >
+							<div style="flex:3;"></div>
 							<div style="flex:35;">
-								<p style="font-size:15px;margin-top:10px;">我选择死亡！</p>
+								<div style="display:flex;">
+									<input class="form-control" style="flex:20;" id="focusedInput" type="text" placeholder="说点什么吧……">
+									<div style="flex:5;">
+									<button class="btn btn-lg" style="margin-left:3%;height:34px;font-size:15px;">发布</button>
+									</div>
+								</div>
 							</div>
 						</div>
 				</div>
@@ -251,29 +286,64 @@
 					<button class="bar" style="flex:1;" id="show2">评论</button>
 					<button class="bar" style="flex:1;">点赞</button>
 				</div>
-				<div style="display:none;background-color:#fff;" id="comment2">
-						<p style="font-size:15px;">999+条评论</p>
-						<div style="display:flex;" >
-							<div style="flex:4;"></div>
-							<div style="flex:2;">
-							<img src="../../img/1.png"  style="width:50px;margin-bottom:2%;border:2px solid #000;" class="img-circle">
+				<div style="display:none;background-color:#fff;opacity:0.8;" id="comment2">
+					<p style="font-size:15px;margin-left:2%;">999+条评论</p>
+						<div>
+							<div style="display:flex;" >
+								<div style="flex:3;"></div>
+								<div style="flex:2;">
+								<img src="../../img/1.png"  style="width:50px;margin-bottom:2%;border:2px solid #000;" class="img-circle">
+								</div>
+								<div style="flex:35;">
+									<p style="font-size:20px;margin-top:10px;">大狗</p>
+								</div>
+							</div>	
+							<div style="display:flex;">
+								<div style="flex:6;"></div>
+								<div style="flex:35;">
+									<p style="font-size:15px;margin-top:10px;">我选择死亡！</p>
+								</div>
 							</div>
-							<div style="flex:35;">
-								<p style="font-size:20px;margin-top:10px;">二狗</p>
-							</div>
+							<p style="float:right;font-size:9px;margin-right:5%;">发布于2018.8.1 23:55</p>
+							<hr style="border-top:1px solid #A9A9A9;width:90%;margin-top:8px;margin-bottom:8px;"/>
 						</div>
-						<div style="display:flex;">
-							<div style="flex:6;"></div>
-							<div style="flex:35;">
-								<p style="font-size:15px;margin-top:10px;">我选择死亡！</p>
+						<div>
+							<div style="display:flex;" >
+								<div style="flex:3;"></div>
+								<div style="flex:2;">
+								<img src="../../img/1.png"  style="width:50px;margin-bottom:2%;border:2px solid #000;" class="img-circle">
+								</div>
+								<div style="flex:35;">
+									<p style="font-size:20px;margin-top:10px;">二狗</p>
+								</div>
+							</div>	
+							<div style="display:flex;">
+								<div style="flex:6;"></div>
+								<div style="flex:35;">
+									<p style="font-size:15px;margin-top:10px;">我选择生存！</p>
+								</div>
+								
 							</div>
+							<p style="float:right;font-size:9px;margin-right:5%;">发布于2016.8.1 23:55</p>
+							<hr style="border-top:1px solid #A9A9A9;width:90%;margin-top:8px;margin-bottom:8px;"/>
 						</div>
+						<div style="display:flex;margin-bottom:5%;" >
+							<div style="flex:3;"></div>
+							<div style="flex:35;">
+								<div style="display:flex;">
+									<input class="form-control" style="flex:20;" id="focusedInput" type="text" placeholder="说点什么吧……">
+									<div style="flex:5;">
+									<button class="btn btn-lg" style="margin-left:3%;height:34px;font-size:15px;">发布</button>
+									</div>
+								</div>
+							</div>
+						</div>	
 				</div>
 			</div>
-            <div style="flex:1;"></div>
+            <!--div style="flex:1;"></div-->
 		</div>
 	</div>
-	<hr style="border-top:3px solid #A9A9A9;width:96%;"/>
+	<hr style="border-top:3px solid #A9A9A9;"/>
 </div>
 	<div style="text-align:center;">
 		<p style="font-size:30px;">Copyright@Little Driver Technology Inc,Ltd</p>

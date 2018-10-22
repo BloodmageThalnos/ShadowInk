@@ -3,8 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="a7f3a500-c214-4a40-8643-d78f081b4203" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/ShadowInk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ShadowInk.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appMain/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appMain/ShadowInk/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/ShadowInk/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appMain/WeiboAPP/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/WeiboAPP/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appMain/WeiboAPP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/WeiboAPP/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appMain/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadowink/shadowinkWEB/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/shadowink/shadowinkWEB/login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadowink/shadowinkWEB/main/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/shadowink/shadowinkWEB/main/main.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,30 +112,120 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="html" value="1" />
+          <entry key="py" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="HTML" value="1" />
+          <entry key="Python" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="282" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="282" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appMain/ShadowInk/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="-111">
+              <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+                <marker date="1540126797226" expanded="true" signature="103:318" ph="..." />
+                <marker date="1540126797226" expanded="true" signature="111:317" ph="..." />
+                <marker date="1540126797226" expanded="true" signature="345:348" ph="..." />
+                <marker date="1540126797226" expanded="true" signature="345:349" ph="..." />
+                <marker date="1540126797226" expanded="true" signature="345:350" ph="..." />
+                <marker date="1540126797226" expanded="true" signature="345:353" ph="..." />
+                <marker date="1540126797226" expanded="true" signature="345:355" ph="..." />
+                <marker date="1540126797226" expanded="true" signature="345:356" ph="..." />
+                <marker date="1540126797226" expanded="true" signature="345:360" ph="..." />
+                <marker date="1540126797226" expanded="true" signature="599:610" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appMain/LoginAPP/models.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://E:/anaconda/Lib/site-packages/django/db/models/fields/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="1760" column="6" selection-start-line="1760" selection-start-column="6" selection-end-line="1760" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/apps.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appMain/ShadowInk/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/tests.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -141,6 +238,12 @@
       <list>
         <option value="$PROJECT_DIR$/my/main.py" />
         <option value="$PROJECT_DIR$/my/urls.py" />
+        <option value="$PROJECT_DIR$/appMain/templates/mainPC.html" />
+        <option value="$PROJECT_DIR$/appMain/WeiboAPP/models.py" />
+        <option value="$PROJECT_DIR$/appMain/WeiboAPP/views.py" />
+        <option value="$PROJECT_DIR$/appMain/ShadowInk/settings.py" />
+        <option value="$PROJECT_DIR$/appMain/MyCenterAPP/admin.py" />
+        <option value="$PROJECT_DIR$/appMain/MyCenterAPP/models.py" />
       </list>
     </option>
   </component>
@@ -150,11 +253,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="5" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-127" />
     <option name="width" value="1300" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -176,7 +280,24 @@
               <item name="ShadowInk2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="ShadowInk2.0" type="462c0819:PsiDirectoryNode" />
               <item name="appMain" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginAPP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShadowInk2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShadowInk2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="appMain" type="462c0819:PsiDirectoryNode" />
+              <item name="MyCenterAPP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShadowInk2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShadowInk2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="appMain" type="462c0819:PsiDirectoryNode" />
               <item name="ShadowInk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShadowInk2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShadowInk2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="shadowink" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,7 +311,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/appMain/ShadowInk/settings.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\GitHub\ShadowInk2.0\appMain\MyCenterAPP" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -300,14 +426,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="0" width="1300" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26101142" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16055046" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40963855" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6179002" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -316,7 +443,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32702237" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.51468533" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.1979346" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -349,10 +476,115 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/templates/mainPC.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="100" column="33" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/WeiboAPP/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/WeiboAPP/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/WeiboAPP/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/WeiboAPP/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="20" selection-start-line="20" selection-end-line="23" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/appMain/ShadowInk/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="-111">
+          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/ShadowInk/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/anaconda/Lib/site-packages/django/db/models/fields/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="1760" column="6" selection-start-line="1760" selection-start-column="6" selection-end-line="1760" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/LoginAPP/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1540126797226" expanded="true" signature="103:318" ph="..." />
+            <marker date="1540126797226" expanded="true" signature="111:317" ph="..." />
+            <marker date="1540126797226" expanded="true" signature="345:348" ph="..." />
+            <marker date="1540126797226" expanded="true" signature="345:349" ph="..." />
+            <marker date="1540126797226" expanded="true" signature="345:350" ph="..." />
+            <marker date="1540126797226" expanded="true" signature="345:353" ph="..." />
+            <marker date="1540126797226" expanded="true" signature="345:355" ph="..." />
+            <marker date="1540126797226" expanded="true" signature="345:356" ph="..." />
+            <marker date="1540126797226" expanded="true" signature="345:360" ph="..." />
+            <marker date="1540126797226" expanded="true" signature="599:610" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
