@@ -17,4 +17,7 @@ def showPages(request, path):
     if path=='index':
         pass
 
+    if path=='calc':
+
+
     return HttpResponse('No Page Here.')

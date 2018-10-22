@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6e32a9b-0aa2-411b-a232-aa03d2910692" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCenterAPP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyCenterAPP/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowInk/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShadowInk/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TexasAPP/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/TexasAPP/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TexasAPP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TexasAPP/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WeiboAPP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeiboAPP/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -167,7 +166,7 @@
     <session id="-526799610">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.7" value="1" />
@@ -178,50 +177,53 @@
         <counts>
           <entry key="bashrc" value="1" />
           <entry key="html" value="2" />
-          <entry key="py" value="11" />
+          <entry key="py" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="11" />
+          <entry key="Python" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="57" />
-          <entry key="py" value="239" />
+          <entry key="py" value="885" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="57" />
-          <entry key="Python" value="239" />
+          <entry key="Python" value="885" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TexasAPP/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            <state relative-caret-position="400">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#24#38#0" expanded="true" />
-                <marker date="1540194652154" expanded="true" signature="425:426" ph="..." />
+                <marker date="1540199818077" expanded="true" signature="448:449" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WeiboAPP/views.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TexasAPP/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1040">
-              <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+            <state relative-caret-position="180">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -302,7 +304,11 @@
         <option value="$PROJECT_DIR$/MyCenterAPP/models.py" />
         <option value="$PROJECT_DIR$/MyCenterAPP/views.py" />
         <option value="$PROJECT_DIR$/ShadowInk/settings.py" />
+        <option value="$PROJECT_DIR$/TexasAPP/holdem_argparser.py" />
         <option value="$PROJECT_DIR$/WeiboAPP/views.py" />
+        <option value="$PROJECT_DIR$/TexasAPP/holdem_functions.py" />
+        <option value="$PROJECT_DIR$/TexasAPP/tests.py" />
+        <option value="$PROJECT_DIR$/TexasAPP/holdem_calc.py" />
         <option value="$PROJECT_DIR$/TexasAPP/views.py" />
       </list>
     </option>
@@ -340,6 +346,11 @@
             <path>
               <item name="appMain" type="b2602c69:ProjectViewProjectNode" />
               <item name="appMain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appMain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appMain" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginAPP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="appMain" type="b2602c69:ProjectViewProjectNode" />
@@ -494,15 +505,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985507" visible="true" weight="0.14676966" />
       <window_info id="Structure" order="1" sideWeight="0.5014493" side_tool="true" weight="0.15281501" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="0" weight="0.3290993" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.3290993" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.577748" weight="0.06970509" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32841823" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.577748" weight="0.31769437" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -511,8 +521,8 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3267544" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.422252" side_tool="true" weight="0.46033993" />
       <window_info anchor="bottom" id="Database Changes" order="11" sideWeight="0.49847096" weight="0.3290993" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49731904" visible="true" weight="0.2989276" />
-      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49798927" weight="0.23087819" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49731904" visible="true" weight="0.08981233" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49798927" weight="0.41152814" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.13394919" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -537,22 +547,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="wzd gooding" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/back.html" />
-    <entry file="file://$PROJECT_DIR$/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/register_files/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../StyleTransferTrilogy/code/models.py" />
     <entry file="file://$PROJECT_DIR$/static/article_files/article.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -666,13 +660,6 @@
     <entry file="file://$PROJECT_DIR$/templates/weibo2.html" />
     <entry file="file://$USER_HOME$/PycharmProjects/StyleTransfer1.0/utt.py" />
     <entry file="file://$USER_HOME$/PycharmProjects/StyleTransfer1.0/modd.py" />
-    <entry file="file://$PROJECT_DIR$/WeiboAPP/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/StyleTransfer1.0/test2.py" />
     <entry file="file://$PROJECT_DIR$/log/info.log">
       <provider selected="true" editor-type-id="text-editor" />
@@ -714,16 +701,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LoginAPP/models.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginAPP/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="195" column="59" selection-start-line="195" selection-start-column="59" selection-end-line="195" selection-end-column="59" />
-          <folding>
-            <element signature="e#24#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WeiboAPP/models.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -814,9 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TexasAPP/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ShadowInk/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -831,20 +805,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LoginAPP/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3900">
+          <caret line="195" column="59" selection-start-line="195" selection-start-column="59" selection-end-line="195" selection-end-column="59" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zECB1B95C8/holdem_calc.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TexasAPP/holdem_argparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2974">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiboAPP/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WeiboAPP/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+        <state relative-caret-position="180">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TexasAPP/holdem_calc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="20" column="78" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TexasAPP/holdem_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TexasAPP/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        <state relative-caret-position="400">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
-            <marker date="1540194652154" expanded="true" signature="425:426" ph="..." />
+            <marker date="1540199818077" expanded="true" signature="448:449" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TexasAPP/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>

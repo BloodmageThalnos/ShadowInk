@@ -5,7 +5,7 @@ import json
 from django.http import *
 from django.template import loader
 from django.contrib.auth import login
-from appMain.ShadowInk import settings
+from ShadowInk import settings
 from .models import *
 
 import random
