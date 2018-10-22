@@ -1,3 +1,6 @@
 from django.shortcuts import render
 
-# Create your views here.
+def getUserInfo(user):
+    if not user.is_authenticated:
+        return {}
+    

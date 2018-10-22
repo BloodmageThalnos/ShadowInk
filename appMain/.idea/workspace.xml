@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6e32a9b-0aa2-411b-a232-aa03d2910692" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/static/htmlWorking/index/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/htmlWorking/index/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCenterAPP/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyCenterAPP/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCenterAPP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyCenterAPP/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,20 +168,35 @@
         <counts>
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="bashrc" value="1" />
-          <entry key="py" value="2" />
+          <entry key="html" value="2" />
+          <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="HTML" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="2" />
+          <entry key="Python" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="57" />
+          <entry key="py" value="206" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="57" />
+          <entry key="Python" value="206" />
         </counts>
       </usages-collector>
     </session>
@@ -196,23 +213,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/weibo.html">
+        <entry file="file://$PROJECT_DIR$/MyCenterAPP/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
-              <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-              <folding>
-                <element signature="n#if#0;n#!!top" />
-                <element signature="n#if#1;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WeiboAPP/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="200">
+              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -221,12 +225,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LoginAPP/views.py">
+        <entry file="file://$PROJECT_DIR$/MyCenterAPP/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="195" column="59" lean-forward="true" selection-start-line="195" selection-start-column="59" selection-end-line="195" selection-end-column="59" />
+            <state relative-caret-position="100">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding>
-                <element signature="e#24#38#0" expanded="true" />
+                <marker date="1540180349228" expanded="true" signature="59:64" ph="..." />
               </folding>
             </state>
           </provider>
@@ -305,6 +309,10 @@
         <option value="$USER_HOME$/PycharmProjects/StyleTransfer1.0/test2.py" />
         <option value="$PROJECT_DIR$/ShadowInk/urls.py" />
         <option value="$PROJECT_DIR$/templates/loginSuccess.html" />
+        <option value="$PROJECT_DIR$/templates/pc_main.html" />
+        <option value="$PROJECT_DIR$/static/htmlWorking/index/main.html" />
+        <option value="$PROJECT_DIR$/MyCenterAPP/models.py" />
+        <option value="$PROJECT_DIR$/MyCenterAPP/views.py" />
       </list>
     </option>
   </component>
@@ -320,7 +328,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="15" />
     <option name="y" value="15" />
     <option name="width" value="460" />
@@ -341,6 +349,11 @@
             <path>
               <item name="appMain" type="b2602c69:ProjectViewProjectNode" />
               <item name="appMain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appMain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appMain" type="462c0819:PsiDirectoryNode" />
+              <item name="MyCenterAPP" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -490,8 +503,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985507" visible="true" weight="0.14466292" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985507" visible="true" weight="0.14676966" />
       <window_info id="Structure" order="1" sideWeight="0.5014493" side_tool="true" weight="0.15281501" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="0" weight="0.3290993" />
@@ -509,13 +523,13 @@
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49731904" weight="0.2989276" />
       <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49798927" weight="0.23087819" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.13394919" />
-      <window_info anchor="right" id="Remote Host" weight="0.32935393" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3286517" />
       <window_info anchor="right" id="Database" order="4" weight="0.1980337" />
       <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="5" side_tool="true" visible="true" weight="0.07879656" />
+      <window_info anchor="right" id="Remote Host" order="6" weight="0.32935393" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,20 +546,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="wzd gooding" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://e8ed061e-6ede-42ea-bca0-b9da81c87740/schema/shadowink/table/user" />
-    <entry file="file://$PROJECT_DIR$/LoginAPP/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/loginFail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginAPP/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cd8f8414-56ed-4eba-8da1-031a3dccebc2/console.sql" />
     <entry file="file://$PROJECT_DIR$/templates/registerFail.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -757,16 +757,54 @@
     <entry file="file://$PROJECT_DIR$/LoginAPP/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/article_files/article.js">
+    <entry file="file://$PROJECT_DIR$/LoginAPP/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="195" column="59" selection-start-line="195" selection-start-column="59" selection-end-line="195" selection-end-column="59" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiboAPP/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pc_main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/htmlWorking/index/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/weibo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
+        <state relative-caret-position="655">
           <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
           <folding>
             <element signature="n#if#0;n#!!top" />
@@ -775,22 +813,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WeiboAPP/models.py">
+    <entry file="file://$PROJECT_DIR$/static/article_files/article.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="320">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCenterAPP/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LoginAPP/views.py">
+    <entry file="file://$PROJECT_DIR$/MyCenterAPP/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="195" column="59" lean-forward="true" selection-start-line="195" selection-start-column="59" selection-end-line="195" selection-end-column="59" />
+        <state relative-caret-position="100">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
           <folding>
-            <element signature="e#24#38#0" expanded="true" />
+            <marker date="1540180349228" expanded="true" signature="59:64" ph="..." />
           </folding>
         </state>
       </provider>
