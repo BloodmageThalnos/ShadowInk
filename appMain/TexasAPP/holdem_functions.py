@@ -1,6 +1,6 @@
 # Constants
-suit_index_dict = {"s": 0, "c": 1, "h": 2, "d": 3}
-reverse_suit_index = ("s", "c", "h", "d")
+suit_index_dict = {"h": 0, "x": 1, "c": 2, "f": 3}
+reverse_suit_index = ("h", "x", "c", "f")
 val_string = "AKQJT98765432"
 hand_rankings = ("全单张", "对子", "两对", "三条",
                  "顺子", "同花", "符箓", "四条",
@@ -254,9 +254,9 @@ def print_results(hole_cards, winner_list, result_histograms):
     for index, hole_card in enumerate(hole_cards):
         winning_percentage = float(winner_list[index + 1]) / float_iterations
         if hole_card == (None, None):
-            res += "(未知牌) : " + str(winning_percentage) + "\n"
+            res += "(未知牌) 胜: " + str(winning_percentage) + "\n"
         else:
-            res += str(hole_card) + ": " + str(winning_percentage) + "\n"
+            res += str(hole_card) + "胜: " + str(winning_percentage) + "\n"
     res += "平局: " + str(float(winner_list[0]) / float_iterations) + "\n\n"
     for player_index, histogram in enumerate(result_histograms):
         res += "玩家" + str(player_index + 1) + "牌型分布: \n"
