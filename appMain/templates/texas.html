@@ -23,25 +23,25 @@
           <div class="form-group">
             <label for="exampleInput1">各个玩家的手牌</label>
             <input type="input" class="form-control" id="exampleInput1" name="car">
-            <small id="emailHelp" class="form-text text-muted">格式参考：2h,3h_Tx,Ax_Kf,Kc；花色：h黑桃，x红心，f方块，c草花；点数：23456789TJQKA。</small>
+            <small id="emailHelp" class="form-text text-muted">格式参考：2h_3h,Tx_Ax,Kf_Kc；花色：h黑桃，x红心，f方块，c草花；点数：23456789TJQKA。</small>
           </div>
           <div class="form-group">
             <label for="exampleInput2">场上的河牌（0或3,4,5张）</label>
             <input type="input" class="form-control" id="exampleInput2" name="boa">
-            <small id="emailHelp" class="form-text text-muted">格式参考：4x_Jh_Qx。</small>
+            <small id="emailHelp" class="form-text text-muted">格式参考：4x,Jh,Qx。</small>
           </div>
           <div class="form-group">
             <label for="exampleInput3">已知的场外牌</label>
             <input type="input" class="form-control" id="exampleInput3" name="out">
-            <small id="emailHelp" class="form-text text-muted">格式参考：Ac_Af。</small>
+            <small id="emailHelp" class="form-text text-muted">格式参考：Ac,8f。</small>
           </div>
           <div class="form-check">
             <input type="checkbox" class="form-check-input" id="Check1" name="unk">
-            <label class="form-check-label" for="Check1">加入一位未知手牌的玩家</label>
+            <label class="form-check-label" for="Check1">加入一位未知手牌的玩家（模拟单挑）</label>
           </div>
           <div class="form-check">
             <input type="checkbox" class="form-check-input" id="Check2" name="exa">
-            <label class="form-check-label" for="Check2">精确计算（可能会很慢）</label>
+            <label class="form-check-label" for="Check2">精确计算（如果不给出河牌，可能会较慢）</label>
           </div>
           <button type="submit" class="btn btn-primary">计算</button>
         </form>

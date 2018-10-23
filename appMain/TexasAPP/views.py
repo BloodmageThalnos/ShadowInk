@@ -19,26 +19,29 @@ def showPages(request, path):
         return HttpResponse(template.render({}, request))
 
     if path=='calc':
-        cards = request.POST.get("car")
-        board = request.POST.get("boa")
-        out = request.POST.get("out")
-        unknown = request.POST.get("unk")
-        exact = request.POST.get("exa")
-        num = 45678
-        e=(exact=='1')
-        c,d,o = [],[],[]
-        for card in cards.split('_'):
-            a,b=card.split(',')
-            c.append((Card(a),Card(b)))
-        if board!="":
-            for bd in board.split('_'):
-                d.append(Card(bd))
-        if out!="":
-            for outa in out.split('_'):
-                o.append(Card(outa))
-        if unknown=='on':
-            c.append((None,None))
-        i,j = run(c,num,d,o,e)
-        return HttpResponse(i)
+        try:
+            cards = request.POST.get("car")
+            board = request.POST.get("boa")
+            out = request.POST.get("out")
+            unknown = request.POST.get("unk")
+            exact = request.POST.get("exa")
+            num = 45678
+            e=(exact=='1')
+            c,d,o = [],[],[]
+            for card in cards.split(','):
+                a,b=card.split('_')
+                c.append((Card(a),Card(b)))
+            if board!="":
+                for bd in board.split(','):
+                    d.append(Card(bd))
+            if out!="":
+                for outa in out.split(','):
+                    o.append(Card(outa))
+            if unknown=='on':
+                c.append((None,None))
+            i,j = run(c,num,d,o,e)
+            return HttpResponse(i)
+        except:
+            return HttpResponse("发生内部错误，请检查你的输入")
 
     return HttpResponse('No Page Here.')
