@@ -40,6 +40,7 @@ def getWeiboShown(user):
             'thumbed':thumbed,
             'thumbCount':tcount,
             'comments':comment_set,
+            'commentCount':len(comment_set),
         })
     return weibos
 

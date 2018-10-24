@@ -77,6 +77,23 @@
         })
       return false;
   }
+  function doregister(i){
+      $.ajax('/login/ajaxRegister',{
+            type: 'POST',
+            data: new FormData(i),
+            async: true,
+            cache: false,
+            processData: false,
+            contentType: false,
+            success: function(msg) {
+                msg = JSON.parse(msg)
+                alert(msg.message)
+                if(msg.success === 'True')
+                    location.reload(true);
+            }
+        })
+      return false;
+  }
   function dologini(){
       formData = new FormData();
       formData.append("logout", "sure")
@@ -105,6 +122,11 @@
     <input type="input" name="name" /><br />
     <input type="input" name="password" /><br />
     <input type="submit" value="登录"/>
+</form>
+<form action="/login/ajaxLogin" method="POST" onsubmit="return doregister(this);">
+    <input type="input" name="name" /><br />
+    <input type="input" name="password" /><br />
+    <input type="submit" value="快速注册"/>
 </form>
 {% endif %}
 <form action="/w/postWeibo" method="POST" enctype="multipart/form-data" onsubmit="return doita(this);">
@@ -138,7 +160,7 @@
     <p> Comments: </p>
     <form action="/w/commentWeibo" method="POST" onsubmit="return doitato(this);">
         <textarea name="content"></textarea>
-        <input type="input" style="display:none;" value="{{weibo.blog.id}}" name="id"></input>
+        <input type="text" style="display:none;" value="{{weibo.blog.id}}" name="id" />
         <input type="submit" value="发送"/>
     </form>
     {% for comment in weibo.comments %}
