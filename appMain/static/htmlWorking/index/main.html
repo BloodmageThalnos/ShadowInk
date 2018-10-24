@@ -15,7 +15,6 @@
 		}
 		body{
 			font-family:'Aa语文老师的字';
-			opacity:0.8;
 		}
 		a:hover{
 			text-decoration:none;
@@ -45,6 +44,19 @@
 		}
 		.imgSlide{
 			width:90%;
+		}
+		
+		.hr-more {
+			height: 20px;
+			width: 75px;	 
+			position: relative;
+			left: 38%;
+			top: -30px;
+			overflow:hidden;
+			vertical-align: middle;
+			text-align: center;
+			border-radius: 4px; 
+			background-color:#fff;
 		}
 		
 	</style>
@@ -110,11 +122,11 @@
 		<div style="display:flex;width:100%;">
 			<p style="font-size:30px;flex:6;">教育中心</p>
 			<p style="font-size:30px;flex:1;">更多</p>
-			<p style="font-size:30px;flex:3;">&#160;&#160;&#160;&#160;登陆</p>
+			<p style="font-size:30px;flex:3;">&#160;&#160;&#160;&#160;登录</p>
 		</div>
 		<div style="display:flex;width:100%;background-color:transparent;flex-wrap:wrap;">
 			<div style="flex:7;display:block;">
-				<div style="display:flex;height:150px;width:100%;background-color:#eee;">
+				<div style="display:flex;height:160px;width:100%;background-color:#eee;">
 					<div style="flex:2;margin:16px;overflow:hidden;height:96%;">
 						<img src="../../img/2.png" style="width:100%;"/>
 					</div>
@@ -126,7 +138,7 @@
 						</div>
 					</div>
 				</div>
-				<div style="display:flex;height:150px;width:100%;background-color:#eee;">
+				<div style="display:flex;height:160px;width:100%;background-color:#eee;">
 					<div style="flex:2;margin:16px;overflow:hidden;height:96%;">
 						<img src="../../img/3.png" style="width:100%;"/>
 					</div>
@@ -143,15 +155,28 @@
 				<div style="flex:1;"></div>
 				<div style="flex:10;height:100%;width:90%;background-color:#fff;">
 					<div style="margin:6%;">
-					<div style="display:flex;margin-bottom:6%;border:3px #000 solid;border-radius:2px;">
+					<div style="display:flex;margin-bottom:6%;border:2px #000 solid;border-radius:2px;">
 						<i class="glyphicon glyphicon-user" style="font-size:30px;padding-top:2px;"></i>
 						<input class="form-control" id="focusedInput" type="text" style="border:0px solid #ccc;" placeholder="用户名"/>
 					</div>
-					<div style="display:flex;margin-bottom:6%;border:3px #000 solid;border-radius:2px;">
+					<div style="display:flex;margin-bottom:6%;border:2px #000 solid;border-radius:2px;">
 						<i class="glyphicon glyphicon-lock" style="font-size:30px;padding-top:2px;"></i>
 						<input class="form-control" id="focusedInput" type="text"  style="border:0px solid #ccc;"placeholder="请输入密码……"/>
 					</div>
+					<div style="display:flex;">
+						<div style="flex:10;"></div>
+						<div style="flex:3;">
+							<a href="#" >忘记密码</a>
+						</div>
 					</div>
+					<div style="display:flex;margin:6%;">
+						<button class="btn btn-block" style="flex:1;border:2px solid #000;background-color:#fff;">登录</button>
+						<div style="flex:1;"></div>
+						<button class="btn btn-block" style="flex:1;border:2px solid #000;background-color:#fff;">注册</button>
+					</div>
+					</div>
+					<hr style="border: 1px solid #c0c0c0">
+					<div class="hr-more">其他登陆</div>
 				</div>
 			</div>
 		</div>
