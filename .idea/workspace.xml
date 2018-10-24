@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7f3a500-c214-4a40-8643-d78f081b4203" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/appMain/MyCenterAPP/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/MyCenterAPP/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appMain/MyCenterAPP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/MyCenterAPP/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appMain/ShadowInk/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/ShadowInk/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appMain/WeiboAPP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/WeiboAPP/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appMain/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appMain/MyCenterAPP/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/MyCenterAPP/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appMain/static/htmlWorking/index/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/static/htmlWorking/index/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appMain/static/main_files_pc/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/static/main_files_pc/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appMain/templates/mainPC.html" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/templates/mainPC.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,25 +150,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
+          <entry key="html" value="2" />
           <entry key="py" value="21" />
           <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="2" />
           <entry key="Python" value="21" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="html" value="2" />
           <entry key="py" value="854" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="HTML" value="2" />
           <entry key="Python" value="854" />
         </counts>
       </usages-collector>
@@ -187,13 +190,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
+            <state relative-caret-position="280">
               <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#14#28#0" expanded="true" />
                 <marker date="1540383628455" expanded="true" signature="595:597" ph="..." />
                 <marker date="1540383628455" expanded="true" signature="595:598" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appMain/templates/MyCenter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -253,11 +265,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appMain/ShadowInk/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/__init__.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -268,6 +275,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -284,6 +298,7 @@
         <option value="$PROJECT_DIR$/appMain/ShadowInk/settings.py" />
         <option value="$PROJECT_DIR$/appMain/MyCenterAPP/models.py" />
         <option value="$PROJECT_DIR$/appMain/MyCenterAPP/views.py" />
+        <option value="$PROJECT_DIR$/appMain/templates/MyCenter.html" />
       </list>
     </option>
   </component>
@@ -333,7 +348,7 @@
               <item name="ShadowInk2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="ShadowInk2.0" type="462c0819:PsiDirectoryNode" />
               <item name="appMain" type="462c0819:PsiDirectoryNode" />
-              <item name="WeiboAPP" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -464,13 +479,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16819572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16819572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41135973" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.12564544" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -611,9 +627,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/templates/MyCenter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+        <state relative-caret-position="280">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#14#28#0" expanded="true" />
