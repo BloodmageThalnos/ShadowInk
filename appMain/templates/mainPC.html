@@ -151,16 +151,25 @@
                             已登录：{{user.username}}。<a href="#" onclick="dologini()">注销</a>
                           </p>
                         {% else %}
-                            <form action="/login/ajaxLogin" method="POST" onsubmit="return dologin(this);">
-                                <input type="input" name="name" /><br />
-                                <input type="input" name="password" /><br />
-                                <input type="submit" value="登录"/>
-                            </form>
-                            <form action="/login/ajaxLogin" method="POST" onsubmit="return doregister(this);">
-                                <input type="input" name="name" /><br />
-                                <input type="input" name="password" /><br />
-                                <input type="submit" value="快速注册"/>
-                            </form>
+                            <div style="display:flex;margin-bottom:6%;border:2px #000 solid;border-radius:2px;">
+                                <i class="glyphicon glyphicon-user" style="font-size:30px;padding-top:2px;"></i>
+                                <input class="form-control" id="inputUsername" type="text" style="border:0 solid #ccc;" placeholder="用户名"/>
+                            </div>
+                            <div style="display:flex;margin-bottom:6%;border:2px #000 solid;border-radius:2px;">
+                                <i class="glyphicon glyphicon-lock" style="font-size:30px;padding-top:2px;"></i>
+                                <input class="form-control" id="inputPassword" type="text" style="border:0 solid #ccc;" placeholder="请输入密码……"/>
+                            </div>
+                            <div style="display:flex;">
+                                <div style="flex:10;"></div>
+                                <div style="flex:3;">
+                                    <a href="#" >忘记密码</a>
+                                </div>
+                            </div>
+                            <div style="display:flex;margin:6%;">
+                                <button class="btn btn-block" style="flex:1;border:2px solid #000;background-color:#fff;" onclick="dologin()">登录</button>
+                                <div style="flex:1;"></div>
+                                <button class="btn btn-block" style="flex:1;border:2px solid #000;background-color:#fff;" onclick="doregister()">注册</button>
+                            </div>
                         {% endif %}
 					</div>
 				</div>

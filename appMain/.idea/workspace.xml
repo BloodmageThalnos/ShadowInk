@@ -2,85 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6e32a9b-0aa2-411b-a232-aa03d2910692" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/mainPC.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginAPP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/LoginAPP/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShadowInk/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShadowInk/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeiboAPP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeiboAPP/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156504642.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156504887.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156505639.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156505658.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156505681.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156505694.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156505772.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156505893.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156506012.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156506106.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156506119.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156506352.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156506353.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156506999.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156507017.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156507024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156507069.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156508993.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156509858.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156509885.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156510419.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156510587.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156510839.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156510849.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156510876.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156511647.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156511667.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156511675.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156513654.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156513690.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156513961.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156525409.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156504642.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156504887.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156505639.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156505658.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156505681.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156505694.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156505772.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156505893.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156506012.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156506119.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156506999.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156507017.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156507024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156507069.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156509858.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156509885.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156510419.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156510839.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156510849.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156510876.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156511647.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156511667.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156511675.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156513654.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156513690.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156513961.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156525409.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156977152.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/atest_1538917952.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/little_264164.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/little_410846.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/little_567281.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/shadowink_399559.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/shadowink_513300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/shadowink_555176.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/shadowink_650328.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/shadowink_717302.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/htmlWorking/index/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/htmlWorking/index/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/main_files_pc/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/main_files_pc/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/weibo.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/weibo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mainPC.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mainPC.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -242,7 +168,8 @@
     <session id="-526799610">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.39" value="1" />
@@ -250,13 +177,13 @@
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="bashrc" value="1" />
-          <entry key="html" value="13" />
+          <entry key="html" value="14" />
           <entry key="js" value="3" />
           <entry key="log" value="3" />
           <entry key="py" value="53" />
@@ -264,7 +191,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="13" />
+          <entry key="HTML" value="14" />
           <entry key="JavaScript" value="3" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Python" value="53" />
@@ -272,15 +199,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="788" />
-          <entry key="js" value="20" />
+          <entry key="html" value="877" />
+          <entry key="js" value="87" />
           <entry key="py" value="2418" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="788" />
-          <entry key="JavaScript" value="20" />
+          <entry key="HTML" value="877" />
+          <entry key="JavaScript" value="87" />
           <entry key="Python" value="2418" />
         </counts>
       </usages-collector>
@@ -300,8 +227,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/weibo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="70" column="36" lean-forward="true" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+            <state relative-caret-position="1400">
+              <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -309,9 +236,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/mainPC.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="236" column="111" selection-start-line="236" selection-start-column="111" selection-end-line="236" selection-end-column="111" />
+            <state relative-caret-position="49">
+              <caret line="152" column="34" selection-start-line="152" selection-start-column="34" selection-end-line="152" selection-end-column="34" />
               <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#1;n#div#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#2;n#div#1;n#div#0;n#div#1;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#if#1;n#!!top" />
               </folding>
             </state>
@@ -321,8 +258,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/main_files_pc/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/htmlWorking/index/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="157" column="24" selection-start-line="157" selection-start-column="24" selection-end-line="175" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -330,11 +282,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MainAPP/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="460">
+              <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -342,8 +291,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log/info.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="423" lean-forward="true" selection-start-line="423" selection-end-line="423" />
+            <state relative-caret-position="8460">
+              <caret line="423" selection-start-line="423" selection-end-line="423" />
             </state>
           </provider>
         </entry>
@@ -414,7 +363,6 @@
         <option value="$USER_HOME$/PycharmProjects/StyleTransfer1.0/test2.py" />
         <option value="$PROJECT_DIR$/templates/loginSuccess.html" />
         <option value="$PROJECT_DIR$/templates/pc_main.html" />
-        <option value="$PROJECT_DIR$/static/htmlWorking/index/main.html" />
         <option value="$PROJECT_DIR$/MyCenterAPP/models.py" />
         <option value="$PROJECT_DIR$/TexasAPP/holdem_argparser.py" />
         <option value="$PROJECT_DIR$/TexasAPP/tests.py" />
@@ -432,6 +380,7 @@
         <option value="$PROJECT_DIR$/WeiboAPP/views.py" />
         <option value="$PROJECT_DIR$/MainAPP/views.py" />
         <option value="$PROJECT_DIR$/LoginAPP/views.py" />
+        <option value="$PROJECT_DIR$/static/htmlWorking/index/main.html" />
         <option value="$PROJECT_DIR$/static/main_files_pc/main.js" />
         <option value="$PROJECT_DIR$/templates/mainPC.html" />
       </list>
@@ -463,6 +412,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -478,12 +428,20 @@
             <path>
               <item name="appMain" type="b2602c69:ProjectViewProjectNode" />
               <item name="appMain" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginAPP" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="appMain" type="b2602c69:ProjectViewProjectNode" />
               <item name="appMain" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="htmlWorking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appMain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appMain" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="htmlWorking" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="appMain" type="b2602c69:ProjectViewProjectNode" />
@@ -499,13 +457,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql&#10;sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="texas&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Project/ShadowInk/appMain/templates/mainPC.html&#10;texas&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -647,7 +604,7 @@
   <component name="ToolWindowManager">
     <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985507" visible="true" weight="0.1369382" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985507" visible="true" weight="0.13904494" />
       <window_info id="Structure" order="1" sideWeight="0.5014493" side_tool="true" weight="0.15281501" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="0" weight="0.3290993" />
@@ -669,7 +626,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3286517" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.1980337" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.014044944" />
       <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="5" side_tool="true" visible="true" weight="0.07879656" />
       <window_info anchor="right" id="Remote Host" order="6" weight="0.32935393" />
     </layout>
@@ -752,13 +709,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/pc_main.html" />
-    <entry file="file://$PROJECT_DIR$/static/htmlWorking/index/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/software/Python35/Lib/site-packages/django/core/management/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -862,9 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,13 +826,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ExploreAPP/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/WeiboAPP/models.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -901,9 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -925,36 +863,12 @@
         <state relative-caret-position="-840" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/info.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="423" lean-forward="true" selection-start-line="423" selection-end-line="423" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LoginAPP/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="669">
           <caret line="99" column="29" selection-start-line="99" selection-start-column="29" selection-end-line="99" selection-end-column="29" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/main_files_pc/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainAPP/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -978,16 +892,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/weibo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="70" column="36" lean-forward="true" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+        <state relative-caret-position="1400">
+          <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainAPP/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/info.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8460">
+          <caret line="423" selection-start-line="423" selection-end-line="423" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/htmlWorking/index/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="157" column="24" selection-start-line="157" selection-start-column="24" selection-end-line="175" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/main_files_pc/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/mainPC.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="236" column="111" selection-start-line="236" selection-start-column="111" selection-end-line="236" selection-end-column="111" />
+        <state relative-caret-position="49">
+          <caret line="152" column="34" selection-start-line="152" selection-start-column="34" selection-end-line="152" selection-end-column="34" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#div#1;n#div#0;n#div#1;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#if#1;n#!!top" />
           </folding>
         </state>

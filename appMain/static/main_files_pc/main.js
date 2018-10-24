@@ -71,10 +71,13 @@ function doitato(i){
     })
   return false;
 }
-function dologin(i){
+function dologin(){
+  formData = new FormData();
+  formData.append("name",$('#inputUsername').val())
+  formData.append("password",$('#inputPassword').val())
   $.ajax('/login/ajaxLogin',{
         type: 'POST',
-        data: new FormData(i),
+        data: formData,
         async: true,
         cache: false,
         processData: false,
@@ -106,10 +109,13 @@ function dologini(){
         }
     })
 }
-function doregister(i){
+function doregister(){
+  formData = new FormData();
+  formData.append("name",$('#inputUsername').val())
+  formData.append("password",$('#inputPassword').val())
   $.ajax('/login/ajaxRegister',{
         type: 'POST',
-        data: new FormData(i),
+        data: formData,
         async: true,
         cache: false,
         processData: false,
