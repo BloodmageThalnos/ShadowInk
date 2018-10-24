@@ -1,17 +1,21 @@
 from django.db import models
 from django.contrib.auth.models import User
 
-class Follower(models.Model): #关注我的用户
-    followers = models.ForeignKey(User, on_delete=models.CASCADE, related_name='followers_set')
-    build_date = models.DateTimeField(auto_now_add=True)
-    followers_account = models.IntegerField(0,1000)
-
-class Follow(models.Model):   #我关注的用户
+class Follow(models.Model):  #用户关注与被关注的记录
+    id = models.AutoField(primary_key = True)
+    follower = models.ForeignKey(User, on_delete=models.CASCADE, related_name='followers_set')
     following = models.ForeignKey(User, on_delete=models.CASCADE, related_name='following_set')
     build_date = models.DateTimeField(auto_now_add=True)
-    following_account = models.IntegerField(0, 1000)
+
+
+
 
 class PersonalDetials(models.Model): #个人资料
-    user = models.OneToOneField(User)
+    id = models.IntegerField(primary_key=True)
+    user = models.OneToOneField(User,on_delete=models.CASCADE)
     avatar = models.FilePathField()
-    phone = models.CharField(20)
+    phone = models.CharField(max_length=11)
+    bg_img = models.FilePathField()
+    introduction = models.TextField()
+    address = models.TextField()
+    follow = models.ManyToManyField("self",through=Follow,through_fields=("follower","following"),symmetrical=False)
