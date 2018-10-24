@@ -1,5 +1,5 @@
 <html>
-<header>
+<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="Access-Control-Allow-Origin" content="*">
 	<title>墨影-水墨画创作交流平台</title>
@@ -9,12 +9,8 @@
 	<!--link rel="stylesheet" href="./main.css"-->
 	<script type="text/javascript" src="../../main_files_pc/main.js"></script>
 	<style>
-		@font-face{
-			font-family:'Aa语文老师的字';
-			src:url('../../main_files_pc/字体管家语文老师的字.ttf');
-		}
 		body{
-			font-family:'Aa语文老师的字';
+			opacity:0.8;
 		}
 		a:hover{
 			text-decoration:none;
@@ -46,21 +42,8 @@
 			width:90%;
 		}
 		
-		.hr-more {
-			height: 20px;
-			width: 75px;	 
-			position: relative;
-			left: 38%;
-			top: -30px;
-			overflow:hidden;
-			vertical-align: middle;
-			text-align: center;
-			border-radius: 4px; 
-			background-color:#fff;
-		}
-		
 	</style>
-</header>
+</head>
 
 <body style="background-image:url(../../img/bk.jpg);
 			overflow:scroll;
@@ -122,11 +105,11 @@
 		<div style="display:flex;width:100%;">
 			<p style="font-size:30px;flex:6;">教育中心</p>
 			<p style="font-size:30px;flex:1;">更多</p>
-			<p style="font-size:30px;flex:3;">&#160;&#160;&#160;&#160;登录</p>
+			<p style="font-size:30px;flex:3;">&#160;&#160;&#160;&#160;登陆</p>
 		</div>
 		<div style="display:flex;width:100%;background-color:transparent;flex-wrap:wrap;">
 			<div style="flex:7;display:block;">
-				<div style="display:flex;height:160px;width:100%;background-color:#eee;">
+				<div style="display:flex;height:150px;width:100%;background-color:#eee;">
 					<div style="flex:2;margin:16px;overflow:hidden;height:96%;">
 						<img src="../../img/2.png" style="width:100%;"/>
 					</div>
@@ -138,7 +121,7 @@
 						</div>
 					</div>
 				</div>
-				<div style="display:flex;height:160px;width:100%;background-color:#eee;">
+				<div style="display:flex;height:150px;width:100%;background-color:#eee;">
 					<div style="flex:2;margin:16px;overflow:hidden;height:96%;">
 						<img src="../../img/3.png" style="width:100%;"/>
 					</div>
@@ -155,28 +138,31 @@
 				<div style="flex:1;"></div>
 				<div style="flex:10;height:100%;width:90%;background-color:#fff;">
 					<div style="margin:6%;">
-					<div style="display:flex;margin-bottom:6%;border:2px #000 solid;border-radius:2px;">
-						<i class="glyphicon glyphicon-user" style="font-size:30px;padding-top:2px;"></i>
-						<input class="form-control" id="focusedInput" type="text" style="border:0px solid #ccc;" placeholder="用户名"/>
+                        <!--div style="display:flex;margin-bottom:6%;border:3px #000 solid;border-radius:2px;">
+                            <i class="glyphicon glyphicon-user" style="font-size:30px;padding-top:2px;"></i>
+                            <input class="form-control" id="focusedInput" type="text" style="border:0px solid #ccc;" placeholder="用户名"/>
+                        </div>
+                        <div style="display:flex;margin-bottom:6%;border:3px #000 solid;border-radius:2px;">
+                            <i class="glyphicon glyphicon-lock" style="font-size:30px;padding-top:2px;"></i>
+                            <input class="form-control" id="focusedInput" type="text"  style="border:0px solid #ccc;" placeholder="请输入密码……"/>
+                        </div-->
+                        {% if user.is_authenticated %}
+                          <p>
+                            已登录：{{user.username}}。<a href="#" onclick="dologini()">注销</a>
+                          </p>
+                        {% else %}
+                            <form action="/login/ajaxLogin" method="POST" onsubmit="return dologin(this);">
+                                <input type="input" name="name" /><br />
+                                <input type="input" name="password" /><br />
+                                <input type="submit" value="登录"/>
+                            </form>
+                            <form action="/login/ajaxLogin" method="POST" onsubmit="return doregister(this);">
+                                <input type="input" name="name" /><br />
+                                <input type="input" name="password" /><br />
+                                <input type="submit" value="快速注册"/>
+                            </form>
+                        {% endif %}
 					</div>
-					<div style="display:flex;margin-bottom:6%;border:2px #000 solid;border-radius:2px;">
-						<i class="glyphicon glyphicon-lock" style="font-size:30px;padding-top:2px;"></i>
-						<input class="form-control" id="focusedInput" type="text"  style="border:0px solid #ccc;"placeholder="请输入密码……"/>
-					</div>
-					<div style="display:flex;">
-						<div style="flex:10;"></div>
-						<div style="flex:3;">
-							<a href="#" >忘记密码</a>
-						</div>
-					</div>
-					<div style="display:flex;margin:6%;">
-						<button class="btn btn-block" style="flex:1;border:2px solid #000;background-color:#fff;">登录</button>
-						<div style="flex:1;"></div>
-						<button class="btn btn-block" style="flex:1;border:2px solid #000;background-color:#fff;">注册</button>
-					</div>
-					</div>
-					<hr style="border: 1px solid #c0c0c0">
-					<div class="hr-more">其他登陆</div>
 				</div>
 			</div>
 		</div>
@@ -230,27 +216,43 @@
 		<div style="display:flex;width:100%;background-color:transparent;flex-wrap:wrap;">
             <!--div style="flex:1;"></div-->
 			<div style="flex:9;display:block;">
+            {% for weibo in weibos %}
 				<div style="width:100%;background-color:#fff;opacity:0.8;">
                     <div style="padding:20px 20px 0px 20px;">
                         <p style="font-size:25px;">
                             <img src="../../img/1.png"  style="width:60px;border:2px solid #000;" class="img-circle">
-                            爆栈工程师
+                            {{ weibo.blog.author.username }}
                         </p>
                     </div>
                     <div style="padding:10px 50px 10px 50px;">
-                        <p style="font-size:20px;">今天给大家分享以下的水墨画，每一幅画都出自大师之手，都有他们自己的生命今天给大家分享以下的水墨画，每一幅画都出自大师之手，都有他们自己的生命</p>
-                        <img src="../../img/4.jpg" style="width:18%;height:100px;">
-                        <img src="../../img/5.jpg" style="width:18%;height:100px;">
+                        <p style="font-size:20px;">{{ weibo.blog.content }}</p>
+                        {% for image in weibo.pics %}
+                            <img src="{{ image.file }}" style="width:18%;height:100px;" />
+                        {% endfor %}
                     </div>
 				</div>
 				<div style="display:flex;height:50px;width:100%;background-color:#fff;opacity:0.8;">
 					<button class="bar" style="flex:1;">收藏</button>
 					<button class="bar" style="flex:1;">分享</button>
-					<button class="bar" style="flex:1;" id="show1">评论</button>
-					<button class="bar" style="flex:1;">点赞</button>
+					<button class="bar" style="flex:1;" id="show{{weibo.blog.id}}">评论: {{ weibo.commentCount }}</button>
+					<button class="bar" style="flex:1;" onclick="doitat({{ weibo.blog.id }}, this,
+                        {% if weibo.thumbed %}
+                            false
+                        {% else %}
+                            true
+                        {% endif %}
+                            )">
+                        {% if weibo.thumbed %}
+                            取消点赞
+                        {% else %}
+                            点赞
+                        {% endif %}: {{ weibo.thumbCount }}
+                    </button>
 				</div>
-				<div style="display:none;background-color:#fff;opacity:0.7;" id="comment1">
-						<p style="font-size:15px;margin-left:2%;">999+条评论</p>
+				<div style="display:none;background-color:#fff;opacity:0.7;" id="comment{{weibo.blog.id}}">
+						<p style="font-size:15px;margin-left:2%;"> {{ weibo.commentCount }}条评论</p>
+
+                    {% for comment in weibo.comments %}
 						<div>
 							<div style="display:flex;" >
 								<div style="flex:3;"></div>
@@ -258,122 +260,33 @@
 								<img src="../../img/1.png"  style="width:50px;margin-bottom:2%;border:2px solid #000;" class="img-circle">
 								</div>
 								<div style="flex:35;">
-									<p style="font-size:20px;margin-top:10px;">大狗</p>
+									<p style="font-size:20px;margin-top:10px;">{{comment.author}}</p>
 								</div>
-							</div>	
+							</div>
 							<div style="display:flex;">
 								<div style="flex:6;"></div>
 								<div style="flex:35;">
-									<p style="font-size:15px;margin-top:10px;">我选择死亡！</p>
+									<p style="font-size:15px;margin-top:10px;">{{ comment.val }}</p>
 								</div>
 							</div>
 							<p style="float:right;font-size:9px;margin-right:5%;">发布于2018.8.1 23:55</p>
 							<hr style="border-top:1px solid #A9A9A9;width:90%;margin-top:8px;margin-bottom:8px;"/>
 						</div>
-						<div>
-							<div style="display:flex;" >
-								<div style="flex:3;"></div>
-								<div style="flex:2;">
-								<img src="../../img/1.png"  style="width:50px;margin-bottom:2%;border:2px solid #000;" class="img-circle">
-								</div>
-								<div style="flex:35;">
-									<p style="font-size:20px;margin-top:10px;">二狗</p>
-								</div>
-							</div>	
-							<div style="display:flex;">
-								<div style="flex:6;"></div>
-								<div style="flex:35;">
-									<p style="font-size:15px;margin-top:10px;">我选择生存！</p>
-								</div>
-								
-							</div>
-							<p style="float:right;font-size:9px;margin-right:5%;">发布于2016.8.1 23:55</p>
-							<hr style="border-top:1px solid #A9A9A9;width:90%;margin-top:8px;margin-bottom:8px;"/>
-						</div>
-						<div style="display:flex;background-color:#fff;opacity:0.8;padding-bottom:3%;" >
-							<div style="flex:3;"></div>
-							<div style="flex:35;">
-								<div style="display:flex;">
-									<input class="form-control" style="flex:20;" id="focusedInput" type="text" placeholder="说点什么吧……">
-									<div style="flex:5;">
-									<button class="btn btn-lg" style="margin-left:3%;height:34px;font-size:15px;">发布</button>
-									</div>
-								</div>
-							</div>
-						</div>
-				</div>
-				<div style="width:100%;background-color:#fff;">
-                    <div style="padding:20px 20px 0px 20px;">
-                        <p style="font-size:25px;">
-                            <img src="../../img/1.png"  style="width:60px;border:2px solid #000;" class="img-circle">
-                            爆栈工程师
-                        </p>
-                    </div>
-                    <div style="padding:10px 50px 10px 50px;">
-                        <p style="font-size:20px;">今天给大家分享以下的水墨画，每一幅画都出自大师之手，都有他们自己的生命今天给大家分享以下的水墨画，每一幅画都出自大师之手，都有他们自己的生命</p>
-                        <img src="../../img/4.jpg" style="width:18%;height:100px;">
-                        <img src="../../img/5.jpg" style="width:18%;height:100px;">
-                    </div>
-				</div>
-				<div style="display:flex;height:50px;width:100%;background-color:#fff;">
-					<button class="bar" style="flex:1;">收藏</button>
-					<button class="bar" style="flex:1;">分享</button>
-					<button class="bar" style="flex:1;" id="show2">评论</button>
-					<button class="bar" style="flex:1;">点赞</button>
-				</div>
-				<div style="display:none;background-color:#fff;opacity:0.8;" id="comment2">
-					<p style="font-size:15px;margin-left:2%;">999+条评论</p>
-						<div>
-							<div style="display:flex;" >
-								<div style="flex:3;"></div>
-								<div style="flex:2;">
-								<img src="../../img/1.png"  style="width:50px;margin-bottom:2%;border:2px solid #000;" class="img-circle">
-								</div>
-								<div style="flex:35;">
-									<p style="font-size:20px;margin-top:10px;">大狗</p>
-								</div>
-							</div>	
-							<div style="display:flex;">
-								<div style="flex:6;"></div>
-								<div style="flex:35;">
-									<p style="font-size:15px;margin-top:10px;">我选择死亡！</p>
-								</div>
-							</div>
-							<p style="float:right;font-size:9px;margin-right:5%;">发布于2018.8.1 23:55</p>
-							<hr style="border-top:1px solid #A9A9A9;width:90%;margin-top:8px;margin-bottom:8px;"/>
-						</div>
-						<div>
-							<div style="display:flex;" >
-								<div style="flex:3;"></div>
-								<div style="flex:2;">
-								<img src="../../img/1.png"  style="width:50px;margin-bottom:2%;border:2px solid #000;" class="img-circle">
-								</div>
-								<div style="flex:35;">
-									<p style="font-size:20px;margin-top:10px;">二狗</p>
-								</div>
-							</div>	
-							<div style="display:flex;">
-								<div style="flex:6;"></div>
-								<div style="flex:35;">
-									<p style="font-size:15px;margin-top:10px;">我选择生存！</p>
-								</div>
-								
-							</div>
-							<p style="float:right;font-size:9px;margin-right:5%;">发布于2016.8.1 23:55</p>
-							<hr style="border-top:1px solid #A9A9A9;width:90%;margin-top:8px;margin-bottom:8px;"/>
-						</div>
-						<div style="display:flex;background-color:#fff;opacity:0.8;padding-bottom:3%;" >
-							<div style="flex:3;"></div>
-							<div style="flex:35;">
-								<div style="display:flex;">
-									<input class="form-control" style="flex:20;" id="focusedInput" type="text" placeholder="说点什么吧……">
-									<div style="flex:5;">
-									<button class="btn btn-lg" style="margin-left:3%;height:34px;font-size:15px;">发布</button>
-									</div>
-								</div>
-							</div>
-						</div>	
-				</div>
+                    {% endfor %}
+                    <div style="display:flex;background-color:#fff;opacity:0.8;padding-bottom:3%;" >
+                                <div style="flex:3;"></div>
+                                <div style="flex:35;">
+                                    <form action="/w/commentWeibo" method="POST" onsubmit="return doitato(this);" style="display:flex;">
+                                        <input class="form-control" name="content" id="focusedInput" type="text" placeholder="说点什么吧……" style="flex:20;"/>
+                                        <input type="text" style="display:none;" value="{{weibo.blog.id}}" name="id" />
+                                        <div style="flex:5;">
+                                            <input type="submit" class="btn btn-lg" style="margin-left:3%;height:34px;font-size:15px;" value="发布"/>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                </div>
+            {% endfor %}
 			</div>
             <!--div style="flex:1;"></div-->
 		</div>

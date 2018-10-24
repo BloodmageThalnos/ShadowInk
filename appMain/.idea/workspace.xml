@@ -2,9 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6e32a9b-0aa2-411b-a232-aa03d2910692" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/static/htmlWorking/index/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/htmlWorking/index/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/htmlWorking/index/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/main_files_pc/字体管家语文老师的字.ttf" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/mainPC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginAPP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/LoginAPP/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShadowInk/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShadowInk/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeiboAPP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/WeiboAPP/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156504642.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156504887.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156505639.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156505658.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156505681.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156505694.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156505772.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156505893.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156506012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156506106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156506119.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156506352.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156506353.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156506999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156507017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156507024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156507069.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156508993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156509858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156509885.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156510419.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156510587.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156510839.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156510849.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156510876.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156511647.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156511667.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156511675.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156513654.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156513690.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156513961.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_IN_156525409.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156504642.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156504887.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156505639.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156505658.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156505681.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156505694.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156505772.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156505893.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156506012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156506119.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156506999.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156507017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156507024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156507069.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156509858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156509885.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156510419.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156510839.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156510849.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156510876.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156511647.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156511667.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156511675.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156513654.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156513690.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156513961.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156525409.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/DEMO_OUT_156977152.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/atest_1538917952.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/little_264164.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/little_410846.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/little_567281.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/shadowink_399559.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/shadowink_513300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/shadowink_555176.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/shadowink_650328.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/shadowink_717302.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main_files_pc/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/main_files_pc/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/weibo.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/weibo.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,22 +242,46 @@
     <session id="-526799610">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.28" value="2" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="bashrc" value="1" />
-          <entry key="py" value="2" />
+          <entry key="html" value="13" />
+          <entry key="js" value="3" />
+          <entry key="log" value="3" />
+          <entry key="py" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="2" />
+          <entry key="HTML" value="13" />
+          <entry key="JavaScript" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="53" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="788" />
+          <entry key="js" value="20" />
+          <entry key="py" value="2418" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="788" />
+          <entry key="JavaScript" value="20" />
+          <entry key="Python" value="2418" />
         </counts>
       </usages-collector>
     </session>
@@ -189,10 +289,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/article_files/article.js">
+        <entry file="file://$PROJECT_DIR$/MyCenterAPP/apps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="100">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -200,10 +300,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/weibo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
-              <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+            <state relative-caret-position="130">
+              <caret line="70" column="36" lean-forward="true" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/mainPC.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="236" column="111" selection-start-line="236" selection-start-column="111" selection-end-line="236" selection-end-column="111" />
               <folding>
-                <element signature="n#if#0;n#!!top" />
                 <element signature="n#if#1;n#!!top" />
               </folding>
             </state>
@@ -211,25 +319,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WeiboAPP/models.py">
+        <entry file="file://$PROJECT_DIR$/static/main_files_pc/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="490">
+              <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MainAPP/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#0#14#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LoginAPP/views.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/info.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-              <folding>
-                <element signature="e#24#38#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="473">
+              <caret line="423" lean-forward="true" selection-start-line="423" selection-end-line="423" />
             </state>
           </provider>
         </entry>
@@ -258,6 +372,8 @@
       <find>block</find>
       <find>-block</find>
       <find>ffff</find>
+      <find>登</find>
+      <find>登录</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -267,10 +383,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LoginAPP/migrations/mysqlConnector.py" />
-        <option value="$PROJECT_DIR$/static/article.html" />
-        <option value="$PROJECT_DIR$/templates/registerFail.html" />
-        <option value="$PROJECT_DIR$/templates/forget.html" />
         <option value="$PROJECT_DIR$/templates/register.html" />
         <option value="$PROJECT_DIR$/templates/loginFail.html" />
         <option value="$PROJECT_DIR$/templates/login.html" />
@@ -294,19 +406,34 @@
         <option value="$PROJECT_DIR$/static/demo_files/transformDemo.js" />
         <option value="$PROJECT_DIR$/demo.bat" />
         <option value="$PROJECT_DIR$/pytorchDemo/views.py" />
-        <option value="$PROJECT_DIR$/ShadowInk/settings.py" />
         <option value="$PROJECT_DIR$/templates/transformDemo.html" />
         <option value="$PROJECT_DIR$/static/article_files/article.js" />
-        <option value="$PROJECT_DIR$/LoginAPP/views.py" />
-        <option value="$PROJECT_DIR$/log/info.log" />
         <option value="$PROJECT_DIR$/templates/weibo2.html" />
-        <option value="$PROJECT_DIR$/templates/weibo.html" />
         <option value="$PROJECT_DIR$/WeiboAPP/models.py" />
         <option value="$PROJECT_DIR$/WeiboAPP/tests.py" />
-        <option value="$PROJECT_DIR$/WeiboAPP/views.py" />
         <option value="$USER_HOME$/PycharmProjects/StyleTransfer1.0/test2.py" />
-        <option value="$PROJECT_DIR$/ShadowInk/urls.py" />
         <option value="$PROJECT_DIR$/templates/loginSuccess.html" />
+        <option value="$PROJECT_DIR$/templates/pc_main.html" />
+        <option value="$PROJECT_DIR$/static/htmlWorking/index/main.html" />
+        <option value="$PROJECT_DIR$/MyCenterAPP/models.py" />
+        <option value="$PROJECT_DIR$/TexasAPP/holdem_argparser.py" />
+        <option value="$PROJECT_DIR$/TexasAPP/tests.py" />
+        <option value="$PROJECT_DIR$/templates/mainPage.html" />
+        <option value="$PROJECT_DIR$/TexasAPP/holdem_calc.py" />
+        <option value="$PROJECT_DIR$/log/info.log" />
+        <option value="$PROJECT_DIR$/TexasAPP/holdem_functions.py" />
+        <option value="$PROJECT_DIR$/TexasAPP/views.py" />
+        <option value="$PROJECT_DIR$/templates/texas.html" />
+        <option value="$PROJECT_DIR$/MyCenterAPP/views.py" />
+        <option value="$PROJECT_DIR$/PytorchAPP/models.py" />
+        <option value="$PROJECT_DIR$/ShadowInk/settings.py" />
+        <option value="$PROJECT_DIR$/ShadowInk/urls.py" />
+        <option value="$PROJECT_DIR$/templates/weibo.html" />
+        <option value="$PROJECT_DIR$/WeiboAPP/views.py" />
+        <option value="$PROJECT_DIR$/MainAPP/views.py" />
+        <option value="$PROJECT_DIR$/LoginAPP/views.py" />
+        <option value="$PROJECT_DIR$/static/main_files_pc/main.js" />
+        <option value="$PROJECT_DIR$/templates/mainPC.html" />
       </list>
     </option>
   </component>
@@ -322,9 +449,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="15" />
-    <option name="y" value="16" />
+    <option name="y" value="15" />
     <option name="width" value="460" />
     <option name="height" value="285" />
   </component>
@@ -336,7 +463,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -347,17 +473,39 @@
             <path>
               <item name="appMain" type="b2602c69:ProjectViewProjectNode" />
               <item name="appMain" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appMain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appMain" type="462c0819:PsiDirectoryNode" />
               <item name="LoginAPP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appMain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appMain" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appMain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appMain" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appMain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appMain" type="462c0819:PsiDirectoryNode" />
+              <item name="WeiboAPP" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql&#10;sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="texas&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -380,17 +528,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\ShadowInk\appMain\templates" />
+      <recent name="X:\dachang\ShadowInk\log" />
+      <recent name="X:\dachang\ShadowInk\static" />
+      <recent name="X:\dachang\ShadowInk\templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\templates" />
       <recent name="C:\Users\shadowink\Documents\GitHub\ShadowInk\appMain\ShadowInk" />
       <recent name="X:\dachang\ShadowInk\static" />
       <recent name="X:\dachang\ShadowInk\templates" />
       <recent name="X:\dachang\ShadowInk\LoginAPP" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="X:\dachang\ShadowInk\log" />
-      <recent name="X:\dachang\ShadowInk\static" />
-      <recent name="X:\dachang\ShadowInk\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -496,15 +645,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="-7" width="1484" height="878" extended-state="7" />
+    <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985507" visible="true" weight="0.14466292" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985507" visible="true" weight="0.1369382" />
       <window_info id="Structure" order="1" sideWeight="0.5014493" side_tool="true" weight="0.15281501" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="0" weight="0.3290993" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.3290993" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.577748" visible="true" weight="0.21313673" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32841823" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.577748" weight="0.006702413" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -513,16 +662,16 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3267544" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.422252" side_tool="true" weight="0.46033993" />
       <window_info anchor="bottom" id="Database Changes" order="11" sideWeight="0.49847096" weight="0.3290993" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49731904" weight="0.2989276" />
-      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49798927" weight="0.23087819" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49731904" weight="0.19705094" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.49798927" weight="0.41152814" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.13394919" />
-      <window_info anchor="right" id="Remote Host" weight="0.32935393" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3286517" />
-      <window_info anchor="right" id="Database" order="4" weight="0.1980337" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.1980337" />
       <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="5" side_tool="true" visible="true" weight="0.07879656" />
+      <window_info anchor="right" id="Remote Host" order="6" weight="0.32935393" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,123 +688,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="wzd gooding" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://e8ed061e-6ede-42ea-bca0-b9da81c87740/schema/shadowink/table/user" />
-    <entry file="file://$PROJECT_DIR$/LoginAPP/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/loginFail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginAPP/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cd8f8414-56ed-4eba-8da1-031a3dccebc2/console.sql" />
-    <entry file="file://$PROJECT_DIR$/templates/registerFail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/db/models/base.py" />
-    <entry file="file://$PROJECT_DIR$/ExploreAPP/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://cd8f8414-56ed-4eba-8da1-031a3dccebc2/schema/main/table/exploreapp_article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/back.html" />
-    <entry file="file://$PROJECT_DIR$/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/register_files/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../StyleTransferTrilogy/code/models.py" />
-    <entry file="file://$PROJECT_DIR$/static/article_files/article.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShadowInk/mysqlConnector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2256">
-          <caret line="99" column="15" selection-start-line="99" selection-start-column="15" selection-end-line="99" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/my_files/my.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5064">
-          <caret line="211" column="30" selection-start-line="211" selection-start-column="30" selection-end-line="211" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/pages/pContent.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2544">
-          <caret line="106" column="20" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExploreAPP/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExploreAPP/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/innerPage1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/demo_files/53c6dfa086ff8.svg" />
-    <entry file="file://$PROJECT_DIR$/templates/postArticle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShadowInk/imageTransformer.py" />
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginAPP/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ExploreAPP/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
@@ -663,31 +695,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShadowInk/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3643">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/forget.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mainPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="72" lean-forward="true" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -708,25 +719,8 @@
     <entry file="file://$PROJECT_DIR$/templates/weibo2.html" />
     <entry file="file://$USER_HOME$/PycharmProjects/StyleTransfer1.0/utt.py" />
     <entry file="file://$USER_HOME$/PycharmProjects/StyleTransfer1.0/modd.py" />
-    <entry file="file://$PROJECT_DIR$/WeiboAPP/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/StyleTransfer1.0/test2.py" />
-    <entry file="file://$PROJECT_DIR$/log/info.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/StyleTransfer1.0/run.py" />
-    <entry file="file://$PROJECT_DIR$/WeiboAPP/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2852">
-          <caret line="134" column="18" selection-start-line="134" selection-start-column="18" selection-end-line="134" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pytorchDemo/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -747,13 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShadowInk/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/loginSuccess.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -764,6 +751,28 @@
     <entry file="file://$PROJECT_DIR$/LoginAPP/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pc_main.html" />
+    <entry file="file://$PROJECT_DIR$/static/htmlWorking/index/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Python35/Lib/site-packages/django/core/management/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="380" selection-start-line="380" selection-end-line="380" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TexasAPP/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/article_files/article.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -771,33 +780,215 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/weibo.html">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zECB1B95C8/holdem_calc.py" />
+    <entry file="file://$PROJECT_DIR$/WeiboAPP/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+        <state relative-caret-position="200">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TexasAPP/holdem_argparser.py" />
+    <entry file="file://$PROJECT_DIR$/TexasAPP/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mainPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="65" lean-forward="true" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/bin/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TexasAPP/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/texas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCenterAPP/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCenterAPP/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCenterAPP/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TexasAPP/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShadowInk/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TexasAPP/holdem_calc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
-            <element signature="n#if#0;n#!!top" />
-            <element signature="n#if#1;n#!!top" />
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TexasAPP/holdem_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5080">
+          <caret line="254" column="77" selection-start-line="254" selection-start-column="77" selection-end-line="254" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExploreAPP/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExploreAPP/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WeiboAPP/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="500">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PytorchAPP/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCenterAPP/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShadowInk/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+          <folding>
+            <element signature="e#627#659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShadowInk/mysqlConnector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/info.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="423" lean-forward="true" selection-start-line="423" selection-end-line="423" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LoginAPP/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+        <state relative-caret-position="669">
+          <caret line="99" column="29" selection-start-line="99" selection-start-column="29" selection-end-line="99" selection-end-column="29" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/main_files_pc/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainAPP/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeiboAPP/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCenterAPP/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/weibo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="70" column="36" lean-forward="true" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mainPC.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="236" column="111" selection-start-line="236" selection-start-column="111" selection-end-line="236" selection-end-column="111" />
+          <folding>
+            <element signature="n#if#1;n#!!top" />
           </folding>
         </state>
       </provider>

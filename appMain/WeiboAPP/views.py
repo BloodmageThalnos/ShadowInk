@@ -5,7 +5,11 @@ import json
 from django.http import *
 from django.template import loader
 from django.contrib.auth import login
+<<<<<<< HEAD
 import settings
+=======
+from ShadowInk import settings
+>>>>>>> 3220f7581d55e442160d844c5f5075f4ac6bfe7a
 from .models import *
 
 import random
@@ -40,6 +44,7 @@ def getWeiboShown(user):
             'thumbed':thumbed,
             'thumbCount':tcount,
             'comments':comment_set,
+            'commentCount':len(comment_set),
         })
     return weibos
 
@@ -62,10 +67,15 @@ def showPages(request, path):
     if path=='index':
         weibos = getWeiboShown(request.user)
         template = loader.get_template('mainPC.html')
+<<<<<<< HEAD
 
         userinfo = getUserinfo(request.user)
         template = loader.get_template('weibo.html')
 
+=======
+        userinfo = getUserinfo(request.user)
+        template = loader.get_template('weibo.html')
+>>>>>>> 3220f7581d55e442160d844c5f5075f4ac6bfe7a
         context = {
             'weibos' : weibos,
             # 'userinfo' : userinfo,

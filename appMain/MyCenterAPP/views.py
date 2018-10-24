@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 import logging
 import json
 from django.http import *
@@ -19,3 +20,8 @@ def follow(user,to_id):
     Follow.objects.create(follower=user,following=to_user,build_date=datetime.datetime.now())
 
 def showDetials(user):
+=======
+def getUserInfo(user):
+    if not user.is_authenticated:
+        return {}
+>>>>>>> 3220f7581d55e442160d844c5f5075f4ac6bfe7a

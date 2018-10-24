@@ -1,0 +1,53 @@
+<script type="text/javascript" src="/bin/jquery.js"></script>
+<link href="/bin/bootstrap.min.css" rel="stylesheet">
+<script>
+  function doita(i){
+      $.ajax('/texas/calc',{
+            type: 'POST',
+            data: new FormData(i),
+            async: true,
+            cache: false,
+            processData: false,
+            contentType: false,
+            success: function(msg) {
+                $("#Textarea1").val(msg)
+            }
+        })
+      return false;
+  }
+</script>
+<center><h1>德州扑克胜率计算器</h1></center>
+<div style="padding:50px 20% 0 20%;display:flex;" >
+    <div style="flex:6;">
+        <form method="POST" onsubmit="return doita(this);">
+          <div class="form-group">
+            <label for="exampleInput1">各个玩家的手牌</label>
+            <input type="input" class="form-control" id="exampleInput1" name="car">
+            <small id="emailHelp" class="form-text text-muted">格式参考：2h_3h,Tx_Ax,Kf_Kc；花色：h黑桃，x红心，f方块，c草花；点数：23456789TJQKA。</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInput2">场上的河牌（0或3,4,5张）</label>
+            <input type="input" class="form-control" id="exampleInput2" name="boa">
+            <small id="emailHelp" class="form-text text-muted">格式参考：4x,Jh,Qx。</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInput3">已知的场外牌</label>
+            <input type="input" class="form-control" id="exampleInput3" name="out">
+            <small id="emailHelp" class="form-text text-muted">格式参考：Ac,8f。</small>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="Check1" name="unk">
+            <label class="form-check-label" for="Check1">加入一位未知手牌的玩家（模拟单挑）</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="Check2" name="exa">
+            <label class="form-check-label" for="Check2">精确计算（如果不给出河牌，可能会较慢）</label>
+          </div>
+          <button type="submit" class="btn btn-primary">计算</button>
+        </form>
+    </div>
+    <div class="form-group" style="flex:4;padding-left:50px;">
+        <textarea class="form-control" id="Textarea1" rows="15"></textarea>
+    </div>
+</div>
+<footer><center>Copyright© 2018-2022 Little Driver Technology</center></footer>
