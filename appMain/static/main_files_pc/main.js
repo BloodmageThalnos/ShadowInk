@@ -28,7 +28,7 @@ function doita(i){
         contentType: false,
         success: function(msg) {
             msg = JSON.parse(msg)
-            alert(msg.message)
+            //alert(msg.message)
             if(msg.success === 'True')
                 location.reload(true);
         }
@@ -48,7 +48,7 @@ function doitat(i,j,k){
         contentType: false,
         success: function(msg) {
             msg = JSON.parse(msg)
-            alert(msg.message)
+            //alert(msg.message)
             if(msg.success === 'True')
                 location.reload(true)
         }
@@ -64,7 +64,7 @@ function doitato(i){
         contentType: false,
         success: function(msg) {
             msg = JSON.parse(msg)
-            alert(msg.message)
+            //alert(msg.message)
             if(msg.success === 'True')
                 location.reload(true);
         }
@@ -84,7 +84,7 @@ function dologin(){
         contentType: false,
         success: function(msg) {
             msg = JSON.parse(msg)
-            alert(msg.message)
+            //alert(msg.message)
             if(msg.success === 'True')
                 location.reload(true);
         }
@@ -103,7 +103,7 @@ function dologini(){
         contentType: false,
         success: function(msg) {
             msg = JSON.parse(msg)
-            alert(msg.message)
+            //alert(msg.message)
             if(msg.success === 'True')
                 location.reload(true);
         }
@@ -122,7 +122,7 @@ function doregister(){
         contentType: false,
         success: function(msg) {
             msg = JSON.parse(msg)
-            alert(msg.message)
+            //alert(msg.message)
             if(msg.success === 'True')
                 location.reload(true);
         }
@@ -132,17 +132,12 @@ function doregister(){
 $(document).ready(function () {
     turn=0;
     pic_number=3;
-
     setInterval(slide,1500);
 
 	$(".bar").click(function (e) {
         id = e.target.id.substr(4);
-        console.log(id);
         $("#comment"+id).slideToggle();
-		console.log('111');
     });
 
 	$('#title_s').mouseover();
 });
-
-
