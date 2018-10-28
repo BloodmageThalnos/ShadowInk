@@ -142,6 +142,7 @@ $(document).ready(function () {
 		console.log('111');
     });
 
+	$('#title_s').mouseover();
 });
 
 
