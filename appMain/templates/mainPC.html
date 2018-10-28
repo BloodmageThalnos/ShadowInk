@@ -41,7 +41,18 @@
 		.imgSlide{
 			width:90%;
 		}
-		
+		.bkSlide{
+            position:relative;
+            top:-10px;
+            z-index:-80;
+            float:left;
+            height:30px;
+            transition: all 0.25s ease-out;
+        }
+        .title_{
+            font-size:24px;
+            float:right;
+        }
 	</style>
 </head>
 
@@ -49,23 +60,32 @@
 			overflow:scroll;
 			display:block;">
 	<div style="">
-		<img src="../../img/icon.png" style="height:150px;">		
+		<img src="../../img/icon.png" style="height:100px;">
 	</div>
 	<hr style="border-top:5px solid #191970"/>
-	<div style="margin-right:calc(42% - 280px);">
-		<p style="font-size:30px;float:right;margin-right:0%">个人中心</p>
-		<p style="font-size:30px;float:right;margin-right:8%;">微展</p>
-		<p style="font-size:30px;float:right;margin-right:8%;">教育</p>
-		<p style="font-size:30px;float:right;margin-right:8%;">图片转换</p>
-		<p style="font-size:30px;float:right;margin-right:8%;">首页</p>
-	</div>
+    <div>
+        <p class="title_" id="title_g" style="margin-right:calc(42% - 250px);"
+           onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">个人中心</p>
+        <p class="title_" id="title_w" style="margin-right:8%;"
+           onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">微展</p>
+        <p class="title_" id="title_j" style="margin-right:8%;"
+           onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">教育</p>
+        <p class="title_" id="title_t" style="margin-right:8%;"
+           onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">图片转换</p>
+        <p class="title_" id="title_s" style="margin-right:8%;"
+           onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">首页</p>
+        <div class="bkSlide" id="bkSlide">
+            <img src="../../img/Layer26.png" style="height:50px;"/>
+        </div>
+    </div>
 	<hr style="border-top:3px solid #A9A9A9;width:96%;"/>
-<div style="min-width:1024px;max-width:1280px;margin:5% auto;">
-	<div style="margin:1% 2% 2% 2%;">
-		<div style="display:flex;width:100%;background-color:transparent;overflow:hidden;">
-			<div style="flex:7;background-color:#3f3;overflow:hidden;">
-				<div style="width:100%;">
-					<div class="MainPage-TopBar" id="MainPage-TopBar" style="width:600%;height:500px;">
+<div style="min-width:1024px;max-width:1280px;margin:2% auto;">
+	<div style="margin:0 2% 2% 2%;">
+		<div style="display:flex;width:100%;background-color:transparent;">
+			<div style="flex:7;">
+                <div style="padding:0 50px 0 50px;">
+				<div style="width:100%;overflow:hidden;">
+					<div class="MainPage-TopBar" id="MainPage-TopBar" style="width:600%;height:400px;">
 						<div class="imgContainer">
 							<img src="../../img/img.png" id="img1" class="imgSlide" style="margin-left:-87.5%;">
 						</div>
@@ -81,14 +101,15 @@
 						<div class="imgContainer">
 							<img src="../../img/img.png" id="img5" class="imgSlide" style="margin-left:-117.5%;">
 						</div>
-						<div class="imgContainer">           
+						<div class="imgContainer">
 							<img src="../../img/img.png" id="img6" class="imgSlide" style="margin-left:-125%;">
 						</div>
 					</div>
 				</div>
+                </div>
 			</div>
 			<div style="flex:3;background-color:transparent;">
-				<p style="font-size:30px;text-align:center;">今日热门</p>
+				<p style="font-size:24px;text-align:center;">今日热门</p>
 				<p style="font-size:22px;margin-left:4%;">&#160;&#160;No.1&#160&#160包包水墨艺术展开幕</p>
 				<p style="font-size:12px;margin-left:18%;">&#160;&#160;&#160;&#160;10月19日，包包艺术展于上海盛大开幕，现场……</p>
 				<p style="font-size:22px;margin-left:4%;">&#160;&#160;No.2&#160&#160包包水墨艺术展开幕</p>
@@ -103,9 +124,9 @@
 	<hr style="border-top:3px solid #A9A9A9;width:96%;"/>
 	<div style="margin:0% 2% 2% 2%;">
 		<div style="display:flex;width:100%;">
-			<p style="font-size:30px;flex:6;">教育中心</p>
-			<p style="font-size:30px;flex:1;">更多</p>
-			<p style="font-size:30px;flex:3;">&#160;&#160;&#160;&#160;登陆</p>
+			<p style="font-size:24px;flex:6;">教育中心</p>
+			<p style="font-size:24px;flex:1;">更多</p>
+			<p style="font-size:24px;flex:3;">&#160;&#160;&#160;&#160;登陆</p>
 		</div>
 		<div style="display:flex;width:100%;background-color:transparent;flex-wrap:wrap;">
 			<div style="flex:7;display:block;">
@@ -114,7 +135,7 @@
 						<img src="../../img/2.png" style="width:100%;"/>
 					</div>
 					<div style="flex:8;overflow:hidden;">
-						<p style="font-size:25px;margin:1%;">教你画水墨兰花，简单易学，入门上手最快的办法</p>
+						<p style="font-size:20px;margin:1%;">教你画水墨兰花，简单易学，入门上手最快的办法</p>
 						<div style="display:flex;">
 							<p style="font-size:18px;color:grey;flex:8;margin-left:1%;">上传时间2018年10月12日</p>
 							<p style="font-size:20px;color:grey;flex:2;">作者：大狗</p>
@@ -126,7 +147,7 @@
 						<img src="../../img/3.png" style="width:100%;"/>
 					</div>
 					<div style="flex:8;overflow:hidden;">
-						<p style="font-size:25px;margin:1%;">水墨画教学基础视频-墨竹的基本画法</p>
+						<p style="font-size:20px;margin:1%;">水墨画教学基础视频-墨竹的基本画法</p>
 						<div style="display:flex;">
 							<p style="font-size:18px;color:grey;flex:8;margin-left:1%;">上传时间2018年10月12日</p>
 							<p style="font-size:20px;color:grey;flex:2;">作者：二狗</p>
@@ -179,9 +200,9 @@
 	<hr style="border-top:3px solid #A9A9A9;width:96%;"/>
 	<div style="margin:0% 2% 2% 2%;">
 		<div style="display:flex;width:100%;">
-			<p style="font-size:30px;flex:6;">微展</p>
-			<p style="font-size:30px;flex:1;">更多</p>
-			<p style="font-size:30px;flex:3;">&#160;&#160;&#160;&#160;消息列表</p>
+			<p style="font-size:24px;flex:6;">微展</p>
+			<p style="font-size:24px;flex:1;">更多</p>
+			<p style="font-size:24px;flex:3;">&#160;&#160;&#160;&#160;消息列表</p>
 		</div>
 		<div style="display:flex;width:100%;background-color:transparent;flex-wrap:wrap;">
 			<div style="flex:7;display:block;">
@@ -190,7 +211,7 @@
 						<img src="../../img/2.png" style="width:100%;"/>
 					</div>
 					<div style="flex:8;overflow:hidden;">
-						<p style="font-size:25px;margin:1%;">教你画水墨兰花，简单易学，入门上手最快的办法</p>
+						<p style="font-size:20px;margin:1%;">教你画水墨兰花，简单易学，入门上手最快的办法</p>
 						<div style="display:flex;">
 							<p style="font-size:18px;color:grey;flex:8;margin-left:1%;">上传时间2018年10月12日</p>
 							<p style="font-size:18px;color:grey;flex:2;">作者：大狗</p>
@@ -202,7 +223,7 @@
 						<img src="../../img/3.png" style="width:100%;"/>
 					</div>
 					<div style="flex:8;overflow:hidden;">
-						<p style="font-size:25px;margin:1%;">教你画水墨兰花，简单易学，入门上手最快的办法</p>
+						<p style="font-size:20px;margin:1%;">教你画水墨兰花，简单易学，入门上手最快的办法</p>
 						<div style="display:flex;">
 							<p style="font-size:18px;color:grey;flex:8;margin-left:1%;">上传时间2018年10月12日</p>
 							<p style="font-size:18px;color:grey;flex:2;">作者：大狗</p>
@@ -220,7 +241,7 @@
 	<hr style="border-top:3px solid #A9A9A9;width:96%;"/>
 	<div style="margin:0% 2% 2% 2%;">
 		<div style="height:6%;width:100%;">
-			<p style="font-size:30px;">好友动态</p>
+			<p style="font-size:24px;">好友动态</p>
 		</div>
 		<div style="display:flex;width:100%;background-color:transparent;flex-wrap:wrap;">
             <!--div style="flex:1;"></div-->
@@ -228,7 +249,7 @@
             {% for weibo in weibos %}
 				<div style="width:100%;background-color:#fff;opacity:0.8;">
                     <div style="padding:20px 20px 0px 20px;">
-                        <p style="font-size:25px;">
+                        <p style="font-size:20px;">
                             <img src="../../img/1.png"  style="width:60px;border:2px solid #000;" class="img-circle">
                             {{ weibo.blog.author.username }}
                         </p>
@@ -303,7 +324,7 @@
 	<hr style="border-top:3px solid #A9A9A9;"/>
 </div>
 	<div style="text-align:center;">
-		<p style="font-size:30px;">Copyright@Little Driver Technology Inc,Ltd</p>
+		<p style="font-size:18px;">Copyright@Little Driver Technology Inc,Ltd</p>
 	</div>
 </body>
 </html>
