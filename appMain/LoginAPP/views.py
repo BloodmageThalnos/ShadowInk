@@ -107,7 +107,7 @@ def showPages(request, path):
             user.save()
             result = {
                 'success': 'True',
-                'message': '登陆成功，自动登陆。',
+                'message': '注册成功，自动登陆。',
             }
             login(request,user)
         return HttpResponse(json.dumps(result))
