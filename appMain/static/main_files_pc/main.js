@@ -133,7 +133,6 @@ $(document).ready(function () {
     turn=0;
     pic_number=3;
     setInterval(slide,1500);
-
 	$(".bar").click(function (e) {
         id = e.target.id.substr(4);
         $("#comment"+id).slideToggle();
