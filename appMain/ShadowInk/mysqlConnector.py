@@ -6,6 +6,7 @@ import time
 from django.contrib.auth import authenticate
 from django.contrib.auth.models import *
 from ExploreAPP.models import Article
+from MyCenterAPP.models import PersonalDetails
 
 """
 这里数据库的名字是shadowInk
@@ -95,6 +96,8 @@ def checkPassword(name, password):
 def insertUser(name,password):
     logger.info('Inserting new user, name:%s, password:%s' % (name, password))
     user = User.objects.create_user(username=name,password=password,email=None)
+    userDetail = PersonalDetails(user=user,id=user.id)
+    userDetail.save()
     if user==None or user==False:
         return {'success':'False','message':'用户%s已存在！请登录，或重新输入用户名。'%(name)}
     user.save()
