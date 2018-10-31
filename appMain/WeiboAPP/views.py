@@ -63,12 +63,6 @@ def showPages(request, path):
 
     if path=='index':
         weibos = getWeiboShown(request.user)
-        template = loader.get_template('mainPC.html')
-
-        userinfo = getUserinfo(request.user)
-        template = loader.get_template('weibo.html')
-
-
         userinfo = getUserinfo(request.user)
         template = loader.get_template('weibo.html')
         context = {
