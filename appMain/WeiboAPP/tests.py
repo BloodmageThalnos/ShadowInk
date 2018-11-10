@@ -1,5 +1,5 @@
 from django.test import TestCase
-from WeiboAPP.models import *
+from .models import *
 
 # Create your tests here.
 

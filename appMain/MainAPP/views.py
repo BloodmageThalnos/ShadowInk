@@ -27,6 +27,9 @@ def showPages(request, path):
             # 'userinfo' : userinfo,
         }
         return HttpResponse(template.render(context, request))
+    if path=='transfer':
+        template = loader.get_template('transferPC.html')
+        return HttpResponse(template.render({}, request))
 
     return HttpResponse('No Page Here.')
 

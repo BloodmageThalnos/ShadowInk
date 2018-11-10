@@ -12,6 +12,8 @@ import random
 from ShadowInk import settings, mysqlConnector
 from qcloudsms_py import SmsSingleSender
 
+from MyCenterAPP.models import PersonalDetails
+
 logger = logging.getLogger(__name__)
 
 # '/<slug>'目录，分别处理，对于未知的slug返回none
@@ -104,7 +106,9 @@ def showPages(request, path):
             }
         except:
             user = User(username=name, password=password)
+            userDetail = PersonalDetails(user=user,id=user.id)
             user.save()
+            userDetail.save()
             result = {
                 'success': 'True',
                 'message': '注册成功，自动登陆。',
