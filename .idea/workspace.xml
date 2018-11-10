@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a7f3a500-c214-4a40-8643-d78f081b4203" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appMain/LoginAPP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/LoginAPP/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appMain/MyCenterAPP/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appMain/MyCenterAPP/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appMain/MyCenterAPP/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/MyCenterAPP/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appMain/MyCenterAPP/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/MyCenterAPP/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appMain/MyCenterAPP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/MyCenterAPP/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appMain/ShadowInk/mysqlConnector.py" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/ShadowInk/mysqlConnector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appMain/WeiboAPP/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/WeiboAPP/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appMain/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appMain/templates/mainPC.html" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/templates/mainPC.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -145,23 +137,26 @@
     <session id="1770771444">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.48" value="2" />
+          <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.714" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="auth_user" value="3" />
-          <entry key="html" value="6" />
-          <entry key="jpg" value="11" />
+          <entry key="html" value="7" />
+          <entry key="jpeg" value="1" />
+          <entry key="jpg" value="15" />
           <entry key="log" value="3" />
-          <entry key="png" value="18" />
+          <entry key="png" value="20" />
           <entry key="psd" value="1" />
           <entry key="py" value="45" />
           <entry key="sql" value="1" />
@@ -170,8 +165,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="3" />
-          <entry key="HTML" value="6" />
-          <entry key="Image" value="30" />
+          <entry key="HTML" value="7" />
+          <entry key="Image" value="37" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Python" value="45" />
           <entry key="Scratch" value="1" />
@@ -179,13 +174,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="16" />
+          <entry key="html" value="140" />
           <entry key="py" value="2232" />
+          <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="16" />
+          <entry key="HTML" value="140" />
+          <entry key="PLAIN_TEXT" value="16" />
           <entry key="Python" value="2232" />
         </counts>
       </usages-collector>
@@ -196,8 +193,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="45" lean-forward="true" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+            <state relative-caret-position="63">
+              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -208,8 +205,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="441">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#1#15#0" expanded="true" />
                 <marker date="1540999823362" expanded="true" signature="763:1021" ph="..." />
@@ -218,17 +215,62 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+            <state relative-caret-position="345">
+              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
                 <marker date="1541000945164" expanded="true" signature="316:1053" ph="..." />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/appMain/templates/mainPC.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="115" column="26" lean-forward="true" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
+              <folding>
+                <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#3;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#4;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appMain/static/img/李苦禅-红梅竹石.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appMain/static/img/袁江-观潮.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appMain/static/img/徐悲鸿-奔马2.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appMain/static/img/艺术水立方.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appMain/static/img/img.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appMain/static/img/2.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -256,7 +298,6 @@
       <list>
         <option value="$PROJECT_DIR$/my/main.py" />
         <option value="$PROJECT_DIR$/my/urls.py" />
-        <option value="$PROJECT_DIR$/appMain/templates/mainPC.html" />
         <option value="$PROJECT_DIR$/appMain/WeiboAPP/models.py" />
         <option value="$PROJECT_DIR$/appMain/ShadowInk/settings.py" />
         <option value="$PROJECT_DIR$/appMain/MyCenterAPP/admin.py" />
@@ -268,6 +309,7 @@
         <option value="$PROJECT_DIR$/appMain/MyCenterAPP/models.py" />
         <option value="$PROJECT_DIR$/appMain/MyCenterAPP/views.py" />
         <option value="$PROJECT_DIR$/appMain/MyCenterAPP/tests.py" />
+        <option value="$PROJECT_DIR$/appMain/templates/mainPC.html" />
       </list>
     </option>
   </component>
@@ -277,11 +319,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="77" />
-    <option name="y" value="14" />
-    <option name="width" value="1788" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="156" />
+    <option name="y" value="144" />
+    <option name="width" value="956" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -291,7 +333,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -308,24 +349,26 @@
               <item name="ShadowInk2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="ShadowInk2.0" type="462c0819:PsiDirectoryNode" />
               <item name="appMain" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginAPP" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShadowInk2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="ShadowInk2.0" type="462c0819:PsiDirectoryNode" />
               <item name="appMain" type="462c0819:PsiDirectoryNode" />
-              <item name="MyCenterAPP" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShadowInk2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="ShadowInk2.0" type="462c0819:PsiDirectoryNode" />
               <item name="appMain" type="462c0819:PsiDirectoryNode" />
-              <item name="ShadowInk" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,6 +383,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\GitHub\ShadowInk2.0\appMain\static\img" />
       <recent name="F:\GitHub\ShadowInk2.0\appMain\MyCenterAPP" />
     </key>
   </component>
@@ -448,19 +492,26 @@
       <option name="presentableId" value="Default" />
       <updated>1536767040161</updated>
     </task>
+    <task id="LOCAL-00001" summary="follow badbadbad">
+      <created>1541001112853</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541001112853</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="77" y="14" width="1788" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17619604" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14930183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.3295325" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38654503" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39529675" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -469,8 +520,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32702237" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.28278223" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.19148937" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3295325" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3295325" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -511,6 +563,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/shadowink/shadowinkWEB" />
     </ignored-roots>
+    <MESSAGE value="follow badbadbad" />
+    <option name="LAST_COMMIT_MESSAGE" value="follow badbadbad" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -524,31 +578,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my/settings.py" />
-    <entry file="file://$PROJECT_DIR$/my/views.py" />
-    <entry file="file://$PROJECT_DIR$/appMain/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appMain/WeiboAPP/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://E:/anaconda/Lib/site-packages/django/db/models/fields/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36288">
-          <caret line="1760" column="6" selection-start-line="1760" selection-start-column="6" selection-end-line="1760" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appMain/ShadowInk/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/66fbf1ea-9591-4c5a-81fe-dcf9a9059eed/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/appMain/ShadowInk/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
@@ -627,16 +656,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appMain/templates/mainPC.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/appMain/ShadowInk/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-          <folding>
-            <element signature="e#627#659#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -644,9 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,13 +688,7 @@
     <entry file="file://$PROJECT_DIR$/appMain/MainAPP/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/migrations/0002_auto_20181031_2300.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/migrations/0002_auto_20181031_2300.py" />
     <entry file="file://$PROJECT_DIR$/appMain/WeiboAPP/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -696,9 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -709,13 +720,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://66fbf1ea-9591-4c5a-81fe-dcf9a9059eed/schema/main/table/auth_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://66fbf1ea-9591-4c5a-81fe-dcf9a9059eed/schema/main/table/auth_user" />
     <entry file="file://$PROJECT_DIR$/appMain/LoginAPP/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -730,9 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="59" column="41" lean-forward="true" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
-          <folding>
-            <element signature="e#24#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,8 +754,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="45" lean-forward="true" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        <state relative-caret-position="63">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -762,8 +764,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="441">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#1#15#0" expanded="true" />
             <marker date="1540999823362" expanded="true" signature="763:1021" ph="..." />
@@ -773,11 +775,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        <state relative-caret-position="345">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
             <marker date="1541000945164" expanded="true" signature="316:1053" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/static/img/2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/static/img/江山颂.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/static/img/艺术水立方.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/static/img/袁江-观潮.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/static/img/img.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/static/img/徐悲鸿-奔马2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/static/img/李苦禅-红梅竹石.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/templates/mainPC.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="115" column="26" lean-forward="true" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#4;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
