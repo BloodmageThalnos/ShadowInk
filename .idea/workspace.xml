@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a7f3a500-c214-4a40-8643-d78f081b4203" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appMain/templates/mainPC.html" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/templates/mainPC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appMain/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appMain/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appMain/MainAPP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/MainAPP/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appMain/pytorchDemo/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/pytorchDemo/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appMain/static/htmlWorking/index/transfer.html" beforeDir="false" afterPath="$PROJECT_DIR$/appMain/static/htmlWorking/index/transfer.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,11 +156,11 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="auth_user" value="3" />
-          <entry key="html" value="7" />
+          <entry key="html" value="8" />
           <entry key="jpeg" value="1" />
-          <entry key="jpg" value="15" />
+          <entry key="jpg" value="17" />
           <entry key="log" value="3" />
-          <entry key="png" value="20" />
+          <entry key="png" value="21" />
           <entry key="psd" value="1" />
           <entry key="py" value="45" />
           <entry key="sql" value="1" />
@@ -165,8 +169,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="3" />
-          <entry key="HTML" value="7" />
-          <entry key="Image" value="37" />
+          <entry key="HTML" value="8" />
+          <entry key="Image" value="40" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Python" value="45" />
           <entry key="Scratch" value="1" />
@@ -190,56 +194,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="e#1#15#0" expanded="true" />
-                <marker date="1540999823362" expanded="true" signature="763:1021" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-                <marker date="1541000945164" expanded="true" signature="316:1053" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appMain/templates/mainPC.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="115" column="26" lean-forward="true" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
+            <state relative-caret-position="378">
+              <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
               <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#3;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#4;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appMain/static/img/example.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appMain/static/img/fakebar.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appMain/static/img/fakerbaa.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appMain/templates/transferPC.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-63" />
           </provider>
         </entry>
       </file>
@@ -265,11 +254,6 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appMain/static/img/img.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appMain/static/img/2.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -506,12 +490,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14930183" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14930183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39529675" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16237402" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -578,22 +562,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/appMain/ShadowInk/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appMain/MyCenterAPP/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appMain/static/image/icon.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appMain/static/image/icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/appMain/static/image/return.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -805,11 +773,26 @@
     <entry file="file://$PROJECT_DIR$/appMain/static/img/李苦禅-红梅竹石.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/static/img/example.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/static/img/fakebar.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/static/img/fakerbaa.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appMain/templates/transferPC.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/appMain/templates/mainPC.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="115" column="26" lean-forward="true" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
+        <state relative-caret-position="378">
+          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#3;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
