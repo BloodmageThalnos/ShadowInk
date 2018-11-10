@@ -4,7 +4,7 @@ function slide(){
     for(i=1;i<=pic_number*2;i++)
         $('#img'+i).css(Css);
 
-    if(turn>307.42)setTimeout(function(){
+    if(turn>409.77)setTimeout(function(){
     turn=0;
     Css = {'transform':("translate(0,0)"), 'transition': 'all 0.0s ease-out'};
     for(i=1;i<=pic_number*2;i++)
@@ -131,7 +131,7 @@ function doregister(){
 }
 $(document).ready(function () {
     turn=0;
-    pic_number=3;
+    pic_number=4;
     setInterval(slide,1500);
 	$(".bar").click(function (e) {
         id = e.target.id.substr(4);
