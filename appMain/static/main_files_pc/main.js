@@ -85,10 +85,14 @@ function dologin(){
         success: function(msg) {
             msg = JSON.parse(msg)
             //alert(msg.message)
-            if(msg.success === 'True')
+            if(msg.success === 'True') {
+                alert(msg.message);
                 location.reload(true);
+            }else{
+                alert(msg.message);
+            }
         }
-    })
+    });
   return false;
 }
 function dologini(){
@@ -102,10 +106,14 @@ function dologini(){
         processData: false,
         contentType: false,
         success: function(msg) {
-            msg = JSON.parse(msg)
+            msg = JSON.parse(msg);
             //alert(msg.message)
-            if(msg.success === 'True')
+            if(msg.success === 'True') {
+                alert(msg.message);
                 location.reload(true);
+            }else{
+                alert(msg.message);
+            }
         }
     })
 }
@@ -123,8 +131,12 @@ function doregister(){
         success: function(msg) {
             msg = JSON.parse(msg)
             //alert(msg.message)
-            if(msg.success === 'True')
+            if(msg.success === 'True') {
+                alert(msg.message);
                 location.reload(true);
+            }else{
+                alert(msg.message);
+            }
         }
     })
   return false;

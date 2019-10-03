@@ -42,17 +42,19 @@
 	</style>
 	<script>
 		window.onload=function(){
+	        $('#title_t').mouseover();
+
 			$('#leftbarbtn').css('margin-top',($('#leftbarchild').height()/2-30)+'px');
 			$('#leftbarbtn').bind("click",lbclose);
             $(document).bind("mouseup",function(e){
                     $('#_1')[0].tag=0
                     $('#_2')[0].tag=0
                     $('#_3')[0].tag=0
-                })
+                });
 			$('._progress').bind("mousedown",function(e){
 			    e.target.tag=1
                 $(this).val((e.pageX-$(this).offset().left)*100/$(this).width())
-            })
+            });
             $(document).bind("mousemove",function(e){
                 for(i=1;i<=3;i++){
                     tar = $('#_'+i);
@@ -61,10 +63,8 @@
                         break;
                     }
                 }
-            })
-
-	        $('#title_s').mouseover();
-		}
+            });
+		};
 		function lbclose(){
 			$('#leftbaaar').css('margin-left','-360px');
 			$('#leftbarbtn').text('>>');
@@ -95,7 +95,7 @@
         <p class="title_" id="title_j" style="margin-right:8%;"
            onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">教育</p>
         <p class="title_" id="title_t" style="margin-right:8%;" onclick="window.location.href='/s/transfer'"
-           onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">图片转换</p>
+           onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">创作</p>
         <p class="title_" id="title_s" style="margin-right:8%;" onclick="window.location.href='/s/index'"
            onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">首页</p>
         <div class="bkSlide" id="bkSlide">

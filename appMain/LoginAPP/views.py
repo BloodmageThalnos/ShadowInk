@@ -92,6 +92,7 @@ def showPages(request, path):
                     'message': '登陆成功',
                 }
                 login(request,checkResult['user'])
+
         return HttpResponse(json.dumps(result))
 
     if path=='ajaxRegister':
@@ -105,15 +106,12 @@ def showPages(request, path):
                 'message': '用户已存在！',
             }
         except:
-            user = User(username=name, password=password)
-            userDetail = PersonalDetails(user=user,id=user.id)
-            user.save()
-            userDetail.save()
-            result = {
-                'success': 'True',
-                'message': '注册成功，自动登陆。',
-            }
-            login(request,user)
+            # user = User(username=name, password=password)
+            # userDetail = PersonalDetails(user=user,id=user.id)
+            # user.save()
+            # userDetail.save()
+            result = mysqlConnector.insertUser(name, password)
+            # login(request, user)
         return HttpResponse(json.dumps(result))
 
     if path=='ajaxLogout':

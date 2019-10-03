@@ -1,4 +1,3 @@
-
 import logging
 import json
 from django.http import *
@@ -54,8 +53,6 @@ def showPages(request,path):
         return HttpResponse(json.dumps(result))
 
     if path=='index':
-
-
         template = loader.get_template('MyCenter.html')
         details = getUserinfo(request.user)
         return HttpResponse(template.render(details,request))

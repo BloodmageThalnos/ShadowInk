@@ -9,7 +9,7 @@ class Follow(models.Model):  #用户关注与被关注的记录
 
 class PersonalDetails(models.Model): #个人资料
     id = models.IntegerField(primary_key=True)
-    user = models.OneToOneField(User,on_delete=models.CASCADE)
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
     avatar = models.FilePathField()
     phone = models.CharField(max_length=11)
     bg_img = models.FilePathField()

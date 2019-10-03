@@ -66,7 +66,7 @@ def showPath(request, path):
     if path.endswith('woff'):
         with open('./static/'+path, mode="rb") as f:
             html = f.read()
-        return HttpResponse(html, content_type="application/font-woff")
+        return HttpResponse(html, content_type="application/x-font-woff")
 
     if path.endswith('css'):
         with open('./static/'+path, encoding='UTF-8') as f:
