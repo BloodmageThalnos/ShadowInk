@@ -21,15 +21,29 @@ def showPages(request, path):
     if path=='index':
         weibos = getWeiboShown(request.user)
         # userinfo = getUserinfo(request.user)
-        template = loader.get_template('mainPC.html')
+        template = loader.get_template('PC_mainPage.html')
         context = {
             'weibos' : weibos,
             # 'userinfo' : userinfo,
         }
         return HttpResponse(template.render(context, request))
     if path=='transfer':
-        template = loader.get_template('transferPC.html')
-        return HttpResponse(template.render({}, request))
+        template = loader.get_template('PC_tranPage.html')
+        context = {}
+        return HttpResponse(template.render(context, request))
+    if path=='compete':
+        template = loader.get_template('PC_competePage.html')
+        context = {}
+        return HttpResponse(template.render(context, request))
+    if path=='my':
+        weibos = getWeiboShown(request.user)
+        template = loader.get_template('PC_myPage.html')
+        userinfo = getUserinfo(request.user)
+        context = {
+            'weibos' : weibos,
+            'userinfo': userinfo,
+        }
+        return HttpResponse(template.render(context, request))
 
     return HttpResponse('No Page Here.')
 

@@ -73,10 +73,8 @@
 		}
 		function lbopen(){
 			$('#leftbaaar').css('margin-left','0');
-			$('#leftbarbtn').text('<<')
+			$('#leftbarbtn').text('<<');
 			$('#leftbarbtn').unbind("click",lbopen);
-			$('#leftbarbtn').bind("click",lbclose);
-		
 		}
 	</script>
 </header>
@@ -88,10 +86,10 @@
 	</div>
 	<hr style="border-top:5px solid #191970"/>
     <div>
-        <p class="title_" id="title_g" style="margin-right:calc(42% - 250px);"
+        <p class="title_" id="title_g" style="margin-right:calc(42% - 250px);" onclick="window.location.href='/s/my'"
            onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">个人中心</p>
-        <p class="title_" id="title_w" style="margin-right:8%;"
-           onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">微展</p>
+        <p class="title_" id="title_w" style="margin-right:8%;" onclick="window.location.href='/s/compete'"
+           onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">比赛</p>
         <p class="title_" id="title_j" style="margin-right:8%;"
            onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">教育</p>
         <p class="title_" id="title_t" style="margin-right:8%;" onclick="window.location.href='/s/transfer'"

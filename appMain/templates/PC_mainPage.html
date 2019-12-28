@@ -52,6 +52,12 @@
             float:right;
         }
 	</style>
+
+	<script>
+		window.onload=function(){
+	        $('#title_s').mouseover();
+		};
+	</script>
 </head>
 
 <body style="background-image:url(../../img/bk.jpg);
@@ -62,10 +68,10 @@
 	</div>
 	<hr style="border-top:5px solid #191970"/>
     <div>
-        <p class="title_" id="title_g" style="margin-right:calc(42% - 250px);"
+        <p class="title_" id="title_g" style="margin-right:calc(42% - 250px);"  onclick="window.location.href='/s/my'"
            onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">个人中心</p>
-        <p class="title_" id="title_w" style="margin-right:8%;"
-           onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">微展</p>
+        <p class="title_" id="title_w" style="margin-right:8%;" onclick="window.location.href='/s/compete'"
+           onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">比赛</p>
         <p class="title_" id="title_j" style="margin-right:8%;"
            onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">教育</p>
         <p class="title_" id="title_t" style="margin-right:8%;" onclick="window.location.href='/s/transfer'"
@@ -162,18 +168,10 @@
 					</div>
 				</div>
 			</div>
-			<div style="display:flex;height:320px;width:30%;background-color:transparent;flex:3;opacity:0.5;">
+			<div style="display:flex;height:320px;width:30%;background-color:transparent;flex:3;opacity:0.7;">
 				<div style="flex:1;"></div>
-				<div style="flex:10;height:100%;width:90%;background-color:#fff;border-radius: 12px;overflow:hidden;">
+				<div style="flex:10;height:100%;width:90%;background-color:#fffa;border-radius:12px;overflow:hidden;">
 					<div style="margin:6%;">
-                        <!--div style="display:flex;margin-bottom:6%;border:3px #000 solid;border-radius:2px;">
-                            <i class="glyphicon glyphicon-user" style="font-size:30px;padding-top:2px;"></i>
-                            <input class="form-control" id="focusedInput" type="text" style="border:0px solid #ccc;" placeholder="用户名"/>
-                        </div>
-                        <div style="display:flex;margin-bottom:6%;border:3px #000 solid;border-radius:2px;">
-                            <i class="glyphicon glyphicon-lock" style="font-size:30px;padding-top:2px;"></i>
-                            <input class="form-control" id="focusedInput" type="text"  style="border:0px solid #ccc;" placeholder="请输入密码……"/>
-                        </div-->
                         {% if user.is_authenticated %}
                           <p>
                             已登录：{{user.username}}。<a href="#" onclick="dologini()">注销</a>
@@ -185,7 +183,7 @@
                             </div>
                             <div style="display:flex;margin-bottom:6%;border:2px #000 solid;border-radius:2px;">
                                 <i class="glyphicon glyphicon-lock" style="font-size:30px;padding-top:2px;"></i>
-                                <input class="form-control" id="inputPassword" type="text" style="border:0 solid #ccc;" placeholder="请输入密码……"/>
+                                <input class="form-control" id="inputPassword" type="password" style="border:0 solid #ccc;" placeholder="请输入密码……"/>
                             </div>
                             <div style="display:flex;">
                                 <div style="flex:10;"></div>

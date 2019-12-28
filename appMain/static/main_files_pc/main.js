@@ -149,6 +149,4 @@ $(document).ready(function () {
         id = e.target.id.substr(4);
         $("#comment"+id).slideToggle();
     });
-
-	$('#title_s').mouseover();
 });
