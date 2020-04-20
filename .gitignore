@@ -2,3 +2,6 @@
 
 *.log
 *.pyc
+.idea/*
+appMain/.idea/*
+appMain/db.sqlite3

@@ -56,6 +56,8 @@ def showMainPage(request):
 # '/<path>'目录，一般是请求资源或者静态网页，直接分类别发送
 def showPath(request, path):
     # logging.info('Accessing Page /%s with showPath'%(path))
+    if path=='admin':
+        return HttpResponseRedirect('admin/')
 
     if path.endswith('jpg') or path.endswith('jpeg'):
         with open('./static/'+path, mode="rb") as f:

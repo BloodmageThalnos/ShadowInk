@@ -2,7 +2,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="Access-Control-Allow-Origin" content="*">
-	<title>墨影-水墨画创作交流平台</title>
+	<title>水墨画创作交流平台</title>
 	<script type="text/javascript" src="../../main_files_pc/jquery.js"></script>	
 	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 	<script type="text/javascript" src="../../main_files_pc/main.js"></script>
@@ -68,12 +68,12 @@
 	</div>
 	<hr style="border-top:5px solid #191970"/>
     <div>
-        <p class="title_" id="title_g" style="margin-right:calc(42% - 250px);"
+        <p class="title_" id="title_g" style="margin-right:calc(45% - 250px);"
            onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">个人中心</p>
         <p class="title_" id="title_w" style="margin-right:8%;" onclick="window.location.href='/s/compete'"
            onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">比赛</p>
-        <p class="title_" id="title_j" style="margin-right:8%;"
-           onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">教育</p>
+        <!--p class="title_" id="title_j" style="margin-right:8%;"
+           onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">教育</p-->
         <p class="title_" id="title_t" style="margin-right:8%;" onclick="window.location.href='/s/transfer'"
            onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">创作</p>
         <p class="title_" id="title_s" style="margin-right:8%;" onclick="window.location.href='/s/index'"
@@ -90,7 +90,7 @@
                 <img src="../../img/1.png" style="width:200px;border:2px solid #000;" class="img-circle">
             </div>
             <div style="flex:8;margin: 0 0 0 50px; font-size: 32px;">
-                <p> <b>{% if userinfo.name %}{{ userinfo.name }}{% else %}墨影{% endif %}</b> </p>
+                <p> <b>{% if userinfo.name %}{{ userinfo.name }}{% else %}未登录{% endif %}</b> </p>
                 <div style="margin: 0 0 0 0px; font-size: 18px;">
                     <p> 称号：风流雅士 </p>
                     <p> 作品数：1 </p>

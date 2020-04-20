@@ -6,7 +6,7 @@ import time
 from django.contrib.auth import authenticate
 from django.contrib.auth.models import *
 from ExploreAPP.models import Article
-from MyCenterAPP.models import PersonalDetails
+# from MyCenterAPP.models import PersonalDetails
 
 """
 这里数据库的名字是shadowInk

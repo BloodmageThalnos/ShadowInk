@@ -12,7 +12,7 @@ import random
 from ShadowInk import settings, mysqlConnector
 from qcloudsms_py import SmsSingleSender
 
-from MyCenterAPP.models import PersonalDetails
+# from MyCenterAPP.models import PersonalDetails
 
 logger = logging.getLogger(__name__)
 
