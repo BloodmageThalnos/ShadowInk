@@ -1,157 +1,170 @@
 <html>
 <header>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta http-equiv="Access-Control-Allow-Origin" content="*">
-	<title>水墨画创作交流平台</title>
-	<script type="text/javascript" src="../../main_files_pc/jquery.js"></script>	
-	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-	<style>
-		body{
-		}
-        .title_{
-            font-size:24px;
-            float:right;
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <title>水墨画创作交流平台</title>
+    <script type="text/javascript" src="../../main_files_pc/jquery.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {}
+        
+        .title_ {
+            font-size: 24px;
+            float: right;
         }
-		.leftbar{
-			font-size:24px;
-		}
-		.btnclass1{
-			height:100%;
-			border-radius:0px;
-			background-color:transparent;
-			font-size:20px;
-		}
-		.btnclass2{
-			height:80%;
-			border-radius:0px;
-			background-color:transparent;
-			border:1px solid black;
-		}
-		.selected{
-			font-size:20px;
-		}
-		.bkSlide{
-            position:relative;
-            top:-10px;
-            z-index:-80;
-            float:left;
-            height:30px;
+        
+        .leftbar {
+            font-size: 24px;
+        }
+        
+        .btnclass1 {
+            height: 100%;
+            border-radius: 0px;
+            background-color: transparent;
+            font-size: 20px;
+        }
+        
+        .btnclass2 {
+            height: 80%;
+            border-radius: 0px;
+            background-color: transparent;
+            border: 1px solid black;
+        }
+        
+        .selected {
+            font-size: 20px;
+        }
+        
+        .bkSlide {
+            position: relative;
+            top: -10px;
+            z-index: -80;
+            float: left;
+            height: 30px;
             transition: all 0.25s ease-out;
         }
+    </style>
+    <script>
+        window.onload = function() {
+            $('#title_t').mouseover();
 
-	</style>
-	<script>
-		window.onload=function(){
-	        $('#title_t').mouseover();
-
-			$('#leftbarbtn').css('margin-top',($('#leftbarchild').height()/2-30)+'px');
-			$('#leftbarbtn').bind("click",lbclose);
-            $(document).bind("mouseup",function(e){
-                    $('#_1')[0].tag=0
-                    $('#_2')[0].tag=0
-                    $('#_3')[0].tag=0
-                });
-			$('._progress').bind("mousedown",function(e){
-			    e.target.tag=1
-                $(this).val((e.pageX-$(this).offset().left)*100/$(this).width())
+            $('#leftbarbtn').css('margin-top', ($('#leftbarchild').height() / 2 - 30) + 'px');
+            $('#leftbarbtn').bind("click", lbclose);
+            $(document).bind("mouseup", function(e) {
+                $('#_1')[0].tag = 0
+                $('#_2')[0].tag = 0
+                $('#_3')[0].tag = 0
             });
-            $(document).bind("mousemove",function(e){
-                for(i=1;i<=3;i++){
-                    tar = $('#_'+i);
-                    if(tar[0].tag){
-                        tar.val((e.pageX-tar.offset().left)*100/tar.width())
+            $('._progress').bind("mousedown", function(e) {
+                e.target.tag = 1
+                $(this).val((e.pageX - $(this).offset().left) * 100 / $(this).width())
+            });
+            $(document).bind("mousemove", function(e) {
+                for (i = 1; i <= 3; i++) {
+                    tar = $('#_' + i);
+                    if (tar[0].tag) {
+                        tar.val((e.pageX - tar.offset().left) * 100 / tar.width())
                         break;
                     }
                 }
             });
-		};
-		function lbclose(){
-			$('#leftbaaar').css('margin-left','-360px');
-			$('#leftbarbtn').text('>>');
-			$('#leftbarbtn').unbind("click",lbclose);
-			$('#leftbarbtn').bind("click",lbopen);
-		}
-		function lbopen(){
-			$('#leftbaaar').css('margin-left','0');
-			$('#leftbarbtn').text('<<');
-			$('#leftbarbtn').unbind("click",lbopen);
-		}
-	</script>
+        };
+
+        function lbclose() {
+            $('#leftbaaar').css('margin-left', '-360px');
+            $('#leftbarbtn').text('>>');
+            $('#leftbarbtn').unbind("click", lbclose);
+            $('#leftbarbtn').bind("click", lbopen);
+        }
+
+        function lbopen() {
+            $('#leftbaaar').css('margin-left', '0');
+            $('#leftbarbtn').text('<<');
+            $('#leftbarbtn').unbind("click", lbopen);
+            $('#leftbarbtn').bind("click", lbclose);
+        }
+    </script>
 </header>
+
 <body style="background-image:url(../../img/bk.jpg);
 			overflow:scroll;
 			display:block;">
-	<div style="">
-		<img src="../../img/icon.png" style="height:100px;">
-	</div>
-	<hr style="border-top:5px solid #191970"/>
+    <div style="">
+        <img src="../../img/icon.png" style="height:100px;">
+    </div>
+    <hr style="border-top:5px solid #191970" />
     <div>
-        <p class="title_" id="title_g" style="margin-right:calc(45% - 250px);" onclick="window.location.href='/s/my'"
-           onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">个人中心</p>
-        <p class="title_" id="title_w" style="margin-right:8%;" onclick="window.location.href='/s/compete'"
-           onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">比赛</p>
+        <p class="title_" id="title_g" style="margin-right:calc(45% - 250px);" onclick="window.location.href='/s/my'" onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">个人中心</p>
+        <p class="title_" id="title_w" style="margin-right:8%;" onclick="window.location.href='/s/compete'" onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">比赛</p>
         <!--p class="title_" id="title_j" style="margin-right:8%;"
            onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">教育</p-->
-        <p class="title_" id="title_t" style="margin-right:8%;" onclick="window.location.href='/s/transfer'"
-           onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">创作</p>
-        <p class="title_" id="title_s" style="margin-right:8%;" onclick="window.location.href='/s/index'"
-           onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">首页</p>
+        <p class="title_" id="title_t" style="margin-right:8%;" onclick="window.location.href='/s/transfer'" onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">创作</p>
+        <p class="title_" id="title_s" style="margin-right:8%;" onclick="window.location.href='/s/index'" onmouseover="$('#bkSlide').css('left',(this.offsetLeft+this.clientWidth/2-90)+'px');$('.title_').css('color','black');$(this).css('color','#5CF4F7');">首页</p>
         <div class="bkSlide" id="bkSlide">
-            <img src="../../img/Layer26.png" style="height:50px;"/>
+            <img src="../../img/Layer26.png" style="height:50px;" />
         </div>
     </div>
-	<hr style="border-top:3px solid #A9A9A9;width:96%;"/>
-	<div style="min-width:1024px;max-width:1600px;margin:2% auto;height:80%;">
-		
-		<div style="display:flex;width:100%;background-color:transparent;height:100%;width:100%;">
-			<div style="flex:3;background-color:transparent;overflow:hidden;height:100%;width:100%;">
-				<div class="leftbar" style="display:flex;flex-direction:column;height:100%;width:100%;text-align:center;" >
-					<div style="flex:1;"></div>
-					<div style="flex:1;"><p>风格滤镜</p></div>
-					<div style="flex:1;"><p>艺术字体</p></div>
-					<div style="flex:1;"><p>贴图元素</p></div>
-					<div style="flex:1;"><p>诗词模板</p></div>
-					<div style="flex:1;"><p>线条边框</p></div>
-				</div>
-			</div>
-			<div style="flex:14;background-color:#transparent;overflow:hidden;height:100%;width:100%;">
-				<div style="display:flex;background-color:#fff;height:10%;width:100%;">
-					<div style="flex:1"><button class="btn btn-lg btn-block btnclass1">返回</button></div>
-					<div style="flex:1"><button class="btn btn-lg btn-block btnclass1">上一步</button></div>
-					<div style="flex:1"><button class="btn btn-lg btn-block btnclass1">下一步</button></div>
-					<div style="flex:1"><button class="btn btn-lg btn-block btnclass1">完成</button></div>
-					<div style="flex:3"></div>
-					<div style="flex:1"><button class="btn btn-lg btn-block btnclass1">一键转换</button></div>
-				</div>
-				<div style="background-color:#fff;opacity:0.8;height:90%;width:100%;">
-					<div style="float:left;width:400px;height:100%;background-color:transparent;z-index:30;transition:all 0.3s ease-out;overflow:visible;" id="leftbaaar">
-						<div style="height:100%;padding:8% 40px 8% 0;" id="leftbarchild">
-							<div style="float:right;width:20px;height:70px;margin-right:-20px;background-color:#bbb;line-height:70px;border-radius:9px;" id="leftbarbtn">
-								<<
-							</div>
-							<div style="height:100%;width:100%;overflow:hidden;border:1px solid black;">
-								<img src="../../img/fakerbaa.png" style="width:90%;height:95%;margin:5%;">
-							</div>		
-						</div>
-						
-						<!--button style="float:right;margin-right:-20px;z-index:99;" class="btn btn-lg btn-block" onclick="
+    <hr style="border-top:3px solid #A9A9A9;width:96%;" />
+    <div style="min-width:1024px;max-width:1600px;margin:2% auto;height:80%;">
+
+        <div style="display:flex;width:100%;background-color:transparent;height:100%;width:100%;">
+            <div style="flex:3;background-color:transparent;overflow:hidden;height:100%;width:100%;">
+                <div class="leftbar" style="display:flex;flex-direction:column;height:100%;width:100%;text-align:center;">
+                    <div style="flex:1;"></div>
+                    <div style="flex:1;">
+                        <p>风格滤镜</p>
+                    </div>
+                    <div style="flex:1;">
+                        <p>艺术字体</p>
+                    </div>
+                    <div style="flex:1;">
+                        <p>贴图元素</p>
+                    </div>
+                    <div style="flex:1;">
+                        <p>诗词模板</p>
+                    </div>
+                    <div style="flex:1;">
+                        <p>线条边框</p>
+                    </div>
+                </div>
+            </div>
+            <div style="flex:14;background-color:transparent;overflow:hidden;height:100%;width:100%;">
+                <div style="display:flex;background-color:#fff;height:10%;width:100%;">
+                    <div style="flex:1"><button class="btn btn-lg btn-block btnclass1">返回</button></div>
+                    <div style="flex:1"><button class="btn btn-lg btn-block btnclass1">上一步</button></div>
+                    <div style="flex:1"><button class="btn btn-lg btn-block btnclass1">下一步</button></div>
+                    <div style="flex:1"><button class="btn btn-lg btn-block btnclass1">完成</button></div>
+                    <div style="flex:3"></div>
+                    <div style="flex:1"><button class="btn btn-lg btn-block btnclass1">一键转换</button></div>
+                </div>
+                <div style="background-color:#fff;opacity:0.8;height:90%;width:100%;">
+                    <div style="float:left;width:400px;height:100%;background-color:transparent;z-index:30;transition:all 0.3s ease-out;overflow:visible;" id="leftbaaar">
+                        <div style="height:100%;padding:8% 40px 8% 0;" id="leftbarchild">
+                            <div style="float:right;width:20px;height:70px;margin-right:-20px;background-color:#bbb;line-height:70px;border-radius:9px;" id="leftbarbtn">
+                                &lt;&lt; </div>
+                            <div style="height:100%;width:100%;overflow:hidden;border:1px solid black;">
+                                <img src="../../img/fakerbaa.png" style="width:90%;height:95%;margin:5%;">
+                            </div>
+                        </div>
+
+                        <!--button style="float:right;margin-right:-20px;z-index:99;" class="btn btn-lg btn-block" onclick="
 						$('#leftbaaar').css('margin-left','-30%');
 						$('#rightbaaar').css('width','100%');
 						"></button-->
-					</div>
-					<div style="z-index:100;display:block;width:100%;height:100%;background-color:transparent;transition:all 0.3s ease-out;" id="rightbaaar">
-						<div style="height:100%;width:100%;overflow:visible;">
-							<div style="height:calc(100% - 80px);overflow:hidden;padding:2%;display:flex;justify-content:center;align-items:Center;">
-								<img src="../../img/example.jpg" style="width:100%;"/>
-							</div>
-							<div style="height:80px;background-color:#eee;">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div style="flex:4;background-color:transparent;overflow:hidden;">
-				<div style="display:flex;background-color:transparent;height:15%;width:100%;">
+                    </div>
+                    <div style="z-index:100;display:block;width:100%;height:100%;background-color:transparent;transition:all 0.3s ease-out;" id="rightbaaar">
+                        <div style="height:100%;width:100%;overflow:visible;">
+                            <div style="height:calc(100% - 80px);overflow:hidden;padding:2%;display:flex;justify-content:center;align-items:Center;">
+                                <img src="../../img/example.jpg" style="width:100%;" />
+                            </div>
+                            <div style="height:80px;background-color:#eee;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="flex:4;background-color:transparent;overflow:hidden;">
+                <div style="display:flex;background-color:transparent;height:15%;width:100%;">
                     <!--div style="float:bottom">
                         <div style="flex:1;text-align:center;">
                             <p style="font-size:24px;">文本</p>
@@ -163,7 +176,7 @@
                 </div>
                 <div style="background-color:transparent;height:75%;width:100%;padding:10px;">
                     <div style="background-color:#fff;opacity:0.8;height:100%;width:100%;border:1px solid black;padding:18px 8px 8px 8px;" class="selected">
-						<select style="width:96%;height:8%;margin:2%;">
+                        <select style="width:96%;height:8%;margin:2%;">
 							<option value="" disabled selected hidden>请选择字体</option>
 							<option value="1">正楷</option>
 							<option value="2">行楷</option>
@@ -171,7 +184,7 @@
 							<option value="4">行草</option>
 							<option value="5">草书</option>
 						</select>
-						<select style="width:96%;height:8%;margin:2%;">
+                        <select style="width:96%;height:8%;margin:2%;">
 							<option value="" disabled selected hidden>请选择字号</option>
 							<option value="1">8</option>
 							<option value="2">10</option>
@@ -179,65 +192,66 @@
 							<option value="4">16</option>
 							<option value="5">20</option>
 						</select>
-						<div class="clickicon" style="display:flex;height:10%;margin:2%;padding:5px;">
-							<div style="flex:1;text-align:center;">
-								<button  class="btn btnclass2">B</button>
-							</div>
-							<div style="flex:1;text-align:center;">
-								<button  class="btn btnclass2">B</button>
-							</div>
-							<div style="flex:1;text-align:center;">
-								<button  class="btn btnclass2">B</button>
-							</div>
-						</div>
-						<div class="clickicon" style="display:flex;height:10%;margin:2%;padding:5px;">
-							<div style="flex:1;text-align:center;">
-								<button  class="btn btnclass2">B</button>
-							</div>
-							<div style="flex:1;text-align:center;">
-								<button  class="btn btnclass2">B</button>
-							</div>
-							<div style="flex:1;text-align:center;">
-								<button  class="btn btnclass2">B</button>
-							</div>
-						</div>
-					<div style="height:30%;margin:2%;margin-top:5%;">
-						<div style="display:flex;">
-							<div style="flex:4;">
-								<p>透明度</p>
-							</div>
-							<div style="flex:6;">
-								<progress style="width:100%;" value="66" max="100" class="_progress" id="_1"></progress><br /><br />
-							</div>
-						</div>
-						<div style="display:flex;">
-							<div style="flex:4;">
-								<p>字间距</p>
-							</div>
-							<div style="flex:6;">
-								<progress style="width:100%;" value="100" max="100" class="_progress" id="_2"></progress><br /><br />
-							</div>
-						</div>
-						<div style="display:flex;">
-							<div style="flex:4;">
-								<p>行间距</p>
-							</div>
-							<div style="flex:6;">
-								<progress style="width:100%;" value="20" max="100" class="_progress" id="_3"></progress><br /><br />
-							</div>
-						</div>
-					</div>
-						<div>
-						</div>
+                        <div class="clickicon" style="display:flex;height:10%;margin:2%;padding:5px;">
+                            <div style="flex:1;text-align:center;">
+                                <button class="btn btnclass2">B</button>
+                            </div>
+                            <div style="flex:1;text-align:center;">
+                                <button class="btn btnclass2">B</button>
+                            </div>
+                            <div style="flex:1;text-align:center;">
+                                <button class="btn btnclass2">B</button>
+                            </div>
+                        </div>
+                        <div class="clickicon" style="display:flex;height:10%;margin:2%;padding:5px;">
+                            <div style="flex:1;text-align:center;">
+                                <button class="btn btnclass2">B</button>
+                            </div>
+                            <div style="flex:1;text-align:center;">
+                                <button class="btn btnclass2">B</button>
+                            </div>
+                            <div style="flex:1;text-align:center;">
+                                <button class="btn btnclass2">B</button>
+                            </div>
+                        </div>
+                        <div style="height:30%;margin:2%;margin-top:5%;">
+                            <div style="display:flex;">
+                                <div style="flex:4;">
+                                    <p>透明度</p>
+                                </div>
+                                <div style="flex:6;">
+                                    <progress style="width:100%;" value="66" max="100" class="_progress" id="_1"></progress><br /><br />
+                                </div>
+                            </div>
+                            <div style="display:flex;">
+                                <div style="flex:4;">
+                                    <p>字间距</p>
+                                </div>
+                                <div style="flex:6;">
+                                    <progress style="width:100%;" value="100" max="100" class="_progress" id="_2"></progress><br /><br />
+                                </div>
+                            </div>
+                            <div style="display:flex;">
+                                <div style="flex:4;">
+                                    <p>行间距</p>
+                                </div>
+                                <div style="flex:6;">
+                                    <progress style="width:100%;" value="20" max="100" class="_progress" id="_3"></progress><br /><br />
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                        </div>
                     </div>
                 </div>
                 <div style="background-color:transparent;height:10%;width:100%;">
 
                 </div>
-			</div>
-		</div>
-	
-	<hr style="border-top:3px solid #A9A9A9;width:96%;"/>
-	</div>
+            </div>
+        </div>
+
+        <hr style="border-top:3px solid #A9A9A9;width:96%;" />
+    </div>
 </body>
+
 </html>

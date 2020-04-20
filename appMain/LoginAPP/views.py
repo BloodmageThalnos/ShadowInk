@@ -10,7 +10,7 @@ from django.contrib.auth import login, logout
 
 import random
 from ShadowInk import settings, mysqlConnector
-from qcloudsms_py import SmsSingleSender
+# from qcloudsms_py import SmsSingleSender
 
 # from MyCenterAPP.models import PersonalDetails
 
@@ -128,7 +128,7 @@ def showPages(request, path):
                 'message': '注销成功！！！太棒啦',
             }
         return HttpResponse(json.dumps(result))
-
+    '''
     if path=='sendSMS':
         phone_number = request.POST.get("phone_number")
         identify_code = str(random.randint(1000,9999))
@@ -148,5 +148,5 @@ def showPages(request, path):
         logging.info(result)
 
         return HttpResponse(json.dumps(result))
-
+    '''
     return HttpResponse('No Page Here.')

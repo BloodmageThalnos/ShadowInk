@@ -159,7 +159,7 @@ if 'net' in model_name: # using state_dict
     transform_net = TransformNet(model_base).to("cpu")
     transform_net.load_state_dict(torch.load(model_name))
 else: # using model
-    transform_net = torch.load(model_name)
+    transform_net = torch.load(model_name, map_location='cpu')
 transform_net.train(False)
 print('Net load ok, cost %s seconds.' % (time.time() - start_time))
 
@@ -176,15 +176,15 @@ if mode=='continued':
             try:
                 input_img = preprocess_image(Image.open(input_path+file), width)
             except Exception as e:
-                print(f'Image.open("{file}") failed: {e}')
+                print('Image.open("%s") failed: %s',(file, str(e)))
                 continue
             output = transform_net(input_img)
-            print(f'Transform {file} ok.')
+            print('Transform %s ok.'%file)
             try:
                 output_img = Image.fromarray(recover_image(output.detach()), 'RGB')
                 output_img.save(output_path+file, quality=100)
             except Exception as e:
-                print(f'Failed when saving {file}')
+                print('Failed when saving %s'%file)
                 continue
         time.sleep(0.2)
 else:
@@ -196,7 +196,7 @@ else:
     for file in files:
         input_img = preprocess_image(Image.open(input_path+file), width)
         output = transform_net(input_img)
-        print(f'Transform {file} ok.')
+        print('Transform %s ok.'%file)
 
         output_img = Image.fromarray(recover_image(output.detach()), 'RGB')
         output_img.save(output_path+file, quality=100)
