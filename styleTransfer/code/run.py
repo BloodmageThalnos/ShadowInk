@@ -195,9 +195,9 @@ if mode=='continued':
             except Exception as e:
                 print('Failed when saving %s'%file)
                 continue
+            del input_img
+            del output_img
         time.sleep(0.2)
-        del input_img
-        del output_img
         gc.collect()
 else:
     files = [f for f in listdir(input_path) if isfile(join(input_path, f))]

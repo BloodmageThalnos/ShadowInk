@@ -4,6 +4,7 @@
     <meta http-equiv="Access-Control-Allow-Origin" content="*">
     <title>水墨画创作交流平台</title>
     <script type="text/javascript" src="../../main_files_pc/jquery.js"></script>
+    <script type="text/javascript" charset="utf-8" async src="/demo_files/transformDemo.js"></script>
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {}
@@ -131,11 +132,14 @@
             <div style="flex:14;background-color:transparent;overflow:hidden;height:100%;width:100%;">
                 <div style="display:flex;background-color:#fff;height:10%;width:100%;">
                     <div style="flex:1"><button class="btn btn-lg btn-block btnclass1">返回</button></div>
-                    <div style="flex:1"><button class="btn btn-lg btn-block btnclass1">上一步</button></div>
-                    <div style="flex:1"><button class="btn btn-lg btn-block btnclass1">下一步</button></div>
-                    <div style="flex:1"><button class="btn btn-lg btn-block btnclass1">完成</button></div>
+                    <div style="flex:1"><button class="btn btn-lg btn-block btnclass1" id="uploadIt">上传</button></div>
+                    <div style="flex:1"><button class="btn btn-lg btn-block btnclass1">下载</button></div>
+                    <div style="flex:1"><button class="btn btn-lg btn-block btnclass1">保存到画册</button></div>
                     <div style="flex:3"></div>
-                    <div style="flex:1"><button class="btn btn-lg btn-block btnclass1">一键转换</button></div>
+                    <div style="flex:1"><button class="btn btn-lg btn-block btnclass1" id="oneKeyTransfer">一键转换</button></div>
+                    <form id="aForm">
+                        <input id="LeftSelect" onchange="imgPreview(this)" style="display:none;" type="file" name="pic" />
+                    </form>
                 </div>
                 <div style="background-color:#fff;opacity:0.8;height:90%;width:100%;">
                     <div style="float:left;width:400px;height:100%;background-color:transparent;z-index:30;transition:all 0.3s ease-out;overflow:visible;" id="leftbaaar">
@@ -155,7 +159,7 @@
                     <div style="z-index:100;display:block;width:100%;height:100%;background-color:transparent;transition:all 0.3s ease-out;" id="rightbaaar">
                         <div style="height:100%;width:100%;overflow:visible;">
                             <div style="height:calc(100% - 80px);overflow:hidden;padding:2%;display:flex;justify-content:center;align-items:Center;">
-                                <img src="../../img/example.jpg" style="width:100%;" />
+                                <img id="RightPic" src="../../img/example.jpg" style="width:100%;" />
                             </div>
                             <div style="height:80px;background-color:#eee;">
                             </div>

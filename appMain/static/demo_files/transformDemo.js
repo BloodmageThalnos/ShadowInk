@@ -1,12 +1,12 @@
 $(function(){
-    $('#LeftPicContainer').on("click",function(){
+    $('#uploadIt').on("click",function(){
         $('#LeftSelect').click()
     })
 
-    $('#Go').on("click",function(){
+    $('#oneKeyTransfer').on("click",function(){
         formData = new FormData($("#aForm")[0]);
         $.ajax({
-            url: '/p/post',
+            url: '/s/dotran',
             type: 'POST',
             data: formData,
             async: true,
@@ -16,7 +16,7 @@ $(function(){
             success: function(msg) {
                 word = JSON.parse(msg)
                 alert(word.message)
-                $("#RightPic").attr("src",word["src"])
+                if(word["src"]) $("#RightPic").attr("src",word["src"])
             }
         })
     })
@@ -31,7 +31,7 @@ function imgPreview(fileDom){
         return;
     }
     reader.onload = function(e) {
-        var img = document.getElementById("LeftPic");
+        var img = document.getElementById("RightPic");
         img.src = e.target.result;
     };
     reader.readAsDataURL(file);

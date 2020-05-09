@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'pytorchDemo',
     'WeiboAPP',
     'PytorchAPP',
-    'MyCenterAPP',
+    # 'MyCenterAPP',
 ]
 
 SESSION_ENGINE='django.contrib.sessions.backends.cache'
@@ -132,6 +132,8 @@ STATIC_ROOT = os.path.join(BASE_DIR,'static')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 LOGIN_URL = '/login/login'
+TRANSFER_INPUT = '../styleTransfer/test/input'
+TRANSFER_OUTPUT = '../styleTransfer/test/output'
 
 # Loggers
 

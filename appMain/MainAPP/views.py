@@ -10,6 +10,7 @@ import os
 from django.contrib.auth.models import User
 from WeiboAPP.models import *
 from WeiboAPP.views import *
+from pytorchDemo.views import transfer
 from .models import *
 
 logger = logging.getLogger(__name__)
@@ -44,6 +45,8 @@ def showPages(request, path):
             'userinfo': userinfo,
         }
         return HttpResponse(template.render(context, request))
+    elif path=='dotran':
+        return transfer(request)
 
     return HttpResponse('No Page Here.')
 
@@ -120,5 +123,21 @@ def showMedia(request, path):
 
     if path.endswith('gif'):
         with open('./static/'+path, mode="rb") as f:
+            html = f.read()
+        return HttpResponse(html, content_type="image/gif")
+
+def showMediaT(request, path):
+    if path.endswith('jpg') or path.endswith('jpeg'):
+        with open(os.path.join(settings.TRANSFER_OUTPUT,path), mode="rb") as f:
+            html = f.read()
+        return HttpResponse(html, content_type="image/jpeg")
+
+    if path.endswith('png'):
+        with open(os.path.join(settings.TRANSFER_OUTPUT,path), mode="rb") as f:
+            html = f.read()
+        return HttpResponse(html, content_type="image/png")
+
+    if path.endswith('gif'):
+        with open(os.path.join(settings.TRANSFER_OUTPUT,path), mode="rb") as f:
             html = f.read()
         return HttpResponse(html, content_type="image/gif")
