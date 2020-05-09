@@ -17,6 +17,7 @@ from os.path import isfile, join
 import time
 import sys
 import argparse
+import gc
 
 from queue import Queue # put, get, qsize
 
@@ -107,10 +108,17 @@ tensor_normalizer = transforms.Normalize(mean=cnn_normalization_mean, std=cnn_no
 epsilon = 1e-5
 
 def preprocess_image(image, target_width=None):
-    if target_width:
+    now_w, now_h = image.size
+    if target_width and target_width > now_w:
         t = transforms.Compose([
             transforms.Resize(target_width), 
             transforms.CenterCrop(target_width), 
+            transforms.ToTensor(), 
+            tensor_normalizer, 
+        ])
+    elif now_w > 512:
+        t = transforms.Compose([
+            transforms.Resize(512),
             transforms.ToTensor(), 
             tensor_normalizer, 
         ])
@@ -174,11 +182,12 @@ if mode=='continued':
         while not wait_queue.empty():
             file = wait_queue.get()
             try:
-                input_img = preprocess_image(Image.open(input_path+file), width)
+                input_img = preprocess_image(Image.open(input_path+file))
             except Exception as e:
                 print('Image.open("%s") failed: %s',(file, str(e)))
                 continue
-            output = transform_net(input_img)
+            with torch.no_grad():
+                output = transform_net(input_img)
             print('Transform %s ok.'%file)
             try:
                 output_img = Image.fromarray(recover_image(output.detach()), 'RGB')
@@ -187,6 +196,9 @@ if mode=='continued':
                 print('Failed when saving %s'%file)
                 continue
         time.sleep(0.2)
+        del input_img
+        del output_img
+        gc.collect()
 else:
     files = [f for f in listdir(input_path) if isfile(join(input_path, f))]
     if not files:
@@ -194,11 +206,15 @@ else:
         exit(0)
     start_time = time.time()
     for file in files:
-        input_img = preprocess_image(Image.open(input_path+file), width)
-        output = transform_net(input_img)
+        input_img = preprocess_image(Image.open(input_path+file))
+        with torch.no_grad():
+            output = transform_net(input_img)
         print('Transform %s ok.'%file)
 
         output_img = Image.fromarray(recover_image(output.detach()), 'RGB')
         output_img.save(output_path+file, quality=100)
+        del input_img
+        del output_img
+        gc.collect()
     print("Successful done %d files, cost %s seconds." % (len(files), time.time() - start_time))
 
