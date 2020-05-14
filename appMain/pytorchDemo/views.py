@@ -8,21 +8,26 @@ import os
 from django.http import *
 from django.template import loader
 from ShadowInk import settings
+from .models import MyPic
 
 logger = logging.getLogger(__name__)
 
 # '/<slug>'目录，分别处理，对于未知的slug返回none
 def transfer(request):
     pic = request.FILES.get("pic")
-    if not pic:
+    if not request.user or not request.user.username:
         result = {
-            'message': '没有图片！',
+            'message': '未登录，请登录后再创作。',
+            'src': ''
+        }
+    elif not pic:
+        result = {
+            'message': '请上传需要转换的图片。',
             'src': ''
         }
     else:
         random_name = str(int(time.time())%34567890)
         filename = random_name + os.path.splitext(pic.name)[1]
-        url = '/transfer_output/' + filename
         picIn = os.path.join(settings.TRANSFER_INPUT, filename)
         picOut = os.path.join(settings.TRANSFER_OUTPUT, filename)
         with open(picIn,"wb") as fPic:
@@ -38,8 +43,10 @@ def transfer(request):
                 'src': ''
             }
         else:
+            myPic = MyPic(author=request.user, picBefore='/transfer_input/' + filename, picAfter='/transfer_output/' + filename)
+            myPic.save()
             result = {
                 'message' : '转换成功！',
-                'src' : url
+                'src' : '/transfer_output/' + filename
             }
     return HttpResponse(json.dumps(result))

@@ -29,11 +29,12 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('login/<slug:path>', loginViews.showPages),
     path('e/<slug:path>', exploreViews.showPages),
-    # path('w/<slug:path>', weiboViews.showPages),
+    path('w/<slug:path>', weiboViews.showPages),
     path('s/<slug:path>', mainViews.showPages),
     # path('texas/<slug:path>', texasViews.showPages),
     path('media/<path:path>', mainViews.showMedia),
     path('transfer_output/<path:path>', mainViews.showMediaT),
+    path('transfer_input/<path:path>', mainViews.showMediaT2),
     path('static/<path:path>', mainViews.showPath),
     path('<path:path>', mainViews.showPath),
 ]

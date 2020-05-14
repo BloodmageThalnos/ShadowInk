@@ -3,7 +3,8 @@
 import logging
 import json
 
-from django.contrib.auth.models import User
+from django.contrib.auth import authenticate
+from django.contrib.auth.models import *
 from django.http import *
 from django.template import loader
 from django.contrib.auth import login, logout
@@ -125,7 +126,7 @@ def showPages(request, path):
             logout(request)
             result = {
                 'success': 'True',
-                'message': '注销成功！！！太棒啦',
+                'message': '注销成功',
             }
         return HttpResponse(json.dumps(result))
     '''

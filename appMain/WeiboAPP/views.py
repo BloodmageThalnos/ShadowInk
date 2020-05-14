@@ -8,12 +8,53 @@ from django.contrib.auth import login
 
 from ShadowInk import settings
 from .models import *
+from pytorchDemo.models import *
+from MainAPP.models import *
 
 import random
 import os
 from django.contrib.auth.models import User
 
 logger = logging.getLogger(__name__)
+
+def getMyPics(user, max_cnt=0):
+    pics = []
+    myPics = MyPic.objects.all()
+    for myPic in myPics:
+        if myPic.author.username == user.username:
+            pics.append({
+                'a': myPic.picBefore,
+                'b': myPic.picAfter
+            })
+        if max_cnt and len(pics)>=max_cnt:
+            break
+    while max_cnt and len(pics)<max_cnt:
+        pics.append({
+            'a': 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D',
+            'b': 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D'
+        })
+    return pics
+
+def getPicCount(user):
+    ans = 0
+    myPics = MyPic.objects.all()
+    for myPic in myPics:
+        ans += 1
+    return ans
+
+def getCompeteInfo():
+    competes = []
+    datas = Competition.objects.all()
+    for data in datas:
+        competes.append({
+            'id': data.id,
+            'pic': data.pic,
+            'title': data.title,
+            'desc': data.desc,
+            'att_cnt': data.att_cnt,
+            'start_time': data.start_time,
+        })
+    return competes
 
 def getWeiboShown(user):
     weibos = []
@@ -56,6 +97,7 @@ def getUserinfo(user):
             'name':'',
             'login':False,
         }
+
 
 # '/<slug>'目录，分别处理，对于未知的slug返回none
 def showPages(request, path):

@@ -174,6 +174,10 @@ print('Net load ok, cost %s seconds.' % (time.time() - start_time))
 if mode=='continued':
     done_files = set()
     wait_queue = Queue()
+    for f in listdir(output_path):
+        if isfile(join(output_path, f)) and f not in done_files:
+            done_files.add(f)
+            print('Fount done file '+f)
     while True:
         for f in listdir(input_path):
             if isfile(join(input_path, f)) and f not in done_files:

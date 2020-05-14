@@ -90,58 +90,66 @@
                 <img src="../../img/1.png" style="width:200px;border:2px solid #000;" class="img-circle">
             </div>
             <div style="flex:8;margin: 0 0 0 50px; font-size: 32px;">
-                <p> <b>{% if userinfo.name %}{{ userinfo.name }}{% else %}未登录{% endif %}</b> </p>
+				{% if userinfo.name %}
+				<p> <b>{{ userinfo.name }}</b> </p>
                 <div style="margin: 0 0 0 0px; font-size: 18px;">
                     <p> 称号：风流雅士 </p>
-                    <p> 作品数：1 </p>
+                    <p> 作品数：{{pic_count}} </p>
                     <p> 好友数：3 </p>
                     <p> 上次在线：刚刚 </p>
                     <p> 注册时间：1 年前 </p>
-                </div>
+				</div>
+				{% else %}
+				<p> <b>未登录</b> </p>
+				<br />
+				<p style="font-size: 18px;"> 请在首页登录后再进入该页面。<a href="/s/index">前往首页</a>。</p>
+				{% endif %}
             </div>
 		</div>
 	</div>
+	{% if userinfo.name %}
 	<hr style="border-top:3px solid #A9A9A9;width:96%;"/>
 	<div style="margin:0% 2% 2% 2%;">
 		<div style="display:flex;width:100%;">
             <div style="font-size:24px;flex:7;">
-			    <p style="font-size:24px;margin: 0 0 10px 20px;">我的文章</p>
+			    <p style="font-size:24px;margin: 0 0 10px 20px;">我的图册</p>
             </div>
             <div style="font-size:24px;flex:3;">
 			    <p style="font-size:24px;margin: 0 0 10px 40px;">消息列表</p>
             </div>
 		</div>
 		<div style="display:flex;width:100%;background-color:transparent;flex-wrap:wrap;">
-			<div style="flex:7;display:block;border-radius: 12px;overflow:hidden;">
-				<div style="display:flex;height:150px;width:100%;background-color:#eee;">
+			<div style="flex:7;display:block;border-radius: 12px;background-color:#eee;">
+				{% if pic_count == 0 %}
+				<div style="margin: 18px;">
+					<p style="font-size: 20px;">你还没有创作过图片，去<a href="/s/transfer">创作</a>试试吧。</p>
+				</div>
+				{% else %}
+				<div style="padding-left:20px;padding-right:20px;overflow:hidden;display:flex;height:160px;width:100%;">
+					{% for pic in pics %}
 					<div style="flex:2;margin:16px;overflow:hidden;height:96%;">
-						<img src="../../img/2.png" style="width:100%;"/>
-					</div>
-					<div style="flex:8;overflow:hidden;">
-						<p style="font-size:20px;margin:1%;">教你画水墨兰花，简单易学，入门上手最快的办法</p>
-						<div style="display:flex;">
-							<p style="font-size:18px;color:grey;flex:8;margin-left:1%;">上传时间2018年10月12日</p>
-							<p style="font-size:20px;color:grey;flex:2;">作者：梅兰</p>
+						<div style="margin: 0 auto;max-width: 200px;max-height:180px;">
+							<img src="{{ pic.a }}" style="width:100%;height:100%;"/>
 						</div>
 					</div>
+					{% endfor %}
 				</div>
-				<div style="display:flex;height:150px;width:100%;background-color:#eee;">
+				<div style="padding-left:20px;padding-right:20px;overflow:hidden;display:flex;height:160px;width:100%;">
+					{% for pic in pics %}
 					<div style="flex:2;margin:16px;overflow:hidden;height:96%;">
-						<img src="../../img/3.png" style="width:100%;"/>
-					</div>
-					<div style="flex:8;overflow:hidden;">
-						<p style="font-size:20px;margin:1%;">水墨画教学基础视频-墨竹的基本画法</p>
-						<div style="display:flex;">
-							<p style="font-size:18px;color:grey;flex:8;margin-left:1%;">上传时间2018年10月12日</p>
-							<p style="font-size:20px;color:grey;flex:2;">作者：青竹</p>
+						<div style="margin: 0 auto;max-width: 200px;max-height:180px;">
+							<img src="{{ pic.b }}" style="width:100%;height:100%;"/>
 						</div>
 					</div>
+					{% endfor %}
 				</div>
+				<p style="text-align: right;margin:5 12 5 0;"><a href="/s/mypic">更多...</a></p>
+				{% endif %}
 			</div>
-			<div style="display:flex;height:320px;width:30%;background-color:transparent;flex:3;opacity:0.8;">
+			<div style="display:flex;height:350px;width:30%;background-color:transparent;flex:3;opacity:0.8;">
 				<div style="flex:1;"></div>
 				<div style="flex:10;height:100%;width:90%;background-color:#fff;border-radius: 12px;overflow:hidden;">
-					<div style="margin:6%;">
+					<div style="margin:18px;">
                         <p style="font-size:20px;color:black;"> 暂无新消息。 </p>
 					</div>
 				</div>
@@ -162,25 +170,25 @@
 			<div style="flex:7;display:block;">
 				<div style="display:flex;height:150px;width:100%;background-color:#eee;">
 					<div style="flex:2;margin:2%;overflow:hidden;height:96%;">
-						<img src="../../img/徐悲鸿-奔马2.jpg" style="width:100%;"/>
+						<img src="../../img/bisai1.jpg" style="width:100%;"/>
 					</div>
 					<div style="flex:8;overflow:hidden;">
-						<p style="font-size:20px;margin:1%;">中国现代画家徐悲鸿</p>
+						<p style="font-size:20px;margin:1%;">西湖风景创作大赛</p>
 						<div style="display:flex;">
-							<p style="font-size:18px;color:grey;flex:8;margin-left:1%;">上传时间2018年10月12日</p>
-							<p style="font-size:18px;color:grey;flex:2;">作者：一匹奔马</p>
+							<p style="font-size:18px;color:grey;flex:8;margin-left:1%;">开始时间： 2019年11月12日</p>
+							<p style="font-size:18px;color:grey;flex:2;">1人 已参加</p>
 						</div>
 					</div>
 				</div>
 				<div style="display:flex;height:150px;width:100%;background-color:#eee;">
 					<div style="flex:2;margin:2%;overflow:hidden;height:96%;">
-						<img src="../../img/袁江-观潮.jpg" style="width:100%;"/>
+						<img src="../../img/bisai2.jpg" style="width:100%;"/>
 					</div>
 					<div style="flex:8;overflow:hidden;">
-						<p style="font-size:20px;margin:1%;">袁江的观潮图</p>
+						<p style="font-size:20px;margin:1%;">《富春山居图》临摹</p>
 						<div style="display:flex;">
-							<p style="font-size:18px;color:grey;flex:8;margin-left:1%;">上传时间2018年10月12日</p>
-							<p style="font-size:18px;color:grey;flex:2;">作者：钱塘</p>
+							<p style="font-size:18px;color:grey;flex:8;margin-left:1%;">开始时间： 2019年10月24日</p>
+							<p style="font-size:18px;color:grey;flex:2;">11人 已参加</p>
 						</div>
 					</div>
 				</div>
@@ -278,8 +286,10 @@
             <!--div style="flex:1;"></div-->
 		</div>
 	</div>
-	<hr style="border-top:3px solid #A9A9A9;"/>
-</div>
+	{% else %}
+	{% endif %}
+		<hr style="border-top:3px solid #A9A9A9;"/>
+	</div>
 	<div style="text-align:center;">
 		<p style="font-size:18px;">Copyright@Little Driver Technology Inc,Ltd</p>
 	</div>

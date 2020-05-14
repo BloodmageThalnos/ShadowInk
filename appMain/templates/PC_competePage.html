@@ -87,36 +87,18 @@
 	<div style="padding:0 2% 2% 2%;width:100%;">
         <div style="margin:auto;width:100%;">
             <p style="font-size:24px;">比赛进行中</p>
-            <div style="width:100%;display:flex;background-color:#fff8;border-radius: 15px;">
+			<div style="width:100%;display:flex;background-color:#fff8;border-radius: 15px;">
+				{% for compete in compete4 %}
                 <div style="flex:1">
-                    <div style="padding:7px 7px 7px 7px;width:100%;">
-                        <img src="../../img/bisai1.jpg" style="width:100%;height:166px;">
+					<div style="padding:7px 7px 7px 7px;width:100%;">
+						<a href="/s/compete1?id={{compete.id}}">
+							<img src="{{compete.pic}}" style="width:100%;height:166px;">
+						</a>
                     </div>
-                    <p style="font-size:21px;padding:0 0 0 12px;font-family:黑体;"> 西湖风景创作大赛 </p>
-                    <p style="font-size:15px;padding:0 0 0 12px;"> 1人 已参加 </p>
-                </div>
-                <div style="flex:1">
-                    <div style="padding:7px 7px 7px 7px;width:100%;">
-                        <img src="../../img/bisai2.jpg" style="width:100%;height:166px;">
-                    </div>
-                    <p style="font-size:21px;padding:0 0 0 12px;font-family:黑体;"> 《富春山居图》临摹 </p>
-                    <p style="font-size:15px;padding:0 0 0 12px;"> 11人 已参加 </p>
-                </div>
-                <div style="flex:1">
-                    <div style="padding:7px 7px 7px 7px;width:100%;">
-                        <img src="../../img/bisai3.jpg" style="width:100%;height:166px;">
-                    </div>
-                    <p style="font-size:21px;padding:0 0 0 12px;font-family:黑体;"> “回忆故乡”主题创作 </p>
-                    <p style="font-size:15px;padding:0 0 0 12px;"> 26人 已参加 </p>
-                </div>
-                <div style="flex:1">
-                    <div style="padding:7px 7px 7px 7px;width:100%;">
-                        <img src="../../img/bisai4.jpg" style="width:100%;height:166px;">
-                    </div>
-                    <p style="font-size:21px;padding:0 0 0 12px;font-family:黑体;"> 创新水墨画分享 </p>
-                    <p style="font-size:15px;padding:0 0 0 12px;"> 9人 已参加 </p>
-                </div>
-            </div>
+                    <p style="font-size:21px;padding:0 0 0 12px;font-family:黑体;"> {{compete.title}} </p>
+                    <p style="font-size:15px;padding:0 0 0 12px;"> {{compete.att_cnt}}人 已参加 </p>
+				</div>
+				{% endfor %}
         </div>
 	</div>
 	<hr style="border-top:3px solid #A9A9A9;width:96%;"/>
@@ -126,46 +108,20 @@
 		</div>
 		<div style="width:100%;background-color:transparent;flex-wrap:wrap;">
 			<div style="display:block;border-radius: 15px;overflow:hidden;">
+				{% for compete in competes %}
 				<div style="display:flex;width:100%;background-color:#fff8;">
 					<div style="flex:3;margin:16px;overflow:hidden;height:96%;">
-						<img src="../../img/bisai1.jpg" style="width:100%;"/>
+						<a href="/s/compete1?id={{compete.id}}">
+						<img src="{{compete.pic}}" style="width:100%;"/>
+						</a>
 					</div>
 					<div style="flex:8;overflow:hidden;">
-						<p style="font-size:22px;padding-top:20px;font-family:SF Pro SC,Source Han Sans CN,sans-serif;">西湖风景创作大赛</p>
-                        <p style="font-size:15px;padding-top:10px;">“欲把西湖比西子，浓妆淡抹总相宜”，每当吟咏这句诗时，总是对西湖充满了向往和幻想，心中狂想着西湖的模样。不知她有什么魅力，能让由古至今的文人墨客为之着魔，为之痴狂，为她赋诗词来称赞她的绝世容颜。</p>
-                        <p style="font-size:15px;color:grey;">开始时间： 2019年11月12日</p>
+						<p style="font-size:22px;padding-top:20px;font-family:SF Pro SC,Source Han Sans CN,sans-serif;">{{compete.title}}</p>
+                        <p style="font-size:15px;padding-top:10px;">{{compete.desc}}</p>
+                        <p style="font-size:15px;color:grey;">开始时间： {{compete.start_time}}</p>
 					</div>
 				</div>
-				<div style="display:flex;width:100%;background-color:#fff8;">
-					<div style="flex:3;margin:16px;overflow:hidden;height:96%;">
-						<img src="../../img/bisai2.jpg" style="width:100%;"/>
-					</div>
-					<div style="flex:8;overflow:hidden;">
-						<p style="font-size:22px;padding-top:20px;font-family:SF Pro SC,Source Han Sans CN,sans-serif;">《富春山居图》临摹</p>
-                        <p style="font-size:15px;padding-top:10px;">临摹中国十大传世名画之一的《富春山居图》，这是元代画家黄公望于1350年创作的纸本水墨画，感受国画之美，提升美术素养。</p>
-                        <p style="font-size:15px;color:grey;">开始时间： 2019年10月24日</p>
-					</div>
-				</div>
-				<div style="display:flex;width:100%;background-color:#fff8;">
-					<div style="flex:3;margin:16px;overflow:hidden;height:96%;">
-						<img src="../../img/bisai3.jpg" style="width:100%;"/>
-					</div>
-					<div style="flex:8;overflow:hidden;">
-						<p style="font-size:22px;padding-top:20px;font-family:SF Pro SC,Source Han Sans CN,sans-serif;"> “回忆故乡”主题创作</p>
-                        <p style="font-size:15px;padding-top:10px;">自古逢秋悲寂寥，我言秋日胜春朝。晴空一鹤排云上，便引诗情到碧霄。故乡的秋，只有回到故乡，在这淡淡的日子里，似乎才能找到自己。</p>
-                        <p style="font-size:15px;color:grey;">开始时间： 2019年10月08日</p>
-					</div>
-				</div>
-				<div style="display:flex;width:100%;background-color:#fff8;">
-					<div style="flex:3;margin:16px;overflow:hidden;height:96%;">
-						<img src="../../img/bisai4.jpg" style="width:100%;"/>
-					</div>
-					<div style="flex:8;overflow:hidden;">
-						<p style="font-size:22px;padding-top:20px;font-family:SF Pro SC,Source Han Sans CN,sans-serif;">创新水墨画分享</p>
-                        <p style="font-size:15px;padding-top:10px;">笔墨之间，充满着无限魅力与神秘感。二十一世纪，水墨画中也有新的创意和风采。</p>
-                        <p style="font-size:15px;color:grey;">开始时间： 2019年09月27日</p>
-					</div>
-				</div>
+				{% endfor %}
 			</div>
 		</div>
 	</div>

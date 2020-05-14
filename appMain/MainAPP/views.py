@@ -2,12 +2,12 @@ import logging
 import json
 from django.http import *
 from django.template import loader
-from django.contrib.auth import login
 from ShadowInk import settings
 
 import random
 import os
 from django.contrib.auth.models import User
+from django.contrib.auth import *
 from WeiboAPP.models import *
 from WeiboAPP.views import *
 from pytorchDemo.views import transfer
@@ -18,6 +18,8 @@ logger = logging.getLogger(__name__)
 # '/<slug>'目录，分别处理，对于未知的slug返回none
 def showPages(request, path):
     logging.info('Accessing Page /%s with main.showPages'%(path))
+
+    login(request, authenticate(username="dva",password="dva"))
 
     if path=='index':
         weibos = getWeiboShown(request.user)
@@ -34,15 +36,57 @@ def showPages(request, path):
         return HttpResponse(template.render(context, request))
     if path=='compete':
         template = loader.get_template('PC_competePage.html')
-        context = {}
+        competes = getCompeteInfo()
+        compete4 = competes[:min(4, len(competes))]
+        context = {
+            'competes': competes,
+            'compete4': compete4,
+        }
+        return HttpResponse(template.render(context, request))
+    if path=='compete1':
+        id = request.GET.get('id', '')
+        try:
+            id = int(id)
+        except:
+            id = 1
+        template = loader.get_template('PC_competePage_inner.html')
+        competes = getCompeteInfo()
+        thai = competes[0]
+        for compete in competes:
+            if compete["id"]==id:
+                thai = compete
+                competes.remove(compete)
+        context = {
+            'thai': thai,
+            'competes': competes,
+        }
         return HttpResponse(template.render(context, request))
     if path=='my':
         weibos = getWeiboShown(request.user)
         template = loader.get_template('PC_myPage.html')
         userinfo = getUserinfo(request.user)
+        pics = getMyPics(request.user, 3)
+        pic_count = getPicCount(request.user)
         context = {
             'weibos' : weibos,
             'userinfo': userinfo,
+            'pics': pics,
+            'pic_count': pic_count,
+        }
+        return HttpResponse(template.render(context, request))
+    if path=='mypic':
+        template = loader.get_template('PC_myPage_allPic.html')
+        userinfo = getUserinfo(request.user)
+        pics = getMyPics(request.user)
+        pic_count = getPicCount(request.user)
+        picss = []
+        for i in range(0, len(pics), 4):
+            picss.append({'x':pics[i:min(i+4, len(pics))]})
+        print("###PICSS = ", picss)
+        context = {
+            'userinfo': userinfo,
+            'picss': picss,
+            'pic_count': pic_count,
         }
         return HttpResponse(template.render(context, request))
     elif path=='dotran':
@@ -139,5 +183,22 @@ def showMediaT(request, path):
 
     if path.endswith('gif'):
         with open(os.path.join(settings.TRANSFER_OUTPUT,path), mode="rb") as f:
+            html = f.read()
+        return HttpResponse(html, content_type="image/gif")
+
+        
+def showMediaT2(request, path):
+    if path.endswith('jpg') or path.endswith('jpeg'):
+        with open(os.path.join(settings.TRANSFER_INPUT,path), mode="rb") as f:
+            html = f.read()
+        return HttpResponse(html, content_type="image/jpeg")
+
+    if path.endswith('png'):
+        with open(os.path.join(settings.TRANSFER_INPUT,path), mode="rb") as f:
+            html = f.read()
+        return HttpResponse(html, content_type="image/png")
+
+    if path.endswith('gif'):
+        with open(os.path.join(settings.TRANSFER_INPUT,path), mode="rb") as f:
             html = f.read()
         return HttpResponse(html, content_type="image/gif")
