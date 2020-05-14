@@ -4,7 +4,6 @@
 *.pyc
 .idea/*
 appMain/.idea/*
-appMain/db.sqlite3
 
 styleTransfer/test/input/*
 styleTransfer/test/output/*
