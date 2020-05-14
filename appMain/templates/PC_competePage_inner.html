@@ -10,6 +10,22 @@
 		body{
 			opacity:0.8;
 		}
+		a {
+			color: black;
+			text-decoration: none;
+		}
+		a:link {
+			color: black;
+			text-decoration: none;
+		}
+		a:visited {
+			color: black;
+			text-decoration: none;
+		}
+		a:active {
+			color: black;
+			text-decoration: none;
+		}
 		a:hover{
 			text-decoration:none;
 			color:red;
@@ -55,6 +71,26 @@
 	<script>
 		window.onload=function(){
 	        $('#title_w').mouseover();
+			id = "{{id}}";
+			comptest = {{comptest}};
+			if(comptest){
+				$('#att').hide();
+				$('#att2').show();
+			}
+			pictest = {{pictest}};
+			if(pictest){
+				$('#tij').hide();
+				$('#tij2').show();
+			}
+			$('#att,#att2').on('click',function(){
+				window.location = '/s/compete2?id='+id;
+			});
+			$('#tij').on('click', function(){
+				$('#uploaddiv').slideDown(600);
+			});
+			{% if alert %}
+			alert('{{alert}}');
+			{% endif %}
 		};
 	</script>
 </head>
@@ -114,29 +150,46 @@
             </div>
         </div>
 	</div>
+	<div id="uploaddiv" style="display: none;">
+	<hr style="border-top:3px solid #A9A9A9;width:96%;"/>
+	<form action="/s/compete3" method="POST" style="font-size: 20px;margin-left: 5%;line-height: 44px;" enctype="multipart/form-data">
+		请上传作品：
+		<input type="file" name="pic" style="display: initial;"><br />
+		作品标题：
+		<input type="text" name="title" size="50" value="{{default_title}}"><br />
+		作品描述：
+		<input type="text" name="desc" size="50" value="{{default_desc}}"><br />
+		<input type="text" name="id" value="{{id}}" style="display: none;">
+		<div style="text-align: center;">
+			<input type="submit" value="上传">
+		</div>
+	</form>
+	</div>
 	<hr style="border-top:3px solid #A9A9A9;width:96%;"/>
 	<div style="margin:0% 2% 2% 2%;">
 		<div style="width:100%;">
 			<p style="font-size:24px;">参赛作品</p>
 		</div>
+		{% for pic in pics %}
 		<div style="width:100%;background-color:transparent;flex-wrap:wrap;">
 			<div style="display:block;border-radius: 15px;overflow:hidden;">
 				<div style="display:flex;width:100%;background-color:#fff8;">
 					<div style="flex:3;margin:16px;overflow:hidden;height:96%;">
-						<img src="../../img/bisai1.jpg" style="width:100%;"/>
+						<img src="{{pic.url}}" style="width:100%;"/>
 					</div>
 					<div style="flex:7;overflow:hidden;padding-left: 8px;">
 						<p style="font-size:22px;padding-top:20px;font-family:SF Pro SC,Source Han Sans CN,sans-serif;">
-						dva 的作品</p>
+						{{pic.title}}</p>
 						<br/>
-                        <p style="font-size:16px;color:rgb(94, 93, 93);">创作时间： 2020年 5月12日</p>
-                        <p style="font-size:16px;color:rgb(94, 93, 93);">提交时间： 2020年 5月12日</p>
-                        <p style="font-size:16px;color:rgb(94, 93, 93);">作品编号： 1</p>
-                        <p style="font-size:16px;color:rgb(94, 93, 93);">作品介绍： 白堤三桥，美不胜收。</p>
+                        <p style="font-size:16px;color:rgb(94, 93, 93);">创作时间： {{pic.create_time}}</p>
+                        <p style="font-size:16px;color:rgb(94, 93, 93);">提交时间： {{pic.upload_time}}</p>
+                        <p style="font-size:16px;color:rgb(94, 93, 93);">作品编号： {{pic.id}}</p>
+                        <p style="font-size:16px;color:rgb(94, 93, 93);">作品介绍： {{pic.desc}}</p>
 					</div>
 				</div>
 			</div>
 		</div>
+		{% endfor %}
 	</div>
 	<hr style="border-top:3px solid #A9A9A9;width:96%;"/>
 	<div style="margin:0% 2% 2% 2%;">
@@ -153,7 +206,11 @@
 						</a>
 					</div>
 					<div style="flex:8;overflow:hidden;">
-						<p style="font-size:22px;padding-top:20px;font-family:SF Pro SC,Source Han Sans CN,sans-serif;">{{compete.title}}</p>
+						<p style="font-size:22px;padding-top:20px;font-family:SF Pro SC,Source Han Sans CN,sans-serif;">
+							<a href="/s/compete1?id={{compete.id}}">
+								{{compete.title}}
+							</a>
+						</p>
                         <p style="font-size:15px;padding-top:10px;">{{compete.desc}}</p>
                         <p style="font-size:15px;color:grey;">开始时间： {{compete.start_time}}</p>
 					</div>

@@ -18,6 +18,8 @@ from django.contrib.auth.models import User
 logger = logging.getLogger(__name__)
 
 def getMyPics(user, max_cnt=0):
+    if not user.username:
+        return []
     pics = []
     myPics = MyPic.objects.all()
     for myPic in myPics:
@@ -36,11 +38,16 @@ def getMyPics(user, max_cnt=0):
     return pics
 
 def getPicCount(user):
+    if not user.username:
+        return 0
     ans = 0
     myPics = MyPic.objects.all()
     for myPic in myPics:
         ans += 1
     return ans
+
+def getCompeteRealCount(id):
+    return CompAtt.objects.filter(comp__id=id).count()
 
 def getCompeteInfo():
     competes = []
@@ -51,10 +58,54 @@ def getCompeteInfo():
             'pic': data.pic,
             'title': data.title,
             'desc': data.desc,
-            'att_cnt': data.att_cnt,
+            'att_cnt': data.att_cnt + getCompeteRealCount(data.id),
             'start_time': data.start_time,
         })
     return competes
+
+def doCompeteAtt(user, id):
+    if not user.username:
+        return
+    comptest = CompAtt.objects.filter(comp__id=id, user=user)
+    print('COMPTEST', comptest)
+    if not comptest:
+        print('SAVE')
+        comp = Competition.objects.get(id=id)
+        test = CompAtt(user=user, comp=comp)
+        test.save()
+    else:
+        print('NOSAVE')
+        comptest[0].delete()
+
+# return 0/1
+def getCompeteAtt(user, id):
+    if not user.username:
+        return 0
+    comptest = CompAtt.objects.filter(comp__id=id, user=user)
+    print('COMPTEST', comptest)
+    return 1 if comptest else 0
+
+def getPics(id):
+    comppics = CompPic.objects.filter(comp__id=id)
+    pics = []
+    for comppic in comppics:
+        pics.append({
+            'username': comppic.author.username,
+            'create_time': comppic.create_time,
+            'upload_time': comppic.upload_time,
+            'id': comppic.id,
+            'desc': comppic.desc,
+            'title': comppic.title,
+            'url': '/media/'+comppic.pic,
+        })
+    return pics
+
+def getPicTest(user, id):
+    if not user.username:
+        return 0
+    pictest = CompPic.objects.filter(comp__id=id, author=user)
+    print('PICTEST', pictest)
+    return 1 if pictest else 0
 
 def getWeiboShown(user):
     weibos = []
@@ -97,7 +148,6 @@ def getUserinfo(user):
             'name':'',
             'login':False,
         }
-
 
 # '/<slug>'目录，分别处理，对于未知的slug返回none
 def showPages(request, path):

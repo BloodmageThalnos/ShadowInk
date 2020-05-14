@@ -10,6 +10,22 @@
 		body{
 			opacity:0.8;
 		}
+		a {
+			color: black;
+			text-decoration: none;
+		}
+		a:link {
+			color: black;
+			text-decoration: none;
+		}
+		a:visited {
+			color: black;
+			text-decoration: none;
+		}
+		a:active {
+			color: black;
+			text-decoration: none;
+		}
 		a:hover{
 			text-decoration:none;
 			color:red;
@@ -137,35 +153,30 @@
 	<hr style="border-top:3px solid #A9A9A9;width:96%;"/>
 	<div style="margin:0% 2% 2% 2%;">
 		<div style="display:flex;width:100%;">
-			<p style="font-size:24px;flex:6;">教育中心</p>
-			<p style="font-size:24px;flex:1;">更多</p>
-			<p style="font-size:24px;flex:3;">&#160;&#160;&#160;&#160;登陆</p>
+			<p style="font-size:24px;flex:8;">热门比赛</p>
+			<p style="font-size:24px;flex:3;">登陆</p>
 		</div>
 		<div style="display:flex;width:100%;background-color:transparent;flex-wrap:wrap;">
 			<div style="flex:7;display:block;border-radius: 12px;overflow:hidden;">
-				<div style="display:flex;height:150px;width:100%;background-color:#eee;">
-					<div style="flex:2;margin:16px;overflow:hidden;height:96%;">
-						<img src="../../img/2.png" style="width:100%;"/>
-					</div>
-					<div style="flex:8;overflow:hidden;">
-						<p style="font-size:20px;margin:1%;">教你画水墨兰花，简单易学，入门上手最快的办法</p>
-						<div style="display:flex;">
-							<p style="font-size:18px;color:grey;flex:8;margin-left:1%;">上传时间2018年10月12日</p>
-							<p style="font-size:20px;color:grey;flex:2;">作者：梅兰</p>
+				<div style="display:block;border-radius: 15px;overflow:hidden;">
+					{% for compete in competes %}
+					<div style="display:flex;width:100%;background-color:#fff8;">
+						<div style="flex:3;margin:16px;overflow:hidden;height:96%;">
+							<a href="/s/compete1?id={{compete.id}}">
+							<img src="{{compete.pic}}" style="width:100%;"/>
+							</a>
+						</div>
+						<div style="flex:8;overflow:hidden;">
+							<p style="font-size:22px;padding-top:20px;font-family:SF Pro SC,Source Han Sans CN,sans-serif;">
+								<a href="/s/compete1?id={{compete.id}}">
+									{{compete.title}}
+								</a>
+							</p>
+							<p style="font-size:15px;padding-top:10px;">{{compete.desc}}</p>
+							<p style="font-size:15px;color:grey;">开始时间： {{compete.start_time}}</p>
 						</div>
 					</div>
-				</div>
-				<div style="display:flex;height:150px;width:100%;background-color:#eee;">
-					<div style="flex:2;margin:16px;overflow:hidden;height:96%;">
-						<img src="../../img/3.png" style="width:100%;"/>
-					</div>
-					<div style="flex:8;overflow:hidden;">
-						<p style="font-size:20px;margin:1%;">水墨画教学基础视频-墨竹的基本画法</p>
-						<div style="display:flex;">
-							<p style="font-size:18px;color:grey;flex:8;margin-left:1%;">上传时间2018年10月12日</p>
-							<p style="font-size:20px;color:grey;flex:2;">作者：青竹</p>
-						</div>
-					</div>
+					{% endfor %}
 				</div>
 			</div>
 			<div style="display:flex;height:320px;width:30%;background-color:transparent;flex:3;opacity:0.7;">
@@ -205,9 +216,8 @@
 	<hr style="border-top:3px solid #A9A9A9;width:96%;"/>
 	<div style="margin:0% 2% 2% 2%;">
 		<div style="display:flex;width:100%;">
-			<p style="font-size:24px;flex:6;">微展</p>
-			<p style="font-size:24px;flex:1;">更多</p>
-			<p style="font-size:24px;flex:3;">&#160;&#160;&#160;&#160;消息列表</p>
+			<p style="font-size:24px;flex:8;">热门作品</p>
+			<p style="font-size:24px;flex:3;">消息列表</p>
 		</div>
 		<div style="display:flex;width:100%;background-color:transparent;flex-wrap:wrap;border-radius: 12px;">
 			<div style="flex:7;display:block;">
@@ -249,7 +259,7 @@
 	<hr style="border-top:3px solid #A9A9A9;width:96%;"/>
 	<div style="margin:0% 2% 2% 2%;">
 		<div style="height:6%;width:100%;">
-			<p style="font-size:24px;">好友动态</p>
+			<p style="font-size:24px;">热门动态</p>
 		</div>
 		<div style="display:flex;width:100%;background-color:transparent;flex-wrap:wrap;">
             <!--div style="flex:1;"></div-->

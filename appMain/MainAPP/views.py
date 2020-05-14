@@ -6,6 +6,7 @@ from ShadowInk import settings
 
 import random
 import os
+import time
 from django.contrib.auth.models import User
 from django.contrib.auth import *
 from WeiboAPP.models import *
@@ -19,15 +20,18 @@ logger = logging.getLogger(__name__)
 def showPages(request, path):
     logging.info('Accessing Page /%s with main.showPages'%(path))
 
-    login(request, authenticate(username="dva",password="dva"))
+    # login(request, authenticate(username="dva",password="dva"))
 
     if path=='index':
         weibos = getWeiboShown(request.user)
         # userinfo = getUserinfo(request.user)
+        competes = getCompeteInfo()
+        compete3 = competes[:min(3, len(competes))]
         template = loader.get_template('PC_mainPage.html')
         context = {
             'weibos' : weibos,
             # 'userinfo' : userinfo,
+            'competes': compete3,
         }
         return HttpResponse(template.render(context, request))
     if path=='transfer':
@@ -45,22 +49,80 @@ def showPages(request, path):
         return HttpResponse(template.render(context, request))
     if path=='compete1':
         id = request.GET.get('id', '')
+        alert = request.GET.get('alert', '')
         try:
             id = int(id)
         except:
-            id = 1
+            return HttpResponse('Bad id.')
         template = loader.get_template('PC_competePage_inner.html')
         competes = getCompeteInfo()
+        comptest = getCompeteAtt(request.user, id)
         thai = competes[0]
+        default_desc = request.user.username + "的参赛作品，请多多支持。"
+        default_title = request.user.username + "的作品"
+        pics = getPics(id)
+        pictest = getPicTest(request.user, id)
         for compete in competes:
             if compete["id"]==id:
                 thai = compete
                 competes.remove(compete)
         context = {
+            'id': id,
+            'alert': alert,
             'thai': thai,
             'competes': competes,
+            'comptest': comptest,
+            'pictest': pictest,
+            'pics': pics,
+            'default_desc': default_desc,
+            'default_title': default_title,
         }
         return HttpResponse(template.render(context, request))
+    if path=='compete2':
+        id = request.GET.get('id', '')
+        try:
+            id = int(id)
+        except:
+            print('### BAD ID!!')
+            return HttpResponseRedirect('/s/compete1?id=1')
+        if not request.user.username:
+            return HttpResponseRedirect('/s/compete1?id='+str(id)+'&alert=请先登录再报名！')
+        if getPicTest(request.user, id):
+            return HttpResponseRedirect('/s/compete1?id='+str(id)+'&alert=已提交作品，不能取消报名。')
+        doCompeteAtt(request.user, id)
+        return HttpResponseRedirect('/s/compete1?id='+str(id))
+    if path=='compete3':
+        id = request.POST.get('id', '')
+        title = request.POST.get('title', '')
+        desc = request.POST.get('desc', '')
+        pic = request.FILES.get("pic")
+        try:
+            id = int(id)
+            comp = Competition.objects.get(id=id)
+        except:
+            print('### BAD ID!!')
+            return HttpResponseRedirect('/s/compete1?id=1')
+        if not request.user.username:
+            return HttpResponseRedirect('/s/compete1?id='+str(id)+'&alert=请先登录再提交作品！')
+        if not getCompeteAtt(request.user, id):
+            return HttpResponseRedirect('/s/compete1?id='+str(id)+'&alert=未报名比赛，无法提交作品。请先报名。')
+        if not pic:
+            return HttpResponseRedirect('/s/compete1?id='+str(id)+'&alert=上传图片失败！是否未选择图片？')
+        random_name = str(int(time.time())%44567890)
+        filename = random_name + os.path.splitext(pic.name)[1]
+        filepath = os.path.join(settings.MEDIA_ROOT, filename)
+        with open(filepath ,"wb") as fPic:
+            for chunk in pic.chunks():
+                fPic.write(chunk)
+        compPic = CompPic(author=request.user,
+                          comp=comp,
+                          title=title,
+                          desc=desc,
+                          pic=filename,
+                          )
+        compPic.save()
+        print('SAVED')
+        return HttpResponseRedirect('/s/compete1?id='+str(id))
     if path=='my':
         weibos = getWeiboShown(request.user)
         template = loader.get_template('PC_myPage.html')
@@ -82,7 +144,6 @@ def showPages(request, path):
         picss = []
         for i in range(0, len(pics), 4):
             picss.append({'x':pics[i:min(i+4, len(pics))]})
-        print("###PICSS = ", picss)
         context = {
             'userinfo': userinfo,
             'picss': picss,
