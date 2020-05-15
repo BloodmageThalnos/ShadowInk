@@ -11,3 +11,9 @@ class MyPic(models.Model):
     picBefore = models.CharField(max_length=100)
     picAfter = models.CharField(max_length=100)
     saved = models.BooleanField(default=False)
+
+class MainPic(models.Model):
+    class Meta:
+        verbose_name = '首页图片管理'
+        verbose_name_plural = '首页图片管理'
+    pic = models.CharField(max_length=100)

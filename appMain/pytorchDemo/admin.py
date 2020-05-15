@@ -6,3 +6,4 @@ class MyPicAdmin(admin.ModelAdmin):
     list_editable = ['picBefore', 'picAfter']
 
 admin.site.register(models.MyPic, MyPicAdmin)
+admin.site.register(models.MainPic)

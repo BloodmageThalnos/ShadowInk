@@ -31,4 +31,3 @@ class CompPic(models.Model):
     create_time = models.CharField(max_length=100, default="2020年5月12日")
     upload_time = models.CharField(max_length=100, default="2020年5月13日")
     desc = models.TextField()
-    
