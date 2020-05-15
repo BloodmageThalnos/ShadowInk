@@ -129,12 +129,16 @@ def showPages(request, path):
         userinfo = getUserinfo(request.user)
         pics = getMyPics(request.user, 3)
         pic_count = getPicCount(request.user)
+        competes = getCompeteInfo()
+        competes = list(filter(lambda x:getCompeteAtt(request.user, x["id"]), competes))
         context = {
             'weibos' : weibos,
             'userinfo': userinfo,
             'pics': pics,
+            'competes': competes,
             'pic_count': pic_count,
         }
+        print('CONTEXT: ', context)
         return HttpResponse(template.render(context, request))
     if path=='mypic':
         template = loader.get_template('PC_myPage_allPic.html')

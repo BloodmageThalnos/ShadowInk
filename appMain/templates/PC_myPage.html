@@ -10,6 +10,22 @@
 		body{
 			opacity:0.8;
 		}
+		a {
+			color: black;
+			text-decoration: none;
+		}
+		a:link {
+			color: black;
+			text-decoration: none;
+		}
+		a:visited {
+			color: black;
+			text-decoration: none;
+		}
+		a:active {
+			color: black;
+			text-decoration: none;
+		}
 		a:hover{
 			text-decoration:none;
 			color:red;
@@ -168,30 +184,30 @@
 		</div>
 		<div style="display:flex;width:100%;background-color:transparent;flex-wrap:wrap;border-radius: 12px;">
 			<div style="flex:7;display:block;">
-				<div style="display:flex;height:150px;width:100%;background-color:#eee;">
-					<div style="flex:2;margin:2%;overflow:hidden;height:96%;">
-						<img src="../../img/bisai1.jpg" style="width:100%;"/>
+				{% if competes %}
+				{% for compete in competes %}
+				<div style="display:flex;width:100%;background-color:#fff8;">
+					<div style="flex:3;margin:16px;overflow:hidden;height:96%;">
+						<a href="/s/compete1?id={{compete.id}}">
+						<img src="{{compete.pic}}" style="width:100%;"/>
+						</a>
 					</div>
 					<div style="flex:8;overflow:hidden;">
-						<p style="font-size:20px;margin:1%;">西湖风景创作大赛</p>
-						<div style="display:flex;">
-							<p style="font-size:18px;color:grey;flex:8;margin-left:1%;">开始时间： 2019年11月12日</p>
-							<p style="font-size:18px;color:grey;flex:2;">1人 已参加</p>
-						</div>
+						<p style="font-size:22px;padding-top:20px;font-family:SF Pro SC,Source Han Sans CN,sans-serif;">
+							<a href="/s/compete1?id={{compete.id}}">
+								{{compete.title}}
+							</a>
+						</p>
+                        <p style="font-size:15px;padding-top:10px;">{{compete.desc}}</p>
+                        <p style="font-size:15px;color:grey;">开始时间： {{compete.start_time}}</p>
 					</div>
 				</div>
-				<div style="display:flex;height:150px;width:100%;background-color:#eee;">
-					<div style="flex:2;margin:2%;overflow:hidden;height:96%;">
-						<img src="../../img/bisai2.jpg" style="width:100%;"/>
-					</div>
-					<div style="flex:8;overflow:hidden;">
-						<p style="font-size:20px;margin:1%;">《富春山居图》临摹</p>
-						<div style="display:flex;">
-							<p style="font-size:18px;color:grey;flex:8;margin-left:1%;">开始时间： 2019年10月24日</p>
-							<p style="font-size:18px;color:grey;flex:2;">11人 已参加</p>
-						</div>
-					</div>
+				{% endfor %}
+				{% else %}
+				<div style="margin: 18px;">
+					<p style="font-size: 20px;">你还没有参加过比赛，去<a href="/s/compete">参加比赛</a>试试吧。</p>
 				</div>
+				{% endif %}
 			</div>
 			<div style="display:flex;height:320px;width:30%;background-color:transparent;flex:3;opacity:0.8;">
 				<div style="flex:1;"></div>

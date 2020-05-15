@@ -43,7 +43,8 @@ def getPicCount(user):
     ans = 0
     myPics = MyPic.objects.all()
     for myPic in myPics:
-        ans += 1
+        if myPic.author.username == user.username:
+            ans += 1
     return ans
 
 def getCompeteRealCount(id):
